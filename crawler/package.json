@@ -1,0 +1,13 @@
+{
+  "name": "toronto-cinema-crawler",
+  "version": "1.0.0",
+  "description": "Scrapes showtime data from Toronto independent cinemas",
+  "type": "commonjs",
+  "scripts": {
+    "scrape": "node scrape.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0"
+  }
+}
