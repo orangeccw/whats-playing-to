@@ -472,44 +472,51 @@ main {
   gap: 0.4rem;
 }
 
-.cinema-row {
-  display: flex; align-items: center;
-  gap: 0.4rem;
-  flex-wrap: wrap;
-  padding: 0.25rem 0;
+.cinema-block {
+  padding: 0.35rem 0;
+  border-top: 1px solid var(--border);
+}
+.cinema-block:first-child { border-top: none; padding-top: 0.15rem; }
+
+.cinema-block-header {
+  display: flex; align-items: center; gap: 0.3rem;
+  margin-bottom: 0.15rem;
 }
 
-.cinema-row-name {
+.cinema-name {
   font-size: 0.76rem; font-weight: 500;
   color: var(--text-secondary);
   white-space: nowrap;
-  min-width: 75px;
 }
 
-.cinema-row-link {
+.cinema-link {
   font-size: 0.72rem;
   color: var(--text-faint);
   text-decoration: none;
   transition: color 0.2s ease;
   flex-shrink: 0;
 }
-.cinema-row-link:hover { color: var(--accent); }
+.cinema-link:hover { color: var(--accent); }
+
+.date-row {
+  display: flex; align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.1rem 0;
+}
+
+.date-label {
+  font-size: 0.62rem;
+  color: var(--text-faint);
+  font-family: 'JetBrains Mono', monospace;
+  text-transform: lowercase;
+  min-width: 52px;
+  flex-shrink: 0;
+}
 
 .time-pills {
   display: flex; gap: 0.25rem; flex-wrap: wrap;
   align-items: center;
 }
-
-.time-date {
-  font-size: 0.62rem;
-  color: var(--text-faint);
-  font-family: 'JetBrains Mono', monospace;
-  text-transform: lowercase;
-  margin-right: 0.1rem;
-  margin-left: 0.3rem;
-  opacity: 0.7;
-}
-.time-date:first-child { margin-left: 0; }
 
 .time-pill {
   font-family: 'JetBrains Mono', monospace;
@@ -662,7 +669,9 @@ footer {
   .theme-toggle { top: 1rem; right: 1rem; width: 36px; height: 36px; font-size: 1.1rem; }
   .movie-card { grid-template-columns: 72px 1fr; gap: 0.7rem; padding: 0.7rem; }
   .poster-placeholder span { font-size: 0.6rem; }
-  .cinema-row-name { min-width: 60px; font-size: 0.72rem; }
+  .cinema-name { font-size: 0.72rem; }
+  .date-label { min-width: 44px; font-size: 0.58rem; }
+  .date-row { gap: 0.4rem; }
   .filter-row { gap: 0.3rem; }
   .filter-row-main { flex-direction: column; align-items: flex-start; gap: 0.3rem; }
   .filter-group-right { margin-left: 0; flex-wrap: wrap; }
@@ -1124,8 +1133,8 @@ function renderMovieCard(movie, index) {
     ? `<div class="distance-badge ${getDistanceClass(nearestDist)}">${formatDistance(nearestDist)}</div>`
     : `<div class="distance-badge no-loc">—</div>`;
 
-  // Build cinema rows
-  const cinemaRows = cinemaIds.map(c => {
+  // Build cinema blocks — group showtimes by date within each cinema
+  const cinemaBlocks = cinemaIds.map(c => {
     const cinema = CINEMAS[c];
     if (!cinema) return '';
     const showtimes = byCinema[c];
@@ -1136,30 +1145,38 @@ function renderMovieCard(movie, index) {
       return (a.tm || '').localeCompare(b.tm || '');
     });
 
-    // Build time pills — all in one row, with subtle date separators only when date changes
-    let lastDate = null;
-    const pills = showtimes.map(st => {
-      const url = getBookingUrl(c, st);
-      const isPast = isPastShowtime(st.dt, st.tm);
-      const isSoldOut = st.soldOut;
-      const classes = ['time-pill'];
-      if (isPast) classes.push('past');
-      if (isSoldOut) classes.push('sold-out');
-      const onclick = (isPast || isSoldOut) ? '' : `onclick="window.open('${url}', '_blank')"`;
-      
-      // Add date prefix when date changes
-      let prefix = '';
-      if (st.dt !== lastDate) {
-        prefix = `<span class="time-date">${formatDateShort(st.dt)}</span>`;
-        lastDate = st.dt;
-      }
-      return prefix + `<a class="${classes.join(' ')}" ${onclick}>${formatTime(st.tm)}</a>`;
+    // Group by date
+    const byDate = {};
+    for (const st of showtimes) {
+      if (!byDate[st.dt]) byDate[st.dt] = [];
+      byDate[st.dt].push(st);
+    }
+
+    // Build date rows
+    const dateRows = Object.keys(byDate).sort().map(dt => {
+      const pills = byDate[dt].map(st => {
+        const url = getBookingUrl(c, st);
+        const isPast = isPastShowtime(st.dt, st.tm);
+        const isSoldOut = st.soldOut;
+        const classes = ['time-pill'];
+        if (isPast) classes.push('past');
+        if (isSoldOut) classes.push('sold-out');
+        const onclick = (isPast || isSoldOut) ? '' : `onclick="window.open('${url}', '_blank')"`;
+        return `<a class="${classes.join(' ')}" ${onclick}>${formatTime(st.tm)}</a>`;
+      }).join('');
+
+      return `<div class="date-row">
+        <span class="date-label">${formatDateShort(dt)}</span>
+        <div class="time-pills">${pills}</div>
+      </div>`;
     }).join('');
 
-    return `<div class="cinema-row">
-      <span class="cinema-row-name">${cinema.name}</span>
-      <a class="cinema-row-link" href="${cinema.website}" target="_blank">&#8599;</a>
-      <div class="time-pills">${pills}</div>
+    return `<div class="cinema-block">
+      <div class="cinema-block-header">
+        <span class="cinema-name">${cinema.name}</span>
+        <a class="cinema-link" href="${cinema.website}" target="_blank">&#8599;</a>
+      </div>
+      ${dateRows}
     </div>`;
   }).join('');
 
@@ -1173,7 +1190,7 @@ function renderMovieCard(movie, index) {
       <h2 class="movie-title">${movie.title}</h2>
       <div class="movie-meta">${renderMeta(movie)}</div>
       ${movie.description ? `<p class="movie-desc" onclick="this.classList.toggle('expanded')">${movie.description}</p>` : ''}
-      <div class="cinema-list">${cinemaRows}</div>
+      <div class="cinema-list">${cinemaBlocks}</div>
     </div>
   </div>`;
 }
