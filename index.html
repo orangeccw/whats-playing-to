@@ -237,34 +237,58 @@ header .tagline {
 }
 .checkbox-label input { accent-color: var(--accent); cursor: pointer; }
 
-.genre-filters {
+.genre-select-wrap {
+  display: flex;
+  align-items: center;
   gap: 0.3rem;
-  overflow-x: auto;
-  padding-bottom: 0.2rem;
-  scrollbar-width: thin;
+  position: relative;
 }
-.genre-filters::-webkit-scrollbar { height: 3px; }
-.genre-filters::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 2px; }
 
-.genre-pill {
-  font-size: 0.72rem;
-  font-family: 'JetBrains Mono', monospace;
-  padding: 0.2rem 0.6rem;
+.genre-select {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78rem;
+  padding: 0.3rem 1.5rem 0.3rem 0.6rem;
   border: 1px solid var(--border-light);
   border-radius: 100px;
-  background: transparent;
+  background: var(--surface);
   color: var(--text-muted);
   cursor: pointer;
-  transition: all 0.15s ease;
-  white-space: nowrap;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  transition: all 0.2s ease;
 }
-.genre-pill:hover { color: var(--text); border-color: var(--accent-dim); }
-.genre-pill.active {
+.genre-select:hover { border-color: var(--accent-dim); color: var(--text); }
+.genre-select:focus { border-color: var(--accent-dim); }
+.genre-select option { background: var(--surface); color: var(--text); padding: 0.3rem; }
+
+.genre-select-arrow {
+  position: absolute;
+  right: 0.55rem;
+  pointer-events: none;
+  font-size: 0.6rem;
+  color: var(--text-faint);
+}
+
+.genre-active-tags {
+  display: flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.genre-tag-remove {
+  font-size: 0.68rem;
+  font-family: 'JetBrains Mono', monospace;
+  padding: 0.12rem 0.45rem;
+  border-radius: 100px;
   background: var(--accent);
   color: #fff;
-  border-color: var(--accent);
-  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+  white-space: nowrap;
 }
+.genre-tag-remove:hover { opacity: 0.8; }
 
 .cinema-filters { gap: 0.3rem; }
 .cinema-check {
@@ -684,7 +708,15 @@ footer {
       </div>
       <span class="result-count" id="resultCount"></span>
     </div>
-    <div class="filter-row genre-filters" id="genreFilters"></div>
+    <div class="filter-row genre-filters">
+      <div class="genre-select-wrap">
+        <select class="genre-select" id="genreSelect">
+          <option value="">all genres</option>
+        </select>
+        <span class="genre-select-arrow">&#9662;</span>
+      </div>
+      <div class="genre-active-tags" id="genreActiveTags"></div>
+    </div>
     <div class="filter-row cinema-filters" id="cinemaFilters"></div>
   </div>
 </div>
@@ -795,6 +827,7 @@ function getTorontoNow() {
 }
 
 function isPastShowtime(dateStr, timeStr) {
+  if (!timeStr) return false; // Date-only showtimes are never "past"
   const showtime = new Date(dateStr + 'T' + timeStr + ':00-04:00');
   return showtime < new Date();
 }
@@ -822,11 +855,13 @@ function getDistanceClass(km) {
 }
 
 function formatTime(timeStr) {
-  const [hours, minutes] = timeStr.split(':');
-  const h = parseInt(hours);
+  if (!timeStr) return 'Tickets';
+  const parts = timeStr.split(':');
+  if (parts.length < 2) return 'Tickets';
+  const h = parseInt(parts[0]);
   const ampm = h >= 12 ? 'PM' : 'AM';
   const h12 = h % 12 || 12;
-  return h12 + ':' + minutes + ' ' + ampm;
+  return h12 + ':' + parts[1] + ' ' + ampm;
 }
 
 function formatDateLabel(dateStr) {
@@ -1029,11 +1064,25 @@ function renderPoster(movie) {
   return `<div class="poster"><div class="poster-placeholder" style="background:${getPosterGradient(movie.title)};"><span>${movie.title}</span></div></div>`;
 }
 
+function formatRuntime(runtime) {
+  if (!runtime) return null;
+  // Extract minutes from various formats: "120 min", "120", "2h 0min"
+  const match = runtime.match(/(\d+)/);
+  if (!match) return runtime;
+  const totalMin = parseInt(match[1]);
+  const h = Math.floor(totalMin / 60);
+  const m = totalMin % 60;
+  if (h > 0 && m > 0) return `${h}h ${m}min`;
+  if (h > 0) return `${h}h`;
+  return `${m}min`;
+}
+
 function renderMeta(movie) {
   const parts = [];
   if (movie.director) parts.push(`<span>dir. ${movie.director}</span>`);
   if (movie.year) parts.push(`<span>${movie.year}</span>`);
-  if (movie.runtime) parts.push(`<span>${movie.runtime}</span>`);
+  const rt = formatRuntime(movie.runtime);
+  if (rt) parts.push(`<span>${rt}</span>`);
   if (movie.rating) parts.push(`<span>${movie.rating}</span>`);
   if (parts.length === 0) return '';
   return parts.join('<span class="sep">·</span>');
@@ -1170,8 +1219,9 @@ function renderCinemaLinks() {
 }
 
 function renderGenreFilters() {
-  const container = document.getElementById('genreFilters');
-  if (!container) return;
+  const select = document.getElementById('genreSelect');
+  const tagsContainer = document.getElementById('genreActiveTags');
+  if (!select) return;
 
   const allGenres = new Set();
   MOVIES.forEach(m => {
@@ -1179,22 +1229,38 @@ function renderGenreFilters() {
   });
 
   const genres = Array.from(allGenres).sort();
-  container.innerHTML = genres.map(g => {
-    const active = state.selectedGenres.has(g) ? 'active' : '';
-    return `<button class="genre-pill ${active}" data-genre="${g}">${g}</button>`;
-  }).join('');
+  
+  // Build select options (keep first "all genres" option)
+  select.innerHTML = '<option value="">all genres</option>' +
+    genres.map(g => `<option value="${g}">${g}</option>`).join('');
 
-  container.querySelectorAll('.genre-pill').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const genre = btn.dataset.genre;
-      if (state.selectedGenres.has(genre)) {
-        state.selectedGenres.delete(genre);
-        btn.classList.remove('active');
-      } else {
-        state.selectedGenres.add(genre);
-        btn.classList.add('active');
-      }
+  // Handle selecting a genre from dropdown
+  select.addEventListener('change', () => {
+    const genre = select.value;
+    if (genre && !state.selectedGenres.has(genre)) {
+      state.selectedGenres.add(genre);
       renderMovies();
+      renderGenreActiveTags();
+    }
+    select.value = ''; // Reset to "all genres" so same genre can be re-selected later
+  });
+
+  renderGenreActiveTags();
+}
+
+function renderGenreActiveTags() {
+  const tagsContainer = document.getElementById('genreActiveTags');
+  if (!tagsContainer) return;
+  
+  tagsContainer.innerHTML = Array.from(state.selectedGenres).map(g =>
+    `<button class="genre-tag-remove" data-genre="${g}">${g} &#10005;</button>`
+  ).join('');
+
+  tagsContainer.querySelectorAll('.genre-tag-remove').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.selectedGenres.delete(btn.dataset.genre);
+      renderMovies();
+      renderGenreActiveTags();
     });
   });
 }

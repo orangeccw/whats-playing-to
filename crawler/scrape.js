@@ -382,59 +382,84 @@ async function enrichWithOMDB(movies) {
 }
 
 // ============================================
-// FOX THEATRE SCRAPER
+// FOX THEATRE SCRAPER (via WordPress REST API)
 // ============================================
 async function scrapeFox() {
-  console.log('  [Fox] Fetching showtimes...');
-  const html = await fetchPage('https://www.foxtheatre.ca/whats-on/now-showing/');
-  const $ = cheerio.load(html);
-  const movies = [];
+  console.log('  [Fox] Fetching movies via WP REST API...');
+  const movieMap = {};
+  let page = 1;
+  let hasMore = true;
 
-  // Fox Theatre lists movies with showtime links containing event IDs
-  // Look for elements that contain movie titles and showtime links
-  $('*').each((i, el) => {
-    const $el = $(el);
-    // Look for links to the ticketing system
-    const href = $el.attr('href') || '';
-    const ticketMatch = href.match(/evtinfo=(\d+)~/);
-    if (ticketMatch) {
-      const eventId = ticketMatch[1];
-      const timeText = $el.text().trim();
-      const tm = parseTime(timeText);
-      if (tm) {
-        // Try to find the movie title - look up the DOM tree
-        let title = '';
-        let $parent = $el.closest('[class*="movie"], [class*="film"], [class*="show"], article, .event');
-        if ($parent.length === 0) $parent = $el.parent().parent();
-        title = $parent.find('h1, h2, h3, h4, .title, .movie-title, .film-title').first().text().trim();
-        if (!title) title = $el.parent().find('h1, h2, h3, h4, .title').first().text().trim();
-        if (!title) return;
+  while (hasMore && page <= 3) {
+    const url = `https://www.foxtheatre.ca/wp-json/wp/v2/movies?per_page=100&page=${page}&_fields=id,title,excerpt,link,class_list,yoast_head_json`;
+    let resp;
+    try {
+      resp = await axios.get(url, { headers: HEADERS, timeout: 15000 });
+    } catch (e) {
+      console.log(`  [Fox] API fetch failed (page ${page}): ${e.message}`);
+      break;
+    }
 
-        // Try to find date - look for date elements near the showtime
-        let dateStr = '';
-        const $dateEl = $parent.find('.date, .show-date, [class*="date"]').first();
-        if ($dateEl.length) dateStr = $dateEl.text().trim();
+    const movies = resp.data;
+    if (!Array.isArray(movies) || movies.length === 0) {
+      hasMore = false;
+      break;
+    }
 
-        const dt = dateStr ? parseDate(dateStr) : getTorontoToday();
-        if (dt && title) {
-          // Try to extract poster image
-          const poster = extractPoster($, $parent, 'https://www.foxtheatre.ca');
-          movies.push({
-            title: title,
-            showtimes: [{ dt, tm, id: eventId }],
-            poster: poster || undefined
-          });
-        }
+    for (const movie of movies) {
+      const title = movie.title?.rendered?.trim();
+      if (!title) continue;
+
+      // Extract poster from Yoast OG image
+      let poster = null;
+      const ogImages = movie.yoast_head_json?.og_image;
+      if (Array.isArray(ogImages) && ogImages.length > 0) {
+        poster = ogImages[0].url;
+      }
+
+      // Extract description (strip HTML tags)
+      let description = '';
+      if (movie.excerpt?.rendered) {
+        description = movie.excerpt.rendered.replace(/<[^>]+>/g, '').replace(/\[&hellip;\]/g, '...').trim();
+      }
+
+      // Extract screening dates from class_list (e.g., "event-date-2026-07-15")
+      const classList = movie.class_list || [];
+      const dates = [];
+      for (const cls of classList) {
+        const m = cls.match(/^event-date-(\d{4}-\d{2}-\d{2})$/);
+        if (m) dates.push(m[1]);
+      }
+
+      if (dates.length === 0) continue; // Skip movies with no screening dates
+
+      // Filter to today and future dates only
+      const today = getTorontoToday();
+      const futureDates = dates.filter(d => d >= today);
+      if (futureDates.length === 0) continue;
+
+      if (!movieMap[title]) {
+        movieMap[title] = {
+          title,
+          description,
+          poster,
+          showtimes: []
+        };
+      }
+      if (poster && !movieMap[title].poster) movieMap[title].poster = poster;
+      if (description && !movieMap[title].description) movieMap[title].description = description;
+
+      // Create showtime entry for each date (no specific time available from API)
+      for (const dt of futureDates) {
+        movieMap[title].showtimes.push({ dt, url: movie.link });
       }
     }
-  });
 
-  // Deduplicate and merge showtimes per title
-  const movieMap = {};
-  for (const m of movies) {
-    if (!movieMap[m.title]) movieMap[m.title] = { title: m.title, showtimes: [], poster: m.poster || null };
-    if (m.poster && !movieMap[m.title].poster) movieMap[m.title].poster = m.poster;
-    movieMap[m.title].showtimes.push(...m.showtimes);
+    // Check if there are more pages
+    const totalPages = parseInt(resp.headers['x-wp-totalpages'] || '1');
+    hasMore = page < totalPages;
+    page++;
+    await new Promise(r => setTimeout(r, 300));
   }
 
   console.log(`  [Fox] Found ${Object.keys(movieMap).length} movies`);
@@ -450,79 +475,62 @@ async function scrapeRevue() {
   const $ = cheerio.load(html);
   const movies = [];
 
-  // Revue lists films with links to individual pages
-  const filmLinks = [];
-  $('a[href*="/films/"]').each((i, el) => {
-    const href = $(el).attr('href');
-    const title = $(el).text().trim();
-    if (href && title && title.length > 2 && !filmLinks.find(f => f.href === href)) {
-      filmLinks.push({ href, title });
+  // Revue uses .movie-card containers with h5 titles and date/time text
+  $('.movie-card').each((i, card) => {
+    const $card = $(card);
+
+    // Get title and film page URL from h5 > a
+    const $titleLink = $card.find('h5 a').first();
+    const title = $titleLink.text().trim();
+    const filmUrl = $titleLink.attr('href') || '';
+    if (!title || title.length < 2) return;
+
+    // Get poster from img data-src (lazy loaded)
+    let poster = null;
+    const $img = $card.find('img').first();
+    if ($img.length) {
+      poster = $img.attr('data-src') || $img.attr('src') || '';
+      if (poster.startsWith('data:')) poster = $img.attr('data-src') || null;
+      if (poster && !poster.startsWith('http')) {
+        poster = 'https://revuecinema.ca' + (poster.startsWith('/') ? poster : '/' + poster);
+      }
+    }
+
+    // Get showtimes from date/time text elements
+    // Format: "Tue Jul 14, 06:30 PM"
+    const showtimes = [];
+    $card.find('.brxe-text-basic, .brxe-ndxpjc').each((j, dt) => {
+      const text = $(dt).text().trim();
+      if (!text) return;
+
+      // Split on comma: "Tue Jul 14, 06:30 PM" → date="Tue Jul 14", time="06:30 PM"
+      const parts = text.split(',');
+      if (parts.length >= 2) {
+        const datePart = parts[0].trim();
+        const timePart = parts.slice(1).join(',').trim();
+        const dt_val = parseDate(datePart);
+        const tm = parseTime(timePart);
+        if (dt_val && tm) {
+          showtimes.push({ dt: dt_val, tm, url: filmUrl });
+        }
+      } else {
+        // Try parsing the whole string
+        const dt_val = parseDate(text);
+        const tm = parseTime(text);
+        if (dt_val && tm) {
+          showtimes.push({ dt: dt_val, tm, url: filmUrl });
+        }
+      }
+    });
+
+    if (showtimes.length > 0) {
+      movies.push({
+        title,
+        poster: poster || undefined,
+        showtimes
+      });
     }
   });
-
-  console.log(`  [Revue] Found ${filmLinks.length} film links, visiting pages...`);
-
-  // Visit each film page (limit to 30 to avoid too many requests)
-  for (const link of filmLinks.slice(0, 30)) {
-    try {
-      await new Promise(r => setTimeout(r, 500)); // Be polite
-      const filmHtml = await fetchPage(link.href);
-      const $$ = cheerio.load(filmHtml);
-      const showtimes = [];
-
-      // Look for showtime links to Agile Ticketing
-      $$('a[href*="agileticketing"], a[href*="evtinfo"]').each((i, el) => {
-        const href = $$(el).attr('href') || '';
-        const match = href.match(/evtinfo=(\d+)~/);
-        const timeText = $$(el).text().trim();
-        const tm = parseTime(timeText);
-        if (match && tm) {
-          // Try to find date near this link
-          const $parent = $$(el).parent();
-          const dateText = $parent.find('.date, [class*="date"], time').first().text().trim() ||
-                          $parent.parent().find('.date, [class*="date"], time').first().text().trim();
-          const dt = dateText ? parseDate(dateText) : null;
-          if (dt) {
-            showtimes.push({ dt, tm, id: match[1] });
-          }
-        }
-      });
-
-      // Also look for showtime text without links
-      $$('.showtime, [class*="showtime"], [class*="screening"]').each((i, el) => {
-        const text = $$(el).text().trim();
-        // Try to parse date and time from text
-        const days = getNext7Days();
-        for (const day of days) {
-          const dayDate = new Date(day + 'T12:00:00');
-          const dayName = dayDate.toLocaleDateString('en-US', { weekday: 'long' });
-          const dayNameShort = dayDate.toLocaleDateString('en-US', { weekday: 'short' });
-          const monthDay = dayDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
-          if (text.includes(dayName) || text.includes(dayNameShort) || text.includes(monthDay)) {
-            const tm = parseTime(text);
-            if (tm) {
-              showtimes.push({ dt: day, tm, url: link.href });
-            }
-          }
-        }
-      });
-
-      if (showtimes.length > 0) {
-        // Get description
-        const desc = $$('.description, .synopsis, .content, p').first().text().trim().substring(0, 300);
-        // Extract poster image
-        const poster = extractPoster($$, $$('.movie-poster, .film-poster, .poster, article, .entry-content, .wp-block-image'), 'https://revuecinema.ca');
-        movies.push({
-          title: link.title,
-          description: desc || '',
-          poster: poster || undefined,
-          showtimes
-        });
-      }
-    } catch (e) {
-      console.log(`  [Revue] Failed to scrape ${link.title}: ${e.message}`);
-    }
-  }
 
   console.log(`  [Revue] Found ${movies.length} movies with showtimes`);
   return { cinema: 'revue', movies };
@@ -533,49 +541,84 @@ async function scrapeRevue() {
 // ============================================
 async function scrapeParadise() {
   console.log('  [Paradise] Fetching showtimes...');
-  const html = await fetchPage('https://paradiseonbloor.com/home');
-  const $ = cheerio.load(html);
-  const movies = [];
+  const baseUrl = 'https://paradiseonbloor.com';
   const movieMap = {};
 
-  // Paradise uses purchase links like paradiseonbloor.com/purchase/{ID}/
-  $('a[href*="/purchase/"]').each((i, el) => {
-    const href = $(el).attr('href');
-    const match = href.match(/\/purchase\/(\d+)/);
-    if (!match) return;
-    const eventId = match[1];
-    const timeText = $(el).text().trim();
-    const tm = parseTime(timeText);
-    if (!tm) return;
+  // Fetch main page to discover date tabs
+  const mainHtml = await fetchPage(baseUrl + '/home');
+  const $main = cheerio.load(mainHtml);
 
-    // Find movie title - walk up the DOM
-    let title = '';
-    let $parent = $(el).closest('article, .movie, .film, .event, .showing, [class*="movie"], [class*="film"]');
-    if ($parent.length === 0) $parent = $(el).parent().parent();
-    title = $parent.find('h1, h2, h3, h4, .title, .movie-title').first().text().trim();
-    if (!title) title = $(el).parent().find('h1, h2, h3, h4, .title').first().text().trim();
-
-    // Find date
-    let dateStr = '';
-    const $dateEl = $parent.find('.date, [class*="date"], time').first();
-    if ($dateEl.length) dateStr = $dateEl.text().trim();
-    // Also check parent's sibling for date
-    if (!dateStr) {
-      const $section = $parent.closest('section, .day, [class*="day"]');
-      if ($section.length) {
-        dateStr = $section.find('.date, [class*="date"], h2, h3').first().text().trim();
-      }
-    }
-
-    const dt = dateStr ? parseDate(dateStr) : getTorontoToday();
-    if (title && dt) {
-      if (!movieMap[title]) {
-        const poster = extractPoster($, $parent, 'https://paradiseonbloor.com');
-        movieMap[title] = { title, showtimes: [], poster: poster || null };
-      }
-      movieMap[title].showtimes.push({ dt, tm, id: eventId });
+  // Find date tab links (e.g., /home/2026-07-15)
+  const dateUrls = [];
+  $main('a[href*="/home/"]').each((i, el) => {
+    const href = $(el).attr('href') || '';
+    const match = href.match(/\/home\/(\d{4}-\d{2}-\d{2})/);
+    if (match && !dateUrls.find(d => d.url === href)) {
+      dateUrls.push({ url: href, dt: match[1] });
     }
   });
+
+  // If no date tabs found, use today's date with the main page
+  if (dateUrls.length === 0) {
+    dateUrls.push({ url: baseUrl + '/home', dt: getTorontoToday() });
+  }
+
+  console.log(`  [Paradise] Found ${dateUrls.length} date pages`);
+
+  // Fetch each date page
+  for (const { url, dt } of dateUrls.slice(0, 7)) {
+    try {
+      const fullUrl = url.startsWith('http') ? url : baseUrl + url;
+      const html = await fetchPage(fullUrl);
+      const $ = cheerio.load(html);
+
+      // Find all .show divs that contain showtime elements (excludes "coming soon")
+      $('.show').each((i, el) => {
+        const $show = $(el);
+        const $showtimes = $show.find('.showtime');
+        if ($showtimes.length === 0) return; // Skip "coming soon" entries
+
+        const title = $show.find('h2').first().text().trim();
+        if (!title) return;
+
+        // Extract poster from --show-background-image CSS variable
+        let poster = null;
+        const style = $show.attr('style') || '';
+        const bgMatch = style.match(/--show-background-image:\s*url\(([^)]+)\)/);
+        if (bgMatch) poster = bgMatch[1];
+
+        if (!movieMap[title]) {
+          movieMap[title] = { title, showtimes: [], poster };
+        }
+        if (poster && !movieMap[title].poster) movieMap[title].poster = poster;
+
+        // Parse each showtime element (both <a> and <span>)
+        $showtimes.each((j, st) => {
+          const $st = $(st);
+          const timeText = $st.text().trim().replace(/SOLD OUT/i, '').trim();
+          const tm = parseTime(timeText);
+          if (!tm) return;
+
+          const href = $st.attr('href') || '';
+          const idMatch = href.match(/\/purchase\/(\d+)/);
+          const showtimeId = $st.attr('data-showtime_id') || (idMatch ? idMatch[1] : '');
+          const isSoldOut = ($st.attr('title') || '').includes('SOLD OUT') ||
+                            $st.hasClass('sold-out');
+
+          const showtime = { dt, tm };
+          if (showtimeId) showtime.id = showtimeId;
+          if (href && href.includes('/purchase/')) showtime.url = href;
+          if (isSoldOut) showtime.soldOut = true;
+
+          movieMap[title].showtimes.push(showtime);
+        });
+      });
+
+      await new Promise(r => setTimeout(r, 300));
+    } catch (e) {
+      console.log(`  [Paradise] Failed for ${dt}: ${e.message}`);
+    }
+  }
 
   console.log(`  [Paradise] Found ${Object.keys(movieMap).length} movies`);
   return { cinema: 'paradise', movies: Object.values(movieMap) };
