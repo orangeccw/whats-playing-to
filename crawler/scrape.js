@@ -625,7 +625,7 @@ async function scrapeParadise() {
 }
 
 // ============================================
-// HOT DOCS CINEMA SCRAPER
+// HOT DOCS CINEMA SCRAPER (via JSON-LD structured data)
 // ============================================
 async function scrapeHotDocs() {
   console.log('  [Hot Docs] Fetching showtimes...');
@@ -634,42 +634,66 @@ async function scrapeHotDocs() {
   const $ = cheerio.load(html);
   const movieMap = {};
 
-  // Hot Docs uses a ticketing system - look for event/film elements
-  $('.event, .film, .movie, [class*="event"], [class*="film"], tr, .listing-item').each((i, el) => {
-    const $el = $(el);
-    const title = $el.find('.title, .name, h1, h2, h3, h4, a').first().text().trim();
-    if (!title || title.length < 2) return;
-
-    // Look for showtime links
-    $el.find('a[href*="evtinfo"], a[href*="purchase"], a[href*="info.aspx"]').each((j, link) => {
-      const href = $(link).attr('href') || '';
-      const match = href.match(/evtinfo=(\d+)~/);
-      const timeText = $(link).text().trim();
-      const tm = parseTime(timeText);
-      if (!tm) return;
-
-      // Find date
-      const dateText = $el.find('.date, [class*="date"], time').first().text().trim();
-      const dt = dateText ? parseDate(dateText) : getTorontoToday();
-
-      if (!movieMap[title]) movieMap[title] = { title, showtimes: [] };
-      if (match) {
-        movieMap[title].showtimes.push({ dt, tm, id: match[1] });
-      } else {
-        movieMap[title].showtimes.push({ dt, tm, url: href });
+  // Parse JSON-LD structured data for events
+  const events = [];
+  $('script[type="application/ld+json"]').each((i, el) => {
+    try {
+      const data = JSON.parse($(el).html());
+      const items = Array.isArray(data) ? data : [data];
+      for (const item of items) {
+        if (item['@type'] === 'Event' && item.name && item.startDate) {
+          events.push(item);
+        }
       }
-    });
+    } catch (e) {}
+  });
 
-    // Also look for poster images
-    if (movieMap[title]) {
-      const img = $el.find('img').first();
-      if (img.length && !movieMap[title].poster) {
-        const src = img.attr('src') || '';
-        if (src.startsWith('http')) movieMap[title].poster = src;
-        else if (src) movieMap[title].poster = 'https://boxoffice.hotdocs.ca/' + src.replace(/^\//, '');
-      }
+  // Also collect poster images from the page (from agileticketing.net CDN)
+  const posterImages = [];
+  $('img').each((i, img) => {
+    const src = $(img).attr('src') || '';
+    if (src.includes('agileticketing.net') && src.includes('_thumb')) {
+      // Convert thumb to full-size image
+      const fullSrc = src.replace('_thumb', '');
+      posterImages.push(fullSrc);
     }
   });
+
+  console.log(`  [Hot Docs] Found ${events.length} JSON-LD events, ${posterImages.length} posters`);
+
+  // Process events
+  for (let i = 0; i < events.length; i++) {
+    const event = events[i];
+    const title = event.name.trim();
+    if (!title) continue;
+
+    // Parse date and time from startDate (e.g., "2026-07-17T07:00:00-04:00")
+    const startDate = new Date(event.startDate);
+    const dt = startDate.toLocaleDateString('en-CA', { timeZone: 'America/Toronto' });
+    const tm = String(startDate.getHours()).padStart(2, '0') + ':' + String(startDate.getMinutes()).padStart(2, '0');
+
+    // Extract event ID from ticket URL
+    let eventId = '';
+    let ticketUrl = '';
+    if (event.offers && event.offers.url) {
+      ticketUrl = event.offers.url;
+      const match = ticketUrl.match(/evtinfo=(\d+)~/);
+      if (match) eventId = match[1];
+    }
+
+    if (!movieMap[title]) {
+      movieMap[title] = {
+        title,
+        poster: posterImages[i] || null,
+        showtimes: []
+      };
+    }
+
+    const showtime = { dt, tm };
+    if (eventId) showtime.id = eventId;
+    if (ticketUrl) showtime.url = ticketUrl;
+    movieMap[title].showtimes.push(showtime);
+  }
 
   console.log(`  [Hot Docs] Found ${Object.keys(movieMap).length} movies`);
   return { cinema: 'hotdocs', movies: Object.values(movieMap) };
@@ -726,40 +750,147 @@ async function scrapeCarlton() {
 }
 
 // ============================================
-// TIFF SCRAPER (titles only - no showtimes)
+// TIFF SCRAPER (via Puppeteer for JS-rendered page)
 // ============================================
 async function scrapeTIFF() {
-  console.log('  [TIFF] Fetching film list...');
-  const html = await fetchPage('https://www.tiff.net/films/');
-  const $ = cheerio.load(html);
+  console.log('  [TIFF] Fetching film list via Puppeteer...');
   const films = [];
 
-  // TIFF is JS-rendered, but try to find film titles in the HTML
-  $('a[href*="/films/"], .film-title, .film-card, [class*="film"]').each((i, el) => {
-    const title = $(el).find('.title, h2, h3, a').first().text().trim() || $(el).text().trim();
-    if (title && title.length > 2 && !films.find(f => f.title === title)) {
-      films.push({ title, note: 'Now playing at TIFF Lightbox' });
-    }
-  });
+  let browser;
+  try {
+    const puppeteer = require('puppeteer');
+    browser = await puppeteer.launch({
+      headless: 'new',
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+    });
+    const page = await browser.newPage();
+    await page.setUserAgent('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36');
+    await page.setViewport({ width: 1280, height: 900 });
 
-  // Also try JSON-LD structured data
-  $('script[type="application/ld+json"]').each((i, el) => {
-    try {
-      const data = JSON.parse($(el).html());
-      const items = Array.isArray(data) ? data : [data];
-      for (const item of items) {
-        if (item.name && item['@type'] === 'Movie') {
-          if (!films.find(f => f.title === item.name)) {
-            films.push({
-              title: item.name,
-              director: item.director && typeof item.director === 'object' ? item.director.name : item.director,
-              note: 'Now playing at TIFF Lightbox'
-            });
+    console.log('  [TIFF] Loading page...');
+    await page.goto('https://www.tiff.net/films/', { waitUntil: 'networkidle2', timeout: 30000 });
+
+    // Wait for film cards to render
+    await page.waitForSelector('[class*="cardTitle"]', { timeout: 15000 }).catch(() => {});
+    await new Promise(r => setTimeout(r, 2000));
+
+    // Extract film data from rendered DOM
+    const cardData = await page.evaluate(() => {
+      const cards = document.querySelectorAll('[class*="cardTitle"]');
+      const results = [];
+      const seen = new Set();
+
+      cards.forEach(card => {
+        const link = card.querySelector('a[href*="/films/"]') || card.closest('a[href*="/films/"]');
+        const title = card.textContent.trim();
+        const href = link ? link.getAttribute('href') : '';
+
+        if (title && title.length > 1 && !seen.has(href)) {
+          seen.add(href);
+
+          // Find poster image (background-image in cardImg div)
+          const cardContainer = card.closest('[class*="card"]');
+          let poster = '';
+          if (cardContainer) {
+            const imgDiv = cardContainer.querySelector('[class*="cardImg"]');
+            if (imgDiv) {
+              const bgStyle = imgDiv.style.backgroundImage || '';
+              const match = bgStyle.match(/url\(["']?(.*?)["']?\)/);
+              if (match) {
+                let url = match[1];
+                if (url.startsWith('//')) url = 'https:' + url;
+                poster = url;
+              }
+            }
+            // Also try to get director/subtitle
+            const subtitle = cardContainer.querySelector('[class*="cardSubtitle"]');
+            const director = subtitle ? subtitle.textContent.trim() : '';
+            results.push({ title, href, poster, director });
+          } else {
+            results.push({ title, href, poster: '', director: '' });
           }
         }
+      });
+
+      return results;
+    });
+
+    // Add films to list
+    for (const card of cardData) {
+      if (card.title && card.title.length > 1) {
+        films.push({
+          title: card.title,
+          director: card.director || undefined,
+          poster: card.poster || undefined,
+          note: 'TIFF'
+        });
       }
-    } catch (e) {}
-  });
+    }
+
+    // Also try to get schedule data (click on Schedule view tab)
+    try {
+      console.log('  [TIFF] Trying schedule view...');
+      // Click schedule tab
+      const scheduleClicked = await page.evaluate(() => {
+        const tabs = document.querySelectorAll('[role="tab"], [aria-label*="Schedule"]');
+        for (const tab of tabs) {
+          if (tab.textContent.includes('Schedule') || tab.getAttribute('aria-label')?.includes('Schedule')) {
+            tab.click();
+            return true;
+          }
+        }
+        return false;
+      });
+
+      if (scheduleClicked) {
+        await new Promise(r => setTimeout(r, 3000));
+
+        // Extract schedule items
+        const scheduleData = await page.evaluate(() => {
+          const items = [];
+          const rows = document.querySelectorAll('.row, [class*="visItem"]');
+          rows.forEach(row => {
+            const text = row.textContent.replace(/\s+/g, ' ').trim();
+            const timeMatch = text.match(/^(\d{1,2}:\d{2}\s*[ap]m)/i);
+            if (timeMatch) {
+              const link = row.querySelector('a[href*="/films/"]');
+              items.push({
+                time: timeMatch[1],
+                text: text.substring(timeMatch[1].length).trim(),
+                href: link ? link.getAttribute('href') : ''
+              });
+            }
+          });
+          return items;
+        });
+
+        console.log(`  [TIFF] Found ${scheduleData.length} schedule items`);
+        // Note: schedule items don't have explicit dates in the DOM,
+        // they're organized by day sections. We'll add them as reference info.
+      }
+    } catch (e) {
+      console.log(`  [TIFF] Schedule view failed: ${e.message}`);
+    }
+
+  } catch (e) {
+    console.log(`  [TIFF] Puppeteer failed: ${e.message}`);
+    console.log('  [TIFF] Falling back to static HTML...');
+    // Fallback: try static HTML
+    try {
+      const html = await fetchPage('https://www.tiff.net/films/');
+      const $ = cheerio.load(html);
+      $('a[href*="/films/"]').each((i, el) => {
+        const title = $(el).text().trim();
+        if (title && title.length > 2 && !films.find(f => f.title === title)) {
+          films.push({ title, note: 'TIFF' });
+        }
+      });
+    } catch (e2) {
+      console.log(`  [TIFF] Static fallback also failed: ${e2.message}`);
+    }
+  } finally {
+    if (browser) await browser.close();
+  }
 
   console.log(`  [TIFF] Found ${films.length} films`);
   return films;
