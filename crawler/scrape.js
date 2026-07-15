@@ -282,6 +282,106 @@ async function enrichWithTMDB(movies) {
 }
 
 // ============================================
+// OMDB SUPPLEMENT — search for posters & metadata
+// ============================================
+const OMDB_API_KEY = process.env.OMDB_API_KEY || '';
+const OMDB_BASE = 'https://www.omdbapi.com/';
+
+const omdbCache = {};
+
+async function searchOMDB(title, year) {
+  if (!OMDB_API_KEY) return null;
+
+  // Clean title for search (remove year, special editions, series info)
+  let cleanTitle = title.replace(/\s*\(\d{4}\)\s*$/, '').replace(/\s*—.*$/, '').trim();
+  const cacheKey = `${cleanTitle}|${year || ''}`;
+
+  if (omdbCache[cacheKey] !== undefined) return omdbCache[cacheKey];
+
+  try {
+    // OMDb 't' param does exact title match, 'y' filters by year
+    const params = { apikey: OMDB_API_KEY, t: cleanTitle, type: 'movie', plot: 'short' };
+    if (year) params.y = year;
+
+    const resp = await axios.get(OMDB_BASE, { params, timeout: 10000, headers: HEADERS });
+    if (resp.data.Response === 'False') {
+      // Try without year
+      if (year) {
+        delete params.y;
+        const resp2 = await axios.get(OMDB_BASE, { params, timeout: 10000, headers: HEADERS });
+        if (resp2.data.Response === 'False') {
+          omdbCache[cacheKey] = null;
+          return null;
+        }
+        omdbCache[cacheKey] = resp2.data;
+        return resp2.data;
+      }
+      omdbCache[cacheKey] = null;
+      return null;
+    }
+
+    omdbCache[cacheKey] = resp.data;
+    return resp.data;
+  } catch (e) {
+    console.log(`  [OMDb] Search failed for "${cleanTitle}": ${e.message}`);
+    omdbCache[cacheKey] = null;
+    return null;
+  }
+}
+
+async function enrichWithOMDB(movies) {
+  if (!OMDB_API_KEY) {
+    console.log('  [OMDb] No API key set (OMDB_API_KEY env var), skipping OMDb enrichment');
+    return movies;
+  }
+
+  console.log(`  [OMDb] Enriching ${movies.length} movies...`);
+  let enriched = 0;
+
+  for (const movie of movies) {
+    // Only call OMDb if still missing poster or metadata after TMDB
+    const needsPoster = !movie.poster;
+    const needsMeta = !movie.director || !movie.year || !movie.genres || movie.genres.length === 0;
+
+    if (!needsPoster && !needsMeta) continue;
+
+    const omdbResult = await searchOMDB(movie.title, movie.year);
+    if (!omdbResult) continue;
+
+    if (needsPoster && omdbResult.Poster && omdbResult.Poster !== 'N/A') {
+      movie.poster = omdbResult.Poster;
+    }
+    if (needsMeta) {
+      if (!movie.director && omdbResult.Director && omdbResult.Director !== 'N/A') {
+        // OMDb returns "Dir1, Dir2" — take first
+        movie.director = omdbResult.Director.split(',')[0].trim();
+      }
+      if (!movie.year && omdbResult.Year && omdbResult.Year !== 'N/A') {
+        movie.year = omdbResult.Year.substring(0, 4);
+      }
+      if (!movie.runtime && omdbResult.Runtime && omdbResult.Runtime !== 'N/A') {
+        movie.runtime = omdbResult.Runtime; // e.g. "120 min"
+      }
+      if (!movie.rating && omdbResult.Rated && omdbResult.Rated !== 'N/A') {
+        movie.rating = omdbResult.Rated;
+      }
+      if ((!movie.genres || movie.genres.length === 0) && omdbResult.Genre && omdbResult.Genre !== 'N/A') {
+        movie.genres = omdbResult.Genre.split(',').map(g => g.trim()).slice(0, 4);
+      }
+      if (!movie.description && omdbResult.Plot && omdbResult.Plot !== 'N/A') {
+        movie.description = omdbResult.Plot;
+      }
+    }
+
+    enriched++;
+    await new Promise(r => setTimeout(r, 1000)); // OMDb rate limit: 1000/day, be polite
+  }
+
+  console.log(`  [OMDb] Enriched ${enriched}/${movies.length} movies`);
+  return movies;
+}
+
+// ============================================
 // FOX THEATRE SCRAPER
 // ============================================
 async function scrapeFox() {
@@ -778,6 +878,10 @@ async function main() {
   // Enrich with TMDB (posters + metadata) if API key is set
   console.log('TMDB enrichment...');
   await enrichWithTMDB(merged.movies);
+
+  // Enrich with OMDb (fills in gaps TMDB missed)
+  console.log('OMDb enrichment...');
+  await enrichWithOMDB(merged.movies);
 
   // Build output
   const output = {

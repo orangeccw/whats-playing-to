@@ -42,19 +42,25 @@ Toronto independent cinema showtimes, sorted by distance. A static HTML page tha
 
 Go to Actions tab > "Crawl Showtimes" > "Run workflow"
 
-## Optional: TMDB enrichment (posters + metadata)
+## Optional: API enrichment (posters + metadata)
 
-The crawler can supplement poster images and metadata (director, year, genres) from [The Movie Database (TMDB)](https://www.themoviedb.org/). Without a key, the crawler still works — it extracts posters from cinema websites directly.
+The crawler can supplement poster images and metadata from TMDB and/or OMDb. Without keys, the crawler still works — it extracts posters from cinema websites directly.
 
-To enable TMDB enrichment:
+### OMDb (easier to register)
 
-1. Register at https://www.themoviedb.org/settings/api (free, takes 2 minutes)
+1. Register at https://www.omdbapi.com/apikey.aspx (free, just needs email)
+2. Get your API key by email
+3. Add as GitHub secret: Settings > Secrets and variables > Actions > Repository secrets
+   - Name: `OMDB_API_KEY`
+   - Value: your key
+
+### TMDB (more comprehensive)
+
+1. Register at https://www.themoviedb.org/settings/api (free)
 2. Get your API Key (v3 auth)
-3. Add it as a GitHub secret: Settings > Secrets and variables > Actions > New repository secret
-   - Name: `TMDB_API_KEY`
-   - Value: your API key
+3. Add as GitHub secret: Name `TMDB_API_KEY`, Value your key
 
-The crawler will automatically use it when the secret is present.
+Both can be used simultaneously — TMDB runs first, OMDb fills in any gaps. Either one alone works fine.
 
 ## Features
 

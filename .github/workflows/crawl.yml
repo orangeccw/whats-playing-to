@@ -3,8 +3,8 @@ name: Crawl Showtimes
 on:
   schedule:
     # 6:00 AM Toronto time (EDT = UTC-4, so 10:00 UTC)
-    # In winter (EST = UTC-5), runs at 5:00 AM Toronto time — still fine
-    - cron: '0 10 * * *'
+    # Runs Tue/Thu/Sat — covers midweek, weekend prep, and weekend additions
+    - cron: '0 10 * * 2,4,6'
   workflow_dispatch:
     inputs:
       force:
@@ -34,6 +34,7 @@ jobs:
         run: cd crawler && node scrape.js
         env:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
 
       - name: Commit & push if data changed
         run: |
