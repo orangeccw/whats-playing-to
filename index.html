@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +10,36 @@
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;0,9..144,900;1,9..144,300;1,9..144,400;1,9..144,600&family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 /* ============================================
-   THEME
+   THEME VARIABLES
    ============================================ */
 :root {
+  --bg: #f5f5f4;
+  --bg-elevated: #e7e5e4;
+  --surface: #ffffff;
+  --surface-hover: #f5f5f4;
+  --border: #e7e5e4;
+  --border-light: #d6d3d1;
+  --text: #1a1a1a;
+  --text-secondary: #44403c;
+  --text-muted: #78716c;
+  --text-faint: #a8a29e;
+  --accent: #c2410c;
+  --accent-hover: #9a3412;
+  --accent-dim: #ea580c;
+  --accent-glow: rgba(194, 65, 12, 0.08);
+  --red: #dc2626;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-hover: 0 4px 12px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.04);
+  --grain-opacity: 0;
+  --dist-1-bg: #d1fae5; --dist-1-fg: #065f46;
+  --dist-2-bg: #fef3c7; --dist-2-fg: #92400e;
+  --dist-3-bg: #fce7f3; --dist-3-fg: #9d174d;
+  --dist-4-bg: #fee2e2; --dist-4-fg: #991b1b;
+}
+
+[data-theme="dark"] {
   --bg: #0c0a09;
   --bg-elevated: #161310;
   --surface: #1c1917;
@@ -28,12 +55,16 @@
   --accent-dim: #b8862e;
   --accent-glow: rgba(232, 176, 75, 0.12);
   --red: #ef4444;
-  --radius: 14px;
-  --radius-sm: 8px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.3);
+  --shadow-hover: 0 4px 12px rgba(0,0,0,0.4);
+  --grain-opacity: 0.035;
+  --dist-1-bg: rgba(16,185,129,0.15); --dist-1-fg: #34d399;
+  --dist-2-bg: rgba(245,158,11,0.15); --dist-2-fg: #fbbf24;
+  --dist-3-bg: rgba(236,72,153,0.15); --dist-3-fg: #f472b6;
+  --dist-4-bg: rgba(239,68,68,0.15); --dist-4-fg: #f87171;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-
 html { scroll-behavior: smooth; }
 
 body {
@@ -42,19 +73,15 @@ body {
   color: var(--text);
   line-height: 1.6;
   min-height: 100vh;
-  background-image:
-    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(232, 176, 75, 0.04), transparent),
-    radial-gradient(ellipse 60% 40% at 80% 100%, rgba(232, 176, 75, 0.02), transparent);
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
-/* Film grain overlay */
+/* Film grain overlay (dark mode only) */
 .grain {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 9999;
-  opacity: 0.035;
+  position: fixed; inset: 0; pointer-events: none; z-index: 9999;
+  opacity: var(--grain-opacity);
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  transition: opacity 0.3s ease;
 }
 
 /* ============================================
@@ -62,14 +89,15 @@ body {
    ============================================ */
 header {
   text-align: center;
-  padding: 5rem 1.5rem 2.5rem;
-  max-width: 900px;
+  padding: 3.5rem 1.5rem 2rem;
+  max-width: 920px;
   margin: 0 auto;
+  position: relative;
 }
 
 header h1 {
   font-family: 'Fraunces', serif;
-  font-size: clamp(2.2rem, 6vw, 3.8rem);
+  font-size: clamp(2rem, 6vw, 3.5rem);
   font-weight: 300;
   font-style: italic;
   letter-spacing: -0.02em;
@@ -79,63 +107,88 @@ header h1 {
 }
 
 header .subtitle {
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   color: var(--text-muted);
-  margin-top: 0.75rem;
-  letter-spacing: 0.02em;
+  margin-top: 0.6rem;
 }
 
 header .tagline {
   display: inline-block;
-  margin-top: 1.2rem;
+  margin-top: 1rem;
   font-family: 'JetBrains Mono', monospace;
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--accent);
-  padding: 0.3rem 0.8rem;
+  padding: 0.25rem 0.75rem;
   border: 1px solid var(--border-light);
   border-radius: 100px;
   background: var(--accent-glow);
 }
 
+.theme-toggle {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background: var(--surface);
+  border: 1px solid var(--border-light);
+  border-radius: 100px;
+  width: 40px; height: 40px;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow);
+  z-index: 10;
+}
+.theme-toggle:hover { border-color: var(--accent-dim); transform: scale(1.05); }
+.theme-toggle .sun { display: none; }
+.theme-toggle .moon { display: block; }
+[data-theme="dark"] .theme-toggle .sun { display: block; }
+[data-theme="dark"] .theme-toggle .moon { display: none; }
+
 /* ============================================
    FILTERS
    ============================================ */
 .filters {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: rgba(12, 10, 9, 0.82);
+  position: sticky; top: 0; z-index: 100;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
-  padding: 0.85rem 1.5rem;
+  padding: 0.75rem 1.5rem;
 }
 
 .filters-inner {
-  max-width: 920px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 0.6rem;
+  max-width: 920px; margin: 0 auto;
+  display: flex; flex-direction: column; gap: 0.5rem;
 }
 
 .filter-row {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  display: flex; align-items: center; gap: 0.4rem; flex-wrap: wrap;
+}
+
+.filter-row-main {
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.filter-group {
+  display: flex; align-items: center; gap: 0.4rem;
   flex-wrap: wrap;
+}
+
+.filter-group-right {
+  margin-left: auto;
 }
 
 .tab, .sort-btn {
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.82rem;
-  font-weight: 500;
-  padding: 0.4rem 0.95rem;
+  font-size: 0.8rem; font-weight: 500;
+  padding: 0.35rem 0.85rem;
   border: 1px solid var(--border-light);
   border-radius: 100px;
-  background: transparent;
+  background: var(--surface);
   color: var(--text-muted);
   cursor: pointer;
   transition: all 0.2s ease;
@@ -145,52 +198,101 @@ header .tagline {
 .tab:hover, .sort-btn:hover {
   color: var(--text);
   border-color: var(--accent-dim);
-  background: var(--surface);
 }
 
 .tab.active, .sort-btn.active {
+  background: var(--text);
+  color: var(--bg);
+  border-color: var(--text);
+  font-weight: 700;
+}
+
+[data-theme="dark"] .tab.active,
+[data-theme="dark"] .sort-btn.active {
   background: var(--accent);
   color: var(--bg);
   border-color: var(--accent);
-  font-weight: 700;
 }
 
 .search-input {
   font-family: 'DM Sans', sans-serif;
-  font-size: 0.82rem;
-  padding: 0.4rem 0.95rem;
+  font-size: 0.8rem;
+  padding: 0.35rem 0.85rem;
   border: 1px solid var(--border-light);
   border-radius: 100px;
   background: var(--surface);
   color: var(--text);
   outline: none;
-  width: 180px;
+  width: 160px;
   transition: all 0.2s ease;
 }
-
 .search-input::placeholder { color: var(--text-faint); }
-.search-input:focus { border-color: var(--accent-dim); width: 220px; }
+.search-input:focus { border-color: var(--accent-dim); width: 200px; }
+
+.checkbox-label {
+  display: flex; align-items: center; gap: 0.35rem;
+  font-size: 0.78rem; color: var(--text-muted);
+  cursor: pointer; user-select: none;
+  font-family: 'JetBrains Mono', monospace;
+}
+.checkbox-label input { accent-color: var(--accent); cursor: pointer; }
+
+.genre-filters {
+  gap: 0.3rem;
+  overflow-x: auto;
+  padding-bottom: 0.2rem;
+  scrollbar-width: thin;
+}
+.genre-filters::-webkit-scrollbar { height: 3px; }
+.genre-filters::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 2px; }
+
+.genre-pill {
+  font-size: 0.72rem;
+  font-family: 'JetBrains Mono', monospace;
+  padding: 0.2rem 0.6rem;
+  border: 1px solid var(--border-light);
+  border-radius: 100px;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+.genre-pill:hover { color: var(--text); border-color: var(--accent-dim); }
+.genre-pill.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+  font-weight: 500;
+}
+
+.cinema-filters { gap: 0.3rem; }
+.cinema-check {
+  display: flex; align-items: center; gap: 0.3rem;
+  font-size: 0.73rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  transition: background 0.15s ease;
+}
+.cinema-check:hover { background: var(--surface); }
+.cinema-check input { accent-color: var(--accent); cursor: pointer; }
 
 .location-status {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.78rem;
-  color: var(--text-muted);
+  display: flex; align-items: center; gap: 0.4rem;
+  font-size: 0.74rem; color: var(--text-muted);
   font-family: 'JetBrains Mono', monospace;
 }
 
 .location-dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
+  width: 7px; height: 7px; border-radius: 50%;
   background: var(--accent);
   box-shadow: 0 0 8px var(--accent);
   animation: pulse 2s ease-in-out infinite;
 }
-
-.location-dot.located { background: var(--accent); animation: none; }
-.location-dot.error { background: var(--red); animation: none; box-shadow: 0 0 8px var(--red); }
+.location-dot.located { animation: none; }
+.location-dot.error { background: var(--red); box-shadow: 0 0 8px var(--red); animation: none; }
 
 @keyframes pulse {
   0%, 100% { opacity: 0.4; transform: scale(0.9); }
@@ -199,7 +301,7 @@ header .tagline {
 
 .result-count {
   margin-left: auto;
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: var(--text-faint);
   font-family: 'JetBrains Mono', monospace;
 }
@@ -208,39 +310,36 @@ header .tagline {
    MOVIE CARDS
    ============================================ */
 main {
-  max-width: 920px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem 4rem;
+  max-width: 920px; margin: 0 auto;
+  padding: 1.5rem 1.5rem 4rem;
 }
 
 .movie-card {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
+  grid-template-columns: 90px 1fr;
+  gap: 1rem;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1.5rem;
-  margin-bottom: 1.5rem;
-  transition: border-color 0.3s ease, transform 0.3s ease;
-  animation: fadeInUp 0.5s ease forwards;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: var(--shadow);
+  animation: fadeInUp 0.4s ease forwards;
   opacity: 0;
 }
-
-.movie-card:hover {
-  border-color: var(--border-light);
-}
+.movie-card:hover { border-color: var(--border-light); box-shadow: var(--shadow-hover); }
 
 @keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(20px); }
+  from { opacity: 0; transform: translateY(16px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
 @media (min-width: 640px) {
   .movie-card {
-    grid-template-columns: 140px 1fr;
-    gap: 1.75rem;
-    padding: 1.75rem;
+    grid-template-columns: 130px 1fr;
+    gap: 1.5rem;
+    padding: 1.25rem;
   }
 }
 
@@ -252,57 +351,65 @@ main {
   overflow: hidden;
   background: var(--bg-elevated);
   position: relative;
+  flex-shrink: 0;
 }
-
 .poster img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+  width: 100%; height: 100%;
+  object-fit: cover; display: block;
 }
-
 .poster-placeholder {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: 1rem;
-  position: relative;
-  overflow: hidden;
+  width: 100%; height: 100%;
+  display: flex; align-items: center; justify-content: center;
+  text-align: center; padding: 0.5rem;
+  position: relative; overflow: hidden;
 }
-
 .poster-placeholder::after {
   content: '';
-  position: absolute;
-  inset: 0;
-  background-image: repeating-linear-gradient(
-    0deg,
-    transparent,
-    transparent 6px,
-    rgba(255,255,255,0.025) 6px,
-    rgba(255,255,255,0.025) 12px
-  );
+  position: absolute; inset: 0;
+  background-image: repeating-linear-gradient(0deg, transparent, transparent 5px, rgba(255,255,255,0.03) 5px, rgba(255,255,255,0.03) 10px);
 }
-
 .poster-placeholder span {
   font-family: 'Fraunces', serif;
-  font-size: 0.85rem;
-  font-weight: 600;
-  line-height: 1.2;
-  color: rgba(255, 255, 255, 0.7);
-  position: relative;
-  z-index: 1;
+  font-size: 0.72rem; font-weight: 600;
+  line-height: 1.15;
+  color: rgba(255,255,255,0.65);
+  position: relative; z-index: 1;
   word-break: break-word;
 }
 
-/* Movie content */
-.movie-content { min-width: 0; }
+/* Card body */
+.card-body { min-width: 0; }
+
+.card-top {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 0.35rem;
+}
+
+.distance-badge {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem; font-weight: 500;
+  padding: 0.12rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+.distance-badge.dist-1 { background: var(--dist-1-bg); color: var(--dist-1-fg); }
+.distance-badge.dist-2 { background: var(--dist-2-bg); color: var(--dist-2-fg); }
+.distance-badge.dist-3 { background: var(--dist-3-bg); color: var(--dist-3-fg); }
+.distance-badge.dist-4 { background: var(--dist-4-bg); color: var(--dist-4-fg); }
+.distance-badge.no-loc { background: var(--bg-elevated); color: var(--text-faint); }
+
+.fav-btn {
+  background: none; border: none; cursor: pointer;
+  font-size: 1.1rem; color: var(--text-faint);
+  transition: all 0.2s ease;
+  padding: 0; line-height: 1;
+}
+.fav-btn:hover { color: var(--red); transform: scale(1.2); }
+.fav-btn.active { color: var(--red); }
 
 .movie-title {
   font-family: 'Fraunces', serif;
-  font-size: clamp(1.3rem, 3.5vw, 1.75rem);
+  font-size: clamp(1.05rem, 3vw, 1.4rem);
   font-weight: 600;
   line-height: 1.15;
   letter-spacing: -0.01em;
@@ -311,127 +418,79 @@ main {
 }
 
 .movie-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem 0.8rem;
-  margin-top: 0.4rem;
-  font-size: 0.78rem;
+  display: flex; flex-wrap: wrap;
+  gap: 0.2rem 0;
+  margin-top: 0.25rem;
+  font-size: 0.73rem;
   color: var(--text-faint);
   font-family: 'JetBrains Mono', monospace;
 }
-
 .movie-meta span { white-space: nowrap; }
-.movie-meta .sep { color: var(--border-light); }
+.movie-meta .sep { margin: 0 0.4rem; color: var(--border-light); }
 
 .movie-desc {
-  margin-top: 0.7rem;
-  font-size: 0.88rem;
+  margin-top: 0.4rem;
+  font-size: 0.82rem;
   color: var(--text-muted);
-  line-height: 1.55;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  cursor: pointer;
 }
+.movie-desc.expanded { -webkit-line-clamp: unset; overflow: visible; }
 
-.movie-genres {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-  margin-top: 0.6rem;
-}
-
-.genre-tag {
-  font-size: 0.68rem;
-  font-family: 'JetBrains Mono', monospace;
-  letter-spacing: 0.03em;
-  padding: 0.15rem 0.5rem;
-  border-radius: 4px;
-  background: var(--bg-elevated);
-  color: var(--text-muted);
-  border: 1px solid var(--border);
-}
-
-/* Cinema sections */
+/* Cinema rows */
 .cinema-list {
-  margin-top: 1.2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  margin-top: 0.7rem;
+  display: flex; flex-direction: column;
+  gap: 0.4rem;
 }
 
-.cinema-section {
-  border-left: 2px solid var(--border);
-  padding-left: 1rem;
-  transition: border-color 0.2s ease;
-}
-
-.cinema-section:hover { border-left-color: var(--accent-dim); }
-
-.cinema-header {
-  display: flex;
-  align-items: center;
+.cinema-row {
+  display: flex; align-items: center;
+  gap: 0.4rem;
   flex-wrap: wrap;
-  gap: 0.4rem 0.6rem;
-  margin-bottom: 0.5rem;
+  padding: 0.25rem 0;
 }
 
-.distance-badge {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: var(--accent);
-  background: var(--accent-glow);
-  padding: 0.15rem 0.55rem;
-  border-radius: 4px;
-  border: 1px solid rgba(232, 176, 75, 0.2);
-}
-
-.distance-badge.no-loc {
-  color: var(--text-faint);
-  background: var(--bg-elevated);
-  border-color: var(--border);
-}
-
-.cinema-name {
-  font-size: 0.88rem;
-  font-weight: 500;
+.cinema-row-name {
+  font-size: 0.76rem; font-weight: 500;
   color: var(--text-secondary);
+  white-space: nowrap;
+  min-width: 75px;
 }
 
-.cinema-link {
-  font-size: 0.75rem;
+.cinema-row-link {
+  font-size: 0.72rem;
   color: var(--text-faint);
   text-decoration: none;
   transition: color 0.2s ease;
-  font-family: 'JetBrains Mono', monospace;
-}
-
-.cinema-link:hover { color: var(--accent); }
-
-/* Showtimes */
-.showtime-groups {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.showtime-group {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-}
-
-.date-label {
-  font-size: 0.72rem;
-  color: var(--text-faint);
-  font-family: 'JetBrains Mono', monospace;
-  width: 80px;
   flex-shrink: 0;
 }
+.cinema-row-link:hover { color: var(--accent); }
 
-.showtime-pill {
+.time-pills {
+  display: flex; gap: 0.25rem; flex-wrap: wrap;
+  align-items: center;
+}
+
+.time-date {
+  font-size: 0.62rem;
+  color: var(--text-faint);
   font-family: 'JetBrains Mono', monospace;
-  font-size: 0.78rem;
-  font-weight: 500;
-  padding: 0.25rem 0.6rem;
+  text-transform: lowercase;
+  margin-right: 0.1rem;
+  margin-left: 0.3rem;
+  opacity: 0.7;
+}
+.time-date:first-child { margin-left: 0; }
+
+.time-pill {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.74rem; font-weight: 500;
+  padding: 0.18rem 0.5rem;
   border-radius: 6px;
   background: var(--bg-elevated);
   color: var(--text);
@@ -441,55 +500,38 @@ main {
   white-space: nowrap;
   cursor: pointer;
 }
-
-.showtime-pill:hover {
+.time-pill:hover {
   background: var(--accent);
-  color: var(--bg);
+  color: #fff;
   border-color: var(--accent);
   transform: translateY(-1px);
 }
-
-.showtime-pill.past {
+.time-pill.past {
   color: var(--text-faint);
   text-decoration: line-through;
+  opacity: 0.4;
   cursor: default;
+}
+.time-pill.past:hover { background: var(--bg-elevated); color: var(--text-faint); border-color: var(--border); transform: none; }
+.time-pill.sold-out {
+  color: var(--red);
+  border-color: color-mix(in srgb, var(--red) 30%, transparent);
   opacity: 0.5;
-}
-
-.showtime-pill.past:hover {
-  background: var(--bg-elevated);
-  color: var(--text-faint);
-  border-color: var(--border);
-  transform: none;
-}
-
-.showtime-pill.sold-out {
-  color: var(--red);
-  border-color: rgba(239, 68, 68, 0.3);
   cursor: default;
-  opacity: 0.6;
 }
-
-.showtime-pill.sold-out:hover {
-  background: var(--bg-elevated);
-  color: var(--red);
-  border-color: rgba(239, 68, 68, 0.3);
-  transform: none;
-}
+.time-pill.sold-out:hover { background: var(--bg-elevated); color: var(--red); border-color: color-mix(in srgb, var(--red) 30%, transparent); transform: none; }
 
 /* ============================================
    NO RESULTS
    ============================================ */
 .no-results {
   text-align: center;
-  padding: 4rem 1.5rem;
+  padding: 3rem 1.5rem;
   color: var(--text-muted);
 }
-
 .no-results p:first-child {
   font-family: 'Fraunces', serif;
-  font-size: 1.3rem;
-  font-style: italic;
+  font-size: 1.2rem; font-style: italic;
   color: var(--text-secondary);
   margin-bottom: 0.5rem;
 }
@@ -498,134 +540,86 @@ main {
    TIFF SECTION
    ============================================ */
 .tiff-section {
-  max-width: 920px;
-  margin: 0 auto;
+  max-width: 920px; margin: 0 auto;
   padding: 0 1.5rem 3rem;
 }
-
 .tiff-section h2 {
   font-family: 'Fraunces', serif;
-  font-size: 1.3rem;
-  font-weight: 400;
-  font-style: italic;
+  font-size: 1.2rem; font-weight: 400; font-style: italic;
   color: var(--text-secondary);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
 }
-
 .tiff-section p {
-  font-size: 0.82rem;
-  color: var(--text-faint);
-  margin-bottom: 1.2rem;
+  font-size: 0.8rem; color: var(--text-faint);
+  margin-bottom: 1rem;
 }
-
 .tiff-films {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 0.6rem;
+  gap: 0.5rem;
 }
-
 .tiff-film {
   display: block;
-  padding: 0.7rem 1rem;
+  padding: 0.6rem 0.9rem;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   text-decoration: none;
   transition: all 0.2s ease;
+  box-shadow: var(--shadow);
 }
-
 .tiff-film:hover {
   border-color: var(--accent-dim);
-  background: var(--surface-hover);
   transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
 }
-
-.tiff-film-title {
-  font-size: 0.88rem;
-  font-weight: 500;
-  color: var(--text);
-  line-height: 1.3;
-}
-
-.tiff-film-meta {
-  font-size: 0.7rem;
-  color: var(--text-faint);
-  font-family: 'JetBrains Mono', monospace;
-  margin-top: 0.2rem;
-}
+.tiff-film-title { font-size: 0.85rem; font-weight: 500; color: var(--text); line-height: 1.3; }
+.tiff-film-meta { font-size: 0.68rem; color: var(--text-faint); font-family: 'JetBrains Mono', monospace; margin-top: 0.15rem; }
 
 /* ============================================
    FOOTER
    ============================================ */
 footer {
-  max-width: 920px;
-  margin: 0 auto;
+  max-width: 920px; margin: 0 auto;
   padding: 2rem 1.5rem 4rem;
   border-top: 1px solid var(--border);
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
-
 .cinemas-list h3 {
   font-family: 'Fraunces', serif;
-  font-size: 1rem;
-  font-weight: 400;
-  font-style: italic;
+  font-size: 1rem; font-weight: 400; font-style: italic;
   color: var(--text-muted);
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
-
 .cinema-links {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.6rem;
 }
-
 .cinema-link-card {
   display: block;
-  padding: 0.8rem 1rem;
+  padding: 0.7rem 0.9rem;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   text-decoration: none;
   transition: all 0.2s ease;
+  box-shadow: var(--shadow);
 }
+.cinema-link-card:hover { border-color: var(--accent-dim); transform: translateY(-1px); }
+.cinema-link-card .name { font-size: 0.85rem; font-weight: 500; color: var(--text); }
+.cinema-link-card .addr { font-size: 0.7rem; color: var(--text-faint); font-family: 'JetBrains Mono', monospace; margin-top: 0.1rem; }
 
-.cinema-link-card:hover {
-  border-color: var(--accent-dim);
-  background: var(--surface-hover);
-}
-
-.cinema-link-card .name {
-  font-size: 0.88rem;
-  font-weight: 500;
-  color: var(--text);
-}
-
-.cinema-link-card .addr {
-  font-size: 0.72rem;
-  color: var(--text-faint);
-  font-family: 'JetBrains Mono', monospace;
-  margin-top: 0.15rem;
-}
-
-.footer-meta {
-  margin-top: 2.5rem;
-  text-align: center;
-}
-
+.footer-meta { margin-top: 2rem; text-align: center; }
 .footer-meta p {
-  font-size: 0.78rem;
-  color: var(--text-faint);
+  font-size: 0.75rem; color: var(--text-faint);
   font-family: 'JetBrains Mono', monospace;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.25rem;
 }
-
 .footer-meta .tag {
-  font-family: 'Fraunces', serif;
-  font-style: italic;
-  font-size: 1.1rem;
-  color: var(--text-muted);
-  margin-top: 0.8rem;
+  font-family: 'Fraunces', serif; font-style: italic;
+  font-size: 1rem; color: var(--text-muted);
+  margin-top: 0.6rem;
 }
 
 /* ============================================
@@ -640,14 +634,16 @@ footer {
    MOBILE
    ============================================ */
 @media (max-width: 639px) {
-  header { padding: 3rem 1.5rem 2rem; }
-  .poster { max-width: 120px; margin: 0 auto; }
-  .movie-card { text-align: center; }
-  .cinema-section { border-left: none; border-top: 2px solid var(--border); padding-left: 0; padding-top: 0.8rem; }
-  .cinema-header { justify-content: center; }
-  .showtime-group { justify-content: center; }
-  .date-label { width: auto; }
-  .filter-row { justify-content: center; }
+  header { padding: 3rem 1rem 1.5rem; }
+  .theme-toggle { top: 1rem; right: 1rem; width: 36px; height: 36px; font-size: 1.1rem; }
+  .movie-card { grid-template-columns: 72px 1fr; gap: 0.7rem; padding: 0.7rem; }
+  .poster-placeholder span { font-size: 0.6rem; }
+  .cinema-row-name { min-width: 60px; font-size: 0.72rem; }
+  .filter-row { gap: 0.3rem; }
+  .filter-row-main { flex-direction: column; align-items: flex-start; gap: 0.3rem; }
+  .filter-group-right { margin-left: 0; flex-wrap: wrap; }
+  .search-input { width: 120px; }
+  .search-input:focus { width: 140px; }
   .result-count { width: 100%; text-align: center; margin-left: 0; }
 }
 </style>
@@ -656,28 +652,40 @@ footer {
 <div class="grain"></div>
 
 <header>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+    <span class="moon">&#9790;</span>
+    <span class="sun">&#9728;</span>
+  </button>
   <h1>what's playing near you</h1>
-  <p class="subtitle">independent cinema, sorted by distance</p>
+  <p class="subtitle">independent cinema in Toronto, sorted by distance</p>
   <span class="tagline">good movies, close by</span>
 </header>
 
 <div class="filters">
   <div class="filters-inner">
-    <div class="filter-row">
-      <button class="tab" data-date="today">today</button>
-      <button class="tab" data-date="tomorrow">tomorrow</button>
-      <button class="tab active" data-date="week">this week</button>
-      <span class="result-count" id="resultCount"></span>
+    <div class="filter-row filter-row-main">
+      <div class="filter-group">
+        <button class="tab" data-date="today">today</button>
+        <button class="tab" data-date="tomorrow">tomorrow</button>
+        <button class="tab active" data-date="week">this week</button>
+      </div>
+      <div class="filter-group filter-group-right">
+        <button class="sort-btn active" data-sort="distance">nearest first</button>
+        <button class="sort-btn" data-sort="title">title A-Z</button>
+        <button class="sort-btn" data-sort="favorites">&#9829;</button>
+        <label class="checkbox-label"><input type="checkbox" id="onlyAvailable"> only available</label>
+        <input type="search" class="search-input" placeholder="search films..." id="searchInput">
+      </div>
     </div>
     <div class="filter-row">
-      <button class="sort-btn active" data-sort="distance">nearest first</button>
-      <button class="sort-btn" data-sort="title">title A-Z</button>
-      <input type="search" class="search-input" placeholder="search films..." id="searchInput">
       <div class="location-status">
         <span class="location-dot" id="locDot"></span>
         <span id="locText">finding your location...</span>
       </div>
+      <span class="result-count" id="resultCount"></span>
     </div>
+    <div class="filter-row genre-filters" id="genreFilters"></div>
+    <div class="filter-row cinema-filters" id="cinemaFilters"></div>
   </div>
 </div>
 
@@ -695,8 +703,8 @@ footer {
     <div class="cinema-links" id="cinemaLinks"></div>
   </div>
   <div class="footer-meta">
-    <p>data updated: <span id="last-updated">july 15, 2026</span></p>
-    <p>showtimes are manually curated — always check cinema websites before heading out</p>
+    <p>data updated: <span id="last-updated">loading...</span></p>
+    <p>showtimes are automatically crawled — always check cinema websites before heading out</p>
     <p class="tag">good movies, close by.</p>
   </div>
 </footer>
@@ -728,577 +736,6 @@ async function loadData() {
   }
 }
 
-/* OLD INLINE DATA (commented out — now loaded from data/showtimes.json)
-const CINEMAS = {
-  fox: {
-    name: "Fox Theatre",
-    address: "2236 Queen St E",
-    lat: 43.6674, lng: -79.3198,
-    website: "https://www.foxtheatre.ca",
-    showtimesUrl: "https://www.foxtheatre.ca/whats-on/now-showing/"
-  },
-  revue: {
-    name: "Revue Cinema",
-    address: "400 Roncesvalles Ave",
-    lat: 43.6485, lng: -79.4534,
-    website: "https://revuecinema.ca",
-    showtimesUrl: "https://revuecinema.ca/films/"
-  },
-  paradise: {
-    name: "Paradise Theatre",
-    address: "1006c Bloor St W",
-    lat: 43.6560, lng: -79.3410,
-    website: "https://paradiseonbloor.com",
-    showtimesUrl: "https://paradiseonbloor.com/home"
-  },
-  hotdocs: {
-    name: "Hot Docs Cinema",
-    address: "506 Bloor St W",
-    lat: 43.6650, lng: -79.4095,
-    website: "https://hotdocs.ca",
-    showtimesUrl: "https://boxoffice.hotdocs.ca/websales/pages/list.aspx?cp242=KenticoInclude&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-  },
-  carlton: {
-    name: "Imagine Cinemas Carlton",
-    address: "20 Carlton St",
-    lat: 43.6574, lng: -79.3795,
-    website: "https://imaginecinemas.com",
-    showtimesUrl: "https://imaginecinemas.com/cinema/carlton/"
-  },
-  tiff: {
-    name: "TIFF Lightbox",
-    address: "350 King St W",
-    lat: 43.6466, lng: -79.3907,
-    website: "https://www.tiff.net",
-    showtimesUrl: "https://www.tiff.net/films/"
-  }
-};
-
-// ============================================
-// MOVIE DATA
-// To update: add or edit entries below.
-// Showtime format: { c: cinemaId, dt: "YYYY-MM-DD", tm: "HH:MM", id: bookingEventId, soldOut: true/false, url: customUrl }
-// ============================================
-const MOVIES = [
-  {
-    title: "The Invite",
-    description: "Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbours for a dinner party, the night spirals into unexpected places.",
-    poster: "https://aka.doubaocdn.com/s/vMjr1wmMbz",
-    director: "Olivia Wilde",
-    year: 2026, runtime: "108 min", rating: "14A",
-    genres: ["Comedy", "Drama"],
-    showtimes: [
-      { c: "fox", dt: "2026-07-15", tm: "15:30", id: "631395" },
-      { c: "fox", dt: "2026-07-15", tm: "21:00", id: "631396" },
-      { c: "fox", dt: "2026-07-16", tm: "18:45", id: "631397" },
-      { c: "fox", dt: "2026-07-17", tm: "15:40", id: "636915" },
-      { c: "fox", dt: "2026-07-17", tm: "18:20", id: "636916" },
-      { c: "fox", dt: "2026-07-18", tm: "16:00", id: "636917" },
-      { c: "fox", dt: "2026-07-18", tm: "18:40", id: "636918" },
-      { c: "fox", dt: "2026-07-19", tm: "12:45", id: "636919" },
-      { c: "fox", dt: "2026-07-19", tm: "18:20", id: "636920" },
-      { c: "fox", dt: "2026-07-20", tm: "18:30", id: "636921" },
-      { c: "fox", dt: "2026-07-21", tm: "15:50", id: "636922" },
-      { c: "fox", dt: "2026-07-21", tm: "21:20", id: "640588" },
-      { c: "fox", dt: "2026-07-22", tm: "15:50", id: "636923" },
-      { c: "fox", dt: "2026-07-22", tm: "18:30", id: "636924" },
-      { c: "revue", dt: "2026-07-17", tm: "16:00", id: "1005964" },
-      { c: "revue", dt: "2026-07-18", tm: "13:00", id: "1005964" },
-      { c: "revue", dt: "2026-07-19", tm: "16:00", id: "1005964" },
-      { c: "revue", dt: "2026-07-20", tm: "18:45", id: "1005964" },
-      { c: "revue", dt: "2026-07-21", tm: "18:45", id: "1005964" },
-      { c: "revue", dt: "2026-07-22", tm: "16:00", id: "1005964" }
-    ]
-  },
-  {
-    title: "Rose of Nevada",
-    description: "A mysterious boat returns to a village 30 years after vanishing. Two men join its crew hoping for better fortune, only to find themselves transported back in time, mistaken for the original crew.",
-    poster: null,
-    year: 2026, runtime: "114 min",
-    genres: ["Drama", "Mystery", "Sci-Fi"],
-    showtimes: [
-      { c: "fox", dt: "2026-07-17", tm: "21:00", id: "635614" },
-      { c: "fox", dt: "2026-07-19", tm: "21:00", id: "635615" },
-      { c: "fox", dt: "2026-07-20", tm: "21:15", id: "635616" },
-      { c: "paradise", dt: "2026-07-18", tm: "17:30", id: "580424" },
-      { c: "paradise", dt: "2026-07-21", tm: "18:00", id: "580428" }
-    ]
-  },
-  {
-    title: "Le Chant des forets (Whispers in the Woods)",
-    description: "After 'La Panthere des neiges', Vincent Munier invites us into the heart of the Vosges forests where he learned everything from his father Michel.",
-    poster: null,
-    genres: ["Documentary"],
-    showtimes: [
-      { c: "fox", dt: "2026-07-15", tm: "18:30", url: "https://www.foxtheatre.ca/movies/le-chant-des-forets-whispers-in-the-woods/#section-buy-tickets" },
-      { c: "fox", dt: "2026-07-16", tm: "16:15", url: "https://www.foxtheatre.ca/movies/le-chant-des-forets-whispers-in-the-woods/#section-buy-tickets" }
-    ]
-  },
-  {
-    title: "Gummo",
-    description: "Teen friends Tummler and Solomon navigate the ruins of a tiny, tornado-ravaged town in Ohio populated by the deformed, disturbed and perverted.",
-    poster: null,
-    director: "Harmony Korine",
-    year: 1997,
-    genres: ["Comedy", "Drama"],
-    showtimes: [
-      { c: "fox", dt: "2026-07-16", tm: "21:20", url: "https://www.foxtheatre.ca/movies/gummo/#section-buy-tickets" }
-    ]
-  },
-  {
-    title: "Se7en (Restoration)",
-    description: "Two cops track a brilliant and elusive killer who orchestrates a string of horrific murders, each kill targeting a practitioner of one of the Seven Deadly Sins.",
-    poster: null,
-    director: "David Fincher",
-    year: 1995, runtime: "127 min", rating: "14A",
-    genres: ["Crime", "Mystery", "Thriller"],
-    showtimes: [
-      { c: "fox", dt: "2026-07-18", tm: "21:30", id: "634915" },
-      { c: "fox", dt: "2026-07-22", tm: "21:15", id: "634916" }
-    ]
-  },
-  {
-    title: "Mishima: A Life in Four Chapters",
-    description: "Paul Schrader's visually stunning, collagelike portrait of acclaimed Japanese author and playwright Yukio Mishima. With cinematography by John Bailey and score by Philip Glass.",
-    poster: null,
-    director: "Paul Schrader",
-    year: 1985, runtime: "121 min",
-    genres: ["Drama"],
-    showtimes: [
-      { c: "fox", dt: "2026-07-19", tm: "15:30", id: "637858" },
-      { c: "fox", dt: "2026-07-21", tm: "18:30", id: "637859" }
-    ]
-  },
-  {
-    title: "Sick Puppy",
-    description: "When Charlie's serial killer husband decides to finally quit for her, she's thrilled, but soon finds herself committing violent acts to protect the man she loves, even from himself. Cast & crew in attendance.",
-    poster: "https://aka.doubaocdn.com/s/aaOM1wmMRm",
-    director: "Jay Reid",
-    year: 2025, runtime: "105 min",
-    genres: ["Horror"],
-    showtimes: [
-      { c: "revue", dt: "2026-07-15", tm: "18:30", id: "1017102" }
-    ]
-  },
-  {
-    title: "American Nightmare (1983)",
-    description: "A latex-gloved killer scouring the streets of Toronto circa 1983, slashing women and anyone who gets in his way. Presented on rare 16mm print. Director in attendance.",
-    poster: "https://aka.doubaocdn.com/s/K1km1wmMRm",
-    year: 1983, runtime: "88 min",
-    genres: ["Crime", "Horror", "Thriller"],
-    showtimes: [
-      { c: "revue", dt: "2026-07-15", tm: "21:30", id: "1014380" }
-    ]
-  },
-  {
-    title: "Eve's Bayou (1997)",
-    description: "Kasi Lemmons' visionary masterpiece. Set in 1960s Louisiana, follows a 10-year-old girl who witnesses her father's infidelity, unlocking clairvoyance.",
-    poster: null,
-    director: "Kasi Lemmons",
-    year: 1997, runtime: "108 min", rating: "R",
-    genres: ["Drama"],
-    showtimes: [
-      { c: "revue", dt: "2026-07-16", tm: "18:30", id: "1012645" }
-    ]
-  },
-  {
-    title: "Butthole Surfers: The Hole Truth and Nothing Butt",
-    description: "Toronto Theatrical Premiere of the Butthole Surfers documentary. Part of the Stompbox series.",
-    poster: null,
-    genres: ["Documentary", "Music"],
-    showtimes: [
-      { c: "revue", dt: "2026-07-16", tm: "21:30", url: "https://revuecinema.ca/films/stompbox-butthole-surfers-the-hole-truth-and-nothing-butt-toronto-theatrical-premiere/" }
-    ]
-  },
-  {
-    title: "We're All Going to the World's Fair (2022)",
-    description: "Reality and fantasy begin to blur when a teenager immerses herself in a role-playing horror game online. Part of The Summer of Schoenbrun.",
-    poster: null,
-    director: "Jane Schoenbrun",
-    year: 2022, runtime: "86 min",
-    genres: ["Drama", "Horror"],
-    showtimes: [
-      { c: "revue", dt: "2026-07-17", tm: "19:00", id: "1014429" }
-    ]
-  },
-  {
-    title: "I Saw the TV Glow (2024)",
-    description: "In late-90s suburbia, a lonely teenager meets a girl who introduces him to a mysterious late-night TV show. Part of The Summer of Schoenbrun.",
-    poster: null,
-    director: "Jane Schoenbrun",
-    year: 2024, rating: "PG-13", runtime: "100 min",
-    genres: ["Drama", "Horror"],
-    showtimes: [
-      { c: "revue", dt: "2026-07-17", tm: "21:30", id: "1014431" }
-    ]
-  },
-  {
-    title: "Wallace & Gromit: The Curse of the Were-Rabbit (2005)",
-    description: "Wallace and Gromit protect townspeople's gardens from a giant were-rabbit. Throwback Cinema presentation.",
-    poster: "https://aka.doubaocdn.com/s/0JQy1wmMQk",
-    director: "Nick Park",
-    year: 2005, rating: "G", runtime: "85 min",
-    genres: ["Animation", "Comedy", "Family"],
-    showtimes: [
-      { c: "revue", dt: "2026-07-18", tm: "16:00", id: "1016376" }
-    ]
-  },
-  {
-    title: "Obsession",
-    description: "A Revue Cinema presentation.",
-    poster: null,
-    showtimes: [
-      { c: "revue", dt: "2026-07-18", tm: "18:45", url: "https://revuecinema.ca/films/obsession/" },
-      { c: "revue", dt: "2026-07-19", tm: "13:00", url: "https://revuecinema.ca/films/obsession/" },
-      { c: "revue", dt: "2026-07-20", tm: "21:30", url: "https://revuecinema.ca/films/obsession/" },
-      { c: "revue", dt: "2026-07-21", tm: "21:30", url: "https://revuecinema.ca/films/obsession/" }
-    ]
-  },
-  {
-    title: "Miami Connection",
-    description: "Black Belt Cinema presents Miami Connection, featuring a live performance by Dragon Sounds!",
-    poster: null,
-    year: 1987,
-    genres: ["Action", "Music"],
-    showtimes: [
-      { c: "revue", dt: "2026-07-18", tm: "21:30", url: "https://revuecinema.ca/films/black-belt-cinema-miami-connection-featuring-a-live-performance-by-dragon-sounds/" }
-    ]
-  },
-  {
-    title: "Kingdom of Heaven — Director's Cut",
-    description: "Don't Be So Political series presents Ridley Scott's epic Director's Cut.",
-    poster: null,
-    director: "Ridley Scott",
-    year: 2005,
-    genres: ["Drama", "War"],
-    showtimes: [
-      { c: "revue", dt: "2026-07-19", tm: "19:00", url: "https://revuecinema.ca/films/dont-be-so-political-kingdom-of-heaven-directors-cut/" }
-    ]
-  },
-  {
-    title: "Jamon Jamon (1992)",
-    description: "Heat Wave series presents Jamon Jamon, introduced by Alicia Fletcher.",
-    poster: null,
-    year: 1992,
-    genres: ["Comedy", "Drama", "Romance"],
-    showtimes: [
-      { c: "revue", dt: "2026-07-22", tm: "19:00", url: "https://revuecinema.ca/films/heat-wave-jamon-jamon-1992-introduced-by-alicia-fletcher/" }
-    ]
-  },
-  {
-    title: "Run Lola Run (1998)",
-    description: "Psych-Out Cinema presents Run Lola Run, new restoration!",
-    poster: null,
-    year: 1998,
-    genres: ["Action", "Thriller"],
-    showtimes: [
-      { c: "revue", dt: "2026-07-22", tm: "21:30", url: "https://revuecinema.ca/films/psych-out-cinema-run-lola-run-1998-new-restoration/" }
-    ]
-  },
-  {
-    title: "Tracy and Martina: Goin' Out West",
-    description: "New Releases & Restorations series at Paradise Theatre.",
-    poster: null,
-    showtimes: [
-      { c: "paradise", dt: "2026-07-15", tm: "18:00", id: "587938" }
-    ]
-  },
-  {
-    title: "Toronto Apartment",
-    description: "Bleeding Edge series at Paradise Theatre.",
-    poster: null,
-    showtimes: [
-      { c: "paradise", dt: "2026-07-15", tm: "20:30", soldOut: true }
-    ]
-  },
-  {
-    title: "Rez Ball",
-    description: "Play fast. Shoot fast. Take your shot. Inside Out Film Festival presentation.",
-    poster: null,
-    showtimes: [
-      { c: "paradise", dt: "2026-07-16", tm: "19:00", url: "https://insideoutrunitback.eventive.org/schedule/6a2adf3d180f4b355a526790" }
-    ]
-  },
-  {
-    title: "Thelma & Louise",
-    description: "Somebody said get a life... so they did. Great Scott series: 3 by Ridley, 3 by Tony.",
-    poster: null,
-    director: "Ridley Scott",
-    year: 1991,
-    genres: ["Adventure", "Crime", "Drama"],
-    showtimes: [
-      { c: "paradise", dt: "2026-07-17", tm: "18:00", id: "568299" }
-    ]
-  },
-  {
-    title: "Dark Star",
-    description: "Bombed out in space with a spaced out bomb! Odysseys and Oddities: 20th Century Space Travel.",
-    poster: null,
-    director: "John Carpenter",
-    year: 1974,
-    genres: ["Sci-Fi", "Comedy"],
-    showtimes: [
-      { c: "paradise", dt: "2026-07-17", tm: "21:00", id: "571260" }
-    ]
-  },
-  {
-    title: "WALL-E",
-    description: "After 700 years of doing what he was built for, he'll discover what he was meant for. Family Fare series.",
-    poster: null,
-    director: "Andrew Stanton",
-    year: 2008,
-    genres: ["Animation", "Sci-Fi", "Family"],
-    showtimes: [
-      { c: "paradise", dt: "2026-07-18", tm: "14:30", id: "583459" }
-    ]
-  },
-  {
-    title: "True Romance",
-    description: "Stealing. Cheating. Killing. Who says romance is dead? Great Scott series.",
-    poster: null,
-    director: "Tony Scott",
-    year: 1993,
-    genres: ["Crime", "Romance", "Thriller"],
-    showtimes: [
-      { c: "paradise", dt: "2026-07-18", tm: "20:30", id: "568304" }
-    ]
-  },
-  {
-    title: "The Right Stuff",
-    description: "How the future began. Odysseys and Oddities: 20th Century Space Travel.",
-    poster: null,
-    year: 1983,
-    genres: ["Drama", "History"],
-    showtimes: [
-      { c: "paradise", dt: "2026-07-19", tm: "14:00", id: "569099" }
-    ]
-  },
-  {
-    title: "A Litany for Survival: The Life and Work of Audre Lorde",
-    description: "Black Gold series: Black Life on Screen.",
-    poster: null,
-    showtimes: [
-      { c: "paradise", dt: "2026-07-19", tm: "18:00", id: "580698" }
-    ]
-  },
-  {
-    title: "I Want Your Sex",
-    description: "Canadian Premiere! Queer Cinema Club series at Paradise Theatre.",
-    poster: null,
-    showtimes: [
-      { c: "paradise", dt: "2026-07-20", tm: "19:00", soldOut: true }
-    ]
-  },
-  {
-    title: "Hustler White: 30th Anniversary",
-    description: "Desire in Motion / Sleaze Factory series at Paradise Theatre.",
-    poster: null,
-    showtimes: [
-      { c: "paradise", dt: "2026-07-21", tm: "20:30", id: "555830" }
-    ]
-  },
-  {
-    title: "Chocolate Babies",
-    description: "Terror was never tastier. Queer Cinema Club series at Paradise Theatre.",
-    poster: null,
-    showtimes: [
-      { c: "paradise", dt: "2026-07-22", tm: "19:30", id: "555739" }
-    ]
-  },
-  {
-    title: "Maddie's Secret",
-    description: "Maddie is a plucky dishwasher who leaps to viral superstardom at a trendy food content creation company. While her life seems picturesque, mounting professional pressures threaten to reawaken a hidden secret from her troubled past.",
-    poster: null,
-    year: 2026, runtime: "101 min", rating: "14A",
-    genres: ["Comedy"],
-    showtimes: [
-      { c: "carlton", dt: "2026-07-15", tm: "12:45" },
-      { c: "carlton", dt: "2026-07-15", tm: "15:35" },
-      { c: "carlton", dt: "2026-07-15", tm: "21:40" }
-    ]
-  },
-  {
-    title: "Girls Like Girls",
-    description: "Coley, 17, from rural Oregon, navigates intimacy after her mother's passing. Meeting Sonya sparks new feelings, but self-doubt hinders their connection.",
-    poster: null,
-    year: 2026, runtime: "96 min", rating: "PG",
-    genres: ["Romance", "Drama"],
-    showtimes: [
-      { c: "carlton", dt: "2026-07-15", tm: "13:05" },
-      { c: "carlton", dt: "2026-07-15", tm: "16:05" },
-      { c: "carlton", dt: "2026-07-15", tm: "21:50" }
-    ]
-  },
-  {
-    title: "Evil Dead Burn",
-    description: "After the loss of her husband, a woman seeks solace with her in-laws. As one by one they transform into deadites, she discovers that the vows she took in life survive even in death.",
-    poster: null,
-    year: 2026, runtime: "110 min", rating: "18A",
-    genres: ["Horror"],
-    showtimes: [
-      { c: "carlton", dt: "2026-07-15", tm: "12:55" },
-      { c: "carlton", dt: "2026-07-15", tm: "15:55" },
-      { c: "carlton", dt: "2026-07-15", tm: "18:55" },
-      { c: "carlton", dt: "2026-07-15", tm: "21:30" }
-    ]
-  },
-  {
-    title: "Wisteria",
-    description: "Now playing at Imagine Cinemas Carlton.",
-    poster: null,
-    showtimes: [
-      { c: "carlton", dt: "2026-07-15", tm: "18:30" }
-    ]
-  },
-  {
-    title: "Leviticus",
-    description: "Two teenage boys must escape a violent entity that takes the form of the person they desire most — each other.",
-    poster: null,
-    year: 2026, runtime: "88 min", rating: "14A",
-    genres: ["Horror"],
-    showtimes: [
-      { c: "carlton", dt: "2026-07-15", tm: "12:50" },
-      { c: "carlton", dt: "2026-07-15", tm: "15:45" },
-      { c: "carlton", dt: "2026-07-15", tm: "18:50" },
-      { c: "carlton", dt: "2026-07-15", tm: "21:35" }
-    ]
-  },
-  {
-    title: "Inglourious Basterds (2009)",
-    description: "Quentin Tarantino's WWII epic. Now playing at Imagine Cinemas Carlton.",
-    poster: null,
-    director: "Quentin Tarantino",
-    year: 2009,
-    genres: ["Drama", "War"],
-    showtimes: [
-      { c: "carlton", dt: "2026-07-15", tm: "12:35" },
-      { c: "carlton", dt: "2026-07-15", tm: "15:50" },
-      { c: "carlton", dt: "2026-07-15", tm: "19:05" }
-    ]
-  },
-  {
-    title: "Interstellar (2014)",
-    description: "Christopher Nolan's space epic. Now playing at Imagine Cinemas Carlton.",
-    poster: null,
-    director: "Christopher Nolan",
-    year: 2014,
-    genres: ["Sci-Fi", "Drama"],
-    showtimes: [
-      { c: "carlton", dt: "2026-07-15", tm: "12:30" },
-      { c: "carlton", dt: "2026-07-15", tm: "15:30" },
-      { c: "carlton", dt: "2026-07-15", tm: "18:30" }
-    ]
-  },
-  {
-    title: "Before Midnight (2013)",
-    description: "Richard Linklater's third film in the Before trilogy. Now playing at Imagine Cinemas Carlton.",
-    poster: null,
-    director: "Richard Linklater",
-    year: 2013,
-    genres: ["Romance", "Drama"],
-    showtimes: [
-      { c: "carlton", dt: "2026-07-15", tm: "13:00" },
-      { c: "carlton", dt: "2026-07-15", tm: "16:00" },
-      { c: "carlton", dt: "2026-07-15", tm: "19:00" },
-      { c: "carlton", dt: "2026-07-15", tm: "21:40" }
-    ]
-  },
-  {
-    title: "Stop! That! Train!",
-    description: "Now playing at Imagine Cinemas Carlton.",
-    poster: null,
-    showtimes: [
-      { c: "carlton", dt: "2026-07-15", tm: "13:10" },
-      { c: "carlton", dt: "2026-07-15", tm: "16:10" },
-      { c: "carlton", dt: "2026-07-15", tm: "19:10" },
-      { c: "carlton", dt: "2026-07-15", tm: "21:45" }
-    ]
-  },
-  {
-    title: "Backrooms: Everything Must Go Edition",
-    description: "Extended Version with 15 minutes of Bonus Footage. A strange doorway appears in the basement of a furniture showroom.",
-    poster: null,
-    year: 2026, runtime: "120 min", rating: "14A",
-    genres: ["Horror"],
-    showtimes: [
-      { c: "carlton", dt: "2026-07-15", tm: "12:40" },
-      { c: "carlton", dt: "2026-07-15", tm: "15:40" },
-      { c: "carlton", dt: "2026-07-15", tm: "18:40" },
-      { c: "carlton", dt: "2026-07-15", tm: "21:30" }
-    ]
-  },
-  {
-    title: "Better Go Mad in the Wild",
-    description: "A talking cow narrates the lives of twin brothers living alone on a remote Czech farm in this surreal, cinematic and darkly funny film.",
-    poster: "https://prod5.agileticketing.net/images/user/BC_2338/BETTER%20GO%20MAD2_thumb.jpg",
-    genres: ["Drama"],
-    showtimes: [
-      { c: "hotdocs", dt: "2026-07-17", tm: "19:00" }
-    ]
-  },
-  {
-    title: "Ask E. Jean",
-    description: "The thrilling life of beloved advice columnist and journalist E. Jean Carroll, the only woman to beat Trump in court. Twice.",
-    poster: "https://prod5.agileticketing.net/images/user/BC_2338/ASK%20E%20JEAN1_thumb.jpg",
-    genres: ["Documentary"],
-    showtimes: [
-      { c: "hotdocs", dt: "2026-07-18", tm: "16:15" }
-    ]
-  },
-  {
-    title: "The Decline of Western Civilization — 45th Anniversary",
-    description: "A riveting, unflinching account of the punk rock phenomenon and its alienated, reactionary subculture. Jukedocs series.",
-    poster: "https://prod5.agileticketing.net/images/user/BC_2338/DECLINE%20OF%20THE%20WESTERN%20CIVILIZATION_collage_thumb.jpg",
-    year: 1981,
-    genres: ["Documentary", "Music"],
-    showtimes: [
-      { c: "hotdocs", dt: "2026-07-18", tm: "19:00" }
-    ]
-  },
-  {
-    title: "An American in Paris — 75th Anniversary",
-    description: "Travel back in time with this special anniversary screening of a true Hollywood classic. Midtown Matinees series.",
-    poster: "https://prod5.agileticketing.net/images/user/BC_2338/AMERICAN%20IN%20PARIS1_thumb.jpg",
-    year: 1951,
-    genres: ["Classic", "Musical"],
-    showtimes: [
-      { c: "hotdocs", dt: "2026-07-19", tm: "16:00" }
-    ]
-  },
-  {
-    title: "Sherman's March — 4K Restoration",
-    description: "In this wryly hilarious road movie, director Ross McElwee sets out to make a travelogue about a famous Civil War campaign, but his historical jaunt morphs into a revealing and deeply personal search for love. Must-See Docs series.",
-    poster: "https://prod5.agileticketing.net/images/user/BC_2338/SHERMANS%20MARCH7_v5_thumb.jpg",
-    director: "Ross McElwee",
-    year: 1986,
-    genres: ["Documentary"],
-    showtimes: [
-      { c: "hotdocs", dt: "2026-07-19", tm: "19:00" }
-    ]
-  }
-];
-
-// ============================================
-// TIFF FILMS (no specific showtimes — link to tiff.net)
-// ============================================
-const TIFF_FILMS = [
-  { title: "Couture", director: "Alice Winocour", note: "Angelina Jolie stars. Parisian fashion industry drama." },
-  { title: "Gail Daughtry and the Celebrity Sex Pass", note: "Guest attending" },
-  { title: "Drunken Noodles", note: "Now playing" },
-  { title: "Lenin", note: "Now playing" },
-  { title: "Romeria", note: "Now playing" },
-  { title: "Steal Away", note: "Now playing" },
-  { title: "Barrio Triste", note: "Now playing" },
-  { title: "Remake", note: "Now playing" },
-  { title: "Tenet (70mm)", director: "Christopher Nolan", note: "70mm presentation" },
-  { title: "Redline", note: "Now playing" },
-  { title: "Oppenheimer (70mm)", director: "Christopher Nolan", note: "70mm presentation" },
-  { title: "Memento", director: "Christopher Nolan", note: "Now playing" }
-];
-
-// end of old inline data — now loaded from data/showtimes.json
-*/
-
 // ============================================
 // STATE
 // ============================================
@@ -1309,17 +746,38 @@ const state = {
   userLat: null,
   userLng: null,
   distances: null,
-  locationStatus: 'pending' // 'pending', 'located', 'error'
+  locationStatus: 'pending',
+  selectedGenres: new Set(),
+  selectedCinemas: new Set(),
+  onlyAvailable: false,
+  favorites: new Set(JSON.parse(localStorage.getItem('cinema-favorites') || '[]'))
 };
 
-// Default location: downtown Toronto (Yonge-Dundas area)
 const DEFAULT_LAT = 43.6532;
 const DEFAULT_LNG = -79.3832;
 
 // ============================================
+// THEME
+// ============================================
+function initTheme() {
+  const saved = localStorage.getItem('cinema-theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+  } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+}
+
+document.getElementById('themeToggle').addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme');
+  const next = current === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('cinema-theme', next);
+});
+
+// ============================================
 // UTILITY FUNCTIONS
 // ============================================
-
 function getTorontoToday() {
   return new Date().toLocaleDateString('en-CA', { timeZone: 'America/Toronto' });
 }
@@ -1331,7 +789,6 @@ function addDays(dateStr, days) {
 }
 
 function getTorontoNow() {
-  // Get current time in Toronto timezone
   const now = new Date();
   const torontoStr = now.toLocaleString('en-US', { timeZone: 'America/Toronto' });
   return new Date(torontoStr);
@@ -1339,12 +796,11 @@ function getTorontoNow() {
 
 function isPastShowtime(dateStr, timeStr) {
   const showtime = new Date(dateStr + 'T' + timeStr + ':00-04:00');
-  const now = new Date();
-  return showtime < now;
+  return showtime < new Date();
 }
 
 function haversine(lat1, lng1, lat2, lng2) {
-  const R = 6371; // Earth radius in km
+  const R = 6371;
   const dLat = (lat2 - lat1) * Math.PI / 180;
   const dLng = (lng2 - lng1) * Math.PI / 180;
   const a = Math.sin(dLat / 2) ** 2 +
@@ -1354,8 +810,15 @@ function haversine(lat1, lng1, lat2, lng2) {
 }
 
 function formatDistance(km) {
-  if (km < 1) return Math.round(km * 1000) + ' m';
-  return km.toFixed(1) + ' km';
+  if (km < 1) return Math.round(km * 1000) + 'm';
+  return km.toFixed(1) + 'km';
+}
+
+function getDistanceClass(km) {
+  if (km < 1) return 'dist-1';
+  if (km < 2) return 'dist-2';
+  if (km < 3) return 'dist-3';
+  return 'dist-4';
 }
 
 function formatTime(timeStr) {
@@ -1373,6 +836,15 @@ function formatDateLabel(dateStr) {
   if (dateStr === tomorrow) return 'Tomorrow';
   const d = new Date(dateStr + 'T12:00:00');
   return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+}
+
+function formatDateShort(dateStr) {
+  const today = getTorontoToday();
+  const tomorrow = addDays(today, 1);
+  if (dateStr === today) return 'Today';
+  if (dateStr === tomorrow) return 'Tmrw';
+  const d = new Date(dateStr + 'T12:00:00');
+  return d.toLocaleDateString('en-US', { weekday: 'short' }).toLowerCase();
 }
 
 function hashString(str) {
@@ -1405,7 +877,6 @@ function getBookingUrl(cinemaId, showtime) {
         return CINEMAS[cinemaId].showtimesUrl;
     }
   }
-  // For cinemas without event IDs, link to the cinema's showtimes page
   if (cinemaId === 'carlton') {
     return `https://imaginecinemas.com/cinema/carlton/?date=${showtime.dt}`;
   }
@@ -1424,32 +895,53 @@ function calculateDistances(lat, lng) {
 }
 
 // ============================================
-// RENDERING
+// GEOLOCATION
 // ============================================
-
-function getMovieMinDistance(movie, distances) {
-  if (!distances) return Infinity;
-  const cinemaIds = [...new Set(movie.showtimes.map(s => s.c))];
-  let minDist = Infinity;
-  for (const cid of cinemaIds) {
-    if (distances[cid] !== undefined) {
-      minDist = Math.min(minDist, distances[cid]);
-    }
+function initGeolocation() {
+  if (!navigator.geolocation) {
+    state.locationStatus = 'error';
+    updateLocationUI();
+    return;
   }
-  return minDist;
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      state.userLat = pos.coords.latitude;
+      state.userLng = pos.coords.longitude;
+      state.distances = calculateDistances(state.userLat, state.userLng);
+      state.locationStatus = 'located';
+      updateLocationUI();
+      renderMovies();
+    },
+    (err) => {
+      state.distances = calculateDistances(DEFAULT_LAT, DEFAULT_LNG);
+      state.locationStatus = 'error';
+      updateLocationUI();
+      renderMovies();
+    },
+    { timeout: 10000, enableHighAccuracy: false }
+  );
 }
 
-function getEarliestShowtimeDate(movie) {
-  const dates = movie.showtimes.map(s => s.dt).sort();
-  return dates[0];
+function updateLocationUI() {
+  const dot = document.getElementById('locDot');
+  const text = document.getElementById('locText');
+  if (state.locationStatus === 'located') {
+    dot.classList.add('located');
+    text.textContent = 'using your location';
+  } else if (state.locationStatus === 'error') {
+    dot.classList.add('error');
+    text.textContent = 'downtown Toronto (default)';
+  }
 }
 
+// ============================================
+// FILTER & SORT
+// ============================================
 function filterAndSortMovies() {
   const today = getTorontoToday();
   const tomorrow = addDays(today, 1);
 
   let filtered = MOVIES.map(movie => {
-    // Filter showtimes by date
     let visibleShowtimes = movie.showtimes.filter(st => {
       if (state.dateFilter === 'today') return st.dt === today;
       if (state.dateFilter === 'tomorrow') return st.dt === tomorrow;
@@ -1462,40 +954,74 @@ function filterAndSortMovies() {
       visibleShowtimes = visibleShowtimes.filter(st => !isPastShowtime(st.dt, st.tm));
     }
 
+    // "Only available" filter
+    if (state.onlyAvailable) {
+      visibleShowtimes = visibleShowtimes.filter(st => !st.soldOut && !isPastShowtime(st.dt, st.tm));
+    }
+
     return { ...movie, showtimes: visibleShowtimes };
   });
 
-  // Filter out movies with no showtimes
   filtered = filtered.filter(m => m.showtimes.length > 0);
 
-  // Apply search
+  // Search filter
   if (state.searchQuery) {
     const q = state.searchQuery.toLowerCase();
     filtered = filtered.filter(m =>
       m.title.toLowerCase().includes(q) ||
       (m.description && m.description.toLowerCase().includes(q)) ||
-      (m.genres && m.genres.some(g => g.toLowerCase().includes(q)))
+      (m.director && m.director.toLowerCase().includes(q))
     );
   }
 
+  // Genre filter
+  if (state.selectedGenres.size > 0) {
+    filtered = filtered.filter(m =>
+      m.genres && m.genres.some(g => state.selectedGenres.has(g))
+    );
+  }
+
+  // Cinema filter
+  if (state.selectedCinemas.size > 0) {
+    filtered = filtered.filter(m =>
+      m.showtimes.some(st => state.selectedCinemas.has(st.c))
+    );
+    // Also filter showtimes to only selected cinemas
+    filtered = filtered.map(m => ({
+      ...m,
+      showtimes: m.showtimes.filter(st => state.selectedCinemas.has(st.c))
+    }));
+  }
+
   // Sort
-  if (state.sortBy === 'title') {
-    filtered.sort((a, b) => a.title.localeCompare(b.title));
-  } else {
-    // Sort by date first, then by distance
+  if (state.sortBy === 'distance' && state.distances) {
     filtered.sort((a, b) => {
-      const dateA = getEarliestShowtimeDate(a);
-      const dateB = getEarliestShowtimeDate(b);
-      if (dateA !== dateB) return dateA.localeCompare(dateB);
-      const distA = getMovieMinDistance(a, state.distances);
-      const distB = getMovieMinDistance(b, state.distances);
-      return distA - distB;
+      const aMin = Math.min(...a.showtimes.map(st => state.distances[st.c] || 9999));
+      const bMin = Math.min(...b.showtimes.map(st => state.distances[st.c] || 9999));
+      return aMin - bMin;
+    });
+  } else if (state.sortBy === 'title') {
+    filtered.sort((a, b) => a.title.localeCompare(b.title));
+  } else if (state.sortBy === 'favorites') {
+    filtered.sort((a, b) => {
+      const aFav = state.favorites.has(a.title) ? 0 : 1;
+      const bFav = state.favorites.has(b.title) ? 0 : 1;
+      if (aFav !== bFav) return aFav - bFav;
+      if (state.distances) {
+        const aMin = Math.min(...a.showtimes.map(st => state.distances[st.c] || 9999));
+        const bMin = Math.min(...b.showtimes.map(st => state.distances[st.c] || 9999));
+        return aMin - bMin;
+      }
+      return 0;
     });
   }
 
   return filtered;
 }
 
+// ============================================
+// RENDERING
+// ============================================
 function renderPoster(movie) {
   if (movie.poster) {
     return `<div class="poster"><img src="${movie.poster}" alt="${movie.title}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"><div class="poster-placeholder" style="display:none;background:${getPosterGradient(movie.title)};"><span>${movie.title}</span></div></div>`;
@@ -1503,7 +1029,19 @@ function renderPoster(movie) {
   return `<div class="poster"><div class="poster-placeholder" style="background:${getPosterGradient(movie.title)};"><span>${movie.title}</span></div></div>`;
 }
 
+function renderMeta(movie) {
+  const parts = [];
+  if (movie.director) parts.push(`<span>dir. ${movie.director}</span>`);
+  if (movie.year) parts.push(`<span>${movie.year}</span>`);
+  if (movie.runtime) parts.push(`<span>${movie.runtime}</span>`);
+  if (movie.rating) parts.push(`<span>${movie.rating}</span>`);
+  if (parts.length === 0) return '';
+  return parts.join('<span class="sep">·</span>');
+}
+
 function renderMovieCard(movie, index) {
+  const isFav = state.favorites.has(movie.title);
+
   // Group showtimes by cinema
   const byCinema = {};
   for (const st of movie.showtimes) {
@@ -1511,93 +1049,84 @@ function renderMovieCard(movie, index) {
     byCinema[st.c].push(st);
   }
 
-  // Sort cinemas by distance
+  // Sort showtimes within each cinema by date then time
+  for (const c in byCinema) {
+    byCinema[c].sort((a, b) => {
+      if (a.dt !== b.dt) return a.dt.localeCompare(b.dt);
+      return (a.tm || '').localeCompare(b.tm || '');
+    });
+  }
+
+  // Sort cinemas by distance (closest first)
   const cinemaIds = Object.keys(byCinema).sort((a, b) => {
-    if (state.distances) {
-      return (state.distances[a] || Infinity) - (state.distances[b] || Infinity);
-    }
+    if (state.distances) return (state.distances[a] || 9999) - (state.distances[b] || 9999);
     return 0;
   });
 
-  // Build cinema sections
-  let cinemaHtml = '';
-  for (const cid of cinemaIds) {
-    const cinema = CINEMAS[cid];
-    const showtimes = byCinema[cid].sort((a, b) => {
-      if (a.dt !== b.dt) return a.dt.localeCompare(b.dt);
-      return a.tm.localeCompare(b.tm);
-    });
-
-    // Group by date
-    const byDate = {};
-    for (const st of showtimes) {
-      if (!byDate[st.dt]) byDate[st.dt] = [];
-      byDate[st.dt].push(st);
-    }
-
-    const sortedDates = Object.keys(byDate).sort();
-    let showtimeGroupsHtml = '';
-    for (const dt of sortedDates) {
-      const pills = byDate[dt].map(st => {
-        const url = getBookingUrl(cid, st);
-        const time = formatTime(st.tm);
-        if (st.soldOut) {
-          return `<span class="showtime-pill sold-out">${time}</span>`;
-        }
-        const isPast = state.dateFilter === 'today' && isPastShowtime(st.dt, st.tm);
-        if (isPast) {
-          return `<span class="showtime-pill past">${time}</span>`;
-        }
-        return `<a class="showtime-pill" href="${url}" target="_blank" rel="noopener noreferrer">${time}</a>`;
-      }).join('');
-
-      showtimeGroupsHtml += `<div class="showtime-group"><span class="date-label">${formatDateLabel(dt)}</span>${pills}</div>`;
-    }
-
-    const dist = state.distances ? state.distances[cid] : null;
-    const distBadge = dist !== null
-      ? `<span class="distance-badge">${formatDistance(dist)}</span>`
-      : `<span class="distance-badge no-loc">—</span>`;
-
-    cinemaHtml += `
-      <div class="cinema-section">
-        <div class="cinema-header">
-          ${distBadge}
-          <span class="cinema-name">${cinema.name}</span>
-          <a class="cinema-link" href="${cinema.website}" target="_blank" rel="noopener noreferrer">website →</a>
-        </div>
-        <div class="showtime-groups">${showtimeGroupsHtml}</div>
-      </div>
-    `;
+  // Get nearest distance for badge
+  let nearestDist = null;
+  let nearestCinema = null;
+  if (state.distances && cinemaIds.length > 0) {
+    nearestCinema = cinemaIds[0];
+    nearestDist = state.distances[nearestCinema];
   }
 
-  // Build meta line
-  const metaParts = [];
-  if (movie.year) metaParts.push(movie.year);
-  if (movie.runtime) metaParts.push(movie.runtime);
-  if (movie.rating) metaParts.push(movie.rating);
-  if (movie.director) metaParts.push(`dir. ${movie.director}`);
-  const metaHtml = metaParts.length
-    ? `<div class="movie-meta">${metaParts.map((p, i) => i < metaParts.length - 1 ? `<span>${p}</span><span class="sep">·</span>` : `<span>${p}</span>`).join('')}</div>`
-    : '';
+  const distBadge = nearestDist !== null
+    ? `<div class="distance-badge ${getDistanceClass(nearestDist)}">${formatDistance(nearestDist)}</div>`
+    : `<div class="distance-badge no-loc">—</div>`;
 
-  // Build genres
-  const genresHtml = movie.genres && movie.genres.length
-    ? `<div class="movie-genres">${movie.genres.map(g => `<span class="genre-tag">${g}</span>`).join('')}</div>`
-    : '';
+  // Build cinema rows
+  const cinemaRows = cinemaIds.map(c => {
+    const cinema = CINEMAS[c];
+    if (!cinema) return '';
+    const showtimes = byCinema[c];
 
-  return `
-    <article class="movie-card" style="animation-delay:${Math.min(index * 0.06, 0.6)}s">
-      ${renderPoster(movie)}
-      <div class="movie-content">
-        <h2 class="movie-title">${movie.title}</h2>
-        ${metaHtml}
-        ${movie.description ? `<p class="movie-desc">${movie.description}</p>` : ''}
-        ${genresHtml}
-        <div class="cinema-list">${cinemaHtml}</div>
+    // Sort all showtimes chronologically (date then time)
+    showtimes.sort((a, b) => {
+      if (a.dt !== b.dt) return a.dt.localeCompare(b.dt);
+      return (a.tm || '').localeCompare(b.tm || '');
+    });
+
+    // Build time pills — all in one row, with subtle date separators only when date changes
+    let lastDate = null;
+    const pills = showtimes.map(st => {
+      const url = getBookingUrl(c, st);
+      const isPast = isPastShowtime(st.dt, st.tm);
+      const isSoldOut = st.soldOut;
+      const classes = ['time-pill'];
+      if (isPast) classes.push('past');
+      if (isSoldOut) classes.push('sold-out');
+      const onclick = (isPast || isSoldOut) ? '' : `onclick="window.open('${url}', '_blank')"`;
+      
+      // Add date prefix when date changes
+      let prefix = '';
+      if (st.dt !== lastDate) {
+        prefix = `<span class="time-date">${formatDateShort(st.dt)}</span>`;
+        lastDate = st.dt;
+      }
+      return prefix + `<a class="${classes.join(' ')}" ${onclick}>${formatTime(st.tm)}</a>`;
+    }).join('');
+
+    return `<div class="cinema-row">
+      <span class="cinema-row-name">${cinema.name}</span>
+      <a class="cinema-row-link" href="${cinema.website}" target="_blank">&#8599;</a>
+      <div class="time-pills">${pills}</div>
+    </div>`;
+  }).join('');
+
+  return `<div class="movie-card" style="animation-delay:${Math.min(index * 0.04, 0.8)}s;">
+    ${renderPoster(movie)}
+    <div class="card-body">
+      <div class="card-top">
+        ${distBadge}
+        <button class="fav-btn ${isFav ? 'active' : ''}" onclick="toggleFavorite('${movie.title.replace(/'/g, "\\'")}')">${isFav ? '&#9829;' : '&#9825;'}</button>
       </div>
-    </article>
-  `;
+      <h2 class="movie-title">${movie.title}</h2>
+      <div class="movie-meta">${renderMeta(movie)}</div>
+      ${movie.description ? `<p class="movie-desc" onclick="this.classList.toggle('expanded')">${movie.description}</p>` : ''}
+      <div class="cinema-list">${cinemaRows}</div>
+    </div>
+  </div>`;
 }
 
 function renderMovies() {
@@ -1606,133 +1135,108 @@ function renderMovies() {
   const countEl = document.getElementById('resultCount');
 
   if (filtered.length === 0) {
-    container.innerHTML = `<div class="no-results"><p>No screenings found.</p><p>Try selecting "this week" for more options.</p></div>`;
+    container.innerHTML = '<div class="no-results"><p>No screenings found.</p><p>Try changing your filters or check back tomorrow.</p></div>';
     countEl.textContent = '0 films';
     return;
   }
 
   container.innerHTML = filtered.map((m, i) => renderMovieCard(m, i)).join('');
-  countEl.textContent = `${filtered.length} ${filtered.length === 1 ? 'film' : 'films'}`;
+  countEl.textContent = `${filtered.length} film${filtered.length !== 1 ? 's' : ''}`;
 }
 
 function renderTiffFilms() {
   const container = document.getElementById('tiffFilms');
+  if (!container || TIFF_FILMS.length === 0) return;
+
   container.innerHTML = TIFF_FILMS.map(f => {
-    const slug = f.title.toLowerCase()
-      .replace(/[^\w\s-]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/-+/g, '-');
-    const meta = [
-      f.director,
-      f.note
-    ].filter(Boolean).join(' · ');
-    return `<a class="tiff-film" href="https://www.tiff.net/films/${slug}" target="_blank" rel="noopener noreferrer">
+    const meta = [f.director, f.note].filter(Boolean).join(' · ');
+    return `<a class="tiff-film" href="https://www.tiff.net/films/" target="_blank">
       <div class="tiff-film-title">${f.title}</div>
-      <div class="tiff-film-meta">${meta}</div>
+      ${meta ? `<div class="tiff-film-meta">${meta}</div>` : ''}
     </a>`;
   }).join('');
 }
 
 function renderCinemaLinks() {
   const container = document.getElementById('cinemaLinks');
-  const cinemas = [
-    { ...CINEMAS.fox, note: "Queen St E" },
-    { ...CINEMAS.revue, note: "Roncesvalles" },
-    { ...CINEMAS.paradise, note: "Bloor St W" },
-    { ...CINEMAS.hotdocs, note: "Bloor St W" },
-    { ...CINEMAS.carlton, note: "Carlton St" },
-    { ...CINEMAS.tiff, note: "King St W" }
-  ];
+  if (!container) return;
 
-  container.innerHTML = cinemas.map(c => `
-    <a class="cinema-link-card" href="${c.website}" target="_blank" rel="noopener noreferrer">
+  container.innerHTML = Object.entries(CINEMAS).map(([id, c]) => {
+    return `<a class="cinema-link-card" href="${c.website}" target="_blank">
       <div class="name">${c.name}</div>
-      <div class="addr">${c.address} · ${c.note}</div>
-    </a>
-  `).join('');
+      <div class="addr">${c.address}</div>
+    </a>`;
+  }).join('');
 }
 
-function updateLocationStatus() {
-  const dot = document.getElementById('locDot');
-  const text = document.getElementById('locText');
+function renderGenreFilters() {
+  const container = document.getElementById('genreFilters');
+  if (!container) return;
 
-  if (state.locationStatus === 'located') {
-    dot.className = 'location-dot located';
-    if (state.userLat) {
-      // Try to get area name
-      const area = getAreaName(state.userLat, state.userLng);
-      text.textContent = area ? `sorted from ${area}` : 'sorted by distance';
-    } else {
-      text.textContent = 'sorted from downtown Toronto';
-    }
-  } else if (state.locationStatus === 'error') {
-    dot.className = 'location-dot error';
-    text.textContent = 'location unavailable · sorted from downtown';
+  const allGenres = new Set();
+  MOVIES.forEach(m => {
+    if (m.genres) m.genres.forEach(g => allGenres.add(g));
+  });
+
+  const genres = Array.from(allGenres).sort();
+  container.innerHTML = genres.map(g => {
+    const active = state.selectedGenres.has(g) ? 'active' : '';
+    return `<button class="genre-pill ${active}" data-genre="${g}">${g}</button>`;
+  }).join('');
+
+  container.querySelectorAll('.genre-pill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const genre = btn.dataset.genre;
+      if (state.selectedGenres.has(genre)) {
+        state.selectedGenres.delete(genre);
+        btn.classList.remove('active');
+      } else {
+        state.selectedGenres.add(genre);
+        btn.classList.add('active');
+      }
+      renderMovies();
+    });
+  });
+}
+
+function renderCinemaFilters() {
+  const container = document.getElementById('cinemaFilters');
+  if (!container) return;
+
+  container.innerHTML = Object.entries(CINEMAS).map(([id, c]) => {
+    return `<label class="cinema-check"><input type="checkbox" data-cinema="${id}"> ${c.name}</label>`;
+  }).join('');
+
+  container.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+    cb.addEventListener('change', () => {
+      const cinemaId = cb.dataset.cinema;
+      if (cb.checked) {
+        state.selectedCinemas.add(cinemaId);
+      } else {
+        state.selectedCinemas.delete(cinemaId);
+      }
+      renderMovies();
+    });
+  });
+}
+
+// ============================================
+// FAVORITES
+// ============================================
+function toggleFavorite(title) {
+  if (state.favorites.has(title)) {
+    state.favorites.delete(title);
   } else {
-    dot.className = 'location-dot';
-    text.textContent = 'finding your location...';
+    state.favorites.add(title);
   }
-}
-
-function getAreaName(lat, lng) {
-  // Simple area detection based on coordinates
-  const areas = [
-    { name: 'Downtown', lat: 43.6532, lng: -79.3832, radius: 3 },
-    { name: 'West End', lat: 43.6485, lng: -79.4534, radius: 3 },
-    { name: 'East End', lat: 43.6674, lng: -79.3198, radius: 3 },
-    { name: 'Midtown', lat: 43.7000, lng: -79.3900, radius: 3 },
-    { name: 'North York', lat: 43.7615, lng: -79.4111, radius: 5 },
-    { name: 'Etobicoke', lat: 43.6205, lng: -79.5132, radius: 5 },
-    { name: 'Scarborough', lat: 43.7764, lng: -79.2318, radius: 5 }
-  ];
-
-  for (const area of areas) {
-    const dist = haversine(lat, lng, area.lat, area.lng);
-    if (dist < area.radius) return area.name;
-  }
-  return null;
-}
-
-// ============================================
-// GEOLOCATION
-// ============================================
-function initGeolocation() {
-  if (!navigator.geolocation) {
-    state.locationStatus = 'error';
-    state.userLat = DEFAULT_LAT;
-    state.userLng = DEFAULT_LNG;
-    state.distances = calculateDistances(DEFAULT_LAT, DEFAULT_LNG);
-    updateLocationStatus();
-    renderMovies();
-    return;
-  }
-
-  navigator.geolocation.getCurrentPosition(
-    (position) => {
-      state.userLat = position.coords.latitude;
-      state.userLng = position.coords.longitude;
-      state.distances = calculateDistances(state.userLat, state.userLng);
-      state.locationStatus = 'located';
-      updateLocationStatus();
-      renderMovies();
-    },
-    (error) => {
-      state.userLat = DEFAULT_LAT;
-      state.userLng = DEFAULT_LNG;
-      state.distances = calculateDistances(DEFAULT_LAT, DEFAULT_LNG);
-      state.locationStatus = 'error';
-      updateLocationStatus();
-      renderMovies();
-    },
-    { timeout: 10000, enableHighAccuracy: false }
-  );
+  localStorage.setItem('cinema-favorites', JSON.stringify(Array.from(state.favorites)));
+  renderMovies();
 }
 
 // ============================================
 // EVENT LISTENERS
 // ============================================
 function initEventListeners() {
-  // Date tabs
   document.querySelectorAll('.tab').forEach(tab => {
     tab.addEventListener('click', () => {
       document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
@@ -1742,7 +1246,6 @@ function initEventListeners() {
     });
   });
 
-  // Sort buttons
   document.querySelectorAll('.sort-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
@@ -1752,15 +1255,14 @@ function initEventListeners() {
     });
   });
 
-  // Search
-  const searchInput = document.getElementById('searchInput');
-  let searchTimeout;
-  searchInput.addEventListener('input', (e) => {
-    clearTimeout(searchTimeout);
-    searchTimeout = setTimeout(() => {
-      state.searchQuery = e.target.value.trim();
-      renderMovies();
-    }, 200);
+  document.getElementById('searchInput').addEventListener('input', (e) => {
+    state.searchQuery = e.target.value;
+    renderMovies();
+  });
+
+  document.getElementById('onlyAvailable').addEventListener('change', (e) => {
+    state.onlyAvailable = e.target.checked;
+    renderMovies();
   });
 }
 
@@ -1768,17 +1270,18 @@ function initEventListeners() {
 // INIT
 // ============================================
 function init() {
+  initTheme();
   renderCinemaLinks();
   renderTiffFilms();
+  renderGenreFilters();
+  renderCinemaFilters();
   initEventListeners();
-
-  // Render immediately with default location, then update when geolocation resolves
   state.distances = calculateDistances(DEFAULT_LAT, DEFAULT_LNG);
   renderMovies();
   initGeolocation();
 }
 
-// Start — load data first, then init
+// Start
 loadData().then(() => init());
 </script>
 </body>

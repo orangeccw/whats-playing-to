@@ -42,9 +42,28 @@ Toronto independent cinema showtimes, sorted by distance. A static HTML page tha
 
 Go to Actions tab > "Crawl Showtimes" > "Run workflow"
 
-## Tech
+## Optional: TMDB enrichment (posters + metadata)
 
-- Frontend: Vanilla HTML/CSS/JS, Google Fonts (Fraunces, DM Sans, JetBrains Mono)
-- Crawler: Node.js + axios + cheerio
-- Hosting: GitHub Pages (free)
-- Automation: GitHub Actions cron (free for public repos)
+The crawler can supplement poster images and metadata (director, year, genres) from [The Movie Database (TMDB)](https://www.themoviedb.org/). Without a key, the crawler still works — it extracts posters from cinema websites directly.
+
+To enable TMDB enrichment:
+
+1. Register at https://www.themoviedb.org/settings/api (free, takes 2 minutes)
+2. Get your API Key (v3 auth)
+3. Add it as a GitHub secret: Settings > Secrets and variables > Actions > New repository secret
+   - Name: `TMDB_API_KEY`
+   - Value: your API key
+
+The crawler will automatically use it when the secret is present.
+
+## Features
+
+- **Day/Night theme** — auto-follows system, manual toggle, remembers choice
+- **Geolocation sorting** — finds your location, sorts by nearest cinema
+- **Distance color coding** — green (<1km) → amber → pink → red (>3km)
+- **Date filters** — today / tomorrow / this week
+- **Genre & cinema filters** — multi-select pills
+- **Favorites** — heart icon, saved in localStorage
+- **Only available** — hides sold-out and past showtimes
+- **Search** — filter by title, description, or director
+- **Responsive** — optimized for both desktop and mobile

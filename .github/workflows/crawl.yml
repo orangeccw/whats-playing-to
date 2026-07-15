@@ -32,6 +32,8 @@ jobs:
 
       - name: Run crawler
         run: cd crawler && node scrape.js
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
 
       - name: Commit & push if data changed
         run: |

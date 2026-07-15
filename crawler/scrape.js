@@ -130,6 +130,157 @@ async function fetchPage(url) {
   return resp.data;
 }
 
+// Extract poster image URL from a Cheerio element
+function extractPoster($, $el, baseUrl) {
+  // Try multiple strategies to find a poster image
+  const candidates = [];
+  
+  // Strategy 1: Direct img child/descendant
+  $el.find('img').each((i, img) => {
+    const $img = $(img);
+    let src = $img.attr('src') || $img.attr('data-src') || $img.attr('data-lazy-src') || '';
+    if (!src) return;
+    
+    // Skip non-poster images
+    const lowerSrc = src.toLowerCase();
+    if (lowerSrc.includes('data:') || lowerSrc.includes('logo') || lowerSrc.includes('icon') ||
+        lowerSrc.includes('banner') || lowerSrc.includes('placeholder') || lowerSrc.includes('default') ||
+        lowerSrc.includes('no-image') || lowerSrc.includes('spinner') || lowerSrc.includes('loading') ||
+        lowerSrc.includes('pixel.') || lowerSrc.includes('1x1')) return;
+    
+    // Normalize URL
+    if (src.startsWith('//')) src = 'https:' + src;
+    else if (src.startsWith('/')) src = baseUrl.replace(/\/$/, '') + src;
+    else if (!src.startsWith('http') && baseUrl) src = baseUrl.replace(/\/$/, '') + '/' + src.replace(/^\.\//, '');
+    if (!src.startsWith('http')) return;
+    
+    // Check if it looks like a poster (aspect ratio hints, class names)
+    const cls = ($img.attr('class') || '').toLowerCase();
+    const alt = ($img.attr('alt') || '').toLowerCase();
+    const w = parseInt($img.attr('width') || 0);
+    const h = parseInt($img.attr('width') || 0);
+    
+    // Prefer images that look like posters
+    let score = 0;
+    if (cls.includes('poster') || cls.includes('poster')) score += 10;
+    if (cls.includes('movie') || cls.includes('film')) score += 5;
+    if (cls.includes('thumb') || cls.includes('cover')) score += 3;
+    if (alt && alt.length > 2) score += 2;
+    if (w > 0 && h > 0 && h > w) score += 5; // Portrait orientation
+    if (src.includes('poster') || src.includes('cover')) score += 5;
+    
+    candidates.push({ src, score });
+  });
+  
+  if (candidates.length === 0) return null;
+  
+  // Sort by score descending, return best
+  candidates.sort((a, b) => b.score - a.score);
+  return candidates[0].src;
+}
+
+// ============================================
+// TMDB SUPPLEMENT — search for posters & metadata
+// ============================================
+const TMDB_API_KEY = process.env.TMDB_API_KEY || '';
+const TMDB_BASE = 'https://api.themoviedb.org/3';
+const TMDB_IMG_BASE = 'https://image.tmdb.org/t/p/w500';
+
+// Cache TMDB results to avoid duplicate lookups
+const tmdbCache = {};
+
+async function searchTMDB(title, year) {
+  if (!TMDB_API_KEY) return null;
+  
+  // Clean title for search (remove year, special editions)
+  let cleanTitle = title.replace(/\s*\(\d{4}\)\s*$/, '').replace(/\s*—.*$/, '').replace(/\s*:/g, ' ').trim();
+  
+  if (tmdbCache[cleanTitle]) return tmdbCache[cleanTitle];
+  
+  try {
+    const params = { api_key: TMDB_API_KEY, query: cleanTitle, language: 'en-US', page: 1, include_adult: false };
+    if (year) params.primary_release_year = year;
+    
+    const resp = await axios.get(`${TMDB_BASE}/search/movie`, { params, timeout: 10000, headers: HEADERS });
+    if (!resp.data.results || resp.data.results.length === 0) {
+      // Try without year filter
+      if (year) {
+        delete params.primary_release_year;
+        const resp2 = await axios.get(`${TMDB_BASE}/search/movie`, { params, timeout: 10000, headers: HEADERS });
+        if (!resp2.data.results || resp2.data.results.length === 0) {
+          tmdbCache[cleanTitle] = null;
+          return null;
+        }
+        const result = resp2.data.results[0];
+        tmdbCache[cleanTitle] = result;
+        return result;
+      }
+      tmdbCache[cleanTitle] = null;
+      return null;
+    }
+    
+    const result = resp.data.results[0]; // Take first match
+    tmdbCache[cleanTitle] = result;
+    return result;
+  } catch (e) {
+    console.log(`  [TMDB] Search failed for "${cleanTitle}": ${e.message}`);
+    tmdbCache[cleanTitle] = null;
+    return null;
+  }
+}
+
+async function enrichWithTMDB(movies) {
+  if (!TMDB_API_KEY) {
+    console.log('  [TMDB] No API key set (TMDB_API_KEY env var), skipping TMDB enrichment');
+    return movies;
+  }
+  
+  console.log(`  [TMDB] Enriching ${movies.length} movies...`);
+  let enriched = 0;
+  
+  for (const movie of movies) {
+    // Only call TMDB if missing poster or metadata
+    const needsPoster = !movie.poster;
+    const needsMeta = !movie.director || !movie.year || !movie.genres || movie.genres.length === 0;
+    
+    if (!needsPoster && !needsMeta) continue;
+    
+    const tmdbResult = await searchTMDB(movie.title, movie.year);
+    if (!tmdbResult) continue;
+    
+    if (needsPoster && tmdbResult.poster_path) {
+      movie.poster = TMDB_IMG_BASE + tmdbResult.poster_path;
+    }
+    if (needsMeta) {
+      if (!movie.director && tmdbResult.credit_cast) {
+        const dir = tmdbResult.credit_cast.find(c => c.job === 'Director');
+        if (dir) movie.director = dir.name;
+      }
+      if (!movie.year && tmdbResult.release_date) {
+        movie.year = tmdbResult.release_date.substring(0, 4);
+      }
+      if (!movie.genres || movie.genres.length === 0) {
+        // TMDB search doesn't return genres directly, but we can use genre_ids
+        const genreMap = {
+          28: 'Action', 12: 'Adventure', 16: 'Animation', 35: 'Comedy', 80: 'Crime',
+          99: 'Documentary', 18: 'Drama', 10751: 'Family', 14: 'Fantasy', 36: 'History',
+          27: 'Horror', 10402: 'Music', 9648: 'Mystery', 10749: 'Romance', 878: 'Sci-Fi',
+          10770: 'TV Movie', 53: 'Thriller', 10752: 'War', 37: 'Western'
+        };
+        if (tmdbResult.genre_ids && tmdbResult.genre_ids.length > 0) {
+          movie.genres = tmdbResult.genre_ids.slice(0, 4).map(id => genreMap[id]).filter(Boolean);
+        }
+      }
+    }
+    
+    enriched++;
+    await new Promise(r => setTimeout(r, 250)); // Rate limit: 4 req/sec
+  }
+  
+  console.log(`  [TMDB] Enriched ${enriched}/${movies.length} movies`);
+  return movies;
+}
+
 // ============================================
 // FOX THEATRE SCRAPER
 // ============================================
@@ -166,9 +317,12 @@ async function scrapeFox() {
 
         const dt = dateStr ? parseDate(dateStr) : getTorontoToday();
         if (dt && title) {
+          // Try to extract poster image
+          const poster = extractPoster($, $parent, 'https://www.foxtheatre.ca');
           movies.push({
             title: title,
-            showtimes: [{ dt, tm, id: eventId }]
+            showtimes: [{ dt, tm, id: eventId }],
+            poster: poster || undefined
           });
         }
       }
@@ -178,7 +332,8 @@ async function scrapeFox() {
   // Deduplicate and merge showtimes per title
   const movieMap = {};
   for (const m of movies) {
-    if (!movieMap[m.title]) movieMap[m.title] = { title: m.title, showtimes: [] };
+    if (!movieMap[m.title]) movieMap[m.title] = { title: m.title, showtimes: [], poster: m.poster || null };
+    if (m.poster && !movieMap[m.title].poster) movieMap[m.title].poster = m.poster;
     movieMap[m.title].showtimes.push(...m.showtimes);
   }
 
@@ -255,9 +410,12 @@ async function scrapeRevue() {
       if (showtimes.length > 0) {
         // Get description
         const desc = $$('.description, .synopsis, .content, p').first().text().trim().substring(0, 300);
+        // Extract poster image
+        const poster = extractPoster($$, $$('.movie-poster, .film-poster, .poster, article, .entry-content, .wp-block-image'), 'https://revuecinema.ca');
         movies.push({
           title: link.title,
           description: desc || '',
+          poster: poster || undefined,
           showtimes
         });
       }
@@ -311,7 +469,10 @@ async function scrapeParadise() {
 
     const dt = dateStr ? parseDate(dateStr) : getTorontoToday();
     if (title && dt) {
-      if (!movieMap[title]) movieMap[title] = { title, showtimes: [] };
+      if (!movieMap[title]) {
+        const poster = extractPoster($, $parent, 'https://paradiseonbloor.com');
+        movieMap[title] = { title, showtimes: [], poster: poster || null };
+      }
       movieMap[title].showtimes.push({ dt, tm, id: eventId });
     }
   });
@@ -613,6 +774,10 @@ async function main() {
   // Merge results
   console.log('Merging results...');
   const merged = mergeResults({ cinemaResults, tiffFilms }, existingData);
+
+  // Enrich with TMDB (posters + metadata) if API key is set
+  console.log('TMDB enrichment...');
+  await enrichWithTMDB(merged.movies);
 
   // Build output
   const output = {
