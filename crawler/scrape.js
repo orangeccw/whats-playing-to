@@ -1,6 +1,6 @@
 /**
  * Toronto Independent Cinema Crawler
- * Scrapes showtime data from 6 cinemas and outputs data/showtimes.json
+ * Scrapes showtime data from 8 cinemas and outputs data/showtimes.json
  *
  * Each scraper returns: { cinema: string, movies: [{ title, showtimes: [{dt, tm, id, url}] }] }
  * If a scraper fails, existing data for that cinema is preserved.
@@ -53,6 +53,18 @@ const CINEMAS = {
     lat: 43.6466, lng: -79.3907,
     website: "https://www.tiff.net",
     showtimesUrl: "https://www.tiff.net/films/"
+  },
+  kingsway: {
+    name: "Kingsway Theatre", address: "3030 Bloor St W",
+    lat: 43.6462, lng: -79.5170,
+    website: "http://www.kingswaymovies.ca",
+    showtimesUrl: "http://www.kingswaymovies.ca/"
+  },
+  cinecycle: {
+    name: "CineCycle", address: "129 Spadina Ave",
+    lat: 43.6495, lng: -79.3700,
+    website: "https://www.super8porter.ca/CineCycle.htm",
+    showtimesUrl: "https://www.super8porter.ca/CineCycle.htm"
   }
 };
 
@@ -763,6 +775,264 @@ async function scrapeCarlton() {
 }
 
 // ============================================
+// KINGSWAY THEATRE SCRAPER (parse image alt texts)
+// ============================================
+async function scrapeKingsway() {
+  console.log('  [Kingsway] Fetching showtimes...');
+  const html = await fetchPage('http://www.kingswaymovies.ca/');
+  const $ = cheerio.load(html);
+  const movieMap = {};
+
+  // Kingsway stores movie data in image alt attributes
+  // Format: "Movie Title day_pattern time(s)"
+  // e.g., "Michael daily 3:10 pm 7:15 pm"
+  //       "Romeria Sat Mon Wed 7:00 pm"
+  $('img').each((i, img) => {
+    const alt = $(img).attr('alt') || '';
+    const src = $(img).attr('src') || '';
+
+    // Skip navigation buttons and theatre photos
+    if (alt.includes('Button') || alt.includes('Kingsway Theatre Toronto') ||
+        alt.includes('Clicky') || alt.includes('Analytics') || alt.length < 10) return;
+
+    // Parse: "Movie Title [day_pattern] time(s)"
+    // Times are always at the end, format like "7:00 pm" or "3:10 pm 7:15 pm"
+    const timeRegex = /(\d{1,2}:\d{2}\s*[ap]m)/gi;
+    const times = alt.match(timeRegex);
+    if (!times || times.length === 0) return;
+
+    // Remove times from alt to get title + day pattern
+    const beforeTimes = alt.replace(timeRegex, '').trim();
+
+    // Extract day pattern: "daily", "Sat Mon Wed", "Fri Sun Tues Thurs", etc.
+    const dayPatternMatch = beforeTimes.match(/(daily|Sat|Sun|Mon|Tue|Tues|Wed|Thu|Thurs|Fri)\s*(?:Sun|Mon|Tue|Tues|Wed|Thu|Thurs|Fri)*\s*(?:Sun|Mon|Tue|Tues|Wed|Thu|Thurs|Fri)*/i);
+    let dayPattern = '';
+    let title = beforeTimes;
+    if (dayPatternMatch) {
+      dayPattern = dayPatternMatch[0].trim();
+      title = beforeTimes.substring(0, beforeTimes.indexOf(dayPattern)).trim();
+    }
+
+    // Clean up title — remove trailing "35mm FILM Dolby stereo Soune" type notes
+    title = title.replace(/\s+(35mm|70mm|film|dolby|stereo|soune|digital)\b.*$/i, '').trim();
+    if (!title || title.length < 2) return;
+
+    // Parse times to HH:MM format
+    const parsedTimes = times.map(t => {
+      const m = t.match(/(\d{1,2}):(\d{2})\s*(am|pm)/i);
+      if (!m) return null;
+      let h = parseInt(m[1]);
+      const min = m[2];
+      const ap = m[3].toLowerCase();
+      if (ap === 'pm' && h !== 12) h += 12;
+      if (ap === 'am' && h === 12) h = 0;
+      return String(h).padStart(2, '0') + ':' + min;
+    }).filter(Boolean);
+
+    // Build poster URL
+    let poster = null;
+    if (src && src.includes('/images/') && !src.includes('Button') && !src.includes('KH')) {
+      poster = src.startsWith('http') ? src : 'http://www.kingswaymovies.ca/' + src.replace(/^\//, '');
+    }
+
+    // Determine which days to create showtimes for
+    const today = getTorontoToday();
+    const todayDate = new Date(today + 'T12:00:00');
+    const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+    const showtimes = [];
+    for (let d = 0; d < 7; d++) {
+      const checkDate = new Date(todayDate);
+      checkDate.setDate(checkDate.getDate() + d);
+      const dt = checkDate.toLocaleDateString('en-CA', { timeZone: 'America/Toronto' });
+      const dayName = dayNames[checkDate.getDay()];
+
+      let matches = false;
+      if (dayPattern.toLowerCase() === 'daily') {
+        matches = true;
+      } else {
+        // Check if day name is in the pattern
+        const patternDays = dayPattern.split(/\s+/).map(s => s.trim());
+        if (patternDays.includes(dayName) || patternDays.includes(dayName + 's')) {
+          matches = true;
+        }
+        // Handle "Tues" vs "Tue"
+        if (patternDays.includes('Tues') && dayName === 'Tue') matches = true;
+        if (patternDays.includes('Thu') && (dayName === 'Thu')) matches = true;
+        if (patternDays.includes('Thurs') && dayName === 'Thu') matches = true;
+      }
+
+      if (matches) {
+        for (const tm of parsedTimes) {
+          showtimes.push({ dt, tm });
+        }
+      }
+    }
+
+    if (showtimes.length === 0) return;
+
+    if (!movieMap[title]) {
+      movieMap[title] = { title, showtimes: [], poster };
+    }
+    if (poster && !movieMap[title].poster) movieMap[title].poster = poster;
+    movieMap[title].showtimes.push(...showtimes);
+  });
+
+  console.log(`  [Kingsway] Found ${Object.keys(movieMap).length} movies`);
+  return { cinema: 'kingsway', movies: Object.values(movieMap) };
+}
+
+// ============================================
+// CINECYCLE / SUPER 8 PORTER SCRAPER
+// ============================================
+async function scrapeCineCycle() {
+  console.log('  [CineCycle] Fetching events...');
+  const html = await fetchPage('https://www.super8porter.ca/CineCycle.htm');
+  const $ = cheerio.load(html);
+  const movies = [];
+
+  // CineCycle is a very irregular venue with occasional events.
+  // Events appear in plain text within the page.
+  // Look for patterns like "Friday, June 26, 7pm" or "Sunday, July 27, 7pm"
+  const fullText = $('body').text();
+
+  // Find all date+time patterns with associated film titles
+  // Pattern: "Film Title (Director, Country, Year, ...)" followed by date/time
+  // Or: "Film Title" then "Day, Month Day, Time"
+
+  // Strategy: find links that look like film titles near date/time text
+  const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+                       'July', 'August', 'September', 'October', 'November', 'December'];
+  const monthAbbr = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+  // Look for event blocks: "Film Title" followed by date pattern
+  const datePattern = /(?:Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday),?\s+([A-Z][a-z]+)\s+(\d{1,2}),?\s+(\d{1,2}:\d{2}\s*[ap]m)/g;
+  let match;
+
+  // Get all text nodes and their surrounding context
+  $('a').each((i, el) => {
+    const $link = $(el);
+    const linkText = $link.text().trim();
+    const href = $link.attr('href') || '';
+
+    // Skip navigation links
+    if (linkText.length < 3 || ['Upcoming Events', 'Past Events', 'Location & Contact',
+        'Services', 'History', 'Film Collection', 'Scopitones', 'flickr Photos',
+        'Projectors', 'Links', 'Press', 'Pianist Wanted', 'Map', 'CineCycle',
+        'CFMDC', 'super8porter', 'Facebook', 'Facebook Group', 'Facebook Page',
+        'Facebook Events', '401', 'Photos', 'Photo', 'story', 'logo'].includes(linkText)) return;
+
+    // Check if this link text looks like a film title (has letters and is reasonably long)
+    if (!/[a-zA-Z]{3,}/.test(linkText)) return;
+
+    // Get the parent element and surrounding text
+    const $parent = $link.parent();
+    const parentText = $parent.text();
+
+    // Look for date pattern near this link
+    const nearbyDate = parentText.match(datePattern);
+    if (nearbyDate) {
+      for (const dateStr of nearbyDate) {
+        const parts = dateStr.match(/([A-Z][a-z]+)\s+(\d{1,2}),?\s+(\d{1,2}:\d{2})\s*(am|pm)/i);
+        if (!parts) continue;
+
+        const monthName = parts[1];
+        const dayNum = parseInt(parts[2]);
+        const timeStr = parts[3];
+        const ampm = parts[4];
+
+        // Find month index
+        let monthIdx = monthAbbr.indexOf(monthName);
+        if (monthIdx === -1) monthIdx = monthNames.indexOf(monthName);
+        if (monthIdx === -1) continue;
+
+        // Build date string for current year
+        const year = 2026;
+        const dt = `${year}-${String(monthIdx + 1).padStart(2, '0')}-${String(dayNum).padStart(2, '0')}`;
+
+        // Parse time
+        let h = parseInt(timeStr.split(':')[0]);
+        const min = timeStr.split(':')[1];
+        if (ampm.toLowerCase() === 'pm' && h !== 12) h += 12;
+        if (ampm.toLowerCase() === 'am' && h === 12) h = 0;
+        const tm = String(h).padStart(2, '0') + ':' + min;
+
+        // Only include future dates
+        const today = getTorontoToday();
+        if (dt < today) continue;
+
+        // Check if already added
+        const existing = movies.find(m => m.title === linkText);
+        if (existing) {
+          existing.showtimes.push({ dt, tm, url: href });
+        } else {
+          movies.push({
+            title: linkText,
+            showtimes: [{ dt, tm, url: href || 'https://www.super8porter.ca/CineCycle.htm' }]
+          });
+        }
+      }
+    }
+  });
+
+  // Also check for plain text events (not wrapped in links)
+  // Look for patterns like "Love Lies Bleeding (Rose Glass, USA, 2024, video, 104 min.)" + date
+  const textBlocks = $('td, p, div, span').toArray();
+  for (const block of textBlocks) {
+    const text = $(block).text().trim();
+    // Pattern: film name followed by director info in parens, then date
+    const filmMatch = text.match(/^([A-Z][^()]{3,60})\s*\(([^)]+)\)/);
+    if (!filmMatch) continue;
+
+    const filmTitle = filmMatch[1].trim();
+    const filmInfo = filmMatch[2];
+
+    // Skip if already found via links
+    if (movies.find(m => m.title === filmTitle)) continue;
+
+    // Look for date in nearby text
+    const dateMatch = text.match(datePattern);
+    if (!dateMatch) continue;
+
+    for (const dateStr of dateMatch) {
+      const parts = dateStr.match(/([A-Z][a-z]+)\s+(\d{1,2}),?\s+(\d{1,2}:\d{2})\s*(am|pm)/i);
+      if (!parts) continue;
+
+      const monthName = parts[1];
+      const dayNum = parseInt(parts[2]);
+      const timeStr = parts[3];
+      const ampm = parts[4];
+
+      let monthIdx = monthAbbr.indexOf(monthName);
+      if (monthIdx === -1) monthIdx = monthNames.indexOf(monthName);
+      if (monthIdx === -1) continue;
+
+      const year = 2026;
+      const dt = `${year}-${String(monthIdx + 1).padStart(2, '0')}-${String(dayNum).padStart(2, '0')}`;
+
+      let h = parseInt(timeStr.split(':')[0]);
+      const min = timeStr.split(':')[1];
+      if (ampm.toLowerCase() === 'pm' && h !== 12) h += 12;
+      if (ampm.toLowerCase() === 'am' && h === 12) h = 0;
+      const tm = String(h).padStart(2, '0') + ':' + min;
+
+      const today = getTorontoToday();
+      if (dt < today) continue;
+
+      const existing = movies.find(m => m.title === filmTitle);
+      if (existing) {
+        existing.showtimes.push({ dt, tm });
+      } else {
+        movies.push({ title: filmTitle, showtimes: [{ dt, tm }] });
+      }
+    }
+  }
+
+  console.log(`  [CineCycle] Found ${movies.length} upcoming events`);
+  return { cinema: 'cinecycle', movies };
+}
+
+// ============================================
 // TIFF SCRAPER (via Puppeteer for JS-rendered page)
 // ============================================
 async function scrapeTIFF() {
@@ -1032,6 +1302,8 @@ async function main() {
     { name: 'paradise', fn: scrapeParadise },
     { name: 'hotdocs', fn: scrapeHotDocs },
     { name: 'carlton', fn: scrapeCarlton },
+    { name: 'kingsway', fn: scrapeKingsway },
+    { name: 'cinecycle', fn: scrapeCineCycle },
   ];
 
   for (const scraper of scrapers) {

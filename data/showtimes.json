@@ -48,6 +48,22 @@
       "lng": -79.3907,
       "website": "https://www.tiff.net",
       "showtimesUrl": "https://www.tiff.net/films/"
+    },
+    "kingsway": {
+      "name": "Kingsway Theatre",
+      "address": "3030 Bloor St W",
+      "lat": 43.6462,
+      "lng": -79.5170,
+      "website": "http://www.kingswaymovies.ca",
+      "showtimesUrl": "http://www.kingswaymovies.ca/"
+    },
+    "cinecycle": {
+      "name": "CineCycle",
+      "address": "129 Spadina Ave",
+      "lat": 43.6495,
+      "lng": -79.3700,
+      "website": "https://www.super8porter.ca/CineCycle.htm",
+      "showtimesUrl": "https://www.super8porter.ca/CineCycle.htm"
     }
   },
   "movies": [
