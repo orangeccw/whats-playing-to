@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15",
+  "lastUpdated": "2026-07-16",
   "cinemas": {
     "fox": {
       "name": "Fox Theatre",
@@ -80,18 +80,6 @@
         "Drama"
       ],
       "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-07-15",
-          "tm": "15:30",
-          "id": "631395"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-07-15",
-          "tm": "21:00",
-          "id": "631396"
-        },
         {
           "c": "fox",
           "dt": "2026-07-16",
@@ -256,17 +244,12 @@
     {
       "title": "Le Chant des forets (Whispers in the Woods)",
       "description": "After 'La Panthere des neiges', Vincent Munier invites us into the heart of the Vosges forests where he learned everything from his father Michel.",
-      "poster": null,
+      "poster": "https://image.tmdb.org/t/p/w500/5rcsd0iGbsQ6DFTI3HclJPJzY9K.jpg",
+      "year": "2025",
       "genres": [
         "Documentary"
       ],
       "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-07-15",
-          "tm": "18:30",
-          "url": "https://www.foxtheatre.ca/movies/le-chant-des-forets-whispers-in-the-woods/#section-buy-tickets"
-        },
         {
           "c": "fox",
           "dt": "2026-07-16",
@@ -348,150 +331,9 @@
       ]
     },
     {
-      "title": "Sick Puppy",
-      "description": "When Charlie's serial killer husband decides to finally quit for her, she's thrilled, but soon finds herself committing violent acts to protect the man she loves, even from himself. Cast & crew in attendance.",
-      "poster": null,
-      "director": "Jay Reid",
-      "year": 2025,
-      "runtime": "105 min",
-      "genres": [
-        "Horror"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-15",
-          "tm": "18:30",
-          "id": "1017102"
-        }
-      ]
-    },
-    {
-      "title": "American Nightmare (1983)",
-      "description": "A latex-gloved killer scouring the streets of Toronto circa 1983, slashing women and anyone who gets in his way. Presented on rare 16mm print. Director in attendance.",
-      "poster": null,
-      "director": "Don McBrearty",
-      "year": 1983,
-      "runtime": "88 min",
-      "rating": "R",
-      "genres": [
-        "Crime",
-        "Horror",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-15",
-          "tm": "21:30",
-          "id": "1014380"
-        }
-      ]
-    },
-    {
-      "title": "Eve's Bayou (1997)",
-      "description": "Kasi Lemmons' visionary masterpiece. Set in 1960s Louisiana, follows a 10-year-old girl who witnesses her father's infidelity, unlocking clairvoyance.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzA4NmEyOWUtYjQ4Yi00MWU1LTk1YTUtZDM2NGVjOTgzYmVkXkEyXkFqcGc@._V1_SX300.jpg",
-      "director": "Kasi Lemmons",
-      "year": 1997,
-      "runtime": "108 min",
-      "rating": "R",
-      "genres": [
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-16",
-          "tm": "18:30",
-          "id": "1012645"
-        }
-      ]
-    },
-    {
-      "title": "Butthole Surfers: The Hole Truth and Nothing Butt",
-      "description": "Toronto Theatrical Premiere of the Butthole Surfers documentary. Part of the Stompbox series.",
-      "poster": null,
-      "genres": [
-        "Documentary",
-        "Music"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-16",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/stompbox-butthole-surfers-the-hole-truth-and-nothing-butt-toronto-theatrical-premiere/"
-        }
-      ]
-    },
-    {
-      "title": "We're All Going to the World's Fair (2022)",
-      "description": "Reality and fantasy begin to blur when a teenager immerses herself in a role-playing horror game online. Part of The Summer of Schoenbrun.",
-      "poster": null,
-      "director": "Jane Schoenbrun",
-      "year": 2022,
-      "runtime": "86 min",
-      "genres": [
-        "Drama",
-        "Horror"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-17",
-          "tm": "19:00",
-          "id": "1014429"
-        }
-      ]
-    },
-    {
-      "title": "I Saw the TV Glow (2024)",
-      "description": "In late-90s suburbia, a lonely teenager meets a girl who introduces him to a mysterious late-night TV show. Part of The Summer of Schoenbrun.",
-      "poster": null,
-      "director": "Jane Schoenbrun",
-      "year": 2024,
-      "runtime": "100 min",
-      "rating": "PG-13",
-      "genres": [
-        "Drama",
-        "Horror"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-17",
-          "tm": "21:30",
-          "id": "1014431"
-        }
-      ]
-    },
-    {
-      "title": "Wallace & Gromit: The Curse of the Were-Rabbit (2005)",
-      "description": "Wallace and Gromit protect townspeople's gardens from a giant were-rabbit. Throwback Cinema presentation.",
-      "poster": null,
-      "director": "Nick Park",
-      "year": 2005,
-      "runtime": "85 min",
-      "rating": "G",
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Family"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-18",
-          "tm": "16:00",
-          "id": "1016376"
-        }
-      ]
-    },
-    {
       "title": "Obsession",
       "description": "A Revue Cinema presentation.",
-      "poster": null,
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/obsession_tmdb-6x4qfybsg3bpwdg2xikqr04kfja-768x1152.jpg",
       "director": "Curry Barker",
       "year": "2026",
       "runtime": "108 min",
@@ -529,37 +371,9 @@
       ]
     },
     {
-      "title": "Tracy and Martina: Goin' Out West",
-      "description": "New Releases & Restorations series at Paradise Theatre.",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-07-15",
-          "tm": "18:00",
-          "id": "587938"
-        }
-      ]
-    },
-    {
-      "title": "Toronto Apartment",
-      "description": "Bleeding Edge series at Paradise Theatre.",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-07-15",
-          "tm": "20:30",
-          "soldOut": true
-        }
-      ]
-    },
-    {
       "title": "Rez Ball",
       "description": "Play fast. Shoot fast. Take your shot. Inside Out Film Festival presentation.",
-      "poster": null,
+      "poster": "https://image.tmdb.org/t/p/w500/5MKpjuiCTk8nYnsUf5QegiPKEDh.jpg",
       "director": "Sydney Freeland",
       "year": "2024",
       "runtime": "111 min",
@@ -659,7 +473,7 @@
     {
       "title": "The Right Stuff",
       "description": "How the future began. Odysseys and Oddities: 20th Century Space Travel.",
-      "poster": null,
+      "poster": "https://image.tmdb.org/t/p/w500/btqTjNRxecYgQ1FGfVlLqSSNjz.jpg",
       "director": "Philip Kaufman",
       "year": 1983,
       "runtime": "193 min",
@@ -680,7 +494,7 @@
     {
       "title": "A Litany for Survival: The Life and Work of Audre Lorde",
       "description": "Black Gold series: Black Life on Screen.",
-      "poster": null,
+      "poster": "https://image.tmdb.org/t/p/w500/soQwbV3nUU958wQEi4q6crBJRwl.jpg",
       "director": "Ada Gay Griffin",
       "year": "1995",
       "runtime": "80 min",
@@ -721,8 +535,15 @@
     {
       "title": "Hustler White: 30th Anniversary",
       "description": "Desire in Motion / Sleaze Factory series at Paradise Theatre.",
-      "poster": null,
-      "genres": [],
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTI0MTA5NzUyNF5BMl5BanBnXkFtZTcwMTk1MzMyMQ@@._V1_SX300.jpg",
+      "director": "Rick Castro",
+      "year": "1996",
+      "runtime": "79 min",
+      "rating": "Unrated",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
       "showtimes": [
         {
           "c": "paradise",
@@ -735,7 +556,7 @@
     {
       "title": "Chocolate Babies",
       "description": "Terror was never tastier. Queer Cinema Club series at Paradise Theatre.",
-      "poster": null,
+      "poster": "https://image.tmdb.org/t/p/w500/izmpQc1fbASmudcPXAqeJ3k0pGO.jpg",
       "director": "Stephen Winter",
       "year": "1996",
       "runtime": "83 min",
@@ -755,7 +576,7 @@
     {
       "title": "Maddie's Secret",
       "description": "Maddie is a plucky dishwasher who leaps to viral superstardom at a trendy food content creation company. While her life seems picturesque, mounting professional pressures threaten to reawaken a hidden secret from her troubled past.",
-      "poster": null,
+      "poster": "https://image.tmdb.org/t/p/w500/gtssK2SacGjpj2psN0Ee2TcTgso.jpg",
       "director": "John Early",
       "year": 2026,
       "runtime": "101 min",
@@ -764,26 +585,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "15:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "21:40"
-        },
         {
           "c": "carlton",
           "dt": "2026-07-16",
@@ -941,31 +742,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "13:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "16:05"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-15",
-          "tm": "17:25"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-07-16",
           "tm": "01:00"
         },
@@ -983,16 +759,6 @@
           "c": "carlton",
           "dt": "2026-07-16",
           "tm": "21:50"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-18",
-          "tm": "17:25"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-20",
-          "tm": "17:25"
         }
       ]
     },
@@ -1008,31 +774,6 @@
         "Horror"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "12:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "15:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "21:30"
-        },
         {
           "c": "carlton",
           "dt": "2026-07-16",
@@ -1207,6 +948,31 @@
           "c": "carlton",
           "dt": "2026-07-22",
           "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "12:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "15:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "18:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "21:50"
         }
       ]
     },
@@ -1219,16 +985,6 @@
         "Romance"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "18:30"
-        },
         {
           "c": "carlton",
           "dt": "2026-07-16",
@@ -1255,31 +1011,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-07-16",
           "tm": "01:00"
         },
@@ -1451,6 +1182,31 @@
         {
           "c": "carlton",
           "dt": "2026-07-22",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "16:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
           "tm": "21:30"
         }
       ]
@@ -1458,7 +1214,7 @@
     {
       "title": "Inglourious Basterds (2009)",
       "description": "Quentin Tarantino's WWII epic. Now playing at Imagine Cinemas Carlton.",
-      "poster": null,
+      "poster": "https://image.tmdb.org/t/p/w500/aupnPtagH9JVBuMrGEanf4iqXEQ.jpg",
       "director": "Quentin Tarantino",
       "year": 2009,
       "genres": [
@@ -1466,26 +1222,6 @@
         "War"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "19:05"
-        },
         {
           "c": "carlton",
           "dt": "2026-07-16",
@@ -1511,7 +1247,7 @@
     {
       "title": "Interstellar (2014)",
       "description": "Christopher Nolan's space epic. Now playing at Imagine Cinemas Carlton.",
-      "poster": null,
+      "poster": "https://image.tmdb.org/t/p/w500/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg",
       "director": "Christopher Nolan",
       "year": 2014,
       "genres": [
@@ -1519,26 +1255,6 @@
         "Drama"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "12:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "15:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "18:30"
-        },
         {
           "c": "carlton",
           "dt": "2026-07-16",
@@ -1564,7 +1280,7 @@
     {
       "title": "Before Midnight (2013)",
       "description": "Richard Linklater's third film in the Before trilogy. Now playing at Imagine Cinemas Carlton.",
-      "poster": null,
+      "poster": "https://image.tmdb.org/t/p/w500/qbGKJmNUroDz75kh5Oafoall89e.jpg",
       "director": "Richard Linklater",
       "year": 2013,
       "genres": [
@@ -1572,31 +1288,6 @@
         "Drama"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "21:40"
-        },
         {
           "c": "carlton",
           "dt": "2026-07-16",
@@ -1637,31 +1328,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "16:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "21:45"
-        },
         {
           "c": "carlton",
           "dt": "2026-07-16",
@@ -1807,7 +1473,7 @@
     {
       "title": "Backrooms: Everything Must Go Edition",
       "description": "Extended Version with 15 minutes of Bonus Footage. A strange doorway appears in the basement of a furniture showroom.",
-      "poster": null,
+      "poster": "https://image.tmdb.org/t/p/w500/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg",
       "year": 2026,
       "runtime": "120 min",
       "rating": "14A",
@@ -1817,31 +1483,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "12:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-07-16",
           "tm": "02:00"
         },
@@ -2013,6 +1654,31 @@
         {
           "c": "carlton",
           "dt": "2026-07-22",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "12:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
           "tm": "21:35"
         }
       ]
@@ -2217,6 +1883,21 @@
           "c": "carlton",
           "dt": "2026-07-22",
           "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "21:30"
         }
       ]
     },
@@ -2383,6 +2064,31 @@
           "c": "carlton",
           "dt": "2026-07-22",
           "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "12:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "15:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "21:40"
         }
       ]
     },
@@ -2517,6 +2223,26 @@
         {
           "c": "carlton",
           "dt": "2026-07-22",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "12:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "15:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
           "tm": "18:35"
         }
       ]
@@ -2683,6 +2409,31 @@
           "c": "carlton",
           "dt": "2026-07-22",
           "tm": "21:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "13:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "16:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "19:15"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "21:55"
         }
       ]
     },
@@ -2789,6 +2540,21 @@
           "c": "carlton",
           "dt": "2026-07-22",
           "tm": "15:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "13:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "16:05"
         }
       ]
     },
@@ -2822,34 +2588,31 @@
           "c": "carlton",
           "dt": "2026-07-22",
           "tm": "21:40"
-        }
-      ]
-    },
-    {
-      "title": "Horror-Rama: AMERICAN NIGHTMARE (1983) – Presented on 16mm! – Director in Attendance!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/05/AmNight-768x1153.jpg",
-      "genres": [],
-      "showtimes": [
+        },
         {
-          "c": "revue",
-          "dt": "2026-07-15",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/horror-rama-american-nightmare-1983-presented-on-16mm-director-in-attendance/"
-        }
-      ]
-    },
-    {
-      "title": "Revue Event: SICK PUPPY – Toronto Theatrical Premiere with cast & crew in attendance!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/sick_puppy_tmdb-igeetptozn6d4qthwpjprnl1stk-768x1137.jpg",
-      "genres": [],
-      "showtimes": [
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "01:00"
+        },
         {
-          "c": "revue",
-          "dt": "2026-07-15",
-          "tm": "18:30",
-          "url": "https://revuecinema.ca/films/revue-event-sick-puppy-toronto-theatrical-premiere-with-cast-crew-in-attendance/"
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "12:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "15:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "21:40"
         }
       ]
     },
@@ -3165,7 +2928,10 @@
       "title": "Mary Oliver: Saved by the Beauty of the World",
       "description": "",
       "poster": "https://prod5.agileticketing.net/images/user/BC_2338/MARY OLIVER2.jpg",
-      "genres": [],
+      "year": "2026",
+      "genres": [
+        "Documentary"
+      ],
       "showtimes": [
         {
           "c": "hotdocs",
@@ -3270,7 +3036,11 @@
       "title": "Peter Asher: Everywhere Man",
       "description": "",
       "poster": "https://prod5.agileticketing.net/images/user/BC_2338/PETER ASHER1.jpg",
-      "genres": [],
+      "year": "2026",
+      "genres": [
+        "Documentary",
+        "Music"
+      ],
       "showtimes": [
         {
           "c": "hotdocs",
@@ -3650,48 +3420,17 @@
       ]
     },
     {
-      "title": "Mamma Mia! (2008)",
-      "description": "Independent hotelier Donna is preparing for her daughter's wedding with the help of two old friends. Meanwhile, spirited bride-to-be Sophie invites three men from her mother's past in order to discern which is her biological father.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTA2MDU0MjM0MzReQTJeQWpwZ15BbWU3MDYwNzgwNzE@._V1_SX300.jpg",
-      "director": "Phyllida Lloyd",
-      "year": "2008",
-      "runtime": "108 min",
-      "rating": "PG-13",
+      "title": "Star Wars Mandalorian and Grogu",
+      "description": "",
+      "poster": "https://image.tmdb.org/t/p/w500/5Vi8dSauVwH1HOsiZceDMbRr1Ca.jpg",
+      "year": "2026",
       "genres": [
-        "Comedy",
-        "Musical",
-        "Romance"
+        "Action",
+        "Adventure",
+        "Sci-Fi"
       ],
       "showtimes": [
         {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-15",
-          "tm": "18:30"
-        }
-      ]
-    },
-    {
-      "title": "Star Wars Mandalorian and Grogu",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-15",
-          "tm": "13:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-15",
-          "tm": "22:35"
-        },
-        {
           "c": "kingsway",
           "dt": "2026-07-16",
           "tm": "13:00"
@@ -3750,29 +3489,16 @@
           "c": "kingsway",
           "dt": "2026-07-21",
           "tm": "22:35"
-        }
-      ]
-    },
-    {
-      "title": "The Super Mario Galazy Movie",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-15",
-          "tm": "13:30"
         },
         {
           "c": "kingsway",
-          "dt": "2026-07-18",
-          "tm": "13:30"
+          "dt": "2026-07-22",
+          "tm": "13:00"
         },
         {
           "c": "kingsway",
-          "dt": "2026-07-20",
-          "tm": "13:30"
+          "dt": "2026-07-22",
+          "tm": "22:35"
         }
       ]
     },
@@ -3823,16 +3549,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-07-15",
-          "tm": "15:10"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-15",
-          "tm": "19:15"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-07-16",
           "tm": "15:10"
         },
@@ -3890,30 +3606,16 @@
           "c": "kingsway",
           "dt": "2026-07-21",
           "tm": "19:15"
-        }
-      ]
-    },
-    {
-      "title": "The Bread Winner",
-      "description": "In the dusty streets of Kabul, Afghanistan, 8-year-old Farouk works tirelessly every day peddling calendars and newspapers while also attending school. Farouk's father, crippled during the decades-long war and occupation, is unable t",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzgxMDg4MTM1Nl5BMl5BanBnXkFtZTcwODM4NTk5NA@@._V1_SX300.jpg",
-      "director": "Sonia Nassery Cole",
-      "year": "2007",
-      "runtime": "23 min",
-      "genres": [
-        "Documentary",
-        "Short"
-      ],
-      "showtimes": [
+        },
         {
           "c": "kingsway",
-          "dt": "2026-07-15",
+          "dt": "2026-07-22",
           "tm": "15:10"
         },
         {
           "c": "kingsway",
-          "dt": "2026-07-17",
-          "tm": "15:10"
+          "dt": "2026-07-22",
+          "tm": "19:15"
         }
       ]
     },
@@ -3937,36 +3639,6 @@
           "c": "kingsway",
           "dt": "2026-07-21",
           "tm": "15:10"
-        }
-      ]
-    },
-    {
-      "title": "Pressure",
-      "description": "A group of men are trapped in a small pod on the sea bed, after diving down to fix an oil pipeline and becoming separated from their ship.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNTM2MzA3ODUxM15BMl5BanBnXkFtZTgwNjEyMjk1NjE@._V1_SX300.jpg",
-      "director": "Ron Scalpello",
-      "year": "2015",
-      "runtime": "91 min",
-      "rating": "R",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-15",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-18",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-20",
-          "tm": "17:00"
         }
       ]
     },
@@ -4003,8 +3675,11 @@
     {
       "title": "Misan Harriman Shoot the People",
       "description": "",
-      "poster": null,
-      "genres": [],
+      "poster": "https://image.tmdb.org/t/p/w500/9hktZMKboj27z6ePPzOkj9UGJbf.jpg",
+      "year": "2026",
+      "genres": [
+        "Documentary"
+      ],
       "showtimes": [
         {
           "c": "kingsway",
@@ -4020,65 +3695,6 @@
           "c": "kingsway",
           "dt": "2026-07-21",
           "tm": "17:25"
-        }
-      ]
-    },
-    {
-      "title": "Romeria",
-      "description": "",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjhmYTg4NmItNWM3NS00ZjYwLWIxNzMtMTY2ODFlMDg5YmM0XkEyXkFqcGdeQXVyMjA0NzcwMjI@._V1_SX300.jpg",
-      "director": "Gabriel Veyre",
-      "year": "1896",
-      "runtime": "1 min",
-      "genres": [
-        "Documentary",
-        "Short"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-15",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-18",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-20",
-          "tm": "19:00"
-        }
-      ]
-    },
-    {
-      "title": "Jackass Best and Last",
-      "description": "Follows the Jackass crew as they perform their final series of dangerous stunts and pranks, marking the end of the franchise.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYTRlYzQwYjItNDljNC00YmI2LWEwYmEtMjhhM2NiMGFhNTYyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-      "director": "Jeff Tremaine",
-      "year": "2026",
-      "runtime": "92 min",
-      "rating": "R",
-      "genres": [
-        "Documentary",
-        "Comedy"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-15",
-          "tm": "21:05"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-18",
-          "tm": "21:05"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-20",
-          "tm": "21:05"
         }
       ]
     },
@@ -4120,11 +3736,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-07-15",
-          "tm": "21:05"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-07-16",
           "tm": "21:05"
         },
@@ -4151,6 +3762,11 @@
         {
           "c": "kingsway",
           "dt": "2026-07-21",
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-22",
           "tm": "21:05"
         }
       ]
@@ -4183,6 +3799,39 @@
           "c": "kingsway",
           "dt": "2026-07-21",
           "tm": "22:35"
+        }
+      ]
+    },
+    {
+      "title": "The End of Evangelion (1997) (SUB)",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "12:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "15:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "18:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-23",
+          "tm": "21:45"
         }
       ]
     }
