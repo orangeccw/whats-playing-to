@@ -53,7 +53,7 @@
       "name": "Kingsway Theatre",
       "address": "3030 Bloor St W",
       "lat": 43.6462,
-      "lng": -79.5170,
+      "lng": -79.517,
       "website": "http://www.kingswaymovies.ca",
       "showtimesUrl": "http://www.kingswaymovies.ca/"
     },
@@ -61,7 +61,7 @@
       "name": "CineCycle",
       "address": "129 Spadina Ave",
       "lat": 43.6495,
-      "lng": -79.3700,
+      "lng": -79.37,
       "website": "https://www.super8porter.ca/CineCycle.htm",
       "showtimesUrl": "https://www.super8porter.ca/CineCycle.htm"
     }
@@ -70,7 +70,7 @@
     {
       "title": "The Invite",
       "description": "Joe and Angela's marriage is on thin ice. When they invite their enigmatic upstairs neighbours for a dinner party, the night spirals into unexpected places.",
-      "poster": null,
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/04/the_invite_tmdb-vjrfj5ri9zm7tg0tn7pbmotxqkb-768x1152.jpg",
       "director": "Olivia Wilde",
       "year": 2026,
       "runtime": "108 min",
@@ -108,7 +108,7 @@
           "c": "revue",
           "dt": "2026-07-17",
           "tm": "16:00",
-          "id": "1005964"
+          "url": "https://revuecinema.ca/films/the-invite/"
         },
         {
           "c": "fox",
@@ -120,7 +120,7 @@
           "c": "revue",
           "dt": "2026-07-18",
           "tm": "13:00",
-          "id": "1005964"
+          "url": "https://revuecinema.ca/films/the-invite/"
         },
         {
           "c": "fox",
@@ -144,7 +144,7 @@
           "c": "revue",
           "dt": "2026-07-19",
           "tm": "16:00",
-          "id": "1005964"
+          "url": "https://revuecinema.ca/films/the-invite/"
         },
         {
           "c": "fox",
@@ -162,7 +162,7 @@
           "c": "revue",
           "dt": "2026-07-20",
           "tm": "18:45",
-          "id": "1005964"
+          "url": "https://revuecinema.ca/films/the-invite/"
         },
         {
           "c": "fox",
@@ -174,7 +174,7 @@
           "c": "revue",
           "dt": "2026-07-21",
           "tm": "18:45",
-          "id": "1005964"
+          "url": "https://revuecinema.ca/films/the-invite/"
         },
         {
           "c": "fox",
@@ -192,13 +192,19 @@
           "c": "revue",
           "dt": "2026-07-22",
           "tm": "16:00",
-          "id": "1005964"
+          "url": "https://revuecinema.ca/films/the-invite/"
         },
         {
           "c": "fox",
           "dt": "2026-07-22",
           "tm": "18:30",
           "id": "636924"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-07-23",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/the-invite/"
         }
       ]
     },
@@ -342,147 +348,6 @@
       ]
     },
     {
-      "title": "Sick Puppy",
-      "description": "When Charlie's serial killer husband decides to finally quit for her, she's thrilled, but soon finds herself committing violent acts to protect the man she loves, even from himself. Cast & crew in attendance.",
-      "poster": null,
-      "director": "Jay Reid",
-      "year": 2025,
-      "runtime": "105 min",
-      "genres": [
-        "Horror"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-15",
-          "tm": "18:30",
-          "id": "1017102"
-        }
-      ]
-    },
-    {
-      "title": "American Nightmare (1983)",
-      "description": "A latex-gloved killer scouring the streets of Toronto circa 1983, slashing women and anyone who gets in his way. Presented on rare 16mm print. Director in attendance.",
-      "poster": null,
-      "director": "Don McBrearty",
-      "year": 1983,
-      "runtime": "88 min",
-      "rating": "R",
-      "genres": [
-        "Crime",
-        "Horror",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-15",
-          "tm": "21:30",
-          "id": "1014380"
-        }
-      ]
-    },
-    {
-      "title": "Eve's Bayou (1997)",
-      "description": "Kasi Lemmons' visionary masterpiece. Set in 1960s Louisiana, follows a 10-year-old girl who witnesses her father's infidelity, unlocking clairvoyance.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzA4NmEyOWUtYjQ4Yi00MWU1LTk1YTUtZDM2NGVjOTgzYmVkXkEyXkFqcGc@._V1_SX300.jpg",
-      "director": "Kasi Lemmons",
-      "year": 1997,
-      "runtime": "108 min",
-      "rating": "R",
-      "genres": [
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-16",
-          "tm": "18:30",
-          "id": "1012645"
-        }
-      ]
-    },
-    {
-      "title": "Butthole Surfers: The Hole Truth and Nothing Butt",
-      "description": "Toronto Theatrical Premiere of the Butthole Surfers documentary. Part of the Stompbox series.",
-      "poster": "https://image.tmdb.org/t/p/w500/cpmhE9ZsPP34iTesUASLdBk4kB4.jpg",
-      "genres": [
-        "Documentary",
-        "Music"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-16",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/stompbox-butthole-surfers-the-hole-truth-and-nothing-butt-toronto-theatrical-premiere/"
-        }
-      ]
-    },
-    {
-      "title": "We're All Going to the World's Fair (2022)",
-      "description": "Reality and fantasy begin to blur when a teenager immerses herself in a role-playing horror game online. Part of The Summer of Schoenbrun.",
-      "poster": "https://image.tmdb.org/t/p/w500/fXn4Nz1WCTEmzAFvwgEZoPHvptR.jpg",
-      "director": "Jane Schoenbrun",
-      "year": 2022,
-      "runtime": "86 min",
-      "genres": [
-        "Drama",
-        "Horror"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-17",
-          "tm": "19:00",
-          "id": "1014429"
-        }
-      ]
-    },
-    {
-      "title": "I Saw the TV Glow (2024)",
-      "description": "In late-90s suburbia, a lonely teenager meets a girl who introduces him to a mysterious late-night TV show. Part of The Summer of Schoenbrun.",
-      "poster": "https://image.tmdb.org/t/p/w500/aW7EyeLipQdepXw3Ty10B2zHgzy.jpg",
-      "director": "Jane Schoenbrun",
-      "year": 2024,
-      "runtime": "100 min",
-      "rating": "PG-13",
-      "genres": [
-        "Drama",
-        "Horror"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-17",
-          "tm": "21:30",
-          "id": "1014431"
-        }
-      ]
-    },
-    {
-      "title": "Wallace & Gromit: The Curse of the Were-Rabbit (2005)",
-      "description": "Wallace and Gromit protect townspeople's gardens from a giant were-rabbit. Throwback Cinema presentation.",
-      "poster": null,
-      "director": "Nick Park",
-      "year": 2005,
-      "runtime": "85 min",
-      "rating": "G",
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Family"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-18",
-          "tm": "16:00",
-          "id": "1016376"
-        }
-      ]
-    },
-    {
       "title": "Obsession",
       "description": "A Revue Cinema presentation.",
       "poster": "https://image.tmdb.org/t/p/w500/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
@@ -519,89 +384,6 @@
           "dt": "2026-07-21",
           "tm": "21:30",
           "url": "https://revuecinema.ca/films/obsession/"
-        }
-      ]
-    },
-    {
-      "title": "Miami Connection",
-      "description": "Black Belt Cinema presents Miami Connection, featuring a live performance by Dragon Sounds!",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMjA4MjcxMjYzNl5BMl5BanBnXkFtZTcwMTcyNDc1OA@@._V1_SX300.jpg",
-      "director": "Woo-sang Park",
-      "year": 1987,
-      "runtime": "87 min",
-      "rating": "R",
-      "genres": [
-        "Action",
-        "Music"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-18",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/black-belt-cinema-miami-connection-featuring-a-live-performance-by-dragon-sounds/"
-        }
-      ]
-    },
-    {
-      "title": "Kingdom of Heaven — Director's Cut",
-      "description": "Don't Be So Political series presents Ridley Scott's epic Director's Cut.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzdhNGZhMjQtYjVmNy00OWMyLTk1MmQtZGNhZDYwMzZlZjI3XkEyXkFqcGc@._V1_SX300.jpg",
-      "director": "Ridley Scott",
-      "year": 2005,
-      "genres": [
-        "Drama",
-        "War"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-19",
-          "tm": "19:00",
-          "url": "https://revuecinema.ca/films/dont-be-so-political-kingdom-of-heaven-directors-cut/"
-        }
-      ]
-    },
-    {
-      "title": "Jamon Jamon (1992)",
-      "description": "Heat Wave series presents Jamon Jamon, introduced by Alicia Fletcher.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMmRhMTU2OWUtNjIwMS00ZjkwLWEyYmEtNTUyMzQwYzEwMDgyXkEyXkFqcGc@._V1_SX300.jpg",
-      "director": "Bigas Luna",
-      "year": 1992,
-      "runtime": "95 min",
-      "rating": "R",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-22",
-          "tm": "19:00",
-          "url": "https://revuecinema.ca/films/heat-wave-jamon-jamon-1992-introduced-by-alicia-fletcher/"
-        }
-      ]
-    },
-    {
-      "title": "Run Lola Run (1998)",
-      "description": "Psych-Out Cinema presents Run Lola Run, new restoration!",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzA0NDdiNDgtNjI4Ny00OTc0LTg3NGMtZDBlNmI1ZGUxYTg2XkEyXkFqcGc@._V1_SX300.jpg",
-      "director": "Tom Tykwer",
-      "year": 1998,
-      "runtime": "80 min",
-      "rating": "R",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-22",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/psych-out-cinema-run-lola-run-1998-new-restoration/"
         }
       ]
     },
@@ -902,6 +684,11 @@
           "tm": "18:30"
         },
         {
+          "c": "kingsway",
+          "dt": "2026-07-17",
+          "tm": "19:00"
+        },
+        {
           "c": "carlton",
           "dt": "2026-07-17",
           "tm": "21:50"
@@ -942,6 +729,11 @@
           "tm": "18:30"
         },
         {
+          "c": "kingsway",
+          "dt": "2026-07-19",
+          "tm": "19:00"
+        },
+        {
           "c": "carlton",
           "dt": "2026-07-19",
           "tm": "21:50"
@@ -982,6 +774,11 @@
           "tm": "18:30"
         },
         {
+          "c": "kingsway",
+          "dt": "2026-07-21",
+          "tm": "19:00"
+        },
+        {
           "c": "carlton",
           "dt": "2026-07-21",
           "tm": "21:50"
@@ -1017,6 +814,11 @@
           "tm": "16:05"
         },
         {
+          "c": "kingsway",
+          "dt": "2026-07-15",
+          "tm": "17:25"
+        },
+        {
           "c": "carlton",
           "dt": "2026-07-15",
           "tm": "21:50"
@@ -1040,6 +842,16 @@
           "c": "carlton",
           "dt": "2026-07-16",
           "tm": "21:50"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-18",
+          "tm": "17:25"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-20",
+          "tm": "17:25"
         }
       ]
     },
@@ -2078,7 +1890,9 @@
         {
           "c": "hotdocs",
           "dt": "2026-07-17",
-          "tm": "19:00"
+          "tm": "11:00",
+          "id": "629500",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629500~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
         }
       ]
     },
@@ -2096,64 +1910,9 @@
         {
           "c": "hotdocs",
           "dt": "2026-07-18",
-          "tm": "16:15"
-        }
-      ]
-    },
-    {
-      "title": "The Decline of Western Civilization — 45th Anniversary",
-      "description": "A riveting, unflinching account of the punk rock phenomenon and its alienated, reactionary subculture. Jukedocs series.",
-      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/DECLINE%20OF%20THE%20WESTERN%20CIVILIZATION_collage_thumb.jpg",
-      "director": "Penelope Spheeris",
-      "year": 1981,
-      "runtime": "100 min",
-      "rating": "Not Rated",
-      "genres": [
-        "Documentary",
-        "Music"
-      ],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-07-18",
-          "tm": "19:00"
-        }
-      ]
-    },
-    {
-      "title": "An American in Paris — 75th Anniversary",
-      "description": "Travel back in time with this special anniversary screening of a true Hollywood classic. Midtown Matinees series.",
-      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/AMERICAN%20IN%20PARIS1_thumb.jpg",
-      "director": "Vincente Minnelli",
-      "year": 1951,
-      "runtime": "114 min",
-      "rating": "Approved",
-      "genres": [
-        "Classic",
-        "Musical"
-      ],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-07-19",
-          "tm": "16:00"
-        }
-      ]
-    },
-    {
-      "title": "Sherman's March — 4K Restoration",
-      "description": "In this wryly hilarious road movie, director Ross McElwee sets out to make a travelogue about a famous Civil War campaign, but his historical jaunt morphs into a revealing and deeply personal search for love. Must-See Docs series.",
-      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/SHERMANS%20MARCH7_v5_thumb.jpg",
-      "director": "Ross McElwee",
-      "year": 1986,
-      "genres": [
-        "Documentary"
-      ],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-07-19",
-          "tm": "19:00"
+          "tm": "08:15",
+          "id": "629498",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629498~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
         }
       ]
     },
@@ -2924,60 +2683,2513 @@
           "tm": "21:40"
         }
       ]
+    },
+    {
+      "title": "Horror-Rama: AMERICAN NIGHTMARE (1983) – Presented on 16mm! – Director in Attendance!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/05/AmNight-768x1153.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-15",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/horror-rama-american-nightmare-1983-presented-on-16mm-director-in-attendance/"
+        }
+      ]
+    },
+    {
+      "title": "Revue Event: SICK PUPPY – Toronto Theatrical Premiere with cast & crew in attendance!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/sick_puppy_tmdb-igeetptozn6d4qthwpjprnl1stk-768x1137.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-15",
+          "tm": "18:30",
+          "url": "https://revuecinema.ca/films/revue-event-sick-puppy-toronto-theatrical-premiere-with-cast-crew-in-attendance/"
+        }
+      ]
+    },
+    {
+      "title": "The Black Nerds + We Really Like Her: EVE’S BAYOU (1997)",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/05/images_(2).jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-16",
+          "tm": "18:30",
+          "url": "https://revuecinema.ca/films/the-black-nerds-we-really-like-her-eves-bayou-1997/"
+        }
+      ]
+    },
+    {
+      "title": "Stompbox: BUTTHOLE SURFERS: THE HOLE TRUTH AND NOTHING BUTT – Toronto Theatrical Premiere!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/05/butthole_surfers_the_hole_truth_and_nothing_butt_tmdb-lqy0rfgjmpijsmv9huytrpe5l0h-768x1138.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-16",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/stompbox-butthole-surfers-the-hole-truth-and-nothing-butt-toronto-theatrical-premiere/"
+        }
+      ]
+    },
+    {
+      "title": "Revue Event: I SAW THE TV GLOW (2024)",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/05/i_saw_the_tv_glow_tmdb-hs4gykypn1rfl4gixyc02scyfaj-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-17",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/revue-event-i-saw-the-tv-glow-2024/"
+        }
+      ]
+    },
+    {
+      "title": "Revue Event: WE’RE ALL GOING TO THE WORLD’S FAIR (2022)",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-17",
+          "tm": "19:00",
+          "url": "https://revuecinema.ca/films/revue-event-were-all-going-to-the-worlds-fair-2022/"
+        }
+      ]
+    },
+    {
+      "title": "Black Belt Cinema: MIAMI CONNECTION – Featuring A Live Performance by DRAGON SOUNDS!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2024/06/miami_connection_tmdb-fs1llzhjlfsqslcdsp1upk8gtdb-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-18",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/black-belt-cinema-miami-connection-featuring-a-live-performance-by-dragon-sounds/"
+        }
+      ]
+    },
+    {
+      "title": "Throwback Cinema: WALLACE & GROMIT: THE CURSE OF THE WERE-RABBIT (2005)",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/wallace_&_gromit_the_curse_of_the_were-rabbit_tmdb-cmq2lnd7sbe6pcf6zf5qxrkzbrg-768x1153.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-18",
+          "tm": "16:00",
+          "url": "https://revuecinema.ca/films/throwback-cinema-wallace-gromit-the-curse-of-the-were-rabbit-2005/"
+        }
+      ]
+    },
+    {
+      "title": "Don’t Be So Political: KINGDOM OF HEAVEN – Director’s Cut",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/05/kingdom_of_heaven_tmdb-rnabe4twbmef71sgscqabpgksxh-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-19",
+          "tm": "19:00",
+          "url": "https://revuecinema.ca/films/dont-be-so-political-kingdom-of-heaven-directors-cut/"
+        }
+      ]
+    },
+    {
+      "title": "Heat Wave: JAMON JAMON  (1992) – Introduced by Alicia Fletcher",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/03/jamon,_jamon_tmdb-bxysrl1vxgwaad98axswzq5hmae-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-22",
+          "tm": "19:00",
+          "url": "https://revuecinema.ca/films/heat-wave-jamon-jamon-1992-introduced-by-alicia-fletcher/"
+        }
+      ]
+    },
+    {
+      "title": "Psych-Out Cinema: RUN LOLA RUN (1998) – New Restoration!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/05/lola_rennt_tmdb-v0giii4btilvhnhjajet3wwy3fa-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-22",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/psych-out-cinema-run-lola-run-1998-new-restoration/"
+        }
+      ]
+    },
+    {
+      "title": "Paid In Sweat: WHIP IT (2009) – Presented on 35mm!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/05/whip_it_tmdb-iruviw0dxs0fzi1icsdyfx02i8s-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-23",
+          "tm": "18:30",
+          "url": "https://revuecinema.ca/films/paid-in-sweat-whip-it-2009-presented-on-35mm/"
+        }
+      ]
+    },
+    {
+      "title": "Neon Dreams: MIAMI VICE – 20th Anniversary Screening!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/04/miami_vice_tmdb-ijpsls4tab09euktlj6fjfsprb3-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-24",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/neon-dreams-miami-vice-20th-anniversary-screening/"
+        }
+      ]
+    },
+    {
+      "title": "To 70 And Beyond: PROJECT HAIL MARY – Presented on 70mm!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/project_hail_mary_tmdb-yihdxomyb5ktesivtfndmy5idmf-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-24",
+          "tm": "18:00",
+          "url": "https://revuecinema.ca/films/to-70-and-beyond-project-hail-mary-presented-on-70mm/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-07-25",
+          "tm": "14:30",
+          "url": "https://revuecinema.ca/films/to-70-and-beyond-project-hail-mary-presented-on-70mm/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-07-26",
+          "tm": "11:30",
+          "url": "https://revuecinema.ca/films/to-70-and-beyond-project-hail-mary-presented-on-70mm/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-07-27",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/to-70-and-beyond-project-hail-mary-presented-on-70mm/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-07-29",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/to-70-and-beyond-project-hail-mary-presented-on-70mm/"
+        }
+      ]
+    },
+    {
+      "title": "Revue Event: THE PIANO TEACHER – 25th Anniversary Screening!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/la_pianiste_tmdb-gnhkyqnp1rnqehkivhjzbpb4mop-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-25",
+          "tm": "18:15",
+          "url": "https://revuecinema.ca/films/revue-event-the-piano-teacher-25th-anniversary-screening/"
+        }
+      ]
+    },
+    {
+      "title": "Dumpster Raccoon: PSYCHO BEACH PARTY (2000)",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/psycho_beach_party_tmdb-28mzkfdyvzmvx9nhdrjq3g2h7it-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-25",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/dumpster-raccoon-psycho-beach-party-2000/"
+        }
+      ]
+    },
+    {
+      "title": "Destination Love: THE FOUNTAIN – 20th Anniversary Screening",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/03/the_fountain_tmdb-4xtf8gucvlwolubanakkpk62ypq-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-26",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/destination-love-the-fountain-20th-anniversary-screening/"
+        }
+      ]
+    },
+    {
+      "title": "Revue Event: MODERN WHORE – With Nicole Bazuin and Andrea Werhun In Attendance!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/modern_whore_tmdb-a5kcksj7ziygvso3rpt75tpeflj-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-26",
+          "tm": "15:30",
+          "url": "https://revuecinema.ca/films/revue-event-modern-whore-with-nicole-bazuin-and-andrea-werhun-in-attendance/"
+        }
+      ]
+    },
+    {
+      "title": "The Decline of Western Civilization - 45th Anniversary",
+      "description": "",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/DECLINE OF THE WESTERN CIVILIZATION_collage.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-07-18",
+          "tm": "11:00",
+          "id": "629492",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629492~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "An American in Paris - 75th Anniversary",
+      "description": "",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/AMERICAN IN PARIS1.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-07-19",
+          "tm": "08:00",
+          "id": "630621",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=630621~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Sherman’s March – 4K Restoration",
+      "description": "",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/SHERMANS MARCH7_v5.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-07-19",
+          "tm": "11:00",
+          "id": "634896",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=634896~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Project Grizzly - 30th Anniversary",
+      "description": "",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/PROJECT GRIZZLY1_2026_v2.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-07-24",
+          "tm": "11:00",
+          "id": "630485",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=630485~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Mary Oliver: Saved by the Beauty of the World",
+      "description": "",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/MARY OLIVER2.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-07-25",
+          "tm": "08:00",
+          "id": "629502",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629502~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Steal this Story, Please!",
+      "description": "A reporter's personal journey and major news coverage intersect in this film debuting at DC/Dox, emphasizing journalism's vital role in revealing truth during an era when independent reporting faces challenges.",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/STEAL THIS STORY1.jpg",
+      "year": "2025",
+      "genres": [
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-07-25",
+          "tm": "11:00",
+          "id": "629504",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629504~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "32 Meters",
+      "description": "",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/32 METERS4.jpg",
+      "director": "Morteza Atabaki",
+      "year": "2025",
+      "runtime": "84 min",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-07-26",
+          "tm": "08:00",
+          "id": "629496",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629496~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Glenn Gould: On and Off the Record",
+      "description": "",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/GLENN GOULD ON AND OFF THE RECORD1.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-07-26",
+          "tm": "11:00",
+          "id": "629507",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629507~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Love In All The Small Places - Premiere Screening",
+      "description": "",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/LOVE IN ALL THE SMALL PLACES1.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-07-27",
+          "tm": "11:30",
+          "id": "638903",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=638903~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "A Hard Day's Night",
+      "description": "Over two \"typical\" days in the life of The Beatles, the boys struggle to keep themselves and Paul McCartney's mischievous grandfather in check while preparing for a live TV performance.",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/HARD DAYS NIGHT 2026_3.jpg",
+      "director": "Richard Lester",
+      "year": "1964",
+      "runtime": "87 min",
+      "rating": "G",
+      "genres": [
+        "Comedy",
+        "Musical"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-07-31",
+          "tm": "11:00",
+          "id": "635534",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635534~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Peter Asher: Everywhere Man",
+      "description": "",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/PETER ASHER1.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-01",
+          "tm": "08:00",
+          "id": "629503",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629503~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "The Talented Mr. Ripley",
+      "description": "In late 1950s New York, a young underachiever named Tom Ripley is sent to Italy to retrieve Dickie Greenleaf, a rich and spoiled millionaire playboy. But when the errand fails, Ripley takes extreme measures.",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/TALENTED MR RIPLEY 2026_1.jpg",
+      "director": "Anthony Minghella",
+      "year": "1999",
+      "runtime": "139 min",
+      "rating": "R",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-01",
+          "tm": "11:00",
+          "id": "637209",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=637209~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "The Gleaners and I",
+      "description": "Agnes Varda returns to the people she met in her 2000 documentary on gleaning and meets some new people who were inspired by her first film.",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/THE GLEANERS AND I1.jpg",
+      "director": "Agnès Varda",
+      "year": "2002",
+      "runtime": "63 min",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-02",
+          "tm": "08:30",
+          "id": "635413",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635413~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "You Got Gold: A Celebration of John Prine",
+      "description": "",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/JOHN PRINE1.jpg",
+      "director": "Michael John Warren",
+      "year": "2025",
+      "genres": [
+        "Documentary",
+        "Music"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-02",
+          "tm": "11:00",
+          "id": "629506",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629506~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-21",
+          "tm": "11:00",
+          "id": "629506",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629506~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "A Life Illuminated",
+      "description": "A Life Illuminated follows renowned marine biologist Dr. Edith Widder as she embarks on an extraordinary journey into the magical world of deep sea bioluminescence.",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/SUMMERTIME2.jpg",
+      "director": "Tasha Van Zandt",
+      "year": "2025",
+      "runtime": "89 min",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-07",
+          "tm": "11:00",
+          "id": "637210",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=637210~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Summertime",
+      "description": "An American spinster's dream of romance finally becomes a bittersweet reality when she meets a handsome--but married--Italian man while vacationing in Venice.",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/WILD INSIDE1.jpg",
+      "director": "David Lean",
+      "year": "1955",
+      "runtime": "100 min",
+      "rating": "Approved",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-08",
+          "tm": "08:00",
+          "id": "637208",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=637208~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Wild Inside",
+      "description": "Flaco, a captive-raised Eurasian eagle-owl, escaped NYC's Central Park Zoo in 2023. The largest owl species worldwide, he'd lived there 13 years since being a fledgling before gaining fame through his wild adventures.",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/COOKIE QUEEN3.jpg",
+      "director": "Penny Lane",
+      "year": "2026",
+      "runtime": "96 min",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-08",
+          "tm": "11:00",
+          "id": "635533",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635533~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-16",
+          "tm": "07:45",
+          "id": "635533",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635533~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Cookie Queens",
+      "description": "It's Girl Scout Cookie season, and four tenacious girls strive to be a top-selling \"Cookie Queen,\" navigating an $800 million business in which innocence and ambition collide.",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/NEKAI WALKS1.jpg",
+      "director": "Alysa Nahmias",
+      "year": "2026",
+      "runtime": "91 min",
+      "genres": [
+        "Documentary",
+        "Comedy",
+        "Family"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-09",
+          "tm": "08:15",
+          "id": "635505",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635505~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-29",
+          "tm": "08:15",
+          "id": "635505",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635505~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "CatVideoFest 2026",
+      "description": "Oscilloscope Laboratories presents a compilation of the latest and best cat videos culled from countless hours of unique submissions and sourced animations, music videos, and classic internet powerhouses.",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/EVERYONE IS LYING TO YOU5.jpg",
+      "director": "Will Braden",
+      "year": "2026",
+      "runtime": "70 min",
+      "genres": [
+        "Family"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-09",
+          "tm": "11:00",
+          "id": "635504",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635504~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-23",
+          "tm": "08:30",
+          "id": "635504",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635504~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Nekai Walks",
+      "description": "In the summer of 2023, a Toronto teenager leaves home with his first paycheck, planning nothing more dangerous than a game of basketball. As dawn turned to darkness, he is caught in a hail of gunfire on a North York street - an in...",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/SUMMERS TALE1.jpg",
+      "director": "Rico King",
+      "year": "2026",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-14",
+          "tm": "11:00",
+          "id": "635512",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635512~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Green Valley",
+      "description": "A trip to the mountains becomes contentious when a violent home video is shown.",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/LA HAINE4.jpg",
+      "director": "Josh Barry",
+      "year": "2009",
+      "runtime": "100 min",
+      "rating": "Not Rated",
+      "genres": [
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-15",
+          "tm": "07:30",
+          "id": "637211",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=637211~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Everyone Is Lying to You for Money",
+      "description": "",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/BIGGER SPLASH 2026_4.jpg",
+      "director": "Giorgio Angelini",
+      "year": "2025",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-15",
+          "tm": "11:00",
+          "id": "621808",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=621808~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Antidiva: The Carole Pope Confessions",
+      "description": "",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/PHILADELPHIA STORY1.jpg",
+      "director": "Michelle Mama",
+      "year": "2026",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-16",
+          "tm": "11:00",
+          "id": "637214",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=637214~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "A Summer's Tale",
+      "description": "As a reserved young graduate vacations in a seaside town, he hopes his girlfriend will join him. But he ends up bonding with a local young woman whose female friend is also smitten with him.",
+      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/AMERICAN DOCTOR 2026_1.jpg",
+      "director": "Éric Rohmer",
+      "year": "1996",
+      "runtime": "113 min",
+      "rating": "G",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-23",
+          "tm": "11:00",
+          "id": "637212",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=637212~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "La haine",
+      "description": "24 hours in the lives of three young men in the French suburbs the day after a violent riot.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMThlMDA3NDYtZGM2Zi00NmJhLThlYWItZjViZTkzZWU1ZWRiXkEyXkFqcGc@._V1_SX300.jpg",
+      "director": "Mathieu Kassovitz",
+      "year": "1995",
+      "runtime": "98 min",
+      "rating": "Not Rated",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-28",
+          "tm": "11:00",
+          "id": "637213",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=637213~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "A Bigger Splash featuring David Hockney",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-29",
+          "tm": "11:00",
+          "id": "635404",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635404~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "The Philadelphia Story - 4K Restoration",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-30",
+          "tm": "08:00",
+          "id": "638003",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=638003~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "American Doctor",
+      "description": "When three American doctors-Palestinian, Jewish, and Zoroastrian-enter Gaza to save lives, they find themselves caught between medicine and politics, risking everything to expose the truth.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMGU5YTgwYmYtMzdhYy00ODkxLThhOTQtNDk5YmUzMjNlYjc2XkEyXkFqcGc@._V1_SX300.jpg",
+      "director": "Poh Si Teng",
+      "year": "2026",
+      "runtime": "91 min",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-08-30",
+          "tm": "11:00",
+          "id": "635497",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635497~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Mamma Mia! (2008)",
+      "description": "Independent hotelier Donna is preparing for her daughter's wedding with the help of two old friends. Meanwhile, spirited bride-to-be Sophie invites three men from her mother's past in order to discern which is her biological father.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTA2MDU0MjM0MzReQTJeQWpwZ15BbWU3MDYwNzgwNzE@._V1_SX300.jpg",
+      "director": "Phyllida Lloyd",
+      "year": "2008",
+      "runtime": "108 min",
+      "rating": "PG-13",
+      "genres": [
+        "Comedy",
+        "Musical",
+        "Romance"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-07-15",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-15",
+          "tm": "18:30"
+        }
+      ]
+    },
+    {
+      "title": "Star Wars Mandalorian and Grogu",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-07-15",
+          "tm": "13:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-15",
+          "tm": "22:35"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-16",
+          "tm": "13:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-16",
+          "tm": "22:35"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-17",
+          "tm": "13:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-17",
+          "tm": "22:35"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-18",
+          "tm": "13:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-18",
+          "tm": "22:35"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-19",
+          "tm": "13:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-19",
+          "tm": "22:35"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-20",
+          "tm": "13:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-20",
+          "tm": "22:35"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-21",
+          "tm": "13:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-21",
+          "tm": "22:35"
+        }
+      ]
+    },
+    {
+      "title": "The Super Mario Galazy Movie",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-07-15",
+          "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-18",
+          "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-20",
+          "tm": "13:30"
+        }
+      ]
+    },
+    {
+      "title": "Hoppers",
+      "description": "A 19-year-old animal lover uses technology that places her consciousness into a robotic beaver to uncover mysteries within the animal world beyond her imagination.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzRiMzZlMTMtNmU3OC00MDUwLThmNDUtMTBjZmQ3MWQ4NTljXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "director": "Daniel Chong",
+      "year": "2026",
+      "runtime": "104 min",
+      "rating": "PG",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-07-17",
+          "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-19",
+          "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-21",
+          "tm": "13:30"
+        }
+      ]
+    },
+    {
+      "title": "Michael",
+      "description": "The early life of musician Michael Jackson, from the discovery of his talent as the lead of the Jackson Five to the artist whose creative ambition fueled a pursuit to become the biggest entertainer in the world.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNzllNmRlN2EtMDQyOC00ODJjLTg4OWQtZDNmNGU3YzlkNjc1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "director": "Antoine Fuqua",
+      "year": "2026",
+      "runtime": "127 min",
+      "rating": "PG-13",
+      "genres": [
+        "Biography",
+        "Drama",
+        "History"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-07-15",
+          "tm": "15:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-15",
+          "tm": "19:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-16",
+          "tm": "15:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-16",
+          "tm": "19:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-17",
+          "tm": "15:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-17",
+          "tm": "19:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-18",
+          "tm": "15:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-18",
+          "tm": "19:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-19",
+          "tm": "15:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-19",
+          "tm": "19:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-20",
+          "tm": "15:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-20",
+          "tm": "19:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-21",
+          "tm": "15:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-21",
+          "tm": "19:15"
+        }
+      ]
+    },
+    {
+      "title": "The Bread Winner",
+      "description": "In the dusty streets of Kabul, Afghanistan, 8-year-old Farouk works tirelessly every day peddling calendars and newspapers while also attending school. Farouk's father, crippled during the decades-long war and occupation, is unable t",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzgxMDg4MTM1Nl5BMl5BanBnXkFtZTcwODM4NTk5NA@@._V1_SX300.jpg",
+      "director": "Sonia Nassery Cole",
+      "year": "2007",
+      "runtime": "23 min",
+      "genres": [
+        "Documentary",
+        "Short"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-07-15",
+          "tm": "15:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-17",
+          "tm": "15:10"
+        }
+      ]
+    },
+    {
+      "title": "Little Lorraine",
+      "description": "Little Lorraine, a North Atlantic seaside town with a population of 60, becomes embroiled in an international cocaine smuggling operation under the noses of multiple governments, distributed in coffins through a network of funeral...",
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2VmMGFjNzEtOWZlMC00N2M2LTgxYzUtMzhmYjRkNTgyN2JmXkEyXkFqcGc@._V1_SX300.jpg",
+      "director": "Andy Hines",
+      "year": "2025",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-07-19",
+          "tm": "15:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-21",
+          "tm": "15:10"
+        }
+      ]
+    },
+    {
+      "title": "Pressure",
+      "description": "A group of men are trapped in a small pod on the sea bed, after diving down to fix an oil pipeline and becoming separated from their ship.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNTM2MzA3ODUxM15BMl5BanBnXkFtZTgwNjEyMjk1NjE@._V1_SX300.jpg",
+      "director": "Ron Scalpello",
+      "year": "2015",
+      "runtime": "91 min",
+      "rating": "R",
+      "genres": [
+        "Drama",
+        "Thriller"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-07-15",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-18",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-20",
+          "tm": "17:00"
+        }
+      ]
+    },
+    {
+      "title": "The Devil Wears Prada 2",
+      "description": "Andy Sachs reunites with Miranda Priestly as they navigate their careers amid the decline of traditional magazine publishing.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZmM3ZDU3ODItZmY5Yi00OTQ2LWE5OTctZTA5NDBhMWJkOGY3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "director": "David Frankel",
+      "year": "2026",
+      "runtime": "119 min",
+      "rating": "PG-13",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-07-17",
+          "tm": "17:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-19",
+          "tm": "17:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-21",
+          "tm": "17:15"
+        }
+      ]
+    },
+    {
+      "title": "Misan Harriman Shoot the People",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-07-17",
+          "tm": "17:25"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-19",
+          "tm": "17:25"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-21",
+          "tm": "17:25"
+        }
+      ]
+    },
+    {
+      "title": "Romeria",
+      "description": "",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjhmYTg4NmItNWM3NS00ZjYwLWIxNzMtMTY2ODFlMDg5YmM0XkEyXkFqcGdeQXVyMjA0NzcwMjI@._V1_SX300.jpg",
+      "director": "Gabriel Veyre",
+      "year": "1896",
+      "runtime": "1 min",
+      "genres": [
+        "Documentary",
+        "Short"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-07-15",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-18",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-20",
+          "tm": "19:00"
+        }
+      ]
+    },
+    {
+      "title": "Jackass Best and Last",
+      "description": "Follows the Jackass crew as they perform their final series of dangerous stunts and pranks, marking the end of the franchise.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYTRlYzQwYjItNDljNC00YmI2LWEwYmEtMjhhM2NiMGFhNTYyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "director": "Jeff Tremaine",
+      "year": "2026",
+      "runtime": "92 min",
+      "rating": "R",
+      "genres": [
+        "Documentary",
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-07-15",
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-18",
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-20",
+          "tm": "21:05"
+        }
+      ]
+    },
+    {
+      "title": "Scary Movie 2026",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-07-17",
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-19",
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-21",
+          "tm": "21:05"
+        }
+      ]
+    },
+    {
+      "title": "Indiana Jones and the Temple of Doom",
+      "description": "In 1935, Indiana Jones is tasked by Indian villagers with reclaiming a sacred stone stolen from them by a secret cult.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOGUwZjZiNWQtYzAzZi00NGI5LWE4YmUtN2Y4YWMwY2RlZDkyXkEyXkFqcGc@._V1_SX300.jpg",
+      "director": "Steven Spielberg",
+      "year": "1984",
+      "runtime": "118 min",
+      "rating": "PG",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-07-15",
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-16",
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-17",
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-18",
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-19",
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-20",
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-21",
+          "tm": "21:05"
+        }
+      ]
+    },
+    {
+      "title": "The Furious",
+      "description": "A father fights fiercely against ruthless kidnappers to save his abducted daughter.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BODUyZjg2YzctNGE3Yi00YjhhLTkyZTItZTAwZTNhNDA1ODQzXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "director": "Kenji Tanigaki",
+      "year": "2026",
+      "runtime": "113 min",
+      "rating": "R",
+      "genres": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-07-17",
+          "tm": "22:35"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-19",
+          "tm": "22:35"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-07-21",
+          "tm": "22:35"
+        }
+      ]
     }
   ],
   "tiffFilms": [
     {
-      "title": "Couture",
-      "director": "Alice Winocour",
-      "note": "Angelina Jolie stars. Parisian fashion industry drama."
+      "title": "& Sons",
+      "note": "TIFF"
     },
     {
-      "title": "Gail Daughtry and the Celebrity Sex Pass",
-      "note": "Guest attending"
+      "title": "A Life Illuminated",
+      "note": "TIFF"
     },
     {
-      "title": "Drunken Noodles",
-      "note": "Now playing"
+      "title": "A Pale View of Hills",
+      "note": "TIFF"
     },
     {
-      "title": "Lenin",
-      "note": "Now playing"
+      "title": "A Simple Soldier",
+      "note": "TIFF"
     },
     {
-      "title": "Romeria",
-      "note": "Now playing"
+      "title": "A Survivor's Tale",
+      "note": "TIFF"
     },
     {
-      "title": "Steal Away",
-      "note": "Now playing"
+      "title": "A Sámi Wedding",
+      "note": "TIFF"
     },
     {
-      "title": "Barrio Triste",
-      "note": "Now playing"
+      "title": "A Useful Ghost",
+      "note": "TIFF"
     },
     {
-      "title": "Remake",
-      "note": "Now playing"
+      "title": "Academy Conversation: The Changing Landscape of Distribution",
+      "note": "TIFF"
     },
     {
-      "title": "Tenet (70mm)",
-      "director": "Christopher Nolan",
-      "note": "70mm presentation"
+      "title": "Adulthood",
+      "note": "TIFF"
     },
     {
-      "title": "Redline",
-      "note": "Now playing"
+      "title": "Aki",
+      "note": "TIFF"
     },
     {
-      "title": "Oppenheimer (70mm)",
-      "director": "Christopher Nolan",
-      "note": "70mm presentation"
+      "title": "Amoeba",
+      "note": "TIFF"
     },
     {
-      "title": "Memento",
-      "director": "Christopher Nolan",
-      "note": "Now playing"
+      "title": "Aniki-Bóbó",
+      "note": "TIFF"
+    },
+    {
+      "title": "As We Breathe",
+      "note": "TIFF"
+    },
+    {
+      "title": "BLKNWS: Terms & Conditions",
+      "note": "TIFF"
+    },
+    {
+      "title": "Babystar",
+      "note": "TIFF"
+    },
+    {
+      "title": "Bad Apples",
+      "note": "TIFF"
+    },
+    {
+      "title": "Bam Bam",
+      "note": "TIFF"
+    },
+    {
+      "title": "Bashu, the Little Stranger",
+      "note": "TIFF"
+    },
+    {
+      "title": "Bayaan",
+      "note": "TIFF"
+    },
+    {
+      "title": "Before Sunrise",
+      "note": "TIFF"
+    },
+    {
+      "title": "Below the Clouds",
+      "note": "TIFF"
+    },
+    {
+      "title": "Between Borders",
+      "note": "TIFF"
+    },
+    {
+      "title": "Between Dreams and Hope",
+      "note": "TIFF"
+    },
+    {
+      "title": "Bill & Ted's Excellent Adventure",
+      "note": "TIFF"
+    },
+    {
+      "title": "Black Rabbit",
+      "note": "TIFF"
+    },
+    {
+      "title": "Blood Lines",
+      "note": "TIFF"
+    },
+    {
+      "title": "Broken English",
+      "note": "TIFF"
+    },
+    {
+      "title": "Butterfly on a Wheel",
+      "note": "TIFF"
+    },
+    {
+      "title": "Buyers in Focus Australia, Brazil, Canada, China",
+      "note": "TIFF"
+    },
+    {
+      "title": "Buyers in Focus Austria, Germany, Nigeria",
+      "note": "TIFF"
+    },
+    {
+      "title": "Buyers in Focus Canada, Turkey",
+      "note": "TIFF"
+    },
+    {
+      "title": "Buyers in Focus Denmark, India, Netherlands",
+      "note": "TIFF"
+    },
+    {
+      "title": "Buyers in Focus Documentaries",
+      "note": "TIFF"
+    },
+    {
+      "title": "Buyers in Focus France, USA",
+      "note": "TIFF"
+    },
+    {
+      "title": "Buyers in Focus Italy, Norway, Sweden, USA",
+      "note": "TIFF"
+    },
+    {
+      "title": "Buyers in Focus LATAM, Finland, Nigeria, United Kingdom",
+      "note": "TIFF"
+    },
+    {
+      "title": "California Schemin'",
+      "note": "TIFF"
+    },
+    {
+      "title": "Calle Málaga",
+      "note": "TIFF"
+    },
+    {
+      "title": "Canceled: The Paula Deen Story",
+      "note": "TIFF"
+    },
+    {
+      "title": "Charlie Harper",
+      "note": "TIFF"
+    },
+    {
+      "title": "Christy",
+      "note": "TIFF"
+    },
+    {
+      "title": "Closure",
+      "note": "TIFF"
+    },
+    {
+      "title": "Copper",
+      "note": "TIFF"
+    },
+    {
+      "title": "DIALOGUES Creative Visions in Animated Feature Films",
+      "note": "TIFF"
+    },
+    {
+      "title": "DIALOGUES Indie Producers on a Shifting Landscape",
+      "note": "TIFF"
+    },
+    {
+      "title": "DIALOGUES Modern Whore: Book to Screen",
+      "note": "TIFF"
+    },
+    {
+      "title": "DIALOGUES Murder Mysteries Reawakened: A Knives Out Conversation with Rian Johnson and Glenn Close",
+      "note": "TIFF"
+    },
+    {
+      "title": "DIALOGUES New Comedic Voices in Feature Film",
+      "note": "TIFF"
+    },
+    {
+      "title": "DIALOGUES Short Cuts to First Features",
+      "note": "TIFF"
+    },
+    {
+      "title": "Dandelion's Odyssey",
+      "note": "TIFF"
+    },
+    {
+      "title": "Degrassi: Whatever It Takes",
+      "note": "TIFF"
+    },
+    {
+      "title": "Dinner With Friends",
+      "note": "TIFF"
+    },
+    {
+      "title": "Diya",
+      "note": "TIFF"
+    },
+    {
+      "title": "Documentary People's Choice Award Winner Screening",
+      "note": "TIFF"
+    },
+    {
+      "title": "Dog 51",
+      "note": "TIFF"
+    },
+    {
+      "title": "Dogme23 Short Film Selection",
+      "note": "TIFF"
+    },
+    {
+      "title": "Dolly",
+      "note": "TIFF"
+    },
+    {
+      "title": "Dolph: Unbreakable",
+      "note": "TIFF"
+    },
+    {
+      "title": "Driver's Ed",
+      "note": "TIFF"
+    },
+    {
+      "title": "Duse",
+      "note": "TIFF"
+    },
+    {
+      "title": "Dust Bunny",
+      "note": "TIFF"
+    },
+    {
+      "title": "EPiC: Elvis Presley in Concert",
+      "note": "TIFF"
+    },
+    {
+      "title": "Eagles of the Republic",
+      "note": "TIFF"
+    },
+    {
+      "title": "Easy's Waltz",
+      "note": "TIFF"
+    },
+    {
+      "title": "Egghead Republic",
+      "note": "TIFF"
+    },
+    {
+      "title": "Elisa",
+      "note": "TIFF"
+    },
+    {
+      "title": "Eternal Return",
+      "note": "TIFF"
+    },
+    {
+      "title": "Eternity",
+      "note": "TIFF"
+    },
+    {
+      "title": "Exit 8",
+      "note": "TIFF"
+    },
+    {
+      "title": "Falling",
+      "note": "TIFF"
+    },
+    {
+      "title": "Falsehood",
+      "note": "TIFF"
+    },
+    {
+      "title": "Fanon",
+      "note": "TIFF"
+    },
+    {
+      "title": "Find Your Friends",
+      "note": "TIFF"
+    },
+    {
+      "title": "Flana",
+      "note": "TIFF"
+    },
+    {
+      "title": "Forastera",
+      "note": "TIFF"
+    },
+    {
+      "title": "Forelock",
+      "note": "TIFF"
+    },
+    {
+      "title": "Franz",
+      "note": "TIFF"
+    },
+    {
+      "title": "Fuck My Son!",
+      "note": "TIFF"
+    },
+    {
+      "title": "Fuze",
+      "note": "TIFF"
+    },
+    {
+      "title": "Gandhi",
+      "note": "TIFF"
+    },
+    {
+      "title": "Gara's Return",
+      "note": "TIFF"
+    },
+    {
+      "title": "Ghost School",
+      "note": "TIFF"
+    },
+    {
+      "title": "Gill",
+      "note": "TIFF"
+    },
+    {
+      "title": "Girl",
+      "note": "TIFF"
+    },
+    {
+      "title": "Glenrothan",
+      "note": "TIFF"
+    },
+    {
+      "title": "Good Boy",
+      "note": "TIFF"
+    },
+    {
+      "title": "Good Fortune",
+      "note": "TIFF"
+    },
+    {
+      "title": "Good News",
+      "note": "TIFF"
+    },
+    {
+      "title": "Guac: A Portrait of Love, Joy & Tragedy",
+      "note": "TIFF"
+    },
+    {
+      "title": "Hana Korea",
+      "note": "TIFF"
+    },
+    {
+      "title": "Hedda",
+      "note": "TIFF"
+    },
+    {
+      "title": "Hen",
+      "note": "TIFF"
+    },
+    {
+      "title": "High Fidelity",
+      "note": "TIFF"
+    },
+    {
+      "title": "Holy Days",
+      "note": "TIFF"
+    },
+    {
+      "title": "Homebound",
+      "note": "TIFF"
+    },
+    {
+      "title": "Honey Bunch",
+      "note": "TIFF"
+    },
+    {
+      "title": "In Conversation With... Dwayne Johnson",
+      "note": "TIFF"
+    },
+    {
+      "title": "In Conversation With... Park Chan-wook",
+      "note": "TIFF"
+    },
+    {
+      "title": "In Conversation With... Ryan Reynolds",
+      "note": "TIFF"
+    },
+    {
+      "title": "In Conversation With... Tessa Thompson and Nia DaCosta",
+      "note": "TIFF"
+    },
+    {
+      "title": "In Search of The Sky",
+      "note": "TIFF"
+    },
+    {
+      "title": "IndieWire Screen Talk LIVE",
+      "note": "TIFF"
+    },
+    {
+      "title": "Indigenous PERSPECTIVES on Creative Sovereignty in Co-Productions",
+      "note": "TIFF"
+    },
+    {
+      "title": "Industry Conference Happy Hour",
+      "note": "TIFF"
+    },
+    {
+      "title": "Industry Conference Happy Hour",
+      "note": "TIFF"
+    },
+    {
+      "title": "International People's Choice Award Winner Screening",
+      "note": "TIFF"
+    },
+    {
+      "title": "Irkalla: Gilgamesh's Dream",
+      "note": "TIFF"
+    },
+    {
+      "title": "It Would Be Night in Caracas",
+      "note": "TIFF"
+    },
+    {
+      "title": "JUNK WORLD",
+      "note": "TIFF"
+    },
+    {
+      "title": "Jacked",
+      "note": "TIFF"
+    },
+    {
+      "title": "Jaws – 50th Anniversary (35mm)",
+      "note": "TIFF"
+    },
+    {
+      "title": "Jersey Boy",
+      "note": "TIFF"
+    },
+    {
+      "title": "John Candy: I Like Me",
+      "note": "TIFF"
+    },
+    {
+      "title": "Julian",
+      "note": "TIFF"
+    },
+    {
+      "title": "Karmadonna",
+      "note": "TIFF"
+    },
+    {
+      "title": "Killing Castro",
+      "note": "TIFF"
+    },
+    {
+      "title": "Ky Nam Inn",
+      "note": "TIFF"
+    },
+    {
+      "title": "Lady Bird",
+      "note": "TIFF"
+    },
+    {
+      "title": "Late Fame",
+      "note": "TIFF"
+    },
+    {
+      "title": "Laundry",
+      "note": "TIFF"
+    },
+    {
+      "title": "Levers",
+      "note": "TIFF"
+    },
+    {
+      "title": "Lilith Fair: Building a Mystery",
+      "note": "TIFF"
+    },
+    {
+      "title": "Little Angels",
+      "note": "TIFF"
+    },
+    {
+      "title": "Little Lorraine",
+      "note": "TIFF"
+    },
+    {
+      "title": "Love+War",
+      "note": "TIFF"
+    },
+    {
+      "title": "Lovely Day",
+      "note": "TIFF"
+    },
+    {
+      "title": "Lucky Lu",
+      "note": "TIFF"
+    },
+    {
+      "title": "MICROSESSION Are You Ready to Apply to Telefilm Canada?",
+      "note": "TIFF"
+    },
+    {
+      "title": "MICROSESSION Building Sustainable Productions and Festivals",
+      "note": "TIFF"
+    },
+    {
+      "title": "MICROSESSION Coming Soon: Developing New Work in South Korea",
+      "note": "TIFF"
+    },
+    {
+      "title": "MICROSESSION Exploring the Futures of Distribution",
+      "note": "TIFF"
+    },
+    {
+      "title": "MICROSESSION Maximizing Co-Production with Canada: Meet the Provinces",
+      "note": "TIFF"
+    },
+    {
+      "title": "MICROSESSION SIRA | Inside the African Grid Shaping Our Future: Creating Roadmaps to Co-Production and Sales in the Global Marketplace",
+      "note": "TIFF"
+    },
+    {
+      "title": "MICROSESSION The UK: Where Partnerships Bring Stories to Life",
+      "note": "TIFF"
+    },
+    {
+      "title": "Mama",
+      "note": "TIFF"
+    },
+    {
+      "title": "Mare's Nest",
+      "note": "TIFF"
+    },
+    {
+      "title": "Marie Antoinette",
+      "note": "TIFF"
+    },
+    {
+      "title": "Meadowlarks",
+      "note": "TIFF"
+    },
+    {
+      "title": "Midnight Madness People's Choice Award Winner Screening",
+      "note": "TIFF"
+    },
+    {
+      "title": "Milk Teeth",
+      "note": "TIFF"
+    },
+    {
+      "title": "Monkey in a Cage",
+      "note": "TIFF"
+    },
+    {
+      "title": "Moonstruck",
+      "note": "TIFF"
+    },
+    {
+      "title": "Mother's Love",
+      "note": "TIFF"
+    },
+    {
+      "title": "Motor City",
+      "note": "TIFF"
+    },
+    {
+      "title": "My Father's Shadow",
+      "note": "TIFF"
+    },
+    {
+      "title": "NO DRAMA | Short Film Showcase World Premiere",
+      "note": "TIFF"
+    },
+    {
+      "title": "Nadja",
+      "note": "TIFF"
+    },
+    {
+      "title": "New Years Rev",
+      "note": "TIFF"
+    },
+    {
+      "title": "Ni-Naadamaadiz: Red Power Rising",
+      "note": "TIFF"
+    },
+    {
+      "title": "Nino",
+      "note": "TIFF"
+    },
+    {
+      "title": "Nomad Shadow",
+      "note": "TIFF"
+    },
+    {
+      "title": "Normal",
+      "note": "TIFF"
+    },
+    {
+      "title": "Noviembre",
+      "note": "TIFF"
+    },
+    {
+      "title": "Nuestra Tierra",
+      "note": "TIFF"
+    },
+    {
+      "title": "Nuns vs. The Vatican",
+      "note": "TIFF"
+    },
+    {
+      "title": "Nuremberg",
+      "note": "TIFF"
+    },
+    {
+      "title": "Obsession",
+      "note": "TIFF"
+    },
+    {
+      "title": "Oca",
+      "note": "TIFF"
+    },
+    {
+      "title": "Olmo",
+      "note": "TIFF"
+    },
+    {
+      "title": "On The End",
+      "note": "TIFF"
+    },
+    {
+      "title": "Ontario Creates Industry Conference Happy Hour",
+      "note": "TIFF"
+    },
+    {
+      "title": "Origin: The Story of the Basketball Africa League",
+      "note": "TIFF"
+    },
+    {
+      "title": "Orphan",
+      "note": "TIFF"
+    },
+    {
+      "title": "Our Father",
+      "note": "TIFF"
+    },
+    {
+      "title": "Out Standing",
+      "note": "TIFF"
+    },
+    {
+      "title": "PERSPECTIVES Accessible Productions: Best Practices",
+      "note": "TIFF"
+    },
+    {
+      "title": "PERSPECTIVES Building Inclusive and Collaborative Productions",
+      "note": "TIFF"
+    },
+    {
+      "title": "PERSPECTIVES Cinema on the Rise: Expanding Opportunities Across the Middle East",
+      "note": "TIFF"
+    },
+    {
+      "title": "PERSPECTIVES Latin American Cinema in Challenging Times",
+      "note": "TIFF"
+    },
+    {
+      "title": "PERSPECTIVES Producing Elevated Art-House Series",
+      "note": "TIFF"
+    },
+    {
+      "title": "PERSPECTIVES Sourcing Stories in a Multi-Platform World",
+      "note": "TIFF"
+    },
+    {
+      "title": "PERSPECTIVES Unlocking New Possibilities for Storytelling with AI",
+      "note": "TIFF"
+    },
+    {
+      "title": "Palimpsest: the Story of a Name",
+      "note": "TIFF"
+    },
+    {
+      "title": "People's Choice Award Winner Screening",
+      "note": "TIFF"
+    },
+    {
+      "title": "Platform Award Winner Screening",
+      "note": "TIFF"
+    },
+    {
+      "title": "Playback Industry Conference Happy Hour",
+      "note": "TIFF"
+    },
+    {
+      "title": "Poetic License",
+      "note": "TIFF"
+    },
+    {
+      "title": "Portobello",
+      "note": "TIFF"
+    },
+    {
+      "title": "Powwow People",
+      "note": "TIFF"
+    },
+    {
+      "title": "Primavera",
+      "note": "TIFF"
+    },
+    {
+      "title": "Project Y",
+      "note": "TIFF"
+    },
+    {
+      "title": "Put Your Soul on Your Hand and Walk",
+      "note": "TIFF"
+    },
+    {
+      "title": "Ralph's Perfekt Christmas",
+      "note": "TIFF"
+    },
+    {
+      "title": "Rental Family",
+      "note": "TIFF"
+    },
+    {
+      "title": "Retreat",
+      "note": "TIFF"
+    },
+    {
+      "title": "Reunion",
+      "note": "TIFF"
+    },
+    {
+      "title": "Rise of the Raven",
+      "note": "TIFF"
+    },
+    {
+      "title": "Roofman",
+      "note": "TIFF"
+    },
+    {
+      "title": "SIRA - The African Hub Presents - 3 Cold Dishes & Made By Design",
+      "note": "TIFF"
+    },
+    {
+      "title": "SIRA - The African Hub Presents - Made By Design & The Serpent's Gift",
+      "note": "TIFF"
+    },
+    {
+      "title": "SIRA - The African Hub Presents - Mama Nike - Queen of Adire & Black Pepper",
+      "note": "TIFF"
+    },
+    {
+      "title": "SPECIAL INDUSTRY EVENT Sloan Science and Technology Project Pitch",
+      "note": "TIFF"
+    },
+    {
+      "title": "SPOTLIGHT Gold Pitch Filmmaker Showcase",
+      "note": "TIFF"
+    },
+    {
+      "title": "SPOTLIGHT Italy, Your Strategic Film Partner! B2B Co-Producing with Italy",
+      "note": "TIFF"
+    },
+    {
+      "title": "SPOTLIGHT Italy, Your Strategic Film Partner! Filming in Italy Forum",
+      "note": "TIFF"
+    },
+    {
+      "title": "SPOTLIGHT New HERizons: Asian Women Shaping Film",
+      "note": "TIFF"
+    },
+    {
+      "title": "SPOTLIGHT Northern Ontario: Above and Beyond",
+      "note": "TIFF"
+    },
+    {
+      "title": "SPOTLIGHT Producing the Vision: Balancing Artistry and Efficiency",
+      "note": "TIFF"
+    },
+    {
+      "title": "SPOTLIGHT The Next Wave of AI Filmmaking: Smarter, Safer & Better",
+      "note": "TIFF"
+    },
+    {
+      "title": "Sacrifice",
+      "note": "TIFF"
+    },
+    {
+      "title": "Saipan",
+      "note": "TIFF"
+    },
+    {
+      "title": "Series Up Close with Mae Martin",
+      "note": "TIFF"
+    },
+    {
+      "title": "She Has No Name",
+      "note": "TIFF"
+    },
+    {
+      "title": "Sholay",
+      "note": "TIFF"
+    },
+    {
+      "title": "Short Cuts 2025 / Strange Cuts",
+      "note": "TIFF"
+    },
+    {
+      "title": "Short Cuts 2025 Programme 01",
+      "note": "TIFF"
+    },
+    {
+      "title": "Short Cuts 2025 Programme 02",
+      "note": "TIFF"
+    },
+    {
+      "title": "Short Cuts 2025 Programme 03",
+      "note": "TIFF"
+    },
+    {
+      "title": "Short Cuts 2025 Programme 04",
+      "note": "TIFF"
+    },
+    {
+      "title": "Short Cuts 2025 Programme 05",
+      "note": "TIFF"
+    },
+    {
+      "title": "Short Cuts 2025 Programme 06",
+      "note": "TIFF"
+    },
+    {
+      "title": "Sink",
+      "note": "TIFF"
+    },
+    {
+      "title": "Sloan Science on Screen Industry Conference Happy Hour",
+      "note": "TIFF"
+    },
+    {
+      "title": "Son of Sara",
+      "note": "TIFF"
+    },
+    {
+      "title": "Sound of Metal",
+      "note": "TIFF"
+    },
+    {
+      "title": "Spotlight on Cinema from Spain",
+      "note": "TIFF"
+    },
+    {
+      "title": "Steve",
+      "note": "TIFF"
+    },
+    {
+      "title": "Stitches",
+      "note": "TIFF"
+    },
+    {
+      "title": "Straight Circle",
+      "note": "TIFF"
+    },
+    {
+      "title": "Swiped",
+      "note": "TIFF"
+    },
+    {
+      "title": "TTC Free Screening",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Ankler & Pure Nonfiction LIVE with Mariska Hargitay",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Ankler’s Prestige Junkie LIVE with Joel Edgerton",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Arch",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Bad Boy and Me 2",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Balloonists",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Captive",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Choral",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Condor Daughter",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Cost of Heaven",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Currents",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Eagle Obsession",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Eyes of Ghana",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Fence",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Fox King",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Furious",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Goonies",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Holy Boy",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Last One for The Road",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Last Supper",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Last Viking",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Lightning Code",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Little Sister",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Lost Bus",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Lowdown",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Man in My Basement",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Mysterious Gaze of the Flamingo",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Napa Boys",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Road Between Us: The Ultimate Rescue",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Road to Sydney",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Savage",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Seasons",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Smashing Machine",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Son and the Sea",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Sun Rises On Us All",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Tale of Silyan",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Testament of Ann Lee",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Theft of the Caravaggio",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Ugly",
+      "note": "TIFF"
+    },
+    {
+      "title": "The World of Love",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Yeti",
+      "note": "TIFF"
+    },
+    {
+      "title": "TheWrap Conversation with Barry Avrich",
+      "note": "TIFF"
+    },
+    {
+      "title": "There Are No Words",
+      "note": "TIFF"
+    },
+    {
+      "title": "Three Goodbyes",
+      "note": "TIFF"
+    },
+    {
+      "title": "To The Victory!",
+      "note": "TIFF"
+    },
+    {
+      "title": "True North",
+      "note": "TIFF"
+    },
+    {
+      "title": "Two Pianos",
+      "note": "TIFF"
+    },
+    {
+      "title": "Uncle Buck",
+      "note": "TIFF"
+    },
+    {
+      "title": "Under the Same Sun",
+      "note": "TIFF"
+    },
+    {
+      "title": "VISIONARIES Andrea Scrosati",
+      "note": "TIFF"
+    },
+    {
+      "title": "VISIONARIES Donna Langley",
+      "note": "TIFF"
+    },
+    {
+      "title": "VISIONARIES Edward Berger",
+      "note": "TIFF"
+    },
+    {
+      "title": "VISIONARIES Sterlin Harjo",
+      "note": "TIFF"
+    },
+    {
+      "title": "VISIONARIES Yelena Rachitsky",
+      "note": "TIFF"
+    },
+    {
+      "title": "Wake Up Dead Man: A Knives Out Mystery",
+      "note": "TIFF"
+    },
+    {
+      "title": "Wavelengths 1: Map of Traces",
+      "note": "TIFF"
+    },
+    {
+      "title": "Wavelengths 2: Into the Blue",
+      "note": "TIFF"
+    },
+    {
+      "title": "Wavelengths 3: Slightest Pretense",
+      "note": "TIFF"
+    },
+    {
+      "title": "Wayward",
+      "note": "TIFF"
+    },
+    {
+      "title": "Whistle",
+      "note": "TIFF"
+    },
+    {
+      "title": "Whitetail",
+      "note": "TIFF"
+    },
+    {
+      "title": "Winter of the Crow",
+      "note": "TIFF"
+    },
+    {
+      "title": "With Hasan in Gaza preceded by It's So Beautiful Here",
+      "note": "TIFF"
+    },
+    {
+      "title": "You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution...",
+      "note": "TIFF"
+    },
+    {
+      "title": "Youngblood",
+      "note": "TIFF"
+    },
+    {
+      "title": "클로즈업 - Close-Up: Han So-hee and Jun Jong-seo",
+      "note": "TIFF"
     }
   ]
 }
