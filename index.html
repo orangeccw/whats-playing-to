@@ -1187,7 +1187,7 @@ function renderMovieCard(movie, index) {
     <div class="card-body">
       <div class="card-top">
         ${distBadge}
-        <button class="fav-btn ${isFav ? 'active' : ''}" onclick="toggleFavorite('${movie.title.replace(/'/g, "\\'")}')">${isFav ? '&#9829;' : '&#9825;'}</button>
+        <button class="fav-btn ${isFav ? 'active' : ''}" data-title="${movie.title.replace(/"/g, '&quot;')}" onclick="toggleFavorite('${movie.title.replace(/'/g, "\\'")}')">${isFav ? '&#9829;' : '&#9825;'}</button>
       </div>
       <h2 class="movie-title">${movie.title}</h2>
       <div class="movie-meta">${renderMeta(movie)}</div>
@@ -1315,7 +1315,19 @@ function toggleFavorite(title) {
     state.favorites.add(title);
   }
   localStorage.setItem('cinema-favorites', JSON.stringify(Array.from(state.favorites)));
-  renderMovies();
+
+  // Only full re-render if sorted by favorites (order changes)
+  if (state.sortBy === 'favorites') {
+    renderMovies();
+    return;
+  }
+
+  // Otherwise just update the heart button in place — no flash
+  document.querySelectorAll(`.fav-btn[data-title="${CSS.escape(title)}"]`).forEach(btn => {
+    const isFav = state.favorites.has(title);
+    btn.classList.toggle('active', isFav);
+    btn.innerHTML = isFav ? '&#9829;' : '&#9825;';
+  });
 }
 
 // ============================================
