@@ -130,6 +130,19 @@ async function fetchPage(url) {
   return resp.data;
 }
 
+// Check if a poster URL is valid (not a Chinese CDN or broken link)
+function isValidPoster(url) {
+  if (!url || typeof url !== 'string') return false;
+  const lower = url.toLowerCase();
+  // Block known Chinese CDNs and image hosts
+  const blockedDomains = ['doubaocdn', 'doubanio', 'baidu', 'weibo', 'alicdn', 'chinaz'];
+  if (blockedDomains.some(d => lower.includes(d))) return false;
+  // Block data URIs and placeholder images
+  if (lower.startsWith('data:')) return false;
+  if (lower.includes('placeholder') || lower.includes('no-image') || lower.includes('default-')) return false;
+  return true;
+}
+
 // Extract poster image URL from a Cheerio element
 function extractPoster($, $el, baseUrl) {
   // Try multiple strategies to find a poster image
@@ -239,8 +252,8 @@ async function enrichWithTMDB(movies) {
   let enriched = 0;
   
   for (const movie of movies) {
-    // Only call TMDB if missing poster or metadata
-    const needsPoster = !movie.poster;
+    // Only call TMDB if missing or invalid poster or metadata
+    const needsPoster = !isValidPoster(movie.poster);
     const needsMeta = !movie.director || !movie.year || !movie.genres || movie.genres.length === 0;
     
     if (!needsPoster && !needsMeta) continue;
@@ -339,8 +352,8 @@ async function enrichWithOMDB(movies) {
   let enriched = 0;
 
   for (const movie of movies) {
-    // Only call OMDb if still missing poster or metadata after TMDB
-    const needsPoster = !movie.poster;
+    // Only call OMDb if still missing or invalid poster or metadata after TMDB
+    const needsPoster = !isValidPoster(movie.poster);
     const needsMeta = !movie.director || !movie.year || !movie.genres || movie.genres.length === 0;
 
     if (!needsPoster && !needsMeta) continue;
@@ -934,11 +947,11 @@ function mergeResults(scrapedData, existingData) {
       if (!allShowtimes[key]) {
         allShowtimes[key] = { title: movie.title, meta: movie, cinemas: {} };
       }
-      // Update metadata if scraped has it
+      // Update metadata if scraped has it (only set poster if existing is invalid)
       if (movie.description && !allShowtimes[key].meta.description) {
         allShowtimes[key].meta.description = movie.description;
       }
-      if (movie.poster && !allShowtimes[key].meta.poster) {
+      if (isValidPoster(movie.poster) && !isValidPoster(allShowtimes[key].meta.poster)) {
         allShowtimes[key].meta.poster = movie.poster;
       }
       if (!allShowtimes[key].cinemas[result.cinema]) {
