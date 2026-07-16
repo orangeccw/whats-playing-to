@@ -83,14 +83,12 @@
         {
           "c": "fox",
           "dt": "2026-07-16",
-          "tm": "18:45",
-          "id": "631397"
+          "url": "https://www.foxtheatre.ca/movies/the-invite/"
         },
         {
           "c": "fox",
           "dt": "2026-07-17",
-          "tm": "15:40",
-          "id": "636915"
+          "url": "https://www.foxtheatre.ca/movies/the-invite/"
         },
         {
           "c": "revue",
@@ -100,9 +98,8 @@
         },
         {
           "c": "fox",
-          "dt": "2026-07-17",
-          "tm": "18:20",
-          "id": "636916"
+          "dt": "2026-07-18",
+          "url": "https://www.foxtheatre.ca/movies/the-invite/"
         },
         {
           "c": "revue",
@@ -112,21 +109,8 @@
         },
         {
           "c": "fox",
-          "dt": "2026-07-18",
-          "tm": "16:00",
-          "id": "636917"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-07-18",
-          "tm": "18:40",
-          "id": "636918"
-        },
-        {
-          "c": "fox",
           "dt": "2026-07-19",
-          "tm": "12:45",
-          "id": "636919"
+          "url": "https://www.foxtheatre.ca/movies/the-invite/"
         },
         {
           "c": "revue",
@@ -136,15 +120,8 @@
         },
         {
           "c": "fox",
-          "dt": "2026-07-19",
-          "tm": "18:20",
-          "id": "636920"
-        },
-        {
-          "c": "fox",
           "dt": "2026-07-20",
-          "tm": "18:30",
-          "id": "636921"
+          "url": "https://www.foxtheatre.ca/movies/the-invite/"
         },
         {
           "c": "revue",
@@ -155,8 +132,7 @@
         {
           "c": "fox",
           "dt": "2026-07-21",
-          "tm": "15:50",
-          "id": "636922"
+          "url": "https://www.foxtheatre.ca/movies/the-invite/"
         },
         {
           "c": "revue",
@@ -166,15 +142,8 @@
         },
         {
           "c": "fox",
-          "dt": "2026-07-21",
-          "tm": "21:20",
-          "id": "640588"
-        },
-        {
-          "c": "fox",
           "dt": "2026-07-22",
-          "tm": "15:50",
-          "id": "636923"
+          "url": "https://www.foxtheatre.ca/movies/the-invite/"
         },
         {
           "c": "revue",
@@ -184,15 +153,29 @@
         },
         {
           "c": "fox",
-          "dt": "2026-07-22",
-          "tm": "18:30",
-          "id": "636924"
+          "dt": "2026-07-23",
+          "url": "https://www.foxtheatre.ca/movies/the-invite/"
         },
         {
           "c": "revue",
           "dt": "2026-07-23",
           "tm": "21:30",
           "url": "https://revuecinema.ca/films/the-invite/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-24",
+          "url": "https://www.foxtheatre.ca/movies/the-invite/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-25",
+          "url": "https://www.foxtheatre.ca/movies/the-invite/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-30",
+          "url": "https://www.foxtheatre.ca/movies/the-invite/"
         }
       ]
     },
@@ -212,49 +195,17 @@
         {
           "c": "fox",
           "dt": "2026-07-17",
-          "tm": "21:00",
-          "id": "635614"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-07-18",
-          "tm": "17:30",
-          "id": "580424"
+          "url": "https://www.foxtheatre.ca/movies/rose-of-nevada/"
         },
         {
           "c": "fox",
           "dt": "2026-07-19",
-          "tm": "21:00",
-          "id": "635615"
+          "url": "https://www.foxtheatre.ca/movies/rose-of-nevada/"
         },
         {
           "c": "fox",
           "dt": "2026-07-20",
-          "tm": "21:15",
-          "id": "635616"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-07-21",
-          "tm": "18:00",
-          "id": "580428"
-        }
-      ]
-    },
-    {
-      "title": "Le Chant des forets (Whispers in the Woods)",
-      "description": "After 'La Panthere des neiges', Vincent Munier invites us into the heart of the Vosges forests where he learned everything from his father Michel.",
-      "poster": "https://image.tmdb.org/t/p/w500/5rcsd0iGbsQ6DFTI3HclJPJzY9K.jpg",
-      "year": "2025",
-      "genres": [
-        "Documentary"
-      ],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-07-16",
-          "tm": "16:15",
-          "url": "https://www.foxtheatre.ca/movies/le-chant-des-forets-whispers-in-the-woods/#section-buy-tickets"
+          "url": "https://www.foxtheatre.ca/movies/rose-of-nevada/"
         }
       ]
     },
@@ -272,61 +223,7 @@
         {
           "c": "fox",
           "dt": "2026-07-16",
-          "tm": "21:20",
-          "url": "https://www.foxtheatre.ca/movies/gummo/#section-buy-tickets"
-        }
-      ]
-    },
-    {
-      "title": "Se7en (Restoration)",
-      "description": "Two cops track a brilliant and elusive killer who orchestrates a string of horrific murders, each kill targeting a practitioner of one of the Seven Deadly Sins.",
-      "poster": null,
-      "director": "David Fincher",
-      "year": 1995,
-      "runtime": "127 min",
-      "rating": "14A",
-      "genres": [
-        "Crime",
-        "Mystery",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-07-18",
-          "tm": "21:30",
-          "id": "634915"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-07-22",
-          "tm": "21:15",
-          "id": "634916"
-        }
-      ]
-    },
-    {
-      "title": "Mishima: A Life in Four Chapters",
-      "description": "Paul Schrader's visually stunning, collagelike portrait of acclaimed Japanese author and playwright Yukio Mishima. With cinematography by John Bailey and score by Philip Glass.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYTRjOGMzNDAtNGMzOS00ZjI2LWE3ZWEtNTVmNzA3OWNkOTkxXkEyXkFqcGc@._V1_SX300.jpg",
-      "director": "Paul Schrader",
-      "year": 1985,
-      "runtime": "121 min",
-      "genres": [
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-07-19",
-          "tm": "15:30",
-          "id": "637858"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-07-21",
-          "tm": "18:30",
-          "id": "637859"
+          "url": "https://www.foxtheatre.ca/movies/gummo/"
         }
       ]
     },
@@ -367,6 +264,31 @@
           "dt": "2026-07-21",
           "tm": "21:30",
           "url": "https://revuecinema.ca/films/obsession/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-24",
+          "url": "https://www.foxtheatre.ca/movies/obsession/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-25",
+          "url": "https://www.foxtheatre.ca/movies/obsession/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-27",
+          "url": "https://www.foxtheatre.ca/movies/obsession/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-28",
+          "url": "https://www.foxtheatre.ca/movies/obsession/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-30",
+          "url": "https://www.foxtheatre.ca/movies/obsession/"
         }
       ]
     },
@@ -387,7 +309,7 @@
           "c": "paradise",
           "dt": "2026-07-16",
           "tm": "19:00",
-          "url": "https://insideoutrunitback.eventive.org/schedule/6a2adf3d180f4b355a526790"
+          "id": "584846"
         }
       ]
     },
@@ -407,106 +329,15 @@
           "c": "paradise",
           "dt": "2026-07-17",
           "tm": "18:00",
-          "id": "568299"
-        }
-      ]
-    },
-    {
-      "title": "Dark Star",
-      "description": "Bombed out in space with a spaced out bomb! Odysseys and Oddities: 20th Century Space Travel.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTE2N2Y2NDctNGFhYi00ZDA4LThkMzktMWUxOTJiMGJkYWNkXkEyXkFqcGc@._V1_SX300.jpg",
-      "director": "John Carpenter",
-      "year": 1974,
-      "genres": [
-        "Sci-Fi",
-        "Comedy"
-      ],
-      "showtimes": [
+          "id": "568299",
+          "url": "https://paradiseonbloor.com/purchase/568299/"
+        },
         {
           "c": "paradise",
           "dt": "2026-07-17",
           "tm": "21:00",
-          "id": "571260"
-        }
-      ]
-    },
-    {
-      "title": "WALL-E",
-      "description": "After 700 years of doing what he was built for, he'll discover what he was meant for. Family Fare series.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzk0ZGMzMDYtMDJkYS00NTdhLWJlZWUtMTdhOTJkOTM3NDUwXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
-      "director": "Andrew Stanton",
-      "year": 2008,
-      "genres": [
-        "Animation",
-        "Sci-Fi",
-        "Family"
-      ],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-07-18",
-          "tm": "14:30",
-          "id": "583459"
-        }
-      ]
-    },
-    {
-      "title": "True Romance",
-      "description": "Stealing. Cheating. Killing. Who says romance is dead? Great Scott series.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYzQ5OGMwMDAtMzcyOS00YTA4LWEwM2MtOTA1MDZjZGEyYmI1XkEyXkFqcGc@._V1_SX300.jpg",
-      "director": "Tony Scott",
-      "year": 1993,
-      "genres": [
-        "Crime",
-        "Romance",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-07-18",
-          "tm": "20:30",
-          "id": "568304"
-        }
-      ]
-    },
-    {
-      "title": "The Right Stuff",
-      "description": "How the future began. Odysseys and Oddities: 20th Century Space Travel.",
-      "poster": "https://image.tmdb.org/t/p/w500/btqTjNRxecYgQ1FGfVlLqSSNjz.jpg",
-      "director": "Philip Kaufman",
-      "year": 1983,
-      "runtime": "193 min",
-      "rating": "PG",
-      "genres": [
-        "Drama",
-        "History"
-      ],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-07-19",
-          "tm": "14:00",
-          "id": "569099"
-        }
-      ]
-    },
-    {
-      "title": "A Litany for Survival: The Life and Work of Audre Lorde",
-      "description": "Black Gold series: Black Life on Screen.",
-      "poster": "https://image.tmdb.org/t/p/w500/soQwbV3nUU958wQEi4q6crBJRwl.jpg",
-      "director": "Ada Gay Griffin",
-      "year": "1995",
-      "runtime": "80 min",
-      "genres": [
-        "Documentary"
-      ],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-07-19",
-          "tm": "18:00",
-          "id": "580698"
+          "id": "571260",
+          "url": "https://paradiseonbloor.com/purchase/571260/"
         }
       ]
     },
@@ -525,51 +356,49 @@
       ],
       "showtimes": [
         {
-          "c": "paradise",
-          "dt": "2026-07-20",
-          "tm": "19:00",
-          "soldOut": true
-        }
-      ]
-    },
-    {
-      "title": "Hustler White: 30th Anniversary",
-      "description": "Desire in Motion / Sleaze Factory series at Paradise Theatre.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMTI0MTA5NzUyNF5BMl5BanBnXkFtZTcwMTk1MzMyMQ@@._V1_SX300.jpg",
-      "director": "Rick Castro",
-      "year": "1996",
-      "runtime": "79 min",
-      "rating": "Unrated",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "showtimes": [
+          "c": "fox",
+          "dt": "2026-07-31",
+          "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
+        },
         {
-          "c": "paradise",
-          "dt": "2026-07-21",
-          "tm": "20:30",
-          "id": "555830"
-        }
-      ]
-    },
-    {
-      "title": "Chocolate Babies",
-      "description": "Terror was never tastier. Queer Cinema Club series at Paradise Theatre.",
-      "poster": "https://image.tmdb.org/t/p/w500/izmpQc1fbASmudcPXAqeJ3k0pGO.jpg",
-      "director": "Stephen Winter",
-      "year": "1996",
-      "runtime": "83 min",
-      "rating": "Unrated",
-      "genres": [
-        "Drama"
-      ],
-      "showtimes": [
+          "c": "fox",
+          "dt": "2026-08-01",
+          "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
+        },
         {
-          "c": "paradise",
-          "dt": "2026-07-22",
-          "tm": "19:30",
-          "id": "555739"
+          "c": "fox",
+          "dt": "2026-08-02",
+          "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-03",
+          "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-05",
+          "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-06",
+          "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-07",
+          "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-08",
+          "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-09",
+          "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
         }
       ]
     },
@@ -3832,6 +3661,570 @@
           "c": "carlton",
           "dt": "2026-07-23",
           "tm": "21:45"
+        }
+      ]
+    },
+    {
+      "title": "Restoration: Se7en",
+      "description": "Two cops (Brad Pitt and Morgan Freeman) track a brilliant and elusive killer who orchestrates a string of horrific murders, each kill targeting a practitioner of one of the Seven Deadly Sins. Gwyneth Paltrow also stars in this acclaimed thriller set in a dour, drizzly city sick with pain and blight. Director David Fincher guides ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/se7en_tmdb-191nkfp0ehp3uivwqgpbfmi4lv9_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-07-18",
+          "url": "https://www.foxtheatre.ca/movies/restoration-se7en/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-22",
+          "url": "https://www.foxtheatre.ca/movies/restoration-se7en/"
+        }
+      ]
+    },
+    {
+      "title": "Reel Drag: Legally Blonde",
+      "description": "Start practicing your bend and snap because it&#8217;s going to be an epic night at the Fox with another Reel Drag event! Hosted by Rosie and Canada’s Drag Race star Tara Nova! Elle Woods (Reese Witherspoon) has it all. She&#8217;s the president of her sorority and beloved on campus. She dates the cutest boy on ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/legally_blonde_tmdb-9ohlmrjhqqkhfukh7zr3jqqhnlz_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-08-14",
+          "url": "https://www.foxtheatre.ca/movies/reel-drag-legally-blonde/"
+        }
+      ]
+    },
+    {
+      "title": "Persepolis",
+      "description": "Join us for our &#8220;Shout Louder!&#8221; limited series, where we will screen the best films that aren’t afraid to wear their beliefs on their sleeves and engage in political themes, because film is political. Marjane Satrapi&#8217;s acclaimed memoirs not only changed perceptions of Iran, but also the world as a whole. Through her fearless voice ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/sl-persepolis.jpg",
+      "director": "Vincent Paronnaud",
+      "year": "2007",
+      "runtime": "96 min",
+      "rating": "PG-13",
+      "genres": [
+        "Animation",
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-08-01",
+          "url": "https://www.foxtheatre.ca/movies/persepolis/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-04",
+          "url": "https://www.foxtheatre.ca/movies/persepolis/"
+        }
+      ]
+    },
+    {
+      "title": "Network &#8211; New Restoration",
+      "description": "Join us for our &#8220;Shout Louder!&#8221; limited series, where we will screen the best films that aren’t afraid to wear their beliefs on their sleeves and engage in political themes, because film is political. This media satire, directed by Sidney Lumet and written by Paddy Chayefsky, examines the corrupted soul of corporate-dominated America, anticipating today’s ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/sl_network.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-08-12",
+          "url": "https://www.foxtheatre.ca/movies/network-new-restoration/"
+        }
+      ]
+    },
+    {
+      "title": "Spectacle: Mishima: A Life in Four Chapters",
+      "description": "Paul Schrader’s (“First Reformed”) visually stunning, collagelike portrait of acclaimed Japanese author and playwright Yukio Mishima (played by Ken Ogata) investigates the inner turmoil and contradictions of a man who attempted an impossible harmony between self, art, and society. Taking place on Mishima’s last day, when he famously committed public seppuku, the film is punctuated ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/mishima_a_life_in_four_chapters_tmdb-4kixse4swujo0euqpolshno5glh_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-07-19",
+          "url": "https://www.foxtheatre.ca/movies/spectacle-mishima-a-life-in-four-chapters/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-21",
+          "url": "https://www.foxtheatre.ca/movies/spectacle-mishima-a-life-in-four-chapters/"
+        }
+      ]
+    },
+    {
+      "title": "Michael Mann&#8217;s Manhunter: The Final Cut",
+      "description": "A retired criminal profiler (William Petersen) reluctantly returns to the FBI to help track down a serial killer of families and is forced to consult an expert—the imprisoned Dr. Hannibal Lecktor (Brian Cox in a subtly chilling performance). The third feature written and directed by Michael Mann is a gripping adaptation of the first of ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/c1d156f04d7b1ab58ebe86767f78c1b8_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-08-14",
+          "url": "https://www.foxtheatre.ca/movies/michael-manns-manhunter-the-final-cut/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-15",
+          "url": "https://www.foxtheatre.ca/movies/michael-manns-manhunter-the-final-cut/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-16",
+          "url": "https://www.foxtheatre.ca/movies/michael-manns-manhunter-the-final-cut/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-18",
+          "url": "https://www.foxtheatre.ca/movies/michael-manns-manhunter-the-final-cut/"
+        }
+      ]
+    },
+    {
+      "title": "Malcolm X",
+      "description": "Join us for our &#8220;Shout Louder!&#8221; limited series, where we will screen the best films that aren’t afraid to wear their beliefs on their sleeves and engage in political themes, because film is political. This is a passionate monument to a man whose life continues to serve as a model of principled resistance.One of the ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/malcolm-x.jpg",
+      "director": "Spike Lee",
+      "year": "1992",
+      "runtime": "202 min",
+      "rating": "PG-13",
+      "genres": [
+        "Drama",
+        "History"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-08-17",
+          "url": "https://www.foxtheatre.ca/movies/malcolm-x/"
+        }
+      ]
+    },
+    {
+      "title": "Le Chant des forêts (Whispers in the Woods)",
+      "description": "After &#8220;La Panthère des neiges&#8221; (&#8220;The Velvet Queen&#8221;), Vincent Munier invites us into the heart of the Vosges forests. It was here that he learned everything from his father Michel, a naturalist who spent his life observing the woods. Now it is time for them to pass on this knowledge to Simon, Vincent’s son. Three ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/le_chant_des_forets_tmdb-5rcsd0igbsq6dfti3hcljpjzy9k_thumb.jpg",
+      "year": "2025",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-07-16",
+          "url": "https://www.foxtheatre.ca/movies/le-chant-des-forets-whispers-in-the-woods/"
+        }
+      ]
+    },
+    {
+      "title": "Klassic Kidz: The Iron Giant",
+      "description": "This month&#8217;s Klassic Kidz selection is a truly special film that didn&#8217;t receive the accolades it deserved when it was released, but has since become an animation fan favourite. Nine-year-old Hogarth Hughes always dreamed of having a pet, but not one made out of metal and as tall as a building. After discovering a giant ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/the_iron_giant_tmdb-exrgvhypilrkrjmqlwaary3cvvg_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-07-25",
+          "url": "https://www.foxtheatre.ca/movies/klassic-kidz-the-iron-giant/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-26",
+          "url": "https://www.foxtheatre.ca/movies/klassic-kidz-the-iron-giant/"
+        }
+      ]
+    },
+    {
+      "title": "Hadestown: The Musical",
+      "description": "The live theater capture of the hit musical Hadestown, which won eight Tony Awards in 2019 including Best Musical and the 2020 Grammy Award for Best Musical Theater Album, featuring the five original principals of the Broadway company. The genre-defying new musical blends modern American folk music with New Orleans-inspired jazz to reimagine a sweeping ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/hadestown_the_musical_tmdb-egoietwjdqncnbbsugojn2g3msn_thumb.jpg",
+      "director": "Brett Sullivan",
+      "year": "2026",
+      "runtime": "141 min",
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Romance",
+        "Music"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-07-25",
+          "url": "https://www.foxtheatre.ca/movies/hadestown-the-musical/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-27",
+          "url": "https://www.foxtheatre.ca/movies/hadestown-the-musical/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-29",
+          "url": "https://www.foxtheatre.ca/movies/hadestown-the-musical/"
+        }
+      ]
+    },
+    {
+      "title": "grlish: Bridesmaids",
+      "description": "Celebrate the 15th anniversary of Bridesmaids with an interactive screening hosted by programming collective grlish. Finally rewear that overpriced bridesmaid’s dress and revisit the nuptial romp, with free rein to recite your favourite quotes in a Rocky-Horror style shout-along game. Written by Kristen Wiig and Annie Mumulo, this Oscar-nominated raunch-com features comedy juggernauts Maya Rudolph, ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/bridesmaids_fox_11x17_thumb.png",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-08-19",
+          "url": "https://www.foxtheatre.ca/movies/grlish-bridesmaids/"
+        }
+      ]
+    },
+    {
+      "title": "Sing-Along! Grease",
+      "description": "Grease is the word and you gotta sing along! Celebrate summer by taking a trip to Rydell High and singing your heart out along with Danny, Sandy, and the gang! You know the words … and in case you forget a few, don’t sweat it daddy-o, because all the lyrics will be right up there ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/grease_sing_along_resize_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-07-29",
+          "url": "https://www.foxtheatre.ca/movies/sing-along-grease/"
+        }
+      ]
+    },
+    {
+      "title": "Call of My Life Director Q&#038;A",
+      "description": "Join us at the Fox Theatre for a special screening of the highest-grossing Nollywood film of 2026, &#8220;Call of My Life&#8221;, featuring a Q&#038;A with director Dammy Twitch and producer Blessing Uzzi! &#8220;Call of My Life&#8221; follows Soluchi (Uzoamaka Power), a hopeless romantic and call-centre agent still carrying the scars of heartbreak after being jilted ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/call_of_my_life_tmdb-a2mu4enyixeqc9z1qh3hiqllv0y_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-07-26",
+          "url": "https://www.foxtheatre.ca/movies/call-of-my-life-director-qa/"
+        }
+      ]
+    },
+    {
+      "title": "Book And Film Club: Women Talking",
+      "description": "The Book and Film Club presents: Women Talking! Based on the best-selling novel by Miriam Toews, “Women Talking” follows a group of women in an isolated religious colony as they struggle to reconcile their faith with a series of sexual assaults committed by the colony’s men. This year, the Book and Film Club will be ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/women_talking_tmdb-ddjxfherjt6cilgzwwvclupcq9w_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-08",
+          "url": "https://www.foxtheatre.ca/movies/book-and-film-club-women-talking/"
+        }
+      ]
+    },
+    {
+      "title": "Battles of the Sexes: La Captive",
+      "description": "Battle of the Sexes is a series featuring films directed by women about men and films directed by men about women. Through titles like American Psycho, La Captive, Marnie, and Birth, our speakers will interrogate how films reinforce or distort gender roles. The series is hosted by Gabrielle Marceau from In the Mood Magazine. &#8220;Enigmatic ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/la_captive_tmdb-h7m7jy1tzlr5il0jzpteyw0ecnt_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-08-27",
+          "url": "https://www.foxtheatre.ca/movies/battles-of-the-sexes-la-captive/"
+        }
+      ]
+    },
+    {
+      "title": "Battle of Sexes: Marnie",
+      "description": "Battle of the Sexes is a series featuring films directed by women about men and films directed by men about women. Through titles like American Psycho, La Captive, Marnie, and Birth, our speakers will interrogate how films reinforce or distort gender roles. The series is hosted by Gabrielle Marceau from In the Mood Magazine. &#8220;Marnie ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/marnie_tmdb-nrry4vo2a3py7wizbpz11palogp_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-07-30",
+          "url": "https://www.foxtheatre.ca/movies/battle-of-sexes-marnie/"
+        }
+      ]
+    },
+    {
+      "title": "Battle of Sexes: Birth",
+      "description": "Battle of the Sexes is a series featuring films directed by women about men and films directed by men about women. Through titles like American Psycho, La Captive, Marnie, and Birth, our speakers will interrogate how films reinforce or distort gender roles. The series is hosted by Gabrielle Marceau from In the Mood Magazine. &#8220;Jonathan ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/birth_tmdb-z70iq61wqhxetaz8ar2od8pkim_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-01",
+          "url": "https://www.foxtheatre.ca/movies/battle-of-sexes-birth/"
+        }
+      ]
+    },
+    {
+      "title": "2026 Cat Video Fest",
+      "description": "“Watching silly cat videos is good for you.” &#8211; The Wall Street Journal Cat Video Fest is back at Fox Theatre! Oscilloscope Laboratories presents CatVideoFest 2026, a compilation of the latest and best cat videos culled from countless hours of unique submissions and sourced animations, music videos, and classic internet powerhouses. Each year, across the ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/screen_shot_2026-05-29_at_3.44.09_pm_thumb.png",
+      "year": "2026",
+      "genres": [
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-08-07",
+          "url": "https://www.foxtheatre.ca/movies/2026-cat-video-fest/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-08",
+          "url": "https://www.foxtheatre.ca/movies/2026-cat-video-fest/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-09",
+          "url": "https://www.foxtheatre.ca/movies/2026-cat-video-fest/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-13",
+          "url": "https://www.foxtheatre.ca/movies/2026-cat-video-fest/"
+        }
+      ]
+    },
+    {
+      "title": "Zardoz",
+      "description": "In the future, Earth is ruled by Eternals, an advanced and secret sect of beings who reign over a savage group called Brutals. The Eternals have created a god named Zardoz to intimidate the Brutals, making them believe that killing is their natural state. However, Zed (Sean Connery), a Brutal warrior, challenges that assumption when ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/zardoz_tmdb-6qvqhjhvm7wwpb2ljvpivsnraiv_thumb.jpg",
+      "director": "John Boorman",
+      "year": "1974",
+      "runtime": "105 min",
+      "rating": "R",
+      "genres": [
+        "Fantasy",
+        "Action",
+        "Thriller",
+        "Sci-Fi"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-07-26",
+          "url": "https://www.foxtheatre.ca/movies/zardoz/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-29",
+          "url": "https://www.foxtheatre.ca/movies/zardoz/"
+        }
+      ]
+    },
+    {
+      "title": "Vivaldi Et Moi (Primavera)",
+      "description": "Set in 18th-century Venice’s famed Ospedale della Pietà orphanage for girls, Vivaldi Et Moi follows Cecilia (Tecla Insolia), a gifted young violinist whose fiery spirit cannot be contained. Yearning to uncover her origins and chafing against the orphanage’s strict rules, she’s offered escape through an arranged marriage to a wealthy patron (Stefano Accorsi). But when a ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/primavera_tmdb-lu2sf3dryggzhlvoc9yznsktlfo_thumb.jpg",
+      "year": "2025",
+      "genres": [
+        "Music",
+        "Drama",
+        "History"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-07-24",
+          "url": "https://www.foxtheatre.ca/movies/vivaldi-et-moi-primavera/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-26",
+          "url": "https://www.foxtheatre.ca/movies/vivaldi-et-moi-primavera/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-27",
+          "url": "https://www.foxtheatre.ca/movies/vivaldi-et-moi-primavera/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-07-28",
+          "url": "https://www.foxtheatre.ca/movies/vivaldi-et-moi-primavera/"
+        }
+      ]
+    },
+    {
+      "title": "The Matrix",
+      "description": "Join us for our &#8220;Shout Louder!&#8221; limited series, where we will screen the best films that aren’t afraid to wear their beliefs on their sleeves and engage in political themes, because film is political.&#8220;The Matrix&#8221; has become a focal point for political discourse, with the term &#8220;redpilling&#8221; linked to QAnon and discussions about conformity to ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/sl_matrix.jpg",
+      "director": "Lana Wachowski",
+      "year": "1999",
+      "runtime": "136 min",
+      "rating": "R",
+      "genres": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-08-02",
+          "url": "https://www.foxtheatre.ca/movies/the-matrix/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-05",
+          "url": "https://www.foxtheatre.ca/movies/the-matrix/"
+        }
+      ]
+    },
+    {
+      "title": "Staff Picks: A Silent Voice",
+      "description": "After transferring into a new school, a deaf girl, Shoko Nishimiya, is bullied by the popular Shoya Ishida. As Shoya continues to bully Shoko, the class turns its back on him. Shoko transfers and Shoya grows up as an outcast. Alone and depressed, the regretful Shoya finds Shoko to make amends. “A Silent Voice” is ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/tmdb-tufawiqx0txowu7dgncmx3uw7st_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-07-28",
+          "url": "https://www.foxtheatre.ca/movies/staff-picks-a-silent-voice/"
+        }
+      ]
+    },
+    {
+      "title": "Slumber Party: Sisterhood of the Travelling Pants",
+      "description": "Meet Tibby, Bridget, Lena and Carmen! As the summer before their 16th birthdays approaches, these four best friends with diverse family backgrounds and personalities hatch a plan to stay connected despite being separated for the entire season. The girls pass around a pair of secondhand jeans that, magically, look wonderful on all of them despite ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/the_sisterhood_of_the_traveling_pants_tmdb-wnshlut6izez2af3izrlb2mx0pr_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-07-23",
+          "url": "https://www.foxtheatre.ca/movies/slumber-party-sisterhood-of-the-travelling-pants/"
+        }
+      ]
+    },
+    {
+      "title": "Sheep in the Box",
+      "description": "&#8220;a thoughtful, poignant, sometimes funny and whimsical reflection on the future of humankind’s coexistence with intelligent machines.”Lee Marshall, Screen Daily From Hirokazu Koreeda, the visionary behind &#8220;Shoplifters&#8221; and &#8220;Monster,&#8221; comes the heartfelt drama &#8220;Sheep in the Box.&#8221; This film made a remarkable debut at the prestigious main competition of the 2026 Cannes Film Festival. In a ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/tmdb-9rociyyt8q76fhgl3nm5ofuc6tq_thumb.jpg",
+      "director": "Hirokazu Koreeda",
+      "year": "2026",
+      "genres": [
+        "Drama",
+        "Sci-Fi"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-07-31",
+          "url": "https://www.foxtheatre.ca/movies/sheep-in-the-box/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-01",
+          "url": "https://www.foxtheatre.ca/movies/sheep-in-the-box/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-02",
+          "url": "https://www.foxtheatre.ca/movies/sheep-in-the-box/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-03",
+          "url": "https://www.foxtheatre.ca/movies/sheep-in-the-box/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-04",
+          "url": "https://www.foxtheatre.ca/movies/sheep-in-the-box/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-05",
+          "url": "https://www.foxtheatre.ca/movies/sheep-in-the-box/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-06",
+          "url": "https://www.foxtheatre.ca/movies/sheep-in-the-box/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-07",
+          "url": "https://www.foxtheatre.ca/movies/sheep-in-the-box/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-08",
+          "url": "https://www.foxtheatre.ca/movies/sheep-in-the-box/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-09",
+          "url": "https://www.foxtheatre.ca/movies/sheep-in-the-box/"
+        }
+      ]
+    },
+    {
+      "title": "The Rocky Horror Picture Show w/Shadowcast!",
+      "description": "Join Excited Mental State: Toronto&#8217;s Only Rocky Horror Shadowcast who are just shivering with antici&#8230;.PATION at making this the best Rocky Horror night of your life! Dress up in your best Rocky Horror-inspired outfits and get ready to &#8220;Time Warp&#8221; to the eerie castle of Dr. Frank-N-Furter (Tim Curry) along with sweethearts Brad (Barry Bostwick) ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2025/10/the_rocky_horror_picture_show_tmdb-3pye6zqdbuji7zrnzzqzcktwdmn_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-07-31",
+          "url": "https://www.foxtheatre.ca/movies/the-rocky-horror-picture-show-w-shadowcast/"
+        }
+      ]
+    },
+    {
+      "title": "Restoration: Tekkonkinkreet",
+      "description": "Black, a boy who seeks to bend the city to his will through strength, and White, his innocent counterpart, are two orphaned street kids living in the slums of Treasure Town. When real estate developers threaten to transform Treasure Town into a massive theme park, its very existence is put at risk. Determined to protect ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/tekon_kv-1_web_coming-soon_01a_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-08-11",
+          "url": "https://www.foxtheatre.ca/movies/restoration-tekkonkinkreet/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-13",
+          "url": "https://www.foxtheatre.ca/movies/restoration-tekkonkinkreet/"
+        }
+      ]
+    },
+    {
+      "title": "WALL·E",
+      "description": "A robot who is responsible for cleaning a waste-covered Earth meets another robot and falls in love with her. Together, they set out on a journey that will alter the fate of mankind.",
+      "poster": "https://image.tmdb.org/t/p/w500/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg",
+      "director": "Andrew Stanton",
+      "year": "2008",
+      "runtime": "98 min",
+      "rating": "G",
+      "genres": [
+        "Animation",
+        "Family",
+        "Sci-Fi"
+      ],
+      "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-07-18",
+          "tm": "14:30",
+          "id": "583459",
+          "url": "https://paradiseonbloor.com/purchase/583459/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-07-18",
+          "tm": "17:30",
+          "id": "580424",
+          "url": "https://paradiseonbloor.com/purchase/580424/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-07-18",
+          "tm": "20:30",
+          "id": "568304",
+          "url": "https://paradiseonbloor.com/purchase/568304/"
         }
       ]
     }
