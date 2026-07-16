@@ -348,9 +348,150 @@
       ]
     },
     {
+      "title": "Sick Puppy",
+      "description": "When Charlie's serial killer husband decides to finally quit for her, she's thrilled, but soon finds herself committing violent acts to protect the man she loves, even from himself. Cast & crew in attendance.",
+      "poster": null,
+      "director": "Jay Reid",
+      "year": 2025,
+      "runtime": "105 min",
+      "genres": [
+        "Horror"
+      ],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-15",
+          "tm": "18:30",
+          "id": "1017102"
+        }
+      ]
+    },
+    {
+      "title": "American Nightmare (1983)",
+      "description": "A latex-gloved killer scouring the streets of Toronto circa 1983, slashing women and anyone who gets in his way. Presented on rare 16mm print. Director in attendance.",
+      "poster": null,
+      "director": "Don McBrearty",
+      "year": 1983,
+      "runtime": "88 min",
+      "rating": "R",
+      "genres": [
+        "Crime",
+        "Horror",
+        "Thriller"
+      ],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-15",
+          "tm": "21:30",
+          "id": "1014380"
+        }
+      ]
+    },
+    {
+      "title": "Eve's Bayou (1997)",
+      "description": "Kasi Lemmons' visionary masterpiece. Set in 1960s Louisiana, follows a 10-year-old girl who witnesses her father's infidelity, unlocking clairvoyance.",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzA4NmEyOWUtYjQ4Yi00MWU1LTk1YTUtZDM2NGVjOTgzYmVkXkEyXkFqcGc@._V1_SX300.jpg",
+      "director": "Kasi Lemmons",
+      "year": 1997,
+      "runtime": "108 min",
+      "rating": "R",
+      "genres": [
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-16",
+          "tm": "18:30",
+          "id": "1012645"
+        }
+      ]
+    },
+    {
+      "title": "Butthole Surfers: The Hole Truth and Nothing Butt",
+      "description": "Toronto Theatrical Premiere of the Butthole Surfers documentary. Part of the Stompbox series.",
+      "poster": null,
+      "genres": [
+        "Documentary",
+        "Music"
+      ],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-16",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/stompbox-butthole-surfers-the-hole-truth-and-nothing-butt-toronto-theatrical-premiere/"
+        }
+      ]
+    },
+    {
+      "title": "We're All Going to the World's Fair (2022)",
+      "description": "Reality and fantasy begin to blur when a teenager immerses herself in a role-playing horror game online. Part of The Summer of Schoenbrun.",
+      "poster": null,
+      "director": "Jane Schoenbrun",
+      "year": 2022,
+      "runtime": "86 min",
+      "genres": [
+        "Drama",
+        "Horror"
+      ],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-17",
+          "tm": "19:00",
+          "id": "1014429"
+        }
+      ]
+    },
+    {
+      "title": "I Saw the TV Glow (2024)",
+      "description": "In late-90s suburbia, a lonely teenager meets a girl who introduces him to a mysterious late-night TV show. Part of The Summer of Schoenbrun.",
+      "poster": null,
+      "director": "Jane Schoenbrun",
+      "year": 2024,
+      "runtime": "100 min",
+      "rating": "PG-13",
+      "genres": [
+        "Drama",
+        "Horror"
+      ],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-17",
+          "tm": "21:30",
+          "id": "1014431"
+        }
+      ]
+    },
+    {
+      "title": "Wallace & Gromit: The Curse of the Were-Rabbit (2005)",
+      "description": "Wallace and Gromit protect townspeople's gardens from a giant were-rabbit. Throwback Cinema presentation.",
+      "poster": null,
+      "director": "Nick Park",
+      "year": 2005,
+      "runtime": "85 min",
+      "rating": "G",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family"
+      ],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-07-18",
+          "tm": "16:00",
+          "id": "1016376"
+        }
+      ]
+    },
+    {
       "title": "Obsession",
       "description": "A Revue Cinema presentation.",
-      "poster": "https://image.tmdb.org/t/p/w500/5kNrhOgyREvm62H0rG1tuSrzirR.jpg",
+      "poster": null,
       "director": "Curry Barker",
       "year": "2026",
       "runtime": "108 min",
@@ -418,7 +559,7 @@
     {
       "title": "Rez Ball",
       "description": "Play fast. Shoot fast. Take your shot. Inside Out Film Festival presentation.",
-      "poster": "https://image.tmdb.org/t/p/w500/5MKpjuiCTk8nYnsUf5QegiPKEDh.jpg",
+      "poster": null,
       "director": "Sydney Freeland",
       "year": "2024",
       "runtime": "111 min",
@@ -518,7 +659,7 @@
     {
       "title": "The Right Stuff",
       "description": "How the future began. Odysseys and Oddities: 20th Century Space Travel.",
-      "poster": "https://image.tmdb.org/t/p/w500/zkPYW7BeAf5HOrklTzW53c37ip.jpg",
+      "poster": null,
       "director": "Philip Kaufman",
       "year": 1983,
       "runtime": "193 min",
@@ -539,7 +680,7 @@
     {
       "title": "A Litany for Survival: The Life and Work of Audre Lorde",
       "description": "Black Gold series: Black Life on Screen.",
-      "poster": "https://image.tmdb.org/t/p/w500/soQwbV3nUU958wQEi4q6crBJRwl.jpg",
+      "poster": null,
       "director": "Ada Gay Griffin",
       "year": "1995",
       "runtime": "80 min",
@@ -580,7 +721,7 @@
     {
       "title": "Hustler White: 30th Anniversary",
       "description": "Desire in Motion / Sleaze Factory series at Paradise Theatre.",
-      "poster": "https://image.tmdb.org/t/p/w500/1LI4muqdd7iWS6I63CDB0A9y1RV.jpg",
+      "poster": null,
       "genres": [],
       "showtimes": [
         {
@@ -594,7 +735,7 @@
     {
       "title": "Chocolate Babies",
       "description": "Terror was never tastier. Queer Cinema Club series at Paradise Theatre.",
-      "poster": "https://image.tmdb.org/t/p/w500/izmpQc1fbASmudcPXAqeJ3k0pGO.jpg",
+      "poster": null,
       "director": "Stephen Winter",
       "year": "1996",
       "runtime": "83 min",
@@ -1317,7 +1458,7 @@
     {
       "title": "Inglourious Basterds (2009)",
       "description": "Quentin Tarantino's WWII epic. Now playing at Imagine Cinemas Carlton.",
-      "poster": "https://image.tmdb.org/t/p/w500/5j2CTOn2uggMAxPUg9JsxHmqCIU.jpg",
+      "poster": null,
       "director": "Quentin Tarantino",
       "year": 2009,
       "genres": [
@@ -1370,7 +1511,7 @@
     {
       "title": "Interstellar (2014)",
       "description": "Christopher Nolan's space epic. Now playing at Imagine Cinemas Carlton.",
-      "poster": "https://image.tmdb.org/t/p/w500/c35Vwd9rmMQfaEJuUrJRF3LZWJX.jpg",
+      "poster": null,
       "director": "Christopher Nolan",
       "year": 2014,
       "genres": [
@@ -1423,7 +1564,7 @@
     {
       "title": "Before Midnight (2013)",
       "description": "Richard Linklater's third film in the Before trilogy. Now playing at Imagine Cinemas Carlton.",
-      "poster": "https://image.tmdb.org/t/p/w500/ywRDktMWN1muuK7D2bxfs9l9tcc.jpg",
+      "poster": null,
       "director": "Richard Linklater",
       "year": 2013,
       "genres": [

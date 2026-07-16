@@ -318,7 +318,13 @@ async function searchOMDB(title, year) {
   if (!OMDB_API_KEY) return null;
 
   // Clean title for search (remove year, special editions, series info)
-  let cleanTitle = title.replace(/\s*\(\d{4}\)\s*$/, '').replace(/\s*—.*$/, '').trim();
+  let cleanTitle = title
+    .replace(/\s*\(\d{4}\)\s*$/, '')           // Remove "(2009)"
+    .replace(/\s*\([^)]*\)\s*$/, '')            // Remove other parenthetical suffixes like "(Restoration)"
+    .replace(/\s*—.*$/, '')                     // Remove em-dash suffixes
+    .replace(/\s*:\s*\d{1,2}(?:st|nd|rd|th)\s+Anniversary.*$/i, '')  // Remove ": 30th Anniversary"
+    .replace(/\s*\(SUB\)\s*$/i, '')             // Remove "(SUB)"
+    .trim();
   const cacheKey = `${cleanTitle}|${year || ''}`;
 
   if (omdbCache[cacheKey] !== undefined) return omdbCache[cacheKey];
@@ -427,9 +433,13 @@ async function scrapeFox() {
 
     const movies = resp.data;
     if (!Array.isArray(movies) || movies.length === 0) {
+      console.log(`  [Fox] Page ${page}: empty response, total=${resp.headers['x-wp-total'] || '?'}`);
       hasMore = false;
       break;
     }
+
+    console.log(`  [Fox] Page ${page}: ${movies.length} movies, total=${resp.headers['x-wp-total'] || '?'}`);
+    let skippedNoDate = 0, skippedPast = 0;
 
     for (const movie of movies) {
       const title = movie.title?.rendered?.trim();
@@ -456,12 +466,12 @@ async function scrapeFox() {
         if (m) dates.push(m[1]);
       }
 
-      if (dates.length === 0) continue; // Skip movies with no screening dates
+      if (dates.length === 0) { skippedNoDate++; continue; }
 
       // Filter to today and future dates only
       const today = getTorontoToday();
       const futureDates = dates.filter(d => d >= today);
-      if (futureDates.length === 0) continue;
+      if (futureDates.length === 0) { skippedPast++; continue; }
 
       if (!movieMap[title]) {
         movieMap[title] = {
@@ -487,7 +497,7 @@ async function scrapeFox() {
     await new Promise(r => setTimeout(r, 300));
   }
 
-  console.log(`  [Fox] Found ${Object.keys(movieMap).length} movies`);
+  console.log(`  [Fox] Found ${Object.keys(movieMap).length} movies${skippedNoDate > 0 || skippedPast > 0 ? ` (skipped: ${skippedNoDate} no date, ${skippedPast} past)` : ''}`);
   return { cinema: 'fox', movies: Object.values(movieMap) };
 }
 
@@ -576,7 +586,7 @@ async function scrapeParadise() {
   // Find date tab links (e.g., /home/2026-07-15)
   const dateUrls = [];
   $main('a[href*="/home/"]').each((i, el) => {
-    const href = $(el).attr('href') || '';
+    const href = $main(el).attr('href') || '';
     const match = href.match(/\/home\/(\d{4}-\d{2}-\d{2})/);
     if (match && !dateUrls.find(d => d.url === href)) {
       dateUrls.push({ url: href, dt: match[1] });
