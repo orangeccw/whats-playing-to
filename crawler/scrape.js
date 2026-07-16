@@ -684,23 +684,42 @@ async function scrapeHotDocs() {
   });
 
   // Also collect poster images from the page (from agileticketing.net CDN)
-  const posterImages = [];
+  // Build a map of alt text → poster URL for matching
+  const posterByAlt = {};
+  const posterList = [];
   $('img').each((i, img) => {
     const src = $(img).attr('src') || '';
+    const alt = ($(img).attr('alt') || '').trim();
     if (src.includes('agileticketing.net') && src.includes('_thumb')) {
-      // Convert thumb to full-size image
       const fullSrc = src.replace('_thumb', '');
-      posterImages.push(fullSrc);
+      posterList.push(fullSrc);
+      if (alt) posterByAlt[alt.toLowerCase()] = fullSrc;
     }
   });
 
-  console.log(`  [Hot Docs] Found ${events.length} JSON-LD events, ${posterImages.length} posters`);
+  console.log(`  [Hot Docs] Found ${events.length} JSON-LD events, ${posterList.length} posters`);
 
   // Process events
   for (let i = 0; i < events.length; i++) {
     const event = events[i];
     const title = event.name.trim();
     if (!title) continue;
+
+    // Try to find poster: 1) event.image from JSON-LD, 2) match by alt text, 3) null
+    let poster = null;
+    if (event.image && typeof event.image === 'string') {
+      poster = event.image;
+    } else if (posterByAlt[title.toLowerCase()]) {
+      poster = posterByAlt[title.toLowerCase()];
+    } else {
+      // Try partial match
+      for (const [alt, src] of Object.entries(posterByAlt)) {
+        if (alt.includes(title.toLowerCase()) || title.toLowerCase().includes(alt)) {
+          poster = src;
+          break;
+        }
+      }
+    }
 
     // Parse date and time from startDate (e.g., "2026-07-17T07:00:00-04:00")
     const startDate = new Date(event.startDate);
@@ -719,9 +738,11 @@ async function scrapeHotDocs() {
     if (!movieMap[title]) {
       movieMap[title] = {
         title,
-        poster: posterImages[i] || null,
+        poster,
         showtimes: []
       };
+    } else if (poster && !isValidPoster(movieMap[title].poster)) {
+      movieMap[title].poster = poster;
     }
 
     const showtime = { dt, tm };
