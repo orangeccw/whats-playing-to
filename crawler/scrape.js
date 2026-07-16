@@ -420,6 +420,7 @@ async function scrapeFox() {
   const movieMap = {};
   let page = 1;
   let hasMore = true;
+  let totalSkippedNoDate = 0, totalSkippedPast = 0;
 
   while (hasMore && page <= 3) {
     const url = `https://www.foxtheatre.ca/wp-json/wp/v2/movies?per_page=100&page=${page}&_fields=id,title,excerpt,link,class_list,yoast_head_json`;
@@ -490,6 +491,9 @@ async function scrapeFox() {
       }
     }
 
+    totalSkippedNoDate += skippedNoDate;
+    totalSkippedPast += skippedPast;
+
     // Check if there are more pages
     const totalPages = parseInt(resp.headers['x-wp-totalpages'] || '1');
     hasMore = page < totalPages;
@@ -497,7 +501,7 @@ async function scrapeFox() {
     await new Promise(r => setTimeout(r, 300));
   }
 
-  console.log(`  [Fox] Found ${Object.keys(movieMap).length} movies${skippedNoDate > 0 || skippedPast > 0 ? ` (skipped: ${skippedNoDate} no date, ${skippedPast} past)` : ''}`);
+  console.log(`  [Fox] Found ${Object.keys(movieMap).length} movies${totalSkippedNoDate > 0 || totalSkippedPast > 0 ? ` (skipped: ${totalSkippedNoDate} no date, ${totalSkippedPast} past)` : ''}`);
   return { cinema: 'fox', movies: Object.values(movieMap) };
 }
 
@@ -600,6 +604,17 @@ async function scrapeParadise() {
 
   console.log(`  [Paradise] Found ${dateUrls.length} date pages`);
 
+  // Build a poster map from .show divs (title → poster URL)
+  const posterMap = {};
+  $main('.show').each((i, el) => {
+    const $show = $main(el);
+    const title = $show.find('h2').first().text().trim();
+    if (!title) return;
+    const style = $show.attr('style') || '';
+    const bgMatch = style.match(/--show-background-image:\s*url\(([^)]+)\)/);
+    if (bgMatch) posterMap[title.toLowerCase()] = bgMatch[1];
+  });
+
   // Fetch each date page
   for (const { url, dt } of dateUrls.slice(0, 7)) {
     try {
@@ -607,27 +622,26 @@ async function scrapeParadise() {
       const html = await fetchPage(fullUrl);
       const $ = cheerio.load(html);
 
-      // Find all .show divs that contain showtime elements (excludes "coming soon")
-      $('.show').each((i, el) => {
-        const $show = $(el);
-        const $showtimes = $show.find('.showtime');
-        if ($showtimes.length === 0) return; // Skip "coming soon" entries
+      // Paradise restructured: showtimes are in .panel divs, not .show divs
+      // Each .panel may contain an <h2> (movie title) and .showtime elements
+      $('.panel').each((i, el) => {
+        const $panel = $(el);
+        const $showtimes = $panel.find('.showtime');
+        if ($showtimes.length === 0) return; // Skip panels without showtimes
 
-        const title = $show.find('h2').first().text().trim();
-        if (!title) return;
+        const title = $panel.find('h2').first().text().trim();
+        if (!title || title === 'Movies Coming Soon' || title === 'Paradise Presents' ||
+            title === 'Upcoming Series' || title === 'Discover everything Paradise has to offer') return;
 
-        // Extract poster from --show-background-image CSS variable
-        let poster = null;
-        const style = $show.attr('style') || '';
-        const bgMatch = style.match(/--show-background-image:\s*url\(([^)]+)\)/);
-        if (bgMatch) poster = bgMatch[1];
+        // Get poster from our map (built from .show divs on the main page)
+        const poster = posterMap[title.toLowerCase()] || null;
 
         if (!movieMap[title]) {
           movieMap[title] = { title, showtimes: [], poster };
         }
         if (poster && !movieMap[title].poster) movieMap[title].poster = poster;
 
-        // Parse each showtime element (both <a> and <span>)
+        // Parse each showtime element
         $showtimes.each((j, st) => {
           const $st = $(st);
           const timeText = $st.text().trim().replace(/SOLD OUT/i, '').trim();
@@ -638,7 +652,8 @@ async function scrapeParadise() {
           const idMatch = href.match(/\/purchase\/(\d+)/);
           const showtimeId = $st.attr('data-showtime_id') || (idMatch ? idMatch[1] : '');
           const isSoldOut = ($st.attr('title') || '').includes('SOLD OUT') ||
-                            $st.hasClass('sold-out');
+                            $st.hasClass('sold-out') ||
+                            $st.text().includes('SOLD OUT');
 
           const showtime = { dt, tm };
           if (showtimeId) showtime.id = showtimeId;
@@ -647,6 +662,36 @@ async function scrapeParadise() {
 
           movieMap[title].showtimes.push(showtime);
         });
+      });
+
+      // Also try the old .show structure as fallback
+      $('.show .showtime').each((i, st) => {
+        const $st = $(st);
+        const $show = $st.closest('.show');
+        const title = $show.find('h2').first().text().trim();
+        if (!title) return;
+
+        const timeText = $st.text().trim().replace(/SOLD OUT/i, '').trim();
+        const tm = parseTime(timeText);
+        if (!tm) return;
+
+        if (!movieMap[title]) {
+          movieMap[title] = { title, showtimes: [], poster: null };
+        }
+
+        const href = $st.attr('href') || '';
+        const idMatch = href.match(/\/purchase\/(\d+)/);
+        const showtimeId = $st.attr('data-showtime_id') || (idMatch ? idMatch[1] : '');
+        const isSoldOut = ($st.attr('title') || '').includes('SOLD OUT') ||
+                          $st.hasClass('sold-out') ||
+                          $st.text().includes('SOLD OUT');
+
+        const showtime = { dt, tm };
+        if (showtimeId) showtime.id = showtimeId;
+        if (href && href.includes('/purchase/')) showtime.url = href;
+        if (isSoldOut) showtime.soldOut = true;
+
+        movieMap[title].showtimes.push(showtime);
       });
 
       await new Promise(r => setTimeout(r, 300));
