@@ -211,7 +211,39 @@ const TMDB_API_KEY = process.env.TMDB_API_KEY || '';
 const TMDB_BASE = 'https://api.themoviedb.org/3';
 const TMDB_IMG_BASE = 'https://image.tmdb.org/t/p/w500';
 
-// Cache TMDB results to avoid duplicate lookups
+// Persistent enrichment cache — survives across runs
+// Key: "title|year" → { poster, director, year, runtime, rating, genres, description }
+const ENRICHMENT_CACHE_PATH = path.join(__dirname, '..', 'data', 'enrichment-cache.json');
+let enrichmentCache = {};
+
+function loadEnrichmentCache() {
+  try {
+    enrichmentCache = JSON.parse(fs.readFileSync(ENRICHMENT_CACHE_PATH, 'utf8'));
+    console.log(`  [Cache] Loaded ${Object.keys(enrichmentCache).length} cached enrichments`);
+  } catch (e) {
+    enrichmentCache = {};
+  }
+}
+
+function saveEnrichmentCache() {
+  try {
+    fs.writeFileSync(ENRICHMENT_CACHE_PATH, JSON.stringify(enrichmentCache, null, 2), 'utf8');
+  } catch (e) {
+    console.log(`  [Cache] Failed to save: ${e.message}`);
+  }
+}
+
+function getCachedEnrichment(title, year) {
+  const key = `${title.toLowerCase().trim()}|${year || ''}`;
+  return enrichmentCache[key] || null;
+}
+
+function setCachedEnrichment(title, year, data) {
+  const key = `${title.toLowerCase().trim()}|${year || ''}`;
+  enrichmentCache[key] = { ...data, _cachedAt: new Date().toISOString() };
+}
+
+// In-memory cache for current run (avoids duplicate API calls within same run)
 const tmdbCache = {};
 
 async function searchTMDB(title, year) {
@@ -259,50 +291,80 @@ async function enrichWithTMDB(movies) {
     console.log('  [TMDB] No API key set (TMDB_API_KEY env var), skipping TMDB enrichment');
     return movies;
   }
-  
+
   console.log(`  [TMDB] Enriching ${movies.length} movies...`);
   let enriched = 0;
-  
+  let fromCache = 0;
+
   for (const movie of movies) {
     // Only call TMDB if missing or invalid poster or metadata
     const needsPoster = !isValidPoster(movie.poster);
     const needsMeta = !movie.director || !movie.year || !movie.genres || movie.genres.length === 0;
-    
+
     if (!needsPoster && !needsMeta) continue;
-    
-    const tmdbResult = await searchTMDB(movie.title, movie.year);
-    if (!tmdbResult) continue;
-    
-    if (needsPoster && tmdbResult.poster_path) {
-      movie.poster = TMDB_IMG_BASE + tmdbResult.poster_path;
+
+    // Check persistent cache first
+    const cached = getCachedEnrichment(movie.title, movie.year);
+    if (cached) {
+      let applied = false;
+      if (needsPoster && isValidPoster(cached.poster)) {
+        movie.poster = cached.poster;
+        applied = true;
+      }
+      if (needsMeta) {
+        if (!movie.director && cached.director) { movie.director = cached.director; applied = true; }
+        if (!movie.year && cached.year) { movie.year = cached.year; applied = true; }
+        if ((!movie.genres || movie.genres.length === 0) && cached.genres?.length > 0) { movie.genres = cached.genres; applied = true; }
+        if (!movie.runtime && cached.runtime) { movie.runtime = cached.runtime; applied = true; }
+        if (!movie.rating && cached.rating) { movie.rating = cached.rating; applied = true; }
+        if (!movie.description && cached.description) { movie.description = cached.description; applied = true; }
+      }
+      if (applied) { fromCache++; enriched++; continue; }
+      // If cache exists but didn't help (e.g. cached null poster), skip API call
+      if (cached._tried) continue;
     }
-    if (needsMeta) {
-      if (!movie.director && tmdbResult.credit_cast) {
-        const dir = tmdbResult.credit_cast.find(c => c.job === 'Director');
-        if (dir) movie.director = dir.name;
+
+    // Call TMDB API
+    const tmdbResult = await searchTMDB(movie.title, movie.year);
+    const cacheData = { _tried: true };
+
+    if (tmdbResult) {
+      if (needsPoster && tmdbResult.poster_path) {
+        movie.poster = TMDB_IMG_BASE + tmdbResult.poster_path;
+        cacheData.poster = movie.poster;
       }
-      if (!movie.year && tmdbResult.release_date) {
-        movie.year = tmdbResult.release_date.substring(0, 4);
-      }
-      if (!movie.genres || movie.genres.length === 0) {
-        // TMDB search doesn't return genres directly, but we can use genre_ids
-        const genreMap = {
-          28: 'Action', 12: 'Adventure', 16: 'Animation', 35: 'Comedy', 80: 'Crime',
-          99: 'Documentary', 18: 'Drama', 10751: 'Family', 14: 'Fantasy', 36: 'History',
-          27: 'Horror', 10402: 'Music', 9648: 'Mystery', 10749: 'Romance', 878: 'Sci-Fi',
-          10770: 'TV Movie', 53: 'Thriller', 10752: 'War', 37: 'Western'
-        };
-        if (tmdbResult.genre_ids && tmdbResult.genre_ids.length > 0) {
-          movie.genres = tmdbResult.genre_ids.slice(0, 4).map(id => genreMap[id]).filter(Boolean);
+      if (needsMeta) {
+        if (!movie.director && tmdbResult.credit_cast) {
+          const dir = tmdbResult.credit_cast.find(c => c.job === 'Director');
+          if (dir) { movie.director = dir.name; cacheData.director = dir.name; }
+        }
+        if (!movie.year && tmdbResult.release_date) {
+          movie.year = tmdbResult.release_date.substring(0, 4);
+          cacheData.year = movie.year;
+        }
+        if (!movie.genres || movie.genres.length === 0) {
+          const genreMap = {
+            28: 'Action', 12: 'Adventure', 16: 'Animation', 35: 'Comedy', 80: 'Crime',
+            99: 'Documentary', 18: 'Drama', 10751: 'Family', 14: 'Fantasy', 36: 'History',
+            27: 'Horror', 10402: 'Music', 9648: 'Mystery', 10749: 'Romance', 878: 'Sci-Fi',
+            10770: 'TV Movie', 53: 'Thriller', 10752: 'War', 37: 'Western'
+          };
+          if (tmdbResult.genre_ids && tmdbResult.genre_ids.length > 0) {
+            movie.genres = tmdbResult.genre_ids.slice(0, 4).map(id => genreMap[id]).filter(Boolean);
+            cacheData.genres = movie.genres;
+          }
         }
       }
+      if (tmdbResult.poster_path || tmdbResult.credit_cast || tmdbResult.release_date) {
+        enriched++;
+      }
     }
-    
-    enriched++;
+
+    setCachedEnrichment(movie.title, movie.year, cacheData);
     await new Promise(r => setTimeout(r, 250)); // Rate limit: 4 req/sec
   }
-  
-  console.log(`  [TMDB] Enriched ${enriched}/${movies.length} movies`);
+
+  console.log(`  [TMDB] Enriched ${enriched}/${movies.length} movies (${fromCache} from cache)`);
   return movies;
 }
 
@@ -313,6 +375,19 @@ const OMDB_API_KEY = process.env.OMDB_API_KEY || '';
 const OMDB_BASE = 'https://www.omdbapi.com/';
 
 const omdbCache = {};
+
+// Decode HTML entities that cause OMDb 500 errors
+function decodeHtmlEntities(str) {
+  return str
+    .replace(/&#8211;|&#8212;|&ndash;|&mdash;/g, '-')   // en/em dash → hyphen
+    .replace(/&#8217;|&#8216;|&rsquo;|&lsquo;/g, "'")    // smart quotes
+    .replace(/&#8220;|&#8221;|&ldquo;|&rdquo;/g, '"')    // smart double quotes
+    .replace(/&#038;|&amp;/g, '&')                        // ampersand
+    .replace(/&#039;|&apos;/g, "'")                       // apostrophe
+    .replace(/&hellip;/g, '...')                          // ellipsis
+    .replace(/&[a-z]+;/g, ' ')                            // any remaining entities → space
+    .trim();
+}
 
 async function searchOMDB(title, year) {
   if (!OMDB_API_KEY) return null;
@@ -325,6 +400,8 @@ async function searchOMDB(title, year) {
     .replace(/\s*:\s*\d{1,2}(?:st|nd|rd|th)\s+Anniversary.*$/i, '')  // Remove ": 30th Anniversary"
     .replace(/\s*\(SUB\)\s*$/i, '')             // Remove "(SUB)"
     .trim();
+  // Decode HTML entities (e.g., &#8211; → -, &#038; → &)
+  cleanTitle = decodeHtmlEntities(cleanTitle);
   const cacheKey = `${cleanTitle}|${year || ''}`;
 
   if (omdbCache[cacheKey] !== undefined) return omdbCache[cacheKey];
@@ -368,6 +445,7 @@ async function enrichWithOMDB(movies) {
 
   console.log(`  [OMDb] Enriching ${movies.length} movies...`);
   let enriched = 0;
+  let fromCache = 0;
 
   for (const movie of movies) {
     // Only call OMDb if still missing or invalid poster or metadata after TMDB
@@ -376,39 +454,76 @@ async function enrichWithOMDB(movies) {
 
     if (!needsPoster && !needsMeta) continue;
 
+    // Check persistent cache (OMDb-specific fields merged into same cache entry)
+    const cached = getCachedEnrichment(movie.title, movie.year);
+    if (cached) {
+      let applied = false;
+      if (needsPoster && isValidPoster(cached.omdbPoster)) {
+        movie.poster = cached.omdbPoster;
+        applied = true;
+      }
+      if (needsMeta) {
+        if (!movie.director && cached.omdbDirector) { movie.director = cached.omdbDirector; applied = true; }
+        if (!movie.year && cached.omdbYear) { movie.year = cached.omdbYear; applied = true; }
+        if (!movie.runtime && cached.omdbRuntime) { movie.runtime = cached.omdbRuntime; applied = true; }
+        if (!movie.rating && cached.omdbRating) { movie.rating = cached.omdbRating; applied = true; }
+        if ((!movie.genres || movie.genres.length === 0) && cached.omdbGenres?.length > 0) { movie.genres = cached.omdbGenres; applied = true; }
+        if (!movie.description && cached.omdbDescription) { movie.description = cached.omdbDescription; applied = true; }
+      }
+      if (applied) { fromCache++; enriched++; continue; }
+      // If already tried OMDb for this entry and got nothing, skip
+      if (cached._omdbTried) continue;
+    }
+
+    // Call OMDb API
     const omdbResult = await searchOMDB(movie.title, movie.year);
-    if (!omdbResult) continue;
+    const omdbCacheData = { _omdbTried: true };
 
-    if (needsPoster && omdbResult.Poster && omdbResult.Poster !== 'N/A') {
-      movie.poster = omdbResult.Poster;
-    }
-    if (needsMeta) {
-      if (!movie.director && omdbResult.Director && omdbResult.Director !== 'N/A') {
-        // OMDb returns "Dir1, Dir2" — take first
-        movie.director = omdbResult.Director.split(',')[0].trim();
+    // Merge into existing cache entry (or create new one)
+    const existingCache = getCachedEnrichment(movie.title, movie.year) || {};
+    const mergedCache = { ...existingCache, ...omdbCacheData };
+
+    if (omdbResult) {
+      if (needsPoster && omdbResult.Poster && omdbResult.Poster !== 'N/A') {
+        movie.poster = omdbResult.Poster;
+        mergedCache.omdbPoster = movie.poster;
       }
-      if (!movie.year && omdbResult.Year && omdbResult.Year !== 'N/A') {
-        movie.year = omdbResult.Year.substring(0, 4);
+      if (needsMeta) {
+        if (!movie.director && omdbResult.Director && omdbResult.Director !== 'N/A') {
+          movie.director = omdbResult.Director.split(',')[0].trim();
+          mergedCache.omdbDirector = movie.director;
+        }
+        if (!movie.year && omdbResult.Year && omdbResult.Year !== 'N/A') {
+          movie.year = omdbResult.Year.substring(0, 4);
+          mergedCache.omdbYear = movie.year;
+        }
+        if (!movie.runtime && omdbResult.Runtime && omdbResult.Runtime !== 'N/A') {
+          movie.runtime = omdbResult.Runtime;
+          mergedCache.omdbRuntime = movie.runtime;
+        }
+        if (!movie.rating && omdbResult.Rated && omdbResult.Rated !== 'N/A') {
+          movie.rating = omdbResult.Rated;
+          mergedCache.omdbRating = movie.rating;
+        }
+        if ((!movie.genres || movie.genres.length === 0) && omdbResult.Genre && omdbResult.Genre !== 'N/A') {
+          movie.genres = omdbResult.Genre.split(',').map(g => g.trim()).slice(0, 4);
+          mergedCache.omdbGenres = movie.genres;
+        }
+        if (!movie.description && omdbResult.Plot && omdbResult.Plot !== 'N/A') {
+          movie.description = omdbResult.Plot;
+          mergedCache.omdbDescription = movie.description;
+        }
       }
-      if (!movie.runtime && omdbResult.Runtime && omdbResult.Runtime !== 'N/A') {
-        movie.runtime = omdbResult.Runtime; // e.g. "120 min"
-      }
-      if (!movie.rating && omdbResult.Rated && omdbResult.Rated !== 'N/A') {
-        movie.rating = omdbResult.Rated;
-      }
-      if ((!movie.genres || movie.genres.length === 0) && omdbResult.Genre && omdbResult.Genre !== 'N/A') {
-        movie.genres = omdbResult.Genre.split(',').map(g => g.trim()).slice(0, 4);
-      }
-      if (!movie.description && omdbResult.Plot && omdbResult.Plot !== 'N/A') {
-        movie.description = omdbResult.Plot;
+      if (omdbResult.Poster || omdbResult.Director || omdbResult.Year) {
+        enriched++;
       }
     }
 
-    enriched++;
+    setCachedEnrichment(movie.title, movie.year, mergedCache);
     await new Promise(r => setTimeout(r, 1000)); // OMDb rate limit: 1000/day, be polite
   }
 
-  console.log(`  [OMDb] Enriched ${enriched}/${movies.length} movies`);
+  console.log(`  [OMDb] Enriched ${enriched}/${movies.length} movies (${fromCache} from cache)`);
   return movies;
 }
 
@@ -1410,6 +1525,9 @@ async function main() {
   console.log('Merging results...');
   const merged = mergeResults({ cinemaResults, tiffFilms }, existingData);
 
+  // Load persistent enrichment cache (survives across runs via git)
+  loadEnrichmentCache();
+
   // Enrich with TMDB (posters + metadata) if API key is set
   console.log('TMDB enrichment...');
   await enrichWithTMDB(merged.movies);
@@ -1417,6 +1535,9 @@ async function main() {
   // Enrich with OMDb (fills in gaps TMDB missed)
   console.log('OMDb enrichment...');
   await enrichWithOMDB(merged.movies);
+
+  // Save updated enrichment cache
+  saveEnrichmentCache();
 
   // Build output
   const output = {
