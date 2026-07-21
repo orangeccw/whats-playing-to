@@ -381,5 +381,80 @@
     "omdbRuntime": "95 min",
     "omdbRating": "R",
     "omdbDescription": "An insurance investigator begins discovering that the impact a horror writer's books have on his fans is more than inspirational."
+  },
+  "staff picks: the sandlot|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-21T11:44:44.007Z",
+    "_omdbTried": true
+  },
+  "racewalkers|2025": {
+    "_tried": true,
+    "year": "2025",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "_cachedAt": "2026-07-21T11:44:45.067Z",
+    "_omdbTried": true,
+    "omdbDirector": "Kevin Claydon"
+  },
+  "female prisoner #701: scorpion|1972": {
+    "_tried": true,
+    "year": "1972",
+    "genres": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-07-21T11:44:46.112Z",
+    "_omdbTried": true,
+    "omdbDirector": "Shun'ya Itô",
+    "omdbRuntime": "87 min",
+    "omdbRating": "Not Rated"
+  },
+  "battle of algiers|1966": {
+    "_tried": true,
+    "year": "1966",
+    "genres": [
+      "Drama",
+      "War",
+      "History"
+    ],
+    "_cachedAt": "2026-07-21T11:44:47.159Z",
+    "_omdbTried": true,
+    "omdbDirector": "Gillo Pontecorvo",
+    "omdbRuntime": "121 min",
+    "omdbRating": "Not Rated"
+  },
+  "chocolate babies|1996": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/izmpQc1fbASmudcPXAqeJ3k0pGO.jpg",
+    "year": "1996",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "_cachedAt": "2026-07-21T11:44:48.205Z",
+    "_omdbTried": true,
+    "omdbDirector": "Stephen Winter",
+    "omdbRuntime": "83 min",
+    "omdbRating": "Unrated",
+    "omdbDescription": "A group of New Yorkers fight AIDS rights by any means necessary."
+  },
+  "pressure|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/gFjEggtrejCN79r6SXRjM269OtG.jpg",
+    "year": "2026",
+    "genres": [
+      "Thriller",
+      "History",
+      "War"
+    ],
+    "_cachedAt": "2026-07-21T11:44:49.251Z",
+    "_omdbTried": true,
+    "omdbDirector": "Anthony Maras",
+    "omdbRuntime": "100 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "In the tense 72 hours before D-Day, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice--launch the most dangerous seaborne invasion in history or risk losing the war altogether."
   }
 }
