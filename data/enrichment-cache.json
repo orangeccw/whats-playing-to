@@ -456,5 +456,73 @@
     "omdbRuntime": "100 min",
     "omdbRating": "PG-13",
     "omdbDescription": "In the tense 72 hours before D-Day, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice--launch the most dangerous seaborne invasion in history or risk losing the war altogether."
+  },
+  "revue event: boutique: to preserve and collect – canadian premiere with director in attendance!|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-23T11:48:27.414Z",
+    "_omdbTried": true
+  },
+  "hold up: 13 going on 30 (2004)|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-23T11:48:28.482Z",
+    "_omdbTried": true
+  },
+  "terrible threes: jaws 3-d (1983) – presented in 3d & 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-23T11:48:29.551Z",
+    "_omdbTried": true
+  },
+  "revue event: putney swope (1969) +  book launch –  presented by kier-la janisse & clint enns|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-23T11:48:30.618Z",
+    "_omdbTried": true
+  },
+  "revue event:  yojimbo (1961) – presented on 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-23T11:48:31.684Z",
+    "_omdbTried": true
+  },
+  "take care of my cat: 25th anniversary!|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-23T11:48:26.179Z"
+  },
+  "son of sara|2025": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/tsLP0bgEL4CWY9qhsrTov8dhYnL.jpg",
+    "year": "2025",
+    "genres": [
+      "Horror"
+    ],
+    "_cachedAt": "2026-07-23T11:48:33.827Z",
+    "_omdbTried": true,
+    "omdbRuntime": "85 min",
+    "omdbDescription": "Haunted by strange urges and visions, a pregnant woman named Sara accepts an invitation to dinner that spirals into a bloody, demented nightmare."
+  },
+  "the room|1978": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/8D2Oty3FpihcNoNowuYbzOaXKsv.jpg",
+    "year": "1978",
+    "genres": [
+      "Drama"
+    ],
+    "_cachedAt": "2026-07-23T11:48:34.997Z",
+    "_omdbTried": true,
+    "omdbDirector": "Tommy Wiseau",
+    "omdbRuntime": "99 min",
+    "omdbRating": "R",
+    "omdbDescription": "In San Francisco, an amiable banker's seemingly perfect life is turned upside down when his deceitful bride-to-be embarks on a passionate affair with his best friend."
+  },
+  "take care of my cat: 25th anniversary!|2001": {
+    "_tried": true,
+    "_cachedAt": "2026-07-23T11:48:32.755Z",
+    "_omdbTried": true,
+    "omdbPoster": "https://m.media-amazon.com/images/M/MV5BY2MyMTc5OTUtOGRlNS00NmExLWI4ZDYtYTQxODMwNWNjNjk2XkEyXkFqcGc@._V1_SX300.jpg",
+    "omdbDirector": "Jae-eun Jeong",
+    "omdbYear": "2001",
+    "omdbRuntime": "112 min",
+    "omdbGenres": [
+      "Drama"
+    ],
+    "omdbDescription": "In the port city of Icheon, five female friends struggle to stay close while forging a life for themselves after high school. When one of the group, upwardly-mobile Hae-ju, moves to Seoul, the other girls deal with the loss in dif..."
   }
 }
