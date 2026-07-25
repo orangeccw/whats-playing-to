@@ -331,7 +331,7 @@
       "Music",
       "Drama"
     ],
-    "_cachedAt": "2026-07-18T11:00:00.165Z",
+    "_cachedAt": "2026-07-25T11:06:46.185Z",
     "_omdbTried": true,
     "omdbDirector": "John Carney",
     "omdbRuntime": "98 min",
@@ -345,7 +345,7 @@
     "genres": [
       "Drama"
     ],
-    "_cachedAt": "2026-07-18T11:00:01.213Z",
+    "_cachedAt": "2026-07-25T11:06:43.006Z",
     "_omdbTried": true,
     "omdbDirector": "Carla Simón",
     "omdbRuntime": "114 min",
@@ -524,5 +524,126 @@
       "Drama"
     ],
     "omdbDescription": "In the port city of Icheon, five female friends struggle to stay close while forging a life for themselves after high school. When one of the group, upwardly-mobile Hae-ju, moves to Seoul, the other girls deal with the loss in dif..."
+  },
+  "the rivals of amziah king|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-07-25T11:06:34.525Z",
+    "_omdbTried": true,
+    "omdbDirector": "Andrew Patterson",
+    "omdbRuntime": "130 min"
+  },
+  "tcm day: the texas chain saw massacre|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-25T11:06:35.584Z",
+    "_omdbTried": true
+  },
+  "paw patrol: the dino movie|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Comedy",
+      "Family"
+    ],
+    "_cachedAt": "2026-07-25T11:06:36.645Z",
+    "_omdbTried": true,
+    "omdbDirector": "Cal Brunker",
+    "omdbRuntime": "88 min",
+    "omdbRating": "PG"
+  },
+  "golden age: rear window|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-25T11:06:37.703Z",
+    "_omdbTried": true
+  },
+  "battle of the sexes: marnie|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-25T11:06:38.772Z",
+    "_omdbTried": true
+  },
+  "battle of the sexes: birth|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-25T11:06:39.830Z",
+    "_omdbTried": true
+  },
+  "the super mario galazy movie|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-25T11:06:40.887Z",
+    "_omdbTried": true
+  },
+  "stars wars madalorian and grogu|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-25T11:06:41.944Z",
+    "_omdbTried": true
+  },
+  "girls like girls|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/m1hSTBv3qLeywznEGsnqVSln1Tg.jpg",
+    "year": "2026",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
+    "_cachedAt": "2026-07-25T11:06:44.067Z",
+    "_omdbTried": true,
+    "omdbDirector": "Hayley Kiyoko",
+    "omdbRuntime": "95 min",
+    "omdbRating": "R",
+    "omdbDescription": "Coley, 17, from rural Oregon, navigates intimacy after her mother's passing. Meeting Sonya sparks new feelings, but self-doubt hinders their connection. Sonya, unfamiliar with dating girls, is uncertain. They learn to embrace emot..."
+  },
+  "the bread winner|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-25T11:06:33.146Z"
+  },
+  "indiana jones and the kingdom of the crystal skull|2008": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/56As6XEM1flWvprX4LgkPl8ii4K.jpg",
+    "year": "2008",
+    "genres": [
+      "Adventure",
+      "Action"
+    ],
+    "_cachedAt": "2026-07-25T11:06:47.248Z",
+    "_omdbTried": true,
+    "omdbDirector": "Steven Spielberg",
+    "omdbRuntime": "122 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "In 1957, Indiana Jones is called back into action when he becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls."
+  },
+  "scary movie|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/znHT8peERZRWG1ME3r0Db0EV8k8.jpg",
+    "year": "2026",
+    "genres": [
+      "Comedy",
+      "Horror"
+    ],
+    "_cachedAt": "2026-07-25T11:06:48.307Z",
+    "_omdbTried": true,
+    "omdbDirector": "Michael Tiddes",
+    "omdbRuntime": "96 min",
+    "omdbRating": "R",
+    "omdbDescription": "Two friends find themselves caught up in mayhem involving killers, monsters and supernatural creatures once again."
+  },
+  "the bread winner|2007": {
+    "_tried": true,
+    "_cachedAt": "2026-07-25T11:06:45.126Z",
+    "_omdbTried": true,
+    "omdbPoster": "https://m.media-amazon.com/images/M/MV5BMzgxMDg4MTM1Nl5BMl5BanBnXkFtZTcwODM4NTk5NA@@._V1_SX300.jpg",
+    "omdbDirector": "Sonia Nassery Cole",
+    "omdbYear": "2007",
+    "omdbRuntime": "23 min",
+    "omdbGenres": [
+      "Documentary",
+      "Short"
+    ],
+    "omdbDescription": "In the dusty streets of Kabul, Afghanistan, 8-year-old Farouk works tirelessly every day peddling calendars and newspapers while also attending school. Farouk's father, crippled during the decades-long war and occupation, is unable t"
   }
 }
