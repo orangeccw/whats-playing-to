@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-07-30",
   "cinemas": {
     "fox": {
       "name": "Fox Theatre",
@@ -113,11 +113,6 @@
       "showtimes": [
         {
           "c": "fox",
-          "dt": "2026-07-28",
-          "url": "https://www.foxtheatre.ca/movies/obsession/"
-        },
-        {
-          "c": "fox",
           "dt": "2026-07-30",
           "url": "https://www.foxtheatre.ca/movies/obsession/"
         }
@@ -143,15 +138,60 @@
           "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
         },
         {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "13:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "16:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "19:10"
+        },
+        {
           "c": "revue",
           "dt": "2026-07-31",
           "tm": "21:30",
           "url": "https://revuecinema.ca/films/i-want-your-sex/"
         },
         {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "21:55"
+        },
+        {
           "c": "fox",
           "dt": "2026-08-01",
           "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "13:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "16:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "19:10"
         },
         {
           "c": "revue",
@@ -160,9 +200,29 @@
           "url": "https://revuecinema.ca/films/i-want-your-sex/"
         },
         {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "21:55"
+        },
+        {
           "c": "fox",
           "dt": "2026-08-02",
           "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "13:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "16:10"
         },
         {
           "c": "revue",
@@ -171,15 +231,70 @@
           "url": "https://revuecinema.ca/films/i-want-your-sex/"
         },
         {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "21:55"
+        },
+        {
           "c": "fox",
           "dt": "2026-08-03",
           "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "13:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "16:10"
         },
         {
           "c": "revue",
           "dt": "2026-08-03",
           "tm": "19:00",
           "url": "https://revuecinema.ca/films/i-want-your-sex/"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "21:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "13:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "16:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "19:10"
         },
         {
           "c": "revue",
@@ -188,9 +303,34 @@
           "url": "https://revuecinema.ca/films/i-want-your-sex/"
         },
         {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "21:55"
+        },
+        {
           "c": "fox",
           "dt": "2026-08-05",
           "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "13:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "16:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "19:10"
         },
         {
           "c": "revue",
@@ -199,15 +339,45 @@
           "url": "https://revuecinema.ca/films/i-want-your-sex/"
         },
         {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "21:55"
+        },
+        {
           "c": "fox",
           "dt": "2026-08-06",
           "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "13:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "16:10"
         },
         {
           "c": "revue",
           "dt": "2026-08-06",
           "tm": "19:00",
           "url": "https://revuecinema.ca/films/i-want-your-sex/"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "21:55"
         },
         {
           "c": "fox",
@@ -238,36 +408,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "12:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "12:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "18:30"
-        },
         {
           "c": "carlton",
           "dt": "2026-07-30",
@@ -304,36 +444,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "15:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "15:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-07-30",
           "tm": "01:00"
         },
@@ -357,56 +467,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-07-30",
           "tm": "02:00"
         },
@@ -429,6 +489,181 @@
           "c": "carlton",
           "dt": "2026-07-30",
           "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "12:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "12:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "12:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "12:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "12:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "12:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "12:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "21:40"
         }
       ]
     },
@@ -445,26 +680,6 @@
         "Drama"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "12:35"
-        },
         {
           "c": "carlton",
           "dt": "2026-07-30",
@@ -485,56 +700,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-07-30",
           "tm": "01:00"
         },
@@ -557,20 +722,6 @@
           "c": "carlton",
           "dt": "2026-07-30",
           "tm": "21:30"
-        }
-      ]
-    },
-    {
-      "title": "To 70 And Beyond: PROJECT HAIL MARY – Presented on 70mm!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/project_hail_mary_tmdb-yihdxomyb5ktesivtfndmy5idmf-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-29",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/to-70-and-beyond-project-hail-mary-presented-on-70mm/"
         }
       ]
     },
@@ -1017,17 +1168,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-07-28",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-07-31",
           "tm": "13:15"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-02",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-04",
           "tm": "13:15"
         }
       ]
@@ -1048,26 +1199,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-07-28",
-          "tm": "13:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-28",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-29",
-          "tm": "13:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-29",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-07-30",
           "tm": "13:00"
         },
@@ -1114,6 +1245,26 @@
         {
           "c": "kingsway",
           "dt": "2026-08-03",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-04",
+          "tm": "13:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-04",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-05",
+          "tm": "13:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-05",
           "tm": "19:00"
         }
       ]
@@ -1156,16 +1307,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-07-29",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-29",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-01",
           "tm": "15:00"
         },
@@ -1182,6 +1323,16 @@
         {
           "c": "kingsway",
           "dt": "2026-08-03",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-05",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-05",
           "tm": "19:00"
         }
       ]
@@ -1202,17 +1353,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-07-28",
-          "tm": "22:45"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-07-31",
           "tm": "22:45"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-02",
+          "tm": "22:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-04",
           "tm": "22:45"
         }
       ]
@@ -1223,56 +1374,6 @@
       "poster": null,
       "genres": [],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "21:40"
-        },
         {
           "c": "carlton",
           "dt": "2026-07-30",
@@ -1414,9 +1515,179 @@
       ],
       "showtimes": [
         {
-          "c": "fox",
-          "dt": "2026-07-29",
-          "url": "https://www.foxtheatre.ca/movies/hadestown-the-musical/"
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "12:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "15:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "21:25"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "12:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "15:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "21:25"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "12:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "15:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "21:25"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "12:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "15:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "21:25"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "12:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "15:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "21:25"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "12:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "15:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "21:25"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "12:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "15:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "21:25"
         },
         {
           "c": "fox",
@@ -1445,19 +1716,6 @@
           "c": "fox",
           "dt": "2026-08-19",
           "url": "https://www.foxtheatre.ca/movies/grlish-bridesmaids/"
-        }
-      ]
-    },
-    {
-      "title": "Sing-Along! Grease",
-      "description": "Grease is the word and you gotta sing along! Celebrate summer by taking a trip to Rydell High and singing your heart out along with Danny, Sandy, and the gang! You know the words … and in case you forget a few, don’t sweat it daddy-o, because all the lyrics will be right up there ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/grease_sing_along_resize_thumb.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-07-29",
-          "url": "https://www.foxtheatre.ca/movies/sing-along-grease/"
         }
       ]
     },
@@ -1519,46 +1777,6 @@
       ]
     },
     {
-      "title": "Zardoz",
-      "description": "In the future, Earth is ruled by Eternals, an advanced and secret sect of beings who reign over a savage group called Brutals. The Eternals have created a god named Zardoz to intimidate the Brutals, making them believe that killing is their natural state. However, Zed (Sean Connery), a Brutal warrior, challenges that assumption when ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/zardoz_tmdb-6qvqhjhvm7wwpb2ljvpivsnraiv_thumb.jpg",
-      "director": "John Boorman",
-      "year": "1974",
-      "runtime": "105 min",
-      "rating": "R",
-      "genres": [
-        "Fantasy",
-        "Action",
-        "Thriller",
-        "Sci-Fi"
-      ],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-07-29",
-          "url": "https://www.foxtheatre.ca/movies/zardoz/"
-        }
-      ]
-    },
-    {
-      "title": "Vivaldi Et Moi (Primavera)",
-      "description": "Set in 18th-century Venice’s famed Ospedale della Pietà orphanage for girls, Vivaldi Et Moi follows Cecilia (Tecla Insolia), a gifted young violinist whose fiery spirit cannot be contained. Yearning to uncover her origins and chafing against the orphanage’s strict rules, she’s offered escape through an arranged marriage to a wealthy patron (Stefano Accorsi). But when a ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/primavera_tmdb-lu2sf3dryggzhlvoc9yznsktlfo_thumb.jpg",
-      "year": "2025",
-      "genres": [
-        "Music",
-        "Drama",
-        "History"
-      ],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-07-28",
-          "url": "https://www.foxtheatre.ca/movies/vivaldi-et-moi-primavera/"
-        }
-      ]
-    },
-    {
       "title": "The Matrix",
       "description": "Join us for our &#8220;Shout Louder!&#8221; limited series, where we will screen the best films that aren’t afraid to wear their beliefs on their sleeves and engage in political themes, because film is political.&#8220;The Matrix&#8221; has become a focal point for political discourse, with the term &#8220;redpilling&#8221; linked to QAnon and discussions about conformity to ...",
       "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/sl_matrix.jpg",
@@ -1580,19 +1798,6 @@
           "c": "fox",
           "dt": "2026-08-05",
           "url": "https://www.foxtheatre.ca/movies/the-matrix/"
-        }
-      ]
-    },
-    {
-      "title": "Staff Picks: A Silent Voice",
-      "description": "After transferring into a new school, a deaf girl, Shoko Nishimiya, is bullied by the popular Shoya Ishida. As Shoya continues to bully Shoko, the class turns its back on him. Shoko transfers and Shoya grows up as an outcast. Alone and depressed, the regretful Shoya finds Shoko to make amends. “A Silent Voice” is ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/tmdb-tufawiqx0txowu7dgncmx3uw7st_thumb.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-07-28",
-          "url": "https://www.foxtheatre.ca/movies/staff-picks-a-silent-voice/"
         }
       ]
     },
@@ -1691,48 +1896,6 @@
       ]
     },
     {
-      "title": "Heat Wave: IN THE HEAT OF THE NIGHT (1967) – Introduced by Terry O’flaherty",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/03/in_the_heat_of_the_night_tmdb-qfpfalhprxmoaba5uptnupzw8rq-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-28",
-          "tm": "18:30",
-          "url": "https://revuecinema.ca/films/heat-wave-in-the-heat-of-the-night-1967-introduced-by-terry-oflaherty/"
-        }
-      ]
-    },
-    {
-      "title": "Destination Love: THE TIME TRAVELER’S WIFE (2009)",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/03/mv5bogu4m2jjnmetytvkos00zwy5ltllodqtnwexn2u1nzqwzgewxkeyxkfqcgc@._v1_-768x1138.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-28",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/destination-love-the-time-travelers-wife-2009/"
-        }
-      ]
-    },
-    {
-      "title": "Destination Love: SOLARIS (2002)",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/04/solaris_tmdb-drdrb1hezmzflk1xtw5hmxk3luj-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-29",
-          "tm": "18:45",
-          "url": "https://revuecinema.ca/films/destination-love-solaris-2002/"
-        }
-      ]
-    },
-    {
       "title": "The Goonies (1985)",
       "description": "A group of young misfits called The Goonies discover an ancient map and set out on an adventure to find a legendary pirate's long-lost treasure.",
       "poster": "https://image.tmdb.org/t/p/w500/eBU7gCjTCj9n2LTxvCSIXXOvHkD.jpg",
@@ -1748,56 +1911,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "12:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "15:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "21:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "12:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "15:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "21:45"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-07-30",
           "tm": "01:00"
         },
@@ -1820,6 +1933,136 @@
           "c": "carlton",
           "dt": "2026-07-30",
           "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "12:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "12:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "15:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "18:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "12:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "15:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "12:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "15:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "18:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "12:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "15:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "18:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "21:50"
         }
       ]
     },
@@ -1837,56 +2080,6 @@
         "Adventure"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "12:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "12:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "21:40"
-        },
         {
           "c": "carlton",
           "dt": "2026-07-30",
@@ -1930,56 +2123,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "13:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "16:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "21:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "13:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "16:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "21:55"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-07-30",
           "tm": "01:00"
         },
@@ -2002,6 +2145,171 @@
           "c": "carlton",
           "dt": "2026-07-30",
           "tm": "21:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "16:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "16:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "16:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "16:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "16:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "16:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "16:00"
         }
       ]
     },
@@ -2019,16 +2327,6 @@
         "Documentary"
       ],
       "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-28",
-          "tm": "21:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-29",
-          "tm": "21:15"
-        },
         {
           "c": "kingsway",
           "dt": "2026-07-30",
@@ -2052,6 +2350,16 @@
         {
           "c": "kingsway",
           "dt": "2026-08-03",
+          "tm": "21:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-04",
+          "tm": "21:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-05",
           "tm": "21:15"
         }
       ]
@@ -2136,32 +2444,6 @@
           "c": "fox",
           "dt": "2026-08-16",
           "url": "https://www.foxtheatre.ca/movies/battle-of-algiers/"
-        }
-      ]
-    },
-    {
-      "title": "Pressure",
-      "description": "In the tense 72 hours before D-Day, General Dwight D. Eisenhower and Captain James Stagg face an impossible choice--launch the most dangerous seaborne invasion in history or risk losing the war altogether.",
-      "poster": "https://image.tmdb.org/t/p/w500/gFjEggtrejCN79r6SXRjM269OtG.jpg",
-      "director": "Anthony Maras",
-      "year": "2026",
-      "runtime": "100 min",
-      "rating": "PG-13",
-      "genres": [
-        "Thriller",
-        "History",
-        "War"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-28",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-31",
-          "tm": "15:00"
         }
       ]
     },
@@ -2251,56 +2533,6 @@
         "Horror"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "16:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-28",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "16:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-29",
-          "tm": "21:50"
-        },
         {
           "c": "carlton",
           "dt": "2026-07-30",
@@ -2468,44 +2700,11 @@
       ]
     },
     {
-      "title": "The Super Mario Galazy Movie",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-29",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "13:15"
-        }
-      ]
-    },
-    {
       "title": "Stars Wars Madalorian and Grogu",
       "description": "",
       "poster": null,
       "genres": [],
       "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-28",
-          "tm": "15:20"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-29",
-          "tm": "15:20"
-        },
         {
           "c": "kingsway",
           "dt": "2026-07-30",
@@ -2530,83 +2729,16 @@
           "c": "kingsway",
           "dt": "2026-08-03",
           "tm": "15:20"
-        }
-      ]
-    },
-    {
-      "title": "Romeria",
-      "description": "With her mother's diary in hand, Marina's search for official documents for university leads her to her biological family on the Atlantic coast. What starts as an administrative quest reveals long-buried family secrets.",
-      "poster": "https://image.tmdb.org/t/p/w500/6Wo9z9dvy0ns1Q84OLEHXemRpeh.jpg",
-      "director": "Carla Simón",
-      "year": "2025",
-      "runtime": "114 min",
-      "genres": [
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-29",
-          "tm": "17:10"
         },
         {
           "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "17:10"
+          "dt": "2026-08-04",
+          "tm": "15:20"
         },
         {
           "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "17:10"
-        }
-      ]
-    },
-    {
-      "title": "Girls Like Girls",
-      "description": "Coley, 17, from rural Oregon, navigates intimacy after her mother's passing. Meeting Sonya sparks new feelings, but self-doubt hinders their connection. Sonya, unfamiliar with dating girls, is uncertain. They learn to embrace emot...",
-      "poster": "https://image.tmdb.org/t/p/w500/m1hSTBv3qLeywznEGsnqVSln1Tg.jpg",
-      "director": "Hayley Kiyoko",
-      "year": "2026",
-      "runtime": "95 min",
-      "rating": "R",
-      "genres": [
-        "Romance",
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-30",
-          "tm": "17:10"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-02",
-          "tm": "17:10"
-        }
-      ]
-    },
-    {
-      "title": "The Bread Winner",
-      "description": "In the dusty streets of Kabul, Afghanistan, 8-year-old Farouk works tirelessly every day peddling calendars and newspapers while also attending school. Farouk's father, crippled during the decades-long war and occupation, is unable t",
-      "poster": "https://m.media-amazon.com/images/M/MV5BMzgxMDg4MTM1Nl5BMl5BanBnXkFtZTcwODM4NTk5NA@@._V1_SX300.jpg",
-      "director": "Sonia Nassery Cole",
-      "year": "2007",
-      "runtime": "23 min",
-      "genres": [
-        "Documentary",
-        "Short"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "17:20"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "17:20"
+          "dt": "2026-08-05",
+          "tm": "15:20"
         }
       ]
     },
@@ -2626,17 +2758,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-07-28",
-          "tm": "17:20"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-07-31",
           "tm": "17:20"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-02",
+          "tm": "17:20"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-04",
           "tm": "17:20"
         }
       ]
@@ -2654,16 +2786,6 @@
         "Action"
       ],
       "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-28",
-          "tm": "21:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-29",
-          "tm": "21:15"
-        },
         {
           "c": "kingsway",
           "dt": "2026-07-30",
@@ -2688,36 +2810,16 @@
           "c": "kingsway",
           "dt": "2026-08-03",
           "tm": "21:15"
-        }
-      ]
-    },
-    {
-      "title": "Scary Movie",
-      "description": "Two friends find themselves caught up in mayhem involving killers, monsters and supernatural creatures once again.",
-      "poster": "https://image.tmdb.org/t/p/w500/znHT8peERZRWG1ME3r0Db0EV8k8.jpg",
-      "director": "Michael Tiddes",
-      "year": "2026",
-      "runtime": "96 min",
-      "rating": "R",
-      "genres": [
-        "Comedy",
-        "Horror"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-29",
-          "tm": "22:45"
         },
         {
           "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "22:45"
+          "dt": "2026-08-04",
+          "tm": "21:15"
         },
         {
           "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "22:45"
+          "dt": "2026-08-05",
+          "tm": "21:15"
         }
       ]
     },
@@ -2882,20 +2984,6 @@
       ]
     },
     {
-      "title": "The Perfect Date & The Midnight Revue: Nirvanna the Band the Show the Movie",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/03/nirvanna_the_band_the_show_the_movie_tmdb-sm5tgx8wbncd9uo26clytxvwa1n-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-08-08",
-          "tm": "23:59",
-          "url": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/"
-        }
-      ]
-    },
-    {
       "title": "Terrible Threes: THE MUMMY: TOMB OF THE DRAGON EMPEROR (2008)",
       "description": "",
       "poster": "https://revuecinema.ca/wp-content/uploads/2026/04/the_mummy_tomb_of_the_dragon_emperor_tmdb-a3acm1lx5pnwqa6r5qemajoxbnt-768x1152.jpg",
@@ -2950,32 +3038,179 @@
       ],
       "showtimes": [
         {
-          "c": "paradise",
-          "dt": "2026-07-28",
-          "tm": "18:00",
-          "id": "598272",
-          "url": "https://paradiseonbloor.com/purchase/598272/"
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "01:00"
         },
         {
-          "c": "paradise",
-          "dt": "2026-07-28",
-          "tm": "20:30",
-          "id": "569100",
-          "url": "https://paradiseonbloor.com/purchase/569100/"
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "13:05"
         },
         {
-          "c": "paradise",
-          "dt": "2026-07-29",
-          "tm": "18:00",
-          "id": "598274",
-          "url": "https://paradiseonbloor.com/purchase/598274/"
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "16:05"
         },
         {
-          "c": "paradise",
-          "dt": "2026-07-29",
-          "tm": "20:30",
-          "id": "580438",
-          "url": "https://paradiseonbloor.com/purchase/580438/"
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "13:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "16:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "13:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "16:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "13:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "16:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "13:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "16:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "13:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "16:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "13:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "16:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "21:50"
         }
       ]
     },
@@ -2998,6 +3233,762 @@
           "tm": "19:00",
           "id": "588749",
           "url": "https://paradiseonbloor.com/purchase/588749/"
+        }
+      ]
+    },
+    {
+      "title": "Drawn In: The Girl Who Leapt Through Time",
+      "description": "Part of our ongoing series &#8220;Drawn In.&#8221; Wildly creative, romantic, hilarious, and refreshingly original, The Girl Who Leapt Through Time is irresistibly charming. &#8220;The Girl Who Leapt Through Time&#8221; is an early gem by Mamoru Hosoda, known for his stunning visuals and heartfelt storytelling. The film follows Makoto, a typical teenage girl who discovers she can ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/gwltt_keyart_print_comingsoon.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-09-27",
+          "url": "https://www.foxtheatre.ca/movies/drawn-in-the-girl-who-leapt-through-time/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-09-29",
+          "url": "https://www.foxtheatre.ca/movies/drawn-in-the-girl-who-leapt-through-time/"
+        }
+      ]
+    },
+    {
+      "title": "Spectacle: Fallen Angels",
+      "description": "Part of our ongoing series &#8220;Spectacle.&#8221; Feast your eyes on the beauty of the moving image! Featuring an extravaganza of cinema’s most visually captivating experiences that are sure to engage your senses! Lost souls reach out for human connection amid a glimmering Hong Kong in Wong Kar Wai’s hallucinatory, neon-soaked nocturne. Originally conceived as a ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/fallen_angels_tmdb-yym9bpdwttk5lkzslvhae7qpko1.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-09-08",
+          "url": "https://www.foxtheatre.ca/movies/spectacle-fallen-angels/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-09-12",
+          "url": "https://www.foxtheatre.ca/movies/spectacle-fallen-angels/"
+        }
+      ]
+    },
+    {
+      "title": "The Zone:Dark Star",
+      "description": "Part of our ongoing series &#8220;The Zone.&#8221; Step into another galaxy with this voyage through the many moods of Sci-Fi. This outrageously unique sci-fi headtrip was the debut feature from genre film emperor John Carpenter (&#8220;The Thing,&#8221; &#8220;Halloween&#8221;). The film originally began as a 45-minute student film project by Carpenter and collaborator Dan O&#8217;Bannon (&#8220;Alien&#8221;, ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/dark_star_tmdb-aiqlbih0iwrog2q78dztt8ad9sp_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-09-05",
+          "url": "https://www.foxtheatre.ca/movies/the-zonedark-star/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-09-09",
+          "url": "https://www.foxtheatre.ca/movies/the-zonedark-star/"
+        }
+      ]
+    },
+    {
+      "title": "The Midnight Revue & The Perfect Date & Halloween Screening: Nirvanna the Band the Show the Movie",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/03/nirvanna_the_band_the_show_the_movie_tmdb-sm5tgx8wbncd9uo26clytxvwa1n-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-08-08",
+          "tm": "23:59",
+          "url": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-09-26",
+          "tm": "13:00",
+          "url": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-27",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/"
+        }
+      ]
+    },
+    {
+      "title": "BOB FOSSE – MORE SMOKE PLEASE: CABARET (1972) – Presented on 35mm!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2025/04/cabaret_tmdb-fmhoej2tvuy46iygmsowhgrxfnr-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-08-09",
+          "tm": "16:00",
+          "url": "https://revuecinema.ca/films/cabaret-1972/"
+        }
+      ]
+    },
+    {
+      "title": "Don’t Be So Political: PAPER MOON",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/paper_moon_tmdb-3ghg0ktcbwhkdxjj3rdk8gjbcd6-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-08-09",
+          "tm": "19:45",
+          "url": "https://revuecinema.ca/films/dont-be-so-political-paper-moon/"
+        }
+      ]
+    },
+    {
+      "title": "Rental Event: Laura Taler 2 Films 30 Years: the village trilogy + Matryoshka Crush",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/03_taler_villagetrilogy-768x576.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-08-10",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/rental-event-laura-taler-2-films-30-years-the-village-trilogy-matryoshka-crush/"
+        }
+      ]
+    },
+    {
+      "title": "Heat Wave: BREAKDOWN (1997) – Introduced by Vanya Garraway!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/04/breakdown_tmdb-m3vb59ppr1rlpxnuyrufztgjgu-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-08-11",
+          "tm": "19:00",
+          "url": "https://revuecinema.ca/films/heat-wave-breakdown-1997-introduced-by-vanya-garraway/"
+        }
+      ]
+    },
+    {
+      "title": "THE WRONG GIRLS – Canadian Theatrical Premiere – co-presented by Elevation Pictures & Psych-Out Cinema!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/the_wrong_girls_tmdb-ldymh3iztmskofd1wdotmttfezg-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-08-11",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/the-wrong-girls-canadian-theatrical-premiere-co-presented-by-elevation-pictures-psych-out-cinema/"
+        }
+      ]
+    },
+    {
+      "title": "Stolen Kingdom",
+      "description": "Follow the history of misdeeds and debauchery at Walt Disney World Resort over 30 years, which leads to the theft of almost half a million dollars worth of stolen props.",
+      "poster": "https://image.tmdb.org/t/p/w500/u2d5ExYA3Y8NO48oRkU8EZrakBX.jpg",
+      "director": "Joshua Bailey",
+      "year": "2026",
+      "runtime": "74 min",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-08-01",
+          "tm": "15:30",
+          "id": "608067",
+          "url": "https://paradiseonbloor.com/purchase/608067/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-08-01",
+          "tm": "19:00",
+          "id": "607402",
+          "url": "https://paradiseonbloor.com/purchase/607402/"
+        }
+      ]
+    },
+    {
+      "title": "Steal Away",
+      "description": "This documentary, directed by Jessica Leen from Bold Lip productions, captures the National Ukrainian Choir's journey to the rerecording and performance of Phil Coulter's song 'Steal Away' in 2023. The song, originally written by ...",
+      "poster": "https://image.tmdb.org/t/p/w500/sBENZC8qL8NJd0JR4P9neQvwjoE.jpg",
+      "year": "2026",
+      "runtime": "27 min",
+      "genres": [
+        "Thriller"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "12:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "15:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "12:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "15:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "12:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "15:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "12:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "15:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "12:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "15:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "12:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "15:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "12:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "15:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "21:35"
+        }
+      ]
+    },
+    {
+      "title": "Pulp Fiction (1994)",
+      "description": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "poster": "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+      "director": "Quentin Tarantino",
+      "year": "1994",
+      "runtime": "154 min",
+      "rating": "R",
+      "genres": [
+        "Thriller",
+        "Crime",
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "12:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "15:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "18:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "12:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "15:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "18:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "12:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "15:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "18:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "12:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "15:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "18:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "21:15"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "12:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "15:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "18:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "12:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "15:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "18:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "21:15"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "12:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "15:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "18:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "21:15"
+        }
+      ]
+    },
+    {
+      "title": "Jaws (1975)",
+      "description": "A huge shark terrorizes a beach in Florida, and the locals try everything to kill it.",
+      "poster": "https://image.tmdb.org/t/p/w500/3aLabIgttFYtHaN7eVQAA9nGdHz.jpg",
+      "director": "Bruno Mattei",
+      "year": "1995",
+      "runtime": "97 min",
+      "rating": "Not Rated",
+      "genres": [
+        "Horror",
+        "Thriller",
+        "Adventure",
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "12:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "15:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-07-31",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "12:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "15:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-01",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "12:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "15:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-02",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "12:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "15:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-03",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "12:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "15:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-04",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "12:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "15:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-05",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "12:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "15:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "21:45"
+        }
+      ]
+    },
+    {
+      "title": "Ice Cream Man",
+      "description": "An idyllic summer town descends into madness when an ice cream man serves kids sweet delights with horrifying results.",
+      "poster": "https://image.tmdb.org/t/p/w500/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg",
+      "director": "Eli Roth",
+      "year": "2026",
+      "runtime": "106 min",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-06",
+          "tm": "21:40"
         }
       ]
     }

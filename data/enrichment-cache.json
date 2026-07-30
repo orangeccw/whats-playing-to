@@ -737,5 +737,122 @@
     "omdbDirector": "Katsuhito Ishii",
     "omdbRuntime": "143 min",
     "omdbDescription": "A spell of time of a rural family's slightly surreal life."
+  },
+  "drawn in: the girl who leapt through time|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-30T11:48:44.205Z",
+    "_omdbTried": true
+  },
+  "spectacle: fallen angels|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-30T11:48:45.265Z",
+    "_omdbTried": true
+  },
+  "the zone:dark star|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-30T11:48:46.326Z",
+    "_omdbTried": true
+  },
+  "the midnight revue & the perfect date & halloween screening: nirvanna the band the show the movie|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-30T11:48:47.385Z",
+    "_omdbTried": true
+  },
+  "bob fosse – more smoke please: cabaret (1972) – presented on 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-30T11:48:48.446Z",
+    "_omdbTried": true
+  },
+  "don’t be so political: paper moon|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-30T11:48:49.502Z",
+    "_omdbTried": true
+  },
+  "rental event: laura taler 2 films 30 years: the village trilogy + matryoshka crush|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-30T11:48:50.562Z",
+    "_omdbTried": true
+  },
+  "heat wave: breakdown (1997) – introduced by vanya garraway!|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-30T11:48:51.623Z",
+    "_omdbTried": true
+  },
+  "the wrong girls – canadian theatrical premiere – co-presented by elevation pictures & psych-out cinema!|": {
+    "_tried": true,
+    "_cachedAt": "2026-07-30T11:48:52.680Z",
+    "_omdbTried": true
+  },
+  "stolen kingdom|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/u2d5ExYA3Y8NO48oRkU8EZrakBX.jpg",
+    "year": "2026",
+    "genres": [
+      "Documentary"
+    ],
+    "_cachedAt": "2026-07-30T11:48:53.742Z",
+    "_omdbTried": true,
+    "omdbDirector": "Joshua Bailey",
+    "omdbRuntime": "74 min",
+    "omdbDescription": "Follow the history of misdeeds and debauchery at Walt Disney World Resort over 30 years, which leads to the theft of almost half a million dollars worth of stolen props."
+  },
+  "steal away|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/sBENZC8qL8NJd0JR4P9neQvwjoE.jpg",
+    "year": "2026",
+    "genres": [
+      "Thriller"
+    ],
+    "_cachedAt": "2026-07-30T11:48:54.854Z",
+    "_omdbTried": true,
+    "omdbRuntime": "27 min",
+    "omdbDescription": "This documentary, directed by Jessica Leen from Bold Lip productions, captures the National Ukrainian Choir's journey to the rerecording and performance of Phil Coulter's song 'Steal Away' in 2023. The song, originally written by ..."
+  },
+  "pulp fiction (1994)|1994": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg",
+    "year": "1994",
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Comedy"
+    ],
+    "_cachedAt": "2026-07-30T11:48:55.914Z",
+    "_omdbTried": true,
+    "omdbDirector": "Quentin Tarantino",
+    "omdbRuntime": "154 min",
+    "omdbRating": "R",
+    "omdbDescription": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+  },
+  "jaws (1975)|1995": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/3aLabIgttFYtHaN7eVQAA9nGdHz.jpg",
+    "year": "1995",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Adventure",
+      "Comedy"
+    ],
+    "_cachedAt": "2026-07-30T11:48:56.975Z",
+    "_omdbTried": true,
+    "omdbDirector": "Bruno Mattei",
+    "omdbRuntime": "97 min",
+    "omdbRating": "Not Rated",
+    "omdbDescription": "A huge shark terrorizes a beach in Florida, and the locals try everything to kill it."
+  },
+  "ice cream man|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg",
+    "year": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-07-30T11:48:58.033Z",
+    "_omdbTried": true,
+    "omdbDirector": "Eli Roth",
+    "omdbRuntime": "106 min",
+    "omdbDescription": "An idyllic summer town descends into madness when an ice cream man serves kids sweet delights with horrifying results."
   }
 }
