@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30",
+  "lastUpdated": "2026-08-01",
   "cinemas": {
     "fox": {
       "name": "Fox Theatre",
@@ -82,11 +82,6 @@
       "showtimes": [
         {
           "c": "fox",
-          "dt": "2026-07-30",
-          "url": "https://www.foxtheatre.ca/movies/the-invite/"
-        },
-        {
-          "c": "fox",
           "dt": "2026-08-02",
           "url": "https://www.foxtheatre.ca/movies/the-invite/"
         },
@@ -94,27 +89,6 @@
           "c": "fox",
           "dt": "2026-08-03",
           "url": "https://www.foxtheatre.ca/movies/the-invite/"
-        }
-      ]
-    },
-    {
-      "title": "Obsession",
-      "description": "A Revue Cinema presentation.",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/obsession_tmdb-6x4qfybsg3bpwdg2xikqr04kfja-768x1152.jpg",
-      "director": "Curry Barker",
-      "year": "2026",
-      "runtime": "108 min",
-      "rating": "R",
-      "genres": [
-        "Horror",
-        "Romance",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-07-30",
-          "url": "https://www.foxtheatre.ca/movies/obsession/"
         }
       ]
     },
@@ -132,42 +106,6 @@
         "Romance"
       ],
       "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-07-31",
-          "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "16:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "19:10"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-07-31",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/i-want-your-sex/"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "21:55"
-        },
         {
           "c": "fox",
           "dt": "2026-08-01",
@@ -409,48 +347,14 @@
       ],
       "showtimes": [
         {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "12:30"
-        },
-        {
           "c": "kingsway",
-          "dt": "2026-07-30",
+          "dt": "2026-08-06",
           "tm": "17:10"
         },
         {
           "c": "kingsway",
-          "dt": "2026-07-31",
+          "dt": "2026-08-07",
           "tm": "17:10"
-        }
-      ]
-    },
-    {
-      "title": "Leviticus",
-      "description": "Two teenage boys must escape a violent entity that takes the form of the person they desire most — each other.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BZjVkZjIxMzItMzYyMi00ODMwLWEwMWQtMjhhMTkwMGI5MWEyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-      "director": "Adrian Chiarella",
-      "year": 2026,
-      "runtime": "88 min",
-      "rating": "14A",
-      "genres": [
-        "Horror"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "15:30"
         }
       ]
     },
@@ -467,56 +371,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-08-01",
           "tm": "02:00"
         },
@@ -664,64 +518,6 @@
           "c": "carlton",
           "dt": "2026-08-06",
           "tm": "21:40"
-        }
-      ]
-    },
-    {
-      "title": "The Truman Show (1998)",
-      "description": "An insurance salesman begins to suspect that his whole life is actually some sort of reality TV show.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzA3ZjZlNzYtMTdjMy00NjMzLTk5ZGYtMTkyYzNiOGM1YmM3XkEyXkFqcGc@._V1_SX300.jpg",
-      "director": "Peter Weir",
-      "year": "1998",
-      "runtime": "103 min",
-      "rating": "PG",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "12:35"
-        }
-      ]
-    },
-    {
-      "title": "Evangelion: Death (True)² & Rebirth (1997) (SUB)",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "21:30"
         }
       ]
     },
@@ -740,28 +536,13 @@
           "tm": "06:00",
           "id": "629502",
           "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629502~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
-      "title": "A Hard Day's Night",
-      "description": "Over two \"typical\" days in the life of The Beatles, the boys struggle to keep themselves and Paul McCartney's mischievous grandfather in check while preparing for a live TV performance.",
-      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/HARD DAYS NIGHT 2026_3.jpg",
-      "director": "Richard Lester",
-      "year": "1964",
-      "runtime": "87 min",
-      "rating": "G",
-      "genres": [
-        "Comedy",
-        "Musical"
-      ],
-      "showtimes": [
+        },
         {
           "c": "hotdocs",
-          "dt": "2026-07-31",
-          "tm": "11:00",
-          "id": "635534",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635534~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+          "dt": "2026-09-06",
+          "tm": "07:30",
+          "id": "629502",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629502~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
         }
       ]
     },
@@ -976,6 +757,13 @@
           "tm": "08:30",
           "id": "635504",
           "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635504~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-09-05",
+          "tm": "08:30",
+          "id": "635504",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635504~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
         }
       ]
     },
@@ -1149,6 +937,20 @@
           "tm": "11:00",
           "id": "635497",
           "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635497~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-09-13",
+          "tm": "10:30",
+          "id": "635497",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635497~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-09-19",
+          "tm": "08:00",
+          "id": "635497",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635497~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
         }
       ]
     },
@@ -1168,17 +970,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-07-31",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-02",
           "tm": "13:15"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-04",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-07",
           "tm": "13:15"
         }
       ]
@@ -1199,96 +1001,38 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-07-30",
-          "tm": "13:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-30",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-31",
-          "tm": "13:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-31",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-01",
-          "tm": "13:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "19:00"
+          "tm": "17:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-02",
-          "tm": "13:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-02",
-          "tm": "19:00"
+          "tm": "17:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-03",
-          "tm": "13:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "19:00"
+          "tm": "17:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-04",
-          "tm": "13:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-04",
-          "tm": "19:00"
+          "tm": "17:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-05",
-          "tm": "13:00"
+          "tm": "17:00"
         },
         {
           "c": "kingsway",
-          "dt": "2026-08-05",
-          "tm": "19:00"
-        }
-      ]
-    },
-    {
-      "title": "Little Lorraine",
-      "description": "Little Lorraine, a North Atlantic seaside town with a population of 60, becomes embroiled in an international cocaine smuggling operation under the noses of multiple governments, distributed in coffins through a network of funeral...",
-      "poster": "https://m.media-amazon.com/images/M/MV5BM2VmMGFjNzEtOWZlMC00N2M2LTgxYzUtMzhmYjRkNTgyN2JmXkEyXkFqcGc@._V1_SX300.jpg",
-      "director": "Andy Hines",
-      "year": "2025",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-30",
-          "tm": "15:00"
+          "dt": "2026-08-06",
+          "tm": "17:00"
         },
         {
           "c": "kingsway",
-          "dt": "2026-08-02",
-          "tm": "15:00"
+          "dt": "2026-08-07",
+          "tm": "17:00"
         }
       ]
     },
@@ -1308,7 +1052,7 @@
         {
           "c": "kingsway",
           "dt": "2026-08-01",
-          "tm": "15:00"
+          "tm": "15:10"
         },
         {
           "c": "kingsway",
@@ -1317,87 +1061,63 @@
         },
         {
           "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-05",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-05",
-          "tm": "19:00"
-        }
-      ]
-    },
-    {
-      "title": "The Furious",
-      "description": "A father fights fiercely against ruthless kidnappers to save his abducted daughter.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BODUyZjg2YzctNGE3Yi00YjhhLTkyZTItZTAwZTNhNDA1ODQzXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
-      "director": "Kenji Tanigaki",
-      "year": "2026",
-      "runtime": "113 min",
-      "rating": "R",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-31",
-          "tm": "22:45"
+          "dt": "2026-08-02",
+          "tm": "15:10"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-02",
-          "tm": "22:45"
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-03",
+          "tm": "15:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-03",
+          "tm": "19:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-04",
-          "tm": "22:45"
-        }
-      ]
-    },
-    {
-      "title": "The End of Evangelion (1997) (SUB)",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "01:00"
+          "tm": "15:10"
         },
         {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "12:45"
+          "c": "kingsway",
+          "dt": "2026-08-04",
+          "tm": "19:00"
         },
         {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "15:45"
+          "c": "kingsway",
+          "dt": "2026-08-05",
+          "tm": "15:10"
         },
         {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "18:45"
+          "c": "kingsway",
+          "dt": "2026-08-05",
+          "tm": "19:00"
         },
         {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "21:40"
+          "c": "kingsway",
+          "dt": "2026-08-06",
+          "tm": "15:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-06",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-07",
+          "tm": "15:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-07",
+          "tm": "19:00"
         }
       ]
     },
@@ -1514,31 +1234,6 @@
         "Music"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "21:25"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-01",
@@ -1814,11 +1509,6 @@
       "showtimes": [
         {
           "c": "fox",
-          "dt": "2026-07-31",
-          "url": "https://www.foxtheatre.ca/movies/sheep-in-the-box/"
-        },
-        {
-          "c": "fox",
           "dt": "2026-08-01",
           "url": "https://www.foxtheatre.ca/movies/sheep-in-the-box/"
         },
@@ -1865,19 +1555,6 @@
       ]
     },
     {
-      "title": "The Rocky Horror Picture Show w/Shadowcast!",
-      "description": "Join Excited Mental State: Toronto&#8217;s Only Rocky Horror Shadowcast who are just shivering with antici&#8230;.PATION at making this the best Rocky Horror night of your life! Dress up in your best Rocky Horror-inspired outfits and get ready to &#8220;Time Warp&#8221; to the eerie castle of Dr. Frank-N-Furter (Tim Curry) along with sweethearts Brad (Barry Bostwick) ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2025/10/the_rocky_horror_picture_show_tmdb-3pye6zqdbuji7zrnzzqzcktwdmn_thumb.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-07-31",
-          "url": "https://www.foxtheatre.ca/movies/the-rocky-horror-picture-show-w-shadowcast/"
-        }
-      ]
-    },
-    {
       "title": "Restoration: Tekkonkinkreet",
       "description": "Black, a boy who seeks to bend the city to his will through strength, and White, his innocent counterpart, are two orphaned street kids living in the slums of Treasure Town. When real estate developers threaten to transform Treasure Town into a massive theme park, its very existence is put at risk. Determined to protect ...",
       "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/tekon_kv-1_web_coming-soon_01a_thumb.jpg",
@@ -1911,46 +1588,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "12:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "15:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "21:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "12:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-08-01",
           "tm": "01:00"
         },
@@ -2063,47 +1700,6 @@
           "c": "carlton",
           "dt": "2026-08-06",
           "tm": "21:50"
-        }
-      ]
-    },
-    {
-      "title": "Thelma & Louise (1991)",
-      "description": "An Arkansas waitress and a housewife shoot a rapist and take off in a '66 Thunderbird.",
-      "poster": "https://image.tmdb.org/t/p/w500/vbRAGLzbC75QfiKD1lKjmnQGuph.jpg",
-      "director": "Ridley Scott",
-      "year": "1991",
-      "runtime": "130 min",
-      "rating": "R",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Adventure"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "12:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "21:40"
         }
       ]
     },
@@ -2121,56 +1717,6 @@
         "Thriller"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "13:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "16:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "21:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "21:40"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-01",
@@ -2329,38 +1875,38 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-07-30",
-          "tm": "21:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-31",
-          "tm": "21:15"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-01",
-          "tm": "21:15"
+          "tm": "21:05"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-02",
-          "tm": "21:15"
+          "tm": "21:05"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-03",
-          "tm": "21:15"
+          "tm": "21:05"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-04",
-          "tm": "21:15"
+          "tm": "21:05"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-05",
-          "tm": "21:15"
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-06",
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-07",
+          "tm": "21:05"
         }
       ]
     },
@@ -2448,48 +1994,6 @@
       ]
     },
     {
-      "title": "Revue Event: BOUTIQUE: TO PRESERVE AND COLLECT – Canadian Premiere with director in attendance!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/04/boutique_to_preserve_and_collect_tmdb-rs2jhxwum3ruf9ixvpcgx7wcpv1-768x1138.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-30",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/revue-event-boutique-to-preserve-and-collect-canadian-premiere-with-director-in-attendance/"
-        }
-      ]
-    },
-    {
-      "title": "Hold Up: 13 GOING ON 30 (2004)",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/05/13_going_on_30_tmdb-inzdsifhscmtrildnyhln8ukesg-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-30",
-          "tm": "18:45",
-          "url": "https://revuecinema.ca/films/hold-up-13-going-on-30-2004/"
-        }
-      ]
-    },
-    {
-      "title": "Terrible Threes: JAWS 3-D (1983) – Presented in 3D & 35mm!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/04/jaws_3-d_tmdb-kqdxj53f9paqvgjlgfhtz7gij3s-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-07-31",
-          "tm": "18:45",
-          "url": "https://revuecinema.ca/films/terrible-threes-jaws-3-d-1983-presented-in-3d-35mm/"
-        }
-      ]
-    },
-    {
       "title": "Revue Event: PUTNEY SWOPE (1969) +  Book Launch –  Presented by Kier-La Janisse & Clint Enns",
       "description": "",
       "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/putney_swope_tmdb-77hzrjyrgcuytrz6xyc8cv2jpdy-768x1152.jpg",
@@ -2520,43 +2024,6 @@
           "dt": "2026-08-03",
           "tm": "21:30",
           "url": "https://revuecinema.ca/films/revue-film-society-yojimbo-1961/"
-        }
-      ]
-    },
-    {
-      "title": "Son of Sara",
-      "description": "Haunted by strange urges and visions, a pregnant woman named Sara accepts an invitation to dinner that spirals into a bloody, demented nightmare.",
-      "poster": "https://image.tmdb.org/t/p/w500/tsLP0bgEL4CWY9qhsrTov8dhYnL.jpg",
-      "year": "2025",
-      "runtime": "85 min",
-      "genres": [
-        "Horror"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "16:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-30",
-          "tm": "21:50"
         }
       ]
     },
@@ -2674,19 +2141,6 @@
       ]
     },
     {
-      "title": "Battle of the Sexes: Marnie",
-      "description": "Battle of the Sexes is a series featuring films directed by women about men and films directed by men about women. Through titles like American Psycho, La Captive, Marnie, and Birth, our speakers will interrogate how films reinforce or distort gender roles. The series is hosted by Gabrielle Marceau from In the Mood Magazine. &#8220;Marnie ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/marnie_tmdb-nrry4vo2a3py7wizbpz11palogp_thumb.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-07-30",
-          "url": "https://www.foxtheatre.ca/movies/battle-of-the-sexes-marnie/"
-        }
-      ]
-    },
-    {
       "title": "Battle of the Sexes: Birth",
       "description": "Battle of the Sexes is a series featuring films directed by women about men and films directed by men about women. Through titles like American Psycho, La Captive, Marnie, and Birth, our speakers will interrogate how films reinforce or distort gender roles. The series is hosted by Gabrielle Marceau from In the Mood Magazine. &#8220;Jonathan ...",
       "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/birth_tmdb-z70iq61wqhxetaz8ar2od8pkim_thumb.jpg",
@@ -2707,119 +2161,38 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-07-30",
-          "tm": "15:20"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-31",
-          "tm": "15:20"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-01",
-          "tm": "15:20"
+          "tm": "12:30"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-02",
-          "tm": "15:20"
+          "tm": "12:30"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-03",
-          "tm": "15:20"
+          "tm": "12:30"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-04",
-          "tm": "15:20"
+          "tm": "12:30"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-05",
-          "tm": "15:20"
-        }
-      ]
-    },
-    {
-      "title": "Power Ballad",
-      "description": "Rick, a washed-up wedding singer, and Danny, a fading boy band star, bond over music and a late-night jam session. When Danny turns Rick's song into a hit, Rick sets out to reclaim the recognition he believes he deserves.",
-      "poster": "https://image.tmdb.org/t/p/w500/sGgX2K0SJqw90Ju8TONdhDVwlzT.jpg",
-      "director": "John Carney",
-      "year": "2026",
-      "runtime": "98 min",
-      "rating": "R",
-      "genres": [
-        "Comedy",
-        "Music",
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-31",
-          "tm": "17:20"
+          "tm": "12:30"
         },
         {
           "c": "kingsway",
-          "dt": "2026-08-02",
-          "tm": "17:20"
+          "dt": "2026-08-06",
+          "tm": "12:30"
         },
         {
           "c": "kingsway",
-          "dt": "2026-08-04",
-          "tm": "17:20"
-        }
-      ]
-    },
-    {
-      "title": "Indiana Jones and the Kingdom of the Crystal Skull",
-      "description": "In 1957, Indiana Jones is called back into action when he becomes entangled in a Soviet plot to uncover the secret behind mysterious artifacts known as the Crystal Skulls.",
-      "poster": "https://image.tmdb.org/t/p/w500/56As6XEM1flWvprX4LgkPl8ii4K.jpg",
-      "director": "Steven Spielberg",
-      "year": "2008",
-      "runtime": "122 min",
-      "rating": "PG-13",
-      "genres": [
-        "Adventure",
-        "Action"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-07-30",
-          "tm": "21:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-07-31",
-          "tm": "21:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "21:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-02",
-          "tm": "21:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "21:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-04",
-          "tm": "21:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-05",
-          "tm": "21:15"
+          "dt": "2026-08-07",
+          "tm": "12:30"
         }
       ]
     },
@@ -3039,31 +2412,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "13:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "16:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-08-01",
           "tm": "01:00"
         },
@@ -3211,28 +2559,6 @@
           "c": "carlton",
           "dt": "2026-08-06",
           "tm": "21:50"
-        }
-      ]
-    },
-    {
-      "title": "The Taste of Tea",
-      "description": "A spell of time of a rural family's slightly surreal life.",
-      "poster": "https://image.tmdb.org/t/p/w500/yapwfNElQYFY9TaVS03jv6Gk2Rs.jpg",
-      "director": "Katsuhito Ishii",
-      "year": "2004",
-      "runtime": "143 min",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Fantasy"
-      ],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-07-30",
-          "tm": "19:00",
-          "id": "588749",
-          "url": "https://paradiseonbloor.com/purchase/588749/"
         }
       ]
     },
@@ -3425,31 +2751,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "12:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "15:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-08-01",
           "tm": "01:00"
         },
@@ -3616,26 +2917,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "12:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "15:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-08-01",
           "tm": "02:00"
         },
@@ -3786,31 +3067,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-07-31",
-          "tm": "21:45"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-01",
@@ -3989,6 +3245,243 @@
           "c": "carlton",
           "dt": "2026-08-06",
           "tm": "21:40"
+        }
+      ]
+    },
+    {
+      "title": "Designing The Movies: CHARADE (1963) – New 4K Restoration!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/charade_tmdb-qqapjc5fqidtky65jbakzpiotas.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-08-12",
+          "tm": "18:30",
+          "url": "https://revuecinema.ca/films/designing-the-movies-charade-1963-new-4k-restoration/"
+        }
+      ]
+    },
+    {
+      "title": "We Really Like Her: WALKING AND TALKING (1996) – Presented on 35mm!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/05/walking_and_talking_tmdb-m8jmjqufgwgt7gse8aoduactye-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-08-13",
+          "tm": "19:00",
+          "url": "https://revuecinema.ca/films/we-really-like-her-walking-and-talking-1996-presented-on-35mm/"
+        }
+      ]
+    },
+    {
+      "title": "Her Private Hell",
+      "description": "A hypnotic, unhinged thriller with an original story promising plenty of glamour, sex, and violence.",
+      "poster": "https://image.tmdb.org/t/p/w500/8wnVNRLVZo9T258sb9KYMwizTCE.jpg",
+      "director": "Nicolas Winding Refn",
+      "year": "2026",
+      "runtime": "109 min",
+      "rating": "R",
+      "genres": [
+        "Sci-Fi",
+        "Horror",
+        "Thriller"
+      ],
+      "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-08-03",
+          "tm": "18:00",
+          "id": "607412",
+          "url": "https://paradiseonbloor.com/purchase/607412/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-08-03",
+          "tm": "20:30",
+          "id": "607413",
+          "url": "https://paradiseonbloor.com/purchase/607413/"
+        }
+      ]
+    },
+    {
+      "title": "Super Mario 2026",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-08-01",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-03",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-05",
+          "tm": "13:15"
+        }
+      ]
+    },
+    {
+      "title": "Disclosure",
+      "description": "If you found out we weren't alone, if someone showed you, proved it to you, would that frighten you?",
+      "poster": "https://image.tmdb.org/t/p/w500/AnJ8IQJI23hNpYXVNaythu061Ru.jpg",
+      "director": "Steven Spielberg",
+      "year": "2026",
+      "runtime": "145 min",
+      "rating": "PG-13",
+      "genres": [
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-08-01",
+          "tm": "14:40"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-01",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-02",
+          "tm": "14:40"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-02",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-03",
+          "tm": "14:40"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-03",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-04",
+          "tm": "14:40"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-04",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-05",
+          "tm": "14:40"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-05",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-06",
+          "tm": "14:40"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-06",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-07",
+          "tm": "14:40"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-07",
+          "tm": "19:00"
+        }
+      ]
+    },
+    {
+      "title": "Girls Like Girls",
+      "description": "Coley, 17, from rural Oregon, navigates intimacy after her mother's passing. Meeting Sonya sparks new feelings, but self-doubt hinders their connection. Sonya, unfamiliar with dating girls, is uncertain. They learn to embrace emot...",
+      "poster": "https://image.tmdb.org/t/p/w500/gbP30EOIwUW0HZY9BwQMTRrk8uX.jpg",
+      "director": "Hayley Kiyoko",
+      "year": "2026",
+      "runtime": "95 min",
+      "rating": "R",
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-08-01",
+          "tm": "17:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-03",
+          "tm": "17:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-05",
+          "tm": "17:10"
+        }
+      ]
+    },
+    {
+      "title": "Romeria",
+      "description": "With her mother's diary in hand, Marina's search for official documents for university leads her to her biological family on the Atlantic coast. What starts as an administrative quest reveals long-buried family secrets.",
+      "poster": "https://image.tmdb.org/t/p/w500/6Wo9z9dvy0ns1Q84OLEHXemRpeh.jpg",
+      "director": "Carla Simón",
+      "year": "2025",
+      "runtime": "114 min",
+      "genres": [
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-08-01",
+          "tm": "17:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-03",
+          "tm": "17:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-05",
+          "tm": "17:10"
+        }
+      ]
+    },
+    {
+      "title": "Manhunter 40th Annoversary Original Theatrical Release",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-08-01",
+          "tm": "21:25"
         }
       ]
     }

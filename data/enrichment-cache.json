@@ -345,7 +345,7 @@
     "genres": [
       "Drama"
     ],
-    "_cachedAt": "2026-07-25T11:06:43.006Z",
+    "_cachedAt": "2026-08-01T11:13:23.715Z",
     "_omdbTried": true,
     "omdbDirector": "Carla Simón",
     "omdbRuntime": "114 min",
@@ -585,13 +585,13 @@
   },
   "girls like girls|2026": {
     "_tried": true,
-    "poster": "https://image.tmdb.org/t/p/w500/m1hSTBv3qLeywznEGsnqVSln1Tg.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/gbP30EOIwUW0HZY9BwQMTRrk8uX.jpg",
     "year": "2026",
     "genres": [
       "Romance",
       "Drama"
     ],
-    "_cachedAt": "2026-07-25T11:06:44.067Z",
+    "_cachedAt": "2026-08-01T11:13:22.668Z",
     "_omdbTried": true,
     "omdbDirector": "Hayley Kiyoko",
     "omdbRuntime": "95 min",
@@ -854,5 +854,56 @@
     "omdbDirector": "Eli Roth",
     "omdbRuntime": "106 min",
     "omdbDescription": "An idyllic summer town descends into madness when an ice cream man serves kids sweet delights with horrifying results."
+  },
+  "designing the movies: charade (1963) – new 4k restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-01T11:13:17.442Z",
+    "_omdbTried": true
+  },
+  "we really like her: walking and talking (1996) – presented on 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-01T11:13:18.491Z",
+    "_omdbTried": true
+  },
+  "her private hell|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/8wnVNRLVZo9T258sb9KYMwizTCE.jpg",
+    "year": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Horror",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-08-01T11:13:19.535Z",
+    "_omdbTried": true,
+    "omdbDirector": "Nicolas Winding Refn",
+    "omdbRuntime": "109 min",
+    "omdbRating": "R",
+    "omdbDescription": "A hypnotic, unhinged thriller with an original story promising plenty of glamour, sex, and violence."
+  },
+  "super mario 2026|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-01T11:13:20.576Z",
+    "_omdbTried": true
+  },
+  "disclosure|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/AnJ8IQJI23hNpYXVNaythu061Ru.jpg",
+    "year": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-08-01T11:13:21.620Z",
+    "_omdbTried": true,
+    "omdbDirector": "Steven Spielberg",
+    "omdbRuntime": "145 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "If you found out we weren't alone, if someone showed you, proved it to you, would that frighten you?"
+  },
+  "manhunter 40th annoversary original theatrical release|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-01T11:13:24.757Z",
+    "_omdbTried": true
   }
 }
