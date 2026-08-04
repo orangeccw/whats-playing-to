@@ -905,5 +905,33 @@
     "_tried": true,
     "_cachedAt": "2026-08-01T11:13:24.757Z",
     "_omdbTried": true
+  },
+  "obsession|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-08-04T12:00:34.983Z",
+    "_omdbTried": true,
+    "omdbDirector": "Curry Barker",
+    "omdbRuntime": "109 min",
+    "omdbRating": "R"
+  },
+  "revue event: gandahar (1987) – toronto theatrical premiere of new 4k restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-04T12:00:36.042Z",
+    "_omdbTried": true
+  },
+  "drunken cinema: big trouble in little china (1986) – presented on 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-04T12:00:37.097Z",
+    "_omdbTried": true
+  },
+  "anime at the revue: tekkonkinkreet (2006) – new 4k restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-04T12:00:38.155Z",
+    "_omdbTried": true
   }
 }

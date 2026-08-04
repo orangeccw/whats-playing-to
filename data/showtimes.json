@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01",
+  "lastUpdated": "2026-08-04",
   "cinemas": {
     "fox": {
       "name": "Fox Theatre",
@@ -82,12 +82,17 @@
       "showtimes": [
         {
           "c": "fox",
-          "dt": "2026-08-02",
+          "dt": "2026-08-10",
           "url": "https://www.foxtheatre.ca/movies/the-invite/"
         },
         {
           "c": "fox",
-          "dt": "2026-08-03",
+          "dt": "2026-08-11",
+          "url": "https://www.foxtheatre.ca/movies/the-invite/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-13",
           "url": "https://www.foxtheatre.ca/movies/the-invite/"
         }
       ]
@@ -108,114 +113,11 @@
       "showtimes": [
         {
           "c": "fox",
-          "dt": "2026-08-01",
+          "dt": "2026-08-04",
           "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
         },
         {
           "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "16:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "19:10"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-08-01",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/i-want-your-sex/"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "21:55"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-08-02",
-          "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "16:10"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-08-02",
-          "tm": "19:00",
-          "url": "https://revuecinema.ca/films/i-want-your-sex/"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "21:55"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-08-03",
-          "url": "https://www.foxtheatre.ca/movies/i-want-your-sex/"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "16:10"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-08-03",
-          "tm": "19:00",
-          "url": "https://revuecinema.ca/films/i-want-your-sex/"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "21:55"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-08-04",
           "tm": "01:00"
         },
@@ -233,12 +135,6 @@
           "c": "carlton",
           "dt": "2026-08-04",
           "tm": "19:10"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-08-04",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/i-want-your-sex/"
         },
         {
           "c": "carlton",
@@ -271,12 +167,6 @@
           "tm": "19:10"
         },
         {
-          "c": "revue",
-          "dt": "2026-08-05",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/i-want-your-sex/"
-        },
-        {
           "c": "carlton",
           "dt": "2026-08-05",
           "tm": "21:55"
@@ -300,12 +190,6 @@
           "c": "carlton",
           "dt": "2026-08-06",
           "tm": "16:10"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-08-06",
-          "tm": "19:00",
-          "url": "https://revuecinema.ca/films/i-want-your-sex/"
         },
         {
           "c": "carlton",
@@ -369,81 +253,6 @@
         "Horror"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "21:40"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-04",
@@ -547,68 +356,6 @@
       ]
     },
     {
-      "title": "Peter Asher: Everywhere Man",
-      "description": "",
-      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/PETER ASHER1.jpg",
-      "year": "2026",
-      "genres": [
-        "Documentary",
-        "Music"
-      ],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-08-01",
-          "tm": "08:00",
-          "id": "629503",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629503~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
-      "title": "The Talented Mr. Ripley",
-      "description": "In late 1950s New York, a young underachiever named Tom Ripley is sent to Italy to retrieve Dickie Greenleaf, a rich and spoiled millionaire playboy. But when the errand fails, Ripley takes extreme measures.",
-      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/TALENTED MR RIPLEY 2026_1.jpg",
-      "director": "Anthony Minghella",
-      "year": "1999",
-      "runtime": "139 min",
-      "rating": "R",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-08-01",
-          "tm": "11:00",
-          "id": "637209",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=637209~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
-      "title": "The Gleaners and I",
-      "description": "Agnes Varda returns to the people she met in her 2000 documentary on gleaning and meets some new people who were inspired by her first film.",
-      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/THE GLEANERS AND I1.jpg",
-      "director": "Agnès Varda",
-      "year": "2002",
-      "runtime": "63 min",
-      "genres": [
-        "Documentary"
-      ],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-08-02",
-          "tm": "08:30",
-          "id": "635413",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635413~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
       "title": "You Got Gold: A Celebration of John Prine",
       "description": "",
       "poster": "https://prod5.agileticketing.net/images/user/BC_2338/JOHN PRINE1.jpg",
@@ -619,13 +366,6 @@
         "Music"
       ],
       "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-08-02",
-          "tm": "11:00",
-          "id": "629506",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629506~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        },
         {
           "c": "hotdocs",
           "dt": "2026-08-21",
@@ -970,17 +710,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-08-02",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-04",
           "tm": "13:15"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-07",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-09",
           "tm": "13:15"
         }
       ]
@@ -1001,21 +741,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-02",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-04",
           "tm": "17:00"
         },
@@ -1032,6 +757,21 @@
         {
           "c": "kingsway",
           "dt": "2026-08-07",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-08",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-09",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-10",
           "tm": "17:00"
         }
       ]
@@ -1051,36 +791,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "15:10"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-02",
-          "tm": "15:10"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-02",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "15:10"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-04",
           "tm": "15:10"
         },
@@ -1117,6 +827,36 @@
         {
           "c": "kingsway",
           "dt": "2026-08-07",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-08",
+          "tm": "15:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-08",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-09",
+          "tm": "15:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-09",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-10",
+          "tm": "15:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-10",
           "tm": "19:00"
         }
       ]
@@ -1147,11 +887,6 @@
         "Drama"
       ],
       "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-08-01",
-          "url": "https://www.foxtheatre.ca/movies/persepolis/"
-        },
         {
           "c": "fox",
           "dt": "2026-08-04",
@@ -1234,81 +969,6 @@
         "Music"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "21:25"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "21:25"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "21:25"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-04",
@@ -1486,11 +1146,6 @@
       "showtimes": [
         {
           "c": "fox",
-          "dt": "2026-08-02",
-          "url": "https://www.foxtheatre.ca/movies/the-matrix/"
-        },
-        {
-          "c": "fox",
           "dt": "2026-08-05",
           "url": "https://www.foxtheatre.ca/movies/the-matrix/"
         }
@@ -1507,21 +1162,6 @@
         "Sci-Fi"
       ],
       "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-08-01",
-          "url": "https://www.foxtheatre.ca/movies/sheep-in-the-box/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-08-02",
-          "url": "https://www.foxtheatre.ca/movies/sheep-in-the-box/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-08-03",
-          "url": "https://www.foxtheatre.ca/movies/sheep-in-the-box/"
-        },
         {
           "c": "fox",
           "dt": "2026-08-04",
@@ -1586,51 +1226,6 @@
         "Family"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "12:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "15:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "21:50"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-04",
@@ -1719,81 +1314,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-08-04",
           "tm": "01:00"
         },
@@ -1875,21 +1395,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "21:05"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-02",
-          "tm": "21:05"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "21:05"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-04",
           "tm": "21:05"
         },
@@ -1906,6 +1411,21 @@
         {
           "c": "kingsway",
           "dt": "2026-08-07",
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-08",
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-09",
+          "tm": "21:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-10",
           "tm": "21:05"
         }
       ]
@@ -1934,16 +1454,6 @@
         "Drama"
       ],
       "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-08-01",
-          "url": "https://www.foxtheatre.ca/movies/racewalkers/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-08-03",
-          "url": "https://www.foxtheatre.ca/movies/racewalkers/"
-        },
         {
           "c": "fox",
           "dt": "2026-08-06",
@@ -1990,40 +1500,6 @@
           "c": "fox",
           "dt": "2026-08-16",
           "url": "https://www.foxtheatre.ca/movies/battle-of-algiers/"
-        }
-      ]
-    },
-    {
-      "title": "Revue Event: PUTNEY SWOPE (1969) +  Book Launch –  Presented by Kier-La Janisse & Clint Enns",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/putney_swope_tmdb-77hzrjyrgcuytrz6xyc8cv2jpdy-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-08-01",
-          "tm": "15:00",
-          "url": "https://revuecinema.ca/films/revue-event-putney-swope-1969-book-launch-presented-by-kier-la-janisse-clint-enns/"
-        }
-      ]
-    },
-    {
-      "title": "Revue Event:  YOJIMBO (1961) – Presented on 35mm!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2024/12/yojimbo_poster-768x1094.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-08-02",
-          "tm": "13:00",
-          "url": "https://revuecinema.ca/films/revue-film-society-yojimbo-1961/"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-08-03",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/revue-film-society-yojimbo-1961/"
         }
       ]
     },
@@ -2161,21 +1637,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "12:30"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-02",
-          "tm": "12:30"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "12:30"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-04",
           "tm": "12:30"
         },
@@ -2192,6 +1653,21 @@
         {
           "c": "kingsway",
           "dt": "2026-08-07",
+          "tm": "12:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-08",
+          "tm": "12:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-09",
+          "tm": "12:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-10",
           "tm": "12:30"
         }
       ]
@@ -2241,20 +1717,6 @@
           "c": "fox",
           "dt": "2026-08-27",
           "url": "https://www.foxtheatre.ca/movies/teenage-sex-and-death-at-camp-miasma/"
-        }
-      ]
-    },
-    {
-      "title": "Apparatus Theory: MEDIUM COOL (1969)",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/05/medium_cool_tmdb-uiru2wjqh5x7q0hu3obn0vbrmnt-768x1167.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-08-02",
-          "tm": "16:00",
-          "url": "https://revuecinema.ca/films/apparatus-theory-medium-cool-1969/"
         }
       ]
     },
@@ -2410,81 +1872,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "13:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "16:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "13:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "16:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "13:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "16:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "21:50"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-04",
@@ -2713,33 +2100,6 @@
       ]
     },
     {
-      "title": "Stolen Kingdom",
-      "description": "Follow the history of misdeeds and debauchery at Walt Disney World Resort over 30 years, which leads to the theft of almost half a million dollars worth of stolen props.",
-      "poster": "https://image.tmdb.org/t/p/w500/u2d5ExYA3Y8NO48oRkU8EZrakBX.jpg",
-      "director": "Joshua Bailey",
-      "year": "2026",
-      "runtime": "74 min",
-      "genres": [
-        "Documentary"
-      ],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-08-01",
-          "tm": "15:30",
-          "id": "608067",
-          "url": "https://paradiseonbloor.com/purchase/608067/"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-08-01",
-          "tm": "19:00",
-          "id": "607402",
-          "url": "https://paradiseonbloor.com/purchase/607402/"
-        }
-      ]
-    },
-    {
       "title": "Steal Away",
       "description": "This documentary, directed by Jessica Leen from Bold Lip productions, captures the National Ukrainian Choir's journey to the rerecording and performance of Phil Coulter's song 'Steal Away' in 2023. The song, originally written by ...",
       "poster": "https://image.tmdb.org/t/p/w500/sBENZC8qL8NJd0JR4P9neQvwjoE.jpg",
@@ -2749,81 +2109,6 @@
         "Thriller"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "12:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "15:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "12:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "15:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "12:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "15:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "21:35"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-04",
@@ -2917,71 +2202,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "12:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "15:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "12:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "15:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "12:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "15:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "21:15"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-08-04",
           "tm": "02:00"
         },
@@ -3067,81 +2287,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-01",
-          "tm": "21:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-02",
-          "tm": "21:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-03",
-          "tm": "21:45"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-04",
@@ -3292,17 +2437,31 @@
       "showtimes": [
         {
           "c": "paradise",
-          "dt": "2026-08-03",
+          "dt": "2026-08-05",
           "tm": "18:00",
-          "id": "607412",
-          "url": "https://paradiseonbloor.com/purchase/607412/"
+          "id": "607416",
+          "url": "https://paradiseonbloor.com/purchase/607416/"
         },
         {
           "c": "paradise",
-          "dt": "2026-08-03",
+          "dt": "2026-08-05",
           "tm": "20:30",
-          "id": "607413",
-          "url": "https://paradiseonbloor.com/purchase/607413/"
+          "id": "607271",
+          "url": "https://paradiseonbloor.com/purchase/607271/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-08-06",
+          "tm": "18:00",
+          "id": "608741",
+          "url": "https://paradiseonbloor.com/purchase/608741/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-08-06",
+          "tm": "20:30",
+          "id": "607273",
+          "url": "https://paradiseonbloor.com/purchase/607273/"
         }
       ]
     },
@@ -3314,17 +2473,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-05",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-08",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-10",
           "tm": "13:15"
         }
       ]
@@ -3344,36 +2503,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "14:40"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-02",
-          "tm": "14:40"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-02",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "14:40"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-04",
           "tm": "14:40"
         },
@@ -3410,6 +2539,36 @@
         {
           "c": "kingsway",
           "dt": "2026-08-07",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-08",
+          "tm": "14:40"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-08",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-09",
+          "tm": "14:40"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-09",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-10",
+          "tm": "14:40"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-10",
           "tm": "19:00"
         }
       ]
@@ -3429,17 +2588,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "17:10"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "17:10"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-05",
+          "tm": "17:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-08",
+          "tm": "17:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-10",
           "tm": "17:10"
         }
       ]
@@ -3457,17 +2616,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-08-01",
-          "tm": "17:10"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-03",
-          "tm": "17:10"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-05",
+          "tm": "17:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-08",
+          "tm": "17:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-10",
           "tm": "17:10"
         }
       ]
@@ -3480,8 +2639,92 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-08-01",
+          "dt": "2026-08-08",
           "tm": "21:25"
+        }
+      ]
+    },
+    {
+      "title": "Obsession",
+      "description": "Come see the breakout horror hit of the year on the big screen one last time! After breaking the mysterious “One Wish Willow” to win his crush’s heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price. Written and directed by ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/obsession_tmdb-brwnj8wekbcvmfeunoukjpwb43k_thumb.jpg",
+      "director": "Curry Barker",
+      "year": "2026",
+      "runtime": "109 min",
+      "rating": "R",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-08-09",
+          "url": "https://www.foxtheatre.ca/movies/obsession/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-10",
+          "url": "https://www.foxtheatre.ca/movies/obsession/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-08-12",
+          "url": "https://www.foxtheatre.ca/movies/obsession/"
+        }
+      ]
+    },
+    {
+      "title": "Revue Event: GANDAHAR (1987) – Toronto Theatrical Premiere of New 4K Restoration!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/04/gandahar_tmdb-ldm8fxnsu8oyrmm66kzrlqnpnyw-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-08-14",
+          "tm": "19:00",
+          "url": "https://revuecinema.ca/films/revue-event-gandahar-1987-toronto-theatrical-premiere-of-new-4k-restoration/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-08-15",
+          "tm": "16:00",
+          "url": "https://revuecinema.ca/films/revue-event-gandahar-1987-toronto-theatrical-premiere-of-new-4k-restoration/"
+        }
+      ]
+    },
+    {
+      "title": "Drunken Cinema: BIG TROUBLE IN LITTLE CHINA (1986) – Presented on 35mm!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/big_trouble_in_little_china_tmdb-rcy3cfjfwvbsyivcfoqmcmah5r2-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-08-14",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/drunken-cinema-big-trouble-in-little-china-1986-presented-on-35mm/"
+        }
+      ]
+    },
+    {
+      "title": "Anime At The Revue: TEKKONKINKREET (2006) – New 4K Restoration!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/05/images_(1).jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-08-15",
+          "tm": "13:00",
+          "url": "https://revuecinema.ca/films/anime-at-the-revue-tekkonkinkreet-2006-new-4k-restoration/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-08-17",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/anime-at-the-revue-tekkonkinkreet-2006-new-4k-restoration/"
         }
       ]
     }
