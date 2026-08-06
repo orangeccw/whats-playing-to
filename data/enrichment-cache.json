@@ -933,5 +933,121 @@
     "_tried": true,
     "_cachedAt": "2026-08-04T12:00:38.155Z",
     "_omdbTried": true
+  },
+  "black belt cinema: the raid + the raid 2 double feature!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-06T12:00:25.084Z",
+    "_omdbTried": true
+  },
+  "bob fosse – more smoke please: sweet charity (1969)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-06T12:00:26.118Z",
+    "_omdbTried": true
+  },
+  "insomniac film festival|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-06T12:00:27.152Z",
+    "_omdbTried": true
+  },
+  "candlelight: a tribute to pink floyd|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-06T12:00:28.188Z",
+    "_omdbTried": true
+  },
+  "sheep in the box (sub)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-06T12:00:22.705Z"
+  },
+  "the outer threat|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/jspztckSybRKigzz5IFueP8qptV.jpg",
+    "year": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-08-06T12:00:30.264Z",
+    "_omdbTried": true,
+    "omdbDirector": "William Woods",
+    "omdbRuntime": "94 min",
+    "omdbRating": "Unrated",
+    "omdbDescription": "An astrophysicist's alien discovery forces him and his family to flee their home, chased by a mysterious pursuer. Their escape tests the limits between cosmic truth and paranoia."
+  },
+  "super troopers 3|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/VVU42nqsEmUtFpH1d9MHj5BIpF.jpg",
+    "year": "2026",
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Mystery"
+    ],
+    "_cachedAt": "2026-08-06T12:00:31.312Z",
+    "_omdbTried": true,
+    "omdbDirector": "Jay Chandrasekhar",
+    "omdbRuntime": "100 min",
+    "omdbRating": "R",
+    "omdbDescription": "When Farva's over-the-top Indian engagement to Thorny's sister spirals into chaos, the Super Troopers must navigate Thorny's schemes to break up the relationship, all while trying to bring down a pernicious new drug ring"
+  },
+  "rosebush pruning|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/tXsTtSgguTsk5J115jokwK55awF.jpg",
+    "year": "2026",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-08-06T12:00:32.348Z",
+    "_omdbTried": true,
+    "omdbDirector": "Karim Aïnouz",
+    "omdbRuntime": "97 min",
+    "omdbDescription": "A family struggling with genetic illnesses lives on a country estate. Personal drama develops amongst them in this intimate portrait."
+  },
+  "run lola run (1998) (sub)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-06T12:00:23.850Z"
+  },
+  "solaris (1972) (sub)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-06T12:00:34.418Z",
+    "_omdbTried": true
+  },
+  "starting from where we are|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-06T12:00:35.458Z",
+    "_omdbTried": true
+  },
+  "the end of oak street|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/3SifFCwwFzXdU1Ew0nA4Z92Bs15.jpg",
+    "year": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Mystery",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-08-06T12:00:36.500Z",
+    "_omdbTried": true,
+    "omdbDirector": "David Robert Mitchell",
+    "omdbDescription": "The Platt family bands together to navigate their new surroundings after a cosmic event transports their suburban neighborhood to someplace unknown."
+  },
+  "sheep in the box (sub)|2026": {
+    "_tried": true,
+    "_cachedAt": "2026-08-06T12:00:29.228Z",
+    "_omdbTried": true,
+    "omdbPoster": "https://m.media-amazon.com/images/M/MV5BMjliMTBlYWUtMDMwNy00MzQyLWI5NDAtNzZhZTAwN2FiZGFkXkEyXkFqcGc@._V1_SX300.jpg",
+    "omdbDirector": "Hirokazu Koreeda",
+    "omdbYear": "2026",
+    "omdbGenres": [
+      "Drama"
+    ]
+  },
+  "run lola run (1998) (sub)|1998": {
+    "_tried": true,
+    "_cachedAt": "2026-08-06T12:00:33.385Z",
+    "_omdbTried": true,
+    "omdbPoster": "https://m.media-amazon.com/images/M/MV5BZmJlNzYxMmMtMzQ2YS00NTM5LWJjMjYtMzRmY2NhNDZkMjE1XkEyXkFqcGdeQXVyNjc5Mjg4Nzc@._V1_SX300.jpg",
+    "omdbYear": "1998"
   }
 }
