@@ -345,7 +345,7 @@
     "genres": [
       "Drama"
     ],
-    "_cachedAt": "2026-08-01T11:13:23.715Z",
+    "_cachedAt": "2026-08-08T10:26:52.073Z",
     "_omdbTried": true,
     "omdbDirector": "Carla Simón",
     "omdbRuntime": "114 min",
@@ -591,7 +591,7 @@
       "Romance",
       "Drama"
     ],
-    "_cachedAt": "2026-08-01T11:13:22.668Z",
+    "_cachedAt": "2026-08-08T10:26:51.016Z",
     "_omdbTried": true,
     "omdbDirector": "Hayley Kiyoko",
     "omdbRuntime": "95 min",
@@ -1049,5 +1049,89 @@
     "_omdbTried": true,
     "omdbPoster": "https://m.media-amazon.com/images/M/MV5BZmJlNzYxMmMtMzQ2YS00NTM5LWJjMjYtMzRmY2NhNDZkMjE1XkEyXkFqcGdeQXVyNjc5Mjg4Nzc@._V1_SX300.jpg",
     "omdbYear": "1998"
+  },
+  "tony|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "_cachedAt": "2026-08-08T10:26:38.342Z",
+    "_omdbTried": true,
+    "omdbDirector": "Matt Johnson"
+  },
+  "the room w/ greg sestero|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-08T10:26:39.396Z",
+    "_omdbTried": true
+  },
+  "slumber party: jawbreaker|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-08T10:26:40.453Z",
+    "_omdbTried": true
+  },
+  "sing-along: high school musical 3: senior year|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-08T10:26:41.511Z",
+    "_omdbTried": true
+  },
+  "nosferatu w/ live music by invincible czars|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-08T10:26:42.565Z",
+    "_omdbTried": true
+  },
+  "faust w/ live music by invincible czars|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-08T10:26:43.620Z",
+    "_omdbTried": true
+  },
+  "closed for private rental|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-08T10:26:44.674Z",
+    "_omdbTried": true
+  },
+  "we really like her: walking and talking – 30th anniversary screening!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-08T10:26:45.733Z",
+    "_omdbTried": true
+  },
+  "the staff pick of the month: all the beauty and the bloodshed (2022)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-08T10:26:46.792Z",
+    "_omdbTried": true
+  },
+  "the samurai and the prisoner|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/1GWVlPM1v6k84LsmDkfDzLlGf0O.jpg",
+    "year": "2026",
+    "genres": [
+      "Drama",
+      "History",
+      "Mystery"
+    ],
+    "_cachedAt": "2026-08-08T10:26:47.850Z",
+    "_omdbTried": true,
+    "omdbDirector": "Kiyoshi Kurosawa",
+    "omdbDescription": "Based on Honobu Yonezawa's novel. Set in 16th century Japan, follows Lord Murashige Araki who, besieged in his castle, confronts mysterious crimes and allies with imprisoned strategist Kanbei Kuroda to uncover the truth."
+  },
+  "wet hot american summer (2001)|2001": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/skKRPj1Cdsxqzn8BwKxvNV20rRW.jpg",
+    "year": "2001",
+    "genres": [
+      "Comedy"
+    ],
+    "_cachedAt": "2026-08-08T10:26:48.907Z",
+    "_omdbTried": true,
+    "omdbDirector": "David Wain",
+    "omdbRuntime": "97 min",
+    "omdbRating": "R",
+    "omdbDescription": "Set on the last day of camp, in the hot summer of 1981, a group of counselors try to complete their unfinished business before the day ends."
+  },
+  "your name. (2016) (sub)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-08T10:26:49.961Z",
+    "_omdbTried": true
   }
 }
