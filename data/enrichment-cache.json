@@ -1133,5 +1133,86 @@
     "_tried": true,
     "_cachedAt": "2026-08-08T10:26:49.961Z",
     "_omdbTried": true
+  },
+  "revue event: the burning (1981) – presented on 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-11T10:45:49.361Z",
+    "_omdbTried": true
+  },
+  "the perfect date: the texas chainsaw massacre (1974)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-11T10:45:50.400Z",
+    "_omdbTried": true
+  },
+  "heat wave: cool hand luke (1967) – introduced by nathalie atkinson|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-11T10:45:51.437Z",
+    "_omdbTried": true
+  },
+  "revue event: withdrawal – canadian theatrical premiere with director in attendance!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-11T10:45:52.477Z",
+    "_omdbTried": true
+  },
+  "the black nerds: foxy brown (1974) – new 4k restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-11T10:45:53.515Z",
+    "_omdbTried": true
+  },
+  "free members-only screening: trailer trash: ozploitation|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-11T10:45:54.552Z",
+    "_omdbTried": true
+  },
+  "paid in sweat: the hunger games (2012)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-11T10:45:55.591Z",
+    "_omdbTried": true
+  },
+  "malina: 4k restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-11T10:45:56.628Z",
+    "_omdbTried": true
+  },
+  "crimson tide|1995": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/21nqRJ6ofEgVvEl68J4O9V26Xzy.jpg",
+    "year": "1995",
+    "genres": [
+      "Thriller",
+      "Action",
+      "Drama",
+      "War"
+    ],
+    "_cachedAt": "2026-08-11T10:45:57.668Z",
+    "_omdbTried": true,
+    "omdbDirector": "Tony Scott",
+    "omdbRuntime": "116 min",
+    "omdbRating": "R",
+    "omdbDescription": "On a U.S. nuclear missile sub, a young First Officer stages a mutiny to prevent his trigger-happy Captain from launching his missiles before confirming his orders to do so."
+  },
+  "bootstraps documentary screening & bien congress closing reception|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-11T10:45:58.702Z",
+    "_omdbTried": true
+  },
+  "ian brown on seventy|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-11T10:45:59.739Z",
+    "_omdbTried": true
+  },
+  "the wrong girls|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/iEJshwO6g4WKTP4HJgCHRTJMWEd.jpg",
+    "year": "2026",
+    "genres": [
+      "Comedy"
+    ],
+    "_cachedAt": "2026-08-11T10:46:00.778Z",
+    "_omdbTried": true,
+    "omdbDirector": "Dylan Meyer",
+    "omdbRuntime": "100 min",
+    "omdbRating": "R",
+    "omdbDescription": "Two aimless young women inadvertently gain telepathic abilities after ingesting an experimental drug, pitting them against dangerous rivals pursuing the same powerful substance."
   }
 }
