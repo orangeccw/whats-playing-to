@@ -1214,5 +1214,81 @@
     "omdbRuntime": "100 min",
     "omdbRating": "R",
     "omdbDescription": "Two aimless young women inadvertently gain telepathic abilities after ingesting an experimental drug, pitting them against dangerous rivals pursuing the same powerful substance."
+  },
+  "teenage sex and death at camp miasma (first run screenings & special dumpster raccoon event)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-13T10:57:38.672Z"
+  },
+  "neon dreams: no country for old men (2007) – new 4k restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-13T10:57:41.890Z",
+    "_omdbTried": true
+  },
+  "stompbox: the saturday morning all-you-can-eat cereal cartoon party (summer edition!)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-13T10:57:42.951Z",
+    "_omdbTried": true
+  },
+  "magic mike xxl|2015": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/jkuCNd3wOmf4sDlZ89HEt8jmsqr.jpg",
+    "year": "2015",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "_cachedAt": "2026-08-13T10:57:44.010Z",
+    "_omdbTried": true,
+    "omdbDirector": "Gregory Jacobs",
+    "omdbRuntime": "115 min",
+    "omdbRating": "R",
+    "omdbDescription": "Three years after Mike bowed out of the stripper life at the top of his game, he and the remaining Kings of Tampa hit the road to Myrtle Beach to put on one last blow-out performance."
+  },
+  "the incredibles|2004": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/2LqaLgk4Z226KkgPJuiOQ58wvrm.jpg",
+    "year": "2004",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Animation",
+      "Family"
+    ],
+    "_cachedAt": "2026-08-13T10:57:45.074Z",
+    "_omdbTried": true,
+    "omdbDirector": "Brad Bird",
+    "omdbRuntime": "115 min",
+    "omdbRating": "PG",
+    "omdbDescription": "While trying to lead a quiet suburban life, a family of undercover superheroes are forced into action to save the world."
+  },
+  "insidious: out of the further|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/4tTrW9dXCByS5wt2pXVWb58zNjz.jpg",
+    "year": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-08-13T10:57:46.138Z",
+    "_omdbTried": true,
+    "omdbDirector": "Jacob Chase",
+    "omdbRuntime": "106 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "Gemma, a young mother raising her daughter in the house she grew up in, discovers she can travel into The Further, where she possesses an ability to bring what lives there back to the real world."
+  },
+  "teenage sex and death at camp miasma (first run screenings & special dumpster raccoon event)|2026": {
+    "_tried": true,
+    "_cachedAt": "2026-08-13T10:57:40.825Z",
+    "_omdbTried": true,
+    "omdbDirector": "Jane Schoenbrun",
+    "omdbYear": "2026",
+    "omdbRuntime": "112 min",
+    "omdbRating": "R",
+    "omdbGenres": [
+      "Drama",
+      "Horror",
+      "Romance"
+    ],
+    "omdbDescription": "A director making a slasher sequel becomes obsessed with casting the original film's 'final girl,' leading both women into psychological and sexual chaos."
   }
 }
