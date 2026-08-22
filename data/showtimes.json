@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20",
+  "lastUpdated": "2026-08-22",
   "cinemas": {
     "fox": {
       "name": "Fox Theatre",
@@ -68,47 +68,6 @@
   },
   "movies": [
     {
-      "title": "I Want Your Sex",
-      "description": "Canadian Premiere! Queer Cinema Club series at Paradise Theatre.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYTM4YmE0NDQtM2I4ZS00YTcyLTk5ZjEtMjdmOTYzYTYxY2RjXkEyXkFqcGc@._V1_QL75_UY562_CR32,0,380,562_.jpg",
-      "director": "Gregg Araki",
-      "year": "2026",
-      "runtime": "90 min",
-      "rating": "R",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Romance"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "21:35"
-        }
-      ]
-    },
-    {
       "title": "Mary Oliver: Saved by the Beauty of the World",
       "description": "",
       "poster": "https://prod5.agileticketing.net/images/user/BC_2338/MARY OLIVER2.jpg",
@@ -130,26 +89,6 @@
           "tm": "07:30",
           "id": "629502",
           "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629502~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
-      "title": "You Got Gold: A Celebration of John Prine",
-      "description": "",
-      "poster": "https://prod5.agileticketing.net/images/user/BC_2338/JOHN PRINE1.jpg",
-      "director": "Michael John Warren",
-      "year": "2025",
-      "genres": [
-        "Documentary",
-        "Music"
-      ],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-08-21",
-          "tm": "11:00",
-          "id": "629506",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=629506~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
         }
       ]
     },
@@ -312,57 +251,6 @@
       ]
     },
     {
-      "title": "Hoppers",
-      "description": "A 19-year-old animal lover uses technology that places her consciousness into a robotic beaver to uncover mysteries within the animal world beyond her imagination.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzRiMzZlMTMtNmU3OC00MDUwLThmNDUtMTBjZmQ3MWQ4NTljXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-      "director": "Daniel Chong",
-      "year": "2026",
-      "runtime": "104 min",
-      "rating": "PG",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-08-20",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-21",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-22",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-23",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-24",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-25",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-26",
-          "tm": "13:15"
-        }
-      ]
-    },
-    {
       "title": "Michael",
       "description": "The early life of musician Michael Jackson, from the discovery of his talent as the lead of the Jackson Five to the artist whose creative ambition fueled a pursuit to become the biggest entertainer in the world.",
       "poster": "https://m.media-amazon.com/images/M/MV5BNzllNmRlN2EtMDQyOC00ODJjLTg4OWQtZDNmNGU3YzlkNjc1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
@@ -378,38 +266,38 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-08-20",
-          "tm": "17:10"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-21",
-          "tm": "17:10"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-22",
-          "tm": "17:10"
+          "tm": "17:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-23",
-          "tm": "17:10"
+          "tm": "17:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-24",
-          "tm": "17:10"
+          "tm": "17:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-25",
-          "tm": "17:10"
+          "tm": "17:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-26",
-          "tm": "17:10"
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-27",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-28",
+          "tm": "17:00"
         }
       ]
     },
@@ -427,56 +315,6 @@
         "Music"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "12:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "21:25"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "21:25"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-22",
@@ -697,16 +535,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-08-20",
-          "tm": "22:45"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-21",
-          "tm": "22:45"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-22",
           "tm": "22:45"
         },
@@ -729,6 +557,16 @@
           "c": "kingsway",
           "dt": "2026-08-26",
           "tm": "22:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-27",
+          "tm": "22:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-28",
+          "tm": "22:45"
         }
       ]
     },
@@ -742,26 +580,6 @@
           "c": "fox",
           "dt": "2026-08-30",
           "url": "https://www.foxtheatre.ca/movies/staff-picks-the-sandlot/"
-        }
-      ]
-    },
-    {
-      "title": "The Rivals of Amziah King",
-      "description": "&#8220;[&#8230;] a gleeful mashup of genres and tones blending bluegrass music, comedy, revenge, and heist-thriller elements into a tasty homestyle buffet full of eccentric characters and thick Southern accents.&#8221; &#8211; John Fink, The Film Stage Starring Matthew McConaughey and Kurt Russell. Deep within the backwoods of rural Oklahoma, charismatic and musically gifted Amziah King (McConaughey) ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/the_rivals_of_amziah_king_tmdb-3ivdcds1vwhim95pjwepwsfdhaf_thumb.jpg",
-      "director": "Andrew Patterson",
-      "year": "2026",
-      "runtime": "130 min",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-08-20",
-          "url": "https://www.foxtheatre.ca/movies/the-rivals-of-amziah-king/"
         }
       ]
     },
@@ -780,41 +598,6 @@
         "Family"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "15:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "13:20"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "15:55"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-22",
@@ -939,49 +722,6 @@
       ]
     },
     {
-      "title": "Stars Wars Madalorian and Grogu",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-08-20",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-21",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-22",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-23",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-24",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-25",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-26",
-          "tm": "15:00"
-        }
-      ]
-    },
-    {
       "title": "Teenage Sex and Death at Camp Miasma",
       "description": "After years of slapdash sequels and waning fandom, the Camp Miasma slasher franchise is handed over to an enthusiastic young director (Hannah Einbinder) for resurrection. But when she visits the original&#8217;s star (Gillian Anderson), a now-reclusive actress shrouded in mystery, the two women fall into a blood-soaked world of desire, fear, and delirium. &#8220;Teenage Sex ...",
       "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/icf4eqz05j3h1_thumb.jpg",
@@ -992,11 +732,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-08-21",
-          "url": "https://www.foxtheatre.ca/movies/teenage-sex-and-death-at-camp-miasma/"
-        },
         {
           "c": "fox",
           "dt": "2026-08-22",
@@ -1119,30 +854,6 @@
       ]
     },
     {
-      "title": "Ice Cream Man",
-      "description": "An idyllic summer town descends into madness when an ice cream man serves kids sweet delights with horrifying results.",
-      "poster": "https://image.tmdb.org/t/p/w500/c987gxFjXqYOxZEZKcTkS1ONTWH.jpg",
-      "director": "Eli Roth",
-      "year": "2026",
-      "runtime": "106 min",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "21:50"
-        }
-      ]
-    },
-    {
       "title": "Disclosure",
       "description": "If you found out we weren't alone, if someone showed you, proved it to you, would that frighten you?",
       "poster": "https://image.tmdb.org/t/p/w500/AnJ8IQJI23hNpYXVNaythu061Ru.jpg",
@@ -1157,73 +868,38 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-08-20",
-          "tm": "14:45"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-20",
-          "tm": "19:10"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-21",
-          "tm": "14:45"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-21",
-          "tm": "19:10"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-22",
-          "tm": "14:45"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-22",
-          "tm": "19:10"
+          "tm": "20:50"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-23",
-          "tm": "14:45"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-23",
-          "tm": "19:10"
+          "tm": "20:50"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-24",
-          "tm": "14:45"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-24",
-          "tm": "19:10"
+          "tm": "20:50"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-25",
-          "tm": "14:45"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-25",
-          "tm": "19:10"
+          "tm": "20:50"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-26",
-          "tm": "14:45"
+          "tm": "20:50"
         },
         {
           "c": "kingsway",
-          "dt": "2026-08-26",
-          "tm": "19:10"
+          "dt": "2026-08-27",
+          "tm": "20:50"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-28",
+          "tm": "20:50"
         }
       ]
     },
@@ -1242,104 +918,38 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-08-20",
-          "tm": "20:50"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-21",
-          "tm": "20:50"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-22",
-          "tm": "20:50"
+          "tm": "19:15"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-23",
-          "tm": "20:50"
+          "tm": "19:15"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-24",
-          "tm": "20:50"
+          "tm": "19:15"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-25",
-          "tm": "20:50"
+          "tm": "19:15"
         },
         {
           "c": "kingsway",
           "dt": "2026-08-26",
-          "tm": "20:50"
-        }
-      ]
-    },
-    {
-      "title": "Super Troopers 3",
-      "description": "When Farva's over-the-top Indian engagement to Thorny's sister spirals into chaos, the Super Troopers must navigate Thorny's schemes to break up the relationship, all while trying to bring down a pernicious new drug ring",
-      "poster": "https://image.tmdb.org/t/p/w500/VVU42nqsEmUtFpH1d9MHj5BIpF.jpg",
-      "director": "Jay Chandrasekhar",
-      "year": "2026",
-      "runtime": "100 min",
-      "rating": "R",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Mystery"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "01:00"
+          "tm": "19:15"
         },
         {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "12:30"
+          "c": "kingsway",
+          "dt": "2026-08-27",
+          "tm": "19:15"
         },
         {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "15:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "21:40"
-        }
-      ]
-    },
-    {
-      "title": "Rosebush Pruning",
-      "description": "A family struggling with genetic illnesses lives on a country estate. Personal drama develops amongst them in this intimate portrait.",
-      "poster": "https://image.tmdb.org/t/p/w500/tXsTtSgguTsk5J115jokwK55awF.jpg",
-      "director": "Karim Aïnouz",
-      "year": "2026",
-      "runtime": "97 min",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "12:55"
+          "c": "kingsway",
+          "dt": "2026-08-28",
+          "tm": "19:15"
         }
       ]
     },
@@ -1355,56 +965,6 @@
         "Thriller"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "21:55"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-22",
@@ -1563,11 +1123,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-08-21",
-          "url": "https://www.foxtheatre.ca/movies/tony/"
-        },
         {
           "c": "fox",
           "dt": "2026-08-22",
@@ -1755,100 +1310,11 @@
       ]
     },
     {
-      "title": "Wet Hot American Summer (2001)",
-      "description": "Set on the last day of camp, in the hot summer of 1981, a group of counselors try to complete their unfinished business before the day ends.",
-      "poster": "https://image.tmdb.org/t/p/w500/skKRPj1Cdsxqzn8BwKxvNV20rRW.jpg",
-      "director": "David Wain",
-      "year": "2001",
-      "runtime": "97 min",
-      "rating": "R",
-      "genres": [
-        "Comedy"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "13:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "16:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "21:50"
-        }
-      ]
-    },
-    {
       "title": "Your Name. (2016) (SUB)",
       "description": "",
       "poster": null,
       "genres": [],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "21:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "15:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "21:50"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-22",
@@ -1999,16 +1465,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-08-20",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-21",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-08-22",
           "tm": "13:15"
         },
@@ -2031,57 +1487,16 @@
           "c": "kingsway",
           "dt": "2026-08-26",
           "tm": "13:15"
-        }
-      ]
-    },
-    {
-      "title": "Romeria",
-      "description": "With her mother's diary in hand, Marina's search for official documents for university leads her to her biological family on the Atlantic coast. What starts as an administrative quest reveals long-buried family secrets.",
-      "poster": "https://image.tmdb.org/t/p/w500/6Wo9z9dvy0ns1Q84OLEHXemRpeh.jpg",
-      "director": "Carla Simón",
-      "year": "2025",
-      "runtime": "114 min",
-      "genres": [
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-08-20",
-          "tm": "17:10"
         },
         {
           "c": "kingsway",
-          "dt": "2026-08-21",
-          "tm": "17:10"
-        }
-      ]
-    },
-    {
-      "title": "Free Members-Only Screening: TRAILER TRASH: OZPLOITATION",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/522208901_1188693503285078_6065687512560654517_n-768x321.jpg",
-      "genres": [],
-      "showtimes": [
+          "dt": "2026-08-27",
+          "tm": "13:15"
+        },
         {
-          "c": "revue",
-          "dt": "2026-08-20",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/free-members-only-screening-trailer-trash-ozploitation/"
-        }
-      ]
-    },
-    {
-      "title": "Paid In Sweat: THE HUNGER GAMES (2012)",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/the_hunger_games_tmdb-yxcboivdcxo71zi7cuwbrxdftq8-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-08-20",
-          "tm": "18:15",
-          "url": "https://revuecinema.ca/films/paid-in-sweat-the-hunger-games-2012/"
+          "c": "kingsway",
+          "dt": "2026-08-28",
+          "tm": "13:15"
         }
       ]
     },
@@ -2127,46 +1542,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "16:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "21:35"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-22",
@@ -2265,20 +1640,6 @@
       ]
     },
     {
-      "title": "Neon Dreams: NO COUNTRY FOR OLD MEN (2007) – New 4K Restoration!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/no_country_for_old_men_tmdb-ub7rdzby43wvu8skghhtwgytdbx-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-08-21",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/neon-dreams-no-country-for-old-men-2007-new-4k-restoration/"
-        }
-      ]
-    },
-    {
       "title": "Stompbox: THE SATURDAY MORNING ALL-YOU-CAN-EAT CEREAL CARTOON PARTY (Summer Edition!)",
       "description": "",
       "poster": "https://revuecinema.ca/wp-content/uploads/2026/03/cartoon_party_-_summer_2026_-_1-768x576.png",
@@ -2305,51 +1666,6 @@
         "Thriller"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "15:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-20",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "16:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "21:45"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-22",
@@ -2654,20 +1970,6 @@
       ]
     },
     {
-      "title": "Highway To Hell: DUEL (1971)",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/04/duel_tmdb-w9vk1txx14vwvacelfyflixrsfr-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-08-23",
-          "tm": "19:15",
-          "url": "https://revuecinema.ca/films/highway-to-hell-duel-1971/"
-        }
-      ]
-    },
-    {
       "title": "Across the Universe (2007)",
       "description": "The music of The Beatles, New York in the 1960s, and the American youth's actions to protest the Vietnam War, form the backdrop for the romance between an upper-class American girl and a poor Liverpudlian artist.",
       "poster": "https://image.tmdb.org/t/p/w500/447c8Te3DXC46rQvDEixKGO4dS6.jpg",
@@ -2681,31 +1983,6 @@
         "Fantasy"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "12:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "15:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "21:30"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-22",
@@ -2859,21 +2136,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-08-22",
           "tm": "02:00"
         },
@@ -2978,21 +2240,6 @@
         "Family"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "12:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "18:40"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-22",
@@ -3108,24 +2355,6 @@
       ]
     },
     {
-      "title": "Invasion of the Body Snatchers 1956",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-08-20",
-          "tm": "21:35"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-08-23",
-          "tm": "21:35"
-        }
-      ]
-    },
-    {
       "title": "Staff Picks: Memories of Murder",
       "description": "Based on the true story of South Korea’s first serial killer, Bong Joon Ho’s &#8220;Memories of Murder&#8221; offers a unique and haunting take on the police procedural, focusing on themes of failure and existential despair rather than typical crime thriller conventions. Set against the political backdrop of the 1980s, the film follows two detectives—a small-town ...",
       "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/tmdb-jcgujx1qcupgzjnttvlnq15lhqy_thumb.jpg",
@@ -3172,25 +2401,6 @@
           "dt": "2026-08-23",
           "tm": "16:00",
           "url": "https://revuecinema.ca/films/bob-fosse-more-smoke-please-lenny-1974-toronto-theatrical-premiere-of-new-restoration/"
-        }
-      ]
-    },
-    {
-      "title": "Modern Classic: 10th Anniversary!",
-      "description": "No one wants to see a black and white film about a drunk who kills his dog. Jono and Dave learned that the hard way.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNjk3MWQ3MGQtZDdlMy00NTQzLTgwNzQtMWE4YTA0MzYzZTVkXkEyXkFqcGc@._V1_SX300.jpg",
-      "director": "Jonathon M.B. Hunter",
-      "year": "2017",
-      "runtime": "83 min",
-      "genres": [
-        "Comedy"
-      ],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-08-20",
-          "tm": "19:00",
-          "id": "613478"
         }
       ]
     },
@@ -3476,12 +2686,6 @@
       "showtimes": [
         {
           "c": "revue",
-          "dt": "2026-08-21",
-          "tm": "18:30",
-          "url": "https://revuecinema.ca/films/teenage-sex-and-death-at-camp-miasma-first-run-screenings-special-dumpster-raccoon-event/"
-        },
-        {
-          "c": "revue",
           "dt": "2026-08-22",
           "tm": "21:30",
           "url": "https://revuecinema.ca/films/teenage-sex-and-death-at-camp-miasma-first-run-screenings-special-dumpster-raccoon-event/"
@@ -3732,24 +2936,9 @@
       ]
     },
     {
-      "title": "Chris Higgins LIVE!",
-      "description": "",
-      "poster": null,
-      "year": "2025",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-08-21",
-          "tm": "19:00",
-          "id": "590003"
-        }
-      ]
-    },
-    {
       "title": "Steamboat Stumble!",
       "description": "",
-      "poster": null,
+      "poster": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/350/2026/07/14130259/EP607_SteamboatStumble_StillFrame_03-scaled.jpg",
       "genres": [],
       "showtimes": [
         {
@@ -3788,31 +2977,6 @@
         "Thriller"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-08-21",
-          "tm": "21:40"
-        },
         {
           "c": "carlton",
           "dt": "2026-08-22",
@@ -4034,6 +3198,542 @@
           "tm": "19:50"
         }
       ]
+    },
+    {
+      "title": "You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution&#8230;",
+      "description": "Martin Short, Eugene Levy, Gilda Radner, Victor Garber, Paul Shaffer, and other entertainment icons got their start in a 1972 Toronto production of the musical Godspell. Featuring interviews with the surviving cast members, Lin-Manuel Miranda, Mike Myers, and more, the film recounts a pivotal moment in comedy history, in hilarious, moving, and inspiring detail.",
+      "poster": "https://image.tmdb.org/t/p/w500/ww7BKE0TdKYLz0h6Ms8vLpptaiE.jpg",
+      "year": "2026",
+      "genres": [
+        "Documentary",
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-09",
+          "url": "https://www.foxtheatre.ca/movies/you-had-to-be-there-how-the-toronto-godspell-ignited-the-comedy-revolution/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-10-10",
+          "url": "https://www.foxtheatre.ca/movies/you-had-to-be-there-how-the-toronto-godspell-ignited-the-comedy-revolution/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-10-11",
+          "url": "https://www.foxtheatre.ca/movies/you-had-to-be-there-how-the-toronto-godspell-ignited-the-comedy-revolution/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-10-12",
+          "url": "https://www.foxtheatre.ca/movies/you-had-to-be-there-how-the-toronto-godspell-ignited-the-comedy-revolution/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-10-15",
+          "url": "https://www.foxtheatre.ca/movies/you-had-to-be-there-how-the-toronto-godspell-ignited-the-comedy-revolution/"
+        }
+      ]
+    },
+    {
+      "title": "Spectacle: Tokyo Drifter",
+      "description": "In this jazzy gangster film, reformed killer Tetsu’s attempt to go straight is thwarted when his former cohorts call him back to Tokyo to help battle a rival gang. Director Seijun Suzuki’s onslaught of stylized violence and trippy colours is equal parts Russ Meyer, Samuel Fuller, and Nagisa Oshima—an anything-goes, in-your-face rampage. &#8220;Tokyo Drifter&#8221; is ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/tmdb-dkscsldtb6fgummlninufkylfpr_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-03",
+          "url": "https://www.foxtheatre.ca/movies/spectacle-tokyo-drifter/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-10-05",
+          "url": "https://www.foxtheatre.ca/movies/spectacle-tokyo-drifter/"
+        }
+      ]
+    },
+    {
+      "title": "The Rocky Horror Picture Show w/Shadowcast!",
+      "description": "Join Excited Mental State: Toronto&#8217;s Only Rocky Horror Shadowcast who are just shivering with antici&#8230;.PATION at making this the best Rocky Horror night of your life! Dress up in your best Rocky Horror-inspired outfits and get ready to &#8220;Time Warp&#8221; to the eerie castle of Dr. Frank-N-Furter (Tim Curry) along with sweethearts Brad (Barry Bostwick) ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2025/10/the_rocky_horror_picture_show_tmdb-3pye6zqdbuji7zrnzzqzcktwdmn_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-23",
+          "url": "https://www.foxtheatre.ca/movies/the-rocky-horror-picture-show-w-shadowcast/"
+        }
+      ]
+    },
+    {
+      "title": "Restoration: Begotten",
+      "description": "New Restoration from Kino Lorber! “One of the most disturbing avant-garde films ever made.” &#8211; Natalia Keogan, Paste &#8220;Begotten&#8221; has no characters in the ordinary sense. Its final credits name threeprincipal figures:  God Killing Himself. Mother Earth. Son of Earth — Flesh on Bone. The entire film is what those names do to each other ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/begotten_tmdb-y8gbjny4bbuimjxugxqq3l3k4ov_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-04",
+          "url": "https://www.foxtheatre.ca/movies/restoration-begotten/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-10-07",
+          "url": "https://www.foxtheatre.ca/movies/restoration-begotten/"
+        }
+      ]
+    },
+    {
+      "title": "Restoration: Bay of Blood",
+      "description": "New 4K restoration by Severin Films! After establishing the giallo genre with &#8220;Blood and Black Lace&#8221; in 1964, Mario Bava revolutionized the horror landscape again with &#8220;A Bay of Blood&#8221;. Set at a lakeside cabin, this primal scream of a film doesn’t merely hint at what’s to come, rather it bursts onto the scene as ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/ecologia_del_delitto_tmdb-ctqmaczwaey609qdclpgblwijn9_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-02",
+          "url": "https://www.foxtheatre.ca/movies/restoration-bay-of-blood/"
+        }
+      ]
+    },
+    {
+      "title": "Reading Lolita in Tehran",
+      "description": "The screen adaptation of Azar Nafisi’s beloved memoir tells the true story of a literature professor in revolutionary Iran who, amidst censorship and religious extremism, gathers seven of her most dedicated female students to immerse themselves in banned literary classics.",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/reading_lolita_in_tehran_tmdb-69wqxk3omh0ikles3pcmlhvo3en_thumb.jpg",
+      "director": "Eran Riklis",
+      "year": "2024",
+      "runtime": "107 min",
+      "rating": "Not Rated",
+      "genres": [
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-09-12",
+          "url": "https://www.foxtheatre.ca/movies/reading-lolita-in-tehran/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-09-13",
+          "url": "https://www.foxtheatre.ca/movies/reading-lolita-in-tehran/"
+        }
+      ]
+    },
+    {
+      "title": "Meet Cute: Love &#038; Basketball",
+      "description": "Reaching for the same pair of black cashmere gloves? A chance encounter on a train? You never know if love is right around the corner! Introducing our new series &#8220;Meet-Cute&#8221; highlighting the best in cinema romances. Monica Wright (Sanaa Lathan) and Quincy McCall (Omar Epps) grew up in the same neighbourhood and have known each ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/love__basketball_tmdb-znzwnx19fz5qyedprvm0ldsxfip_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-13",
+          "url": "https://www.foxtheatre.ca/movies/meet-cute-love-basketball/"
+        }
+      ]
+    },
+    {
+      "title": "Klassic Kidz: ParaNorman",
+      "description": "Young Norman Babcock (Kodi Smit-McPhee) has the ability to speak with the dead &#8212; and he often prefers their company to that of the living. Norman receives word from his strange Uncle Prenderghast (John Goodman) that a centuries-old witch&#8217;s curse on their town is real and about to come true &#8212; and that only Norman ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/paranorman_tmdb-9dzptuytkyxt6vzhvz5flthg4fl_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-10",
+          "url": "https://www.foxtheatre.ca/movies/klassic-kidz-paranorman/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-10-12",
+          "url": "https://www.foxtheatre.ca/movies/klassic-kidz-paranorman/"
+        }
+      ]
+    },
+    {
+      "title": "Exhibition On Screen: James McNeill Whistler",
+      "description": "In an era of great change and great beauty emerged the character of James McNeill Whistler. Considered by some to be one of the great innovators of 19th century art, he was a contemporary of the Impressionists, much admired by Van Gogh and Manet. Boldly experimental and famously witty, Whistler disrupted the strict conventions of ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/762689833_1477289944427760_5609846765389654963_n_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-09-27",
+          "url": "https://www.foxtheatre.ca/movies/exhibition-on-screen-james-mcneill-whistler/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-09-29",
+          "url": "https://www.foxtheatre.ca/movies/exhibition-on-screen-james-mcneill-whistler/"
+        }
+      ]
+    },
+    {
+      "title": "Revue Event: DREAMS IN NIGHTMARES",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/05/dreams_in_nightmares_tmdb-axv801kxhjvpkcz8mjvyqelyqbm-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-08-29",
+          "tm": "12:30",
+          "url": "https://revuecinema.ca/films/revue-event-dreams-in-nightmares/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-08-31",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/revue-event-dreams-in-nightmares/"
+        }
+      ]
+    },
+    {
+      "title": "Drunken Cinema: MICHAEL (2026)",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/michael_tmdb-zm0kabojlt9er5y7vdil2deowml-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-08-29",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/drunken-cinema-michael-2026/"
+        }
+      ]
+    },
+    {
+      "title": "BOB FOSSE – MORE SMOKE PLEASE: ALL THAT JAZZ (1979) – 4K Restoration!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/05/all_that_jazz_tmdb-culcedj4srlljefgn4xkd6k3c5t-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-08-30",
+          "tm": "16:00",
+          "url": "https://revuecinema.ca/films/bob-fosse-more-smoke-please-all-that-jazz-1979-4k-restoration/"
+        }
+      ]
+    },
+    {
+      "title": "The Great Escape",
+      "description": "Allied officers in a German prisoner of war camp during World War II make a daring plan for a mass escape by hundreds of POWs hoping to draw German personnel and resources away from combat operations.",
+      "poster": "https://image.tmdb.org/t/p/w500/gBH4H8UMFxl139HaLz6lRuvsel8.jpg",
+      "director": "John Sturges",
+      "year": "1963",
+      "runtime": "172 min",
+      "rating": "Approved",
+      "genres": [
+        "Adventure",
+        "Drama",
+        "War"
+      ],
+      "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-08-23",
+          "tm": "14:30",
+          "id": "607277",
+          "url": "https://paradiseonbloor.com/purchase/607277/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-08-23",
+          "tm": "18:30",
+          "id": "554367",
+          "url": "https://paradiseonbloor.com/purchase/554367/"
+        }
+      ]
+    },
+    {
+      "title": "Sheep in the Box",
+      "description": "",
+      "poster": "https://image.tmdb.org/t/p/w500/9rOCIYYT8Q76FHgl3Nm5ofuc6TQ.jpg",
+      "director": "Hirokazu Koreeda",
+      "year": "2026",
+      "genres": [
+        "Drama",
+        "Sci-Fi"
+      ],
+      "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-08-24",
+          "tm": "17:45",
+          "id": "613317",
+          "url": "https://paradiseonbloor.com/purchase/613317/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-08-24",
+          "tm": "20:30",
+          "id": "607281",
+          "url": "https://paradiseonbloor.com/purchase/607281/"
+        }
+      ]
+    },
+    {
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "description": "Harry Potter, Ron and Hermione return to Hogwarts School of Witchcraft and Wizardry for their third year of study, where they delve into the mystery surrounding an escaped prisoner who poses a dangerous threat to the young wizard.",
+      "poster": "https://image.tmdb.org/t/p/w500/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg",
+      "director": "Alfonso Cuarón",
+      "year": "2004",
+      "runtime": "142 min",
+      "rating": "PG",
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-08-28",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-28",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-28",
+          "tm": "16:15"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-28",
+          "tm": "19:20"
+        }
+      ]
+    },
+    {
+      "title": "Harry Potter and the Goblet of Fire",
+      "description": "Harry Potter finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
+      "poster": "https://image.tmdb.org/t/p/w500/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg",
+      "director": "Mike Newell",
+      "year": "2005",
+      "runtime": "157 min",
+      "rating": "PG-13",
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-08-28",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-28",
+          "tm": "12:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-28",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-28",
+          "tm": "19:10"
+        }
+      ]
+    },
+    {
+      "title": "Harry Potter and the Order of the Phoenix",
+      "description": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
+      "poster": "https://image.tmdb.org/t/p/w500/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg",
+      "director": "David Yates",
+      "year": "2007",
+      "runtime": "138 min",
+      "rating": "PG-13",
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-08-29",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-29",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-29",
+          "tm": "16:15"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-29",
+          "tm": "19:15"
+        }
+      ]
+    },
+    {
+      "title": "Harry Potter and the Half-Blood Prince",
+      "description": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \"the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.",
+      "poster": "https://image.tmdb.org/t/p/w500/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg",
+      "director": "David Yates",
+      "year": "2009",
+      "runtime": "153 min",
+      "rating": "PG",
+      "genres": [
+        "Adventure",
+        "Fantasy"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-08-29",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-29",
+          "tm": "12:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-29",
+          "tm": "15:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-08-29",
+          "tm": "19:00"
+        }
+      ]
+    },
+    {
+      "title": "Once Upon a Time in a Cinema",
+      "description": "A beleaguered cinema owner's worst Friday night becomes his crowning moment of glory when a packed show descends into chaos and unites the community. Told in real-time during the movie playing ('Breathless' starring Richard Gere).",
+      "poster": "https://image.tmdb.org/t/p/w500/r7viobm2EsL9WrjxWEkBAFSNW75.jpg",
+      "director": "David Gleeson",
+      "year": "2026",
+      "genres": [
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-08-22",
+          "tm": "17:25"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-23",
+          "tm": "17:25"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-24",
+          "tm": "17:25"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-25",
+          "tm": "17:25"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-26",
+          "tm": "17:25"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-27",
+          "tm": "17:25"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-28",
+          "tm": "17:25"
+        }
+      ]
+    },
+    {
+      "title": "A Sad and Beautiful World",
+      "description": "In this cosmic romance set in Beirut, two star-crossed lovers, one an eternal optimist and the other an impulsive pragmatist, must decide if they want to build a family and chart a track to happiness, despite the tragic fates rava...",
+      "poster": "https://image.tmdb.org/t/p/w500/gW3j8B4VPCnVTELgiZee9Xct49J.jpg",
+      "director": "Cyril Aris",
+      "year": "2025",
+      "runtime": "110 min",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-08-22",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-23",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-24",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-25",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-26",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-27",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-08-28",
+          "tm": "19:00"
+        }
+      ]
+    },
+    {
+      "title": "Oblivion",
+      "description": "A stranger's arrival triggers one man's battle to save mankind.",
+      "poster": "https://image.tmdb.org/t/p/w500/bYLM3GpNUZnoFElPXp1zlhDPdtv.jpg",
+      "director": "Joseph Kosinski",
+      "year": "2013",
+      "runtime": "124 min",
+      "rating": "PG-13",
+      "genres": [
+        "Action",
+        "Sci-Fi",
+        "Adventure",
+        "Mystery"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-08-22",
+          "tm": "21:00"
+        }
+      ]
     }
   ],
   "tiffFilms": [
@@ -4047,6 +3747,14 @@
     },
     {
       "title": "A Good Little Soldier",
+      "note": "TIFF"
+    },
+    {
+      "title": "A New Creative Paradigm: Consistent, Cinematic AI Video Powered by Kling AI",
+      "note": "TIFF"
+    },
+    {
+      "title": "A Rare Breed",
       "note": "TIFF"
     },
     {
@@ -4090,6 +3798,14 @@
       "note": "TIFF"
     },
     {
+      "title": "Bollywoof",
+      "note": "TIFF"
+    },
+    {
+      "title": "Call Me Queen",
+      "note": "TIFF"
+    },
+    {
       "title": "Children Untold",
       "note": "TIFF"
     },
@@ -4103,6 +3819,10 @@
     },
     {
       "title": "Coward",
+      "note": "TIFF"
+    },
+    {
+      "title": "DIALOGUES Immersive Media is Revolutionary Media",
       "note": "TIFF"
     },
     {
@@ -4126,11 +3846,19 @@
       "note": "TIFF"
     },
     {
+      "title": "FORTY LOVE",
+      "note": "TIFF"
+    },
+    {
       "title": "Fjord",
       "note": "TIFF"
     },
     {
       "title": "Flies",
+      "note": "TIFF"
+    },
+    {
+      "title": "Foster",
       "note": "TIFF"
     },
     {
@@ -4166,11 +3894,23 @@
       "note": "TIFF"
     },
     {
+      "title": "Inside Telefilm: Funding, Partnerships and Audiences",
+      "note": "TIFF"
+    },
+    {
       "title": "It Will Happen Tonight",
       "note": "TIFF"
     },
     {
+      "title": "Jim Queen",
+      "note": "TIFF"
+    },
+    {
       "title": "Ken Russell's The Devils",
+      "note": "TIFF"
+    },
+    {
+      "title": "LES MISERABLES",
       "note": "TIFF"
     },
     {
@@ -4198,6 +3938,10 @@
       "note": "TIFF"
     },
     {
+      "title": "MILO",
+      "note": "TIFF"
+    },
+    {
       "title": "Minotaur",
       "note": "TIFF"
     },
@@ -4218,7 +3962,31 @@
       "note": "TIFF"
     },
     {
+      "title": "One Minute to Midnight",
+      "note": "TIFF"
+    },
+    {
+      "title": "Onwards and Sideways",
+      "note": "TIFF"
+    },
+    {
+      "title": "Operation Cronos",
+      "note": "TIFF"
+    },
+    {
       "title": "Our Loves",
+      "note": "TIFF"
+    },
+    {
+      "title": "Our Share of Sand",
+      "note": "TIFF"
+    },
+    {
+      "title": "PERSPECTIVES Location Strategy Without Compromise: Accessibility and Authenticity in Being Heumann",
+      "note": "TIFF"
+    },
+    {
+      "title": "PERSPECTIVES The Role Hollywood Didn't Know it Needed: The Immersive Supervisor",
       "note": "TIFF"
     },
     {
@@ -4246,11 +4014,31 @@
       "note": "TIFF"
     },
     {
+      "title": "Silent Life: The Rudolph Valentino Centennial Final Cut",
+      "note": "TIFF"
+    },
+    {
       "title": "Slow Horses",
       "note": "TIFF"
     },
     {
+      "title": "State of the Industry: State of Finance + International Partnerships & Co-Productions",
+      "note": "TIFF"
+    },
+    {
+      "title": "Studio 100 Film: Current & Upcoming Features",
+      "note": "TIFF"
+    },
+    {
       "title": "Stuffed",
+      "note": "TIFF"
+    },
+    {
+      "title": "Sustainable Stories, Sustainable Industry: Sustainability Practices for Film",
+      "note": "TIFF"
+    },
+    {
+      "title": "THE NEST",
       "note": "TIFF"
     },
     {
@@ -4298,6 +4086,10 @@
       "note": "TIFF"
     },
     {
+      "title": "VISIONARIES Gary Oldman",
+      "note": "TIFF"
+    },
+    {
       "title": "Viva Carmen",
       "note": "TIFF"
     },
@@ -4319,6 +4111,10 @@
     },
     {
       "title": "YAGA",
+      "note": "TIFF"
+    },
+    {
+      "title": "YouTube and Variety present Creator Premieres at TIFF",
       "note": "TIFF"
     },
     {
