@@ -505,7 +505,7 @@
     "genres": [
       "Drama"
     ],
-    "_cachedAt": "2026-07-23T11:48:34.997Z",
+    "_cachedAt": "2026-08-25T10:26:08.617Z",
     "_omdbTried": true,
     "omdbDirector": "Tommy Wiseau",
     "omdbRuntime": "99 min",
@@ -1942,5 +1942,106 @@
     "omdbRuntime": "124 min",
     "omdbRating": "PG-13",
     "omdbDescription": "A stranger's arrival triggers one man's battle to save mankind."
+  },
+  "extraordinary women: hilma af klint: the pioneering abstract painter|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-25T10:25:58.042Z",
+    "_omdbTried": true
+  },
+  "revue cinema: mysterious skin (2005)  – new 4k restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-25T10:25:59.097Z",
+    "_omdbTried": true
+  },
+  "heat wave: lone star – 30th anniversary screening – introduced by emily gagne|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-25T10:26:00.151Z",
+    "_omdbTried": true
+  },
+  "we really like her: girlfriends (1978)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-25T10:26:01.198Z",
+    "_omdbTried": true
+  },
+  "revue event: armageddon road – toronto theatrical premiere with director, cast and crew in attendance!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-25T10:26:02.250Z",
+    "_omdbTried": true
+  },
+  "drunken cinema: mean girls (2004)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-25T10:26:03.298Z",
+    "_omdbTried": true
+  },
+  "the midnight revue: cannibal holocaust (uncut) – toronto theatrical premiere of new restoration|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-25T10:26:04.350Z",
+    "_omdbTried": true
+  },
+  "revue event: corey feldman vs. the world (2025)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-25T10:26:05.403Z",
+    "_omdbTried": true
+  },
+  "all night wrong|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-08-25T10:26:06.457Z",
+    "_omdbTried": true,
+    "omdbDirector": "Jason James",
+    "omdbRuntime": "91 min",
+    "omdbDescription": "Gary and Ell meet on a blind date only to wind up stealing a killer's car along with a dead body and $40,000."
+  },
+  "set it off|1996": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/wpiARyUqTfabzakAXHMIUY6Tl1A.jpg",
+    "year": "1996",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller",
+      "Action"
+    ],
+    "_cachedAt": "2026-08-25T10:26:07.507Z",
+    "_omdbTried": true,
+    "omdbDirector": "F. Gary Gray",
+    "omdbRuntime": "123 min",
+    "omdbRating": "R",
+    "omdbDescription": "Desperation drives four inner-city women to bank robbery in Los Angeles, then they start mistrusting each other."
+  },
+  "harry potter and the deathly hallows: part 2|2010": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg",
+    "year": "2010",
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "_cachedAt": "2026-08-25T10:26:09.719Z",
+    "_omdbTried": true,
+    "omdbDirector": "David Yates",
+    "omdbRuntime": "130 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "Harry, Ron and Hermione set out on a quest to eliminate the remaining horcruxes. On the other hand, the students and teachers must unite to defend Hogwarts against Lord Voldemort and his army."
+  },
+  "harry potter and the deathly hallows: part 1|2010": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg",
+    "year": "2010",
+    "genres": [
+      "Adventure",
+      "Fantasy"
+    ],
+    "_cachedAt": "2026-08-25T10:26:10.773Z",
+    "_omdbTried": true,
+    "omdbDirector": "David Yates",
+    "omdbRuntime": "146 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "Harry Potter is tasked with the dangerous and seemingly impossible task of locating and destroying Voldemort's remaining Horcruxes. Harry must rely on Ron and Hermione more than ever, but dark forces threaten to tear them apart."
   }
 }
