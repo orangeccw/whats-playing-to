@@ -2043,5 +2043,147 @@
     "omdbRuntime": "146 min",
     "omdbRating": "PG-13",
     "omdbDescription": "Harry Potter is tasked with the dangerous and seemingly impossible task of locating and destroying Voldemort's remaining Horcruxes. Harry must rely on Ron and Hermione more than ever, but dark forces threaten to tear them apart."
+  },
+  "revue event: the samurai and the prisoner|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-27T20:06:36.582Z",
+    "_omdbTried": true
+  },
+  "dreams in nightmares|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/j5dxzoXeQB9pmOnO0TjSoMDceSk.jpg",
+    "year": "2026",
+    "genres": [
+      "Drama"
+    ],
+    "_cachedAt": "2026-08-27T20:06:37.676Z",
+    "_omdbTried": true,
+    "omdbDirector": "Shatara Michelle Ford",
+    "omdbRuntime": "120 min",
+    "omdbDescription": "Three friends in their mid-thirties as they road trip across the Midwestern United States in search of their friend who has seemingly disappeared off the grid."
+  },
+  "the wages of fear|1953": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/sNOvIp4X0fmCMfgEs2ww5IyMgFm.jpg",
+    "year": "1953",
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Adventure"
+    ],
+    "_cachedAt": "2026-08-27T20:06:38.726Z",
+    "_omdbTried": true,
+    "omdbDirector": "Henri-Georges Clouzot",
+    "omdbRuntime": "156 min",
+    "omdbRating": "Not Rated",
+    "omdbDescription": "In a decrepit South American village, four men are hired to transport an urgent nitroglycerine shipment without the equipment that would make it safe."
+  },
+  "toronto apartment/the pee pee poo poo man double feature|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-27T20:06:39.773Z",
+    "_omdbTried": true
+  },
+  "unhcr presents: lost land|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-27T20:06:40.819Z",
+    "_omdbTried": true
+  },
+  "international women's podcast awards 2026|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-27T20:06:41.866Z",
+    "_omdbTried": true
+  },
+  "coyote vs. acme|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/orkLtdgMGiO9rTVMqJ1kKwrnup1.jpg",
+    "year": "2026",
+    "genres": [
+      "Comedy",
+      "Adventure",
+      "Family"
+    ],
+    "_cachedAt": "2026-08-27T20:06:42.912Z",
+    "_omdbTried": true,
+    "omdbDirector": "Dave Green",
+    "omdbRuntime": "98 min",
+    "omdbRating": "PG",
+    "omdbDescription": "A story set in the ACME warehouse, the manufacturer of anything and everything used by the Looney Tunes characters."
+  },
+  "idiots|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/l1JFNC1SdgyXVr7BaD5ehaYBvOC.jpg",
+    "year": "2026",
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "_cachedAt": "2026-08-27T20:06:43.962Z",
+    "_omdbTried": true,
+    "omdbDirector": "Macon Blair",
+    "omdbRuntime": "98 min",
+    "omdbDescription": "Two rock-bottom drivers transport a wealthy teen to rehab, but their simple job spirals into a chaotic journey of drugs, danger, and crime as their passenger derails their plans."
+  },
+  "buddy|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/6Lh4ZlsAISFQFVfLZ90sE9ycVnN.jpg",
+    "year": "2026",
+    "genres": [
+      "Horror",
+      "Comedy"
+    ],
+    "_cachedAt": "2026-08-27T20:06:45.015Z",
+    "_omdbTried": true,
+    "omdbDirector": "Casper Kelly",
+    "omdbRuntime": "95 min",
+    "omdbDescription": "A brave girl and her friends must escape a kids television show."
+  },
+  "nirvanna the band the show the movie|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/sm5TGX8WbnCd9Uo26cLyTxVwA1n.jpg",
+    "year": "2026",
+    "genres": [
+      "Comedy",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "_cachedAt": "2026-08-27T20:06:46.113Z",
+    "_omdbTried": true,
+    "omdbDirector": "Matt Johnson",
+    "omdbRuntime": "100 min",
+    "omdbRating": "R",
+    "omdbDescription": "When their plan to book a show at the Rivoli goes horribly wrong, Matt and Jay accidentally travel back to the year 2008."
+  },
+  "the hunger games (2012)|2012": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/apa5G43Hha7kH7wJG0gkkHT7FA9.jpg",
+    "year": "2012",
+    "genres": [
+      "Sci-Fi",
+      "Adventure",
+      "Action",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-08-27T20:06:47.161Z",
+    "_omdbTried": true,
+    "omdbDirector": "Gary Ross",
+    "omdbRuntime": "142 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death."
+  },
+  "the hunger games: catching fire (2013)|2013": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/vrQHDXjVmbYzadOXQ0UaObunoy2.jpg",
+    "year": "2013",
+    "genres": [
+      "Adventure",
+      "Action",
+      "Sci-Fi"
+    ],
+    "_cachedAt": "2026-08-27T20:06:48.210Z",
+    "_omdbTried": true,
+    "omdbDirector": "Francis Lawrence",
+    "omdbRuntime": "146 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem."
   }
 }
