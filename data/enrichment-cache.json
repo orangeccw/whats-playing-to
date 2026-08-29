@@ -360,7 +360,7 @@
       "Comedy",
       "Documentary"
     ],
-    "_cachedAt": "2026-07-18T11:00:02.264Z",
+    "_cachedAt": "2026-08-29T14:54:53.630Z",
     "_omdbTried": true,
     "omdbDirector": "Jeff Tremaine",
     "omdbRuntime": "92 min",
@@ -1835,7 +1835,7 @@
       "Drama",
       "Sci-Fi"
     ],
-    "_cachedAt": "2026-08-22T10:18:12.619Z",
+    "_cachedAt": "2026-08-29T14:54:46.281Z",
     "_omdbTried": true,
     "omdbDirector": "Hirokazu Koreeda"
   },
@@ -2185,5 +2185,118 @@
     "omdbRuntime": "146 min",
     "omdbRating": "PG-13",
     "omdbDescription": "Katniss Everdeen and Peeta Mellark become targets of the Capitol after their victory in the 74th Hunger Games sparks a rebellion in the Districts of Panem."
+  },
+  "the perfect date: star trek: the motion picture|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-29T14:54:41.027Z",
+    "_omdbTried": true
+  },
+  "revue film society: perfect days (2023)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-29T14:54:42.076Z",
+    "_omdbTried": true
+  },
+  "revue event: the velocipastor 2 – canadian premiere!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-29T14:54:43.131Z",
+    "_omdbTried": true
+  },
+  "paid in sweat: varsity blues (1999)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-29T14:54:44.180Z",
+    "_omdbTried": true
+  },
+  "self-revolutionary cinematic struggle: north american premiere!|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-29T14:54:45.229Z",
+    "_omdbTried": true
+  },
+  "akira (sub) (1988)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-29T14:54:38.741Z"
+  },
+  "michael mann's manhunter: the final cut (1986)|": {
+    "_tried": true,
+    "_cachedAt": "2026-08-29T14:54:48.379Z",
+    "_omdbTried": true
+  },
+  "frankenstein (1931)|2025": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/g4JtvGlQO7DByTI6frUobqvSL3R.jpg",
+    "year": "2025",
+    "genres": [
+      "Drama",
+      "Fantasy",
+      "Horror"
+    ],
+    "_cachedAt": "2026-08-29T14:54:49.428Z",
+    "_omdbTried": true,
+    "omdbDirector": "Guillermo del Toro",
+    "omdbRuntime": "149 min",
+    "omdbRating": "R",
+    "omdbDescription": "Dr. Victor Frankenstein, a brilliant but egotistical scientist, brings a creature to life in a monstrous experiment that ultimately leads to the undoing of both the creator and his tragic creation."
+  },
+  "the hunger games: mockingjay - part 2 (2015)|2015": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/lImKHDfExAulp16grYm8zD5eONE.jpg",
+    "year": "2015",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "_cachedAt": "2026-08-29T14:54:50.477Z",
+    "_omdbTried": true,
+    "omdbDirector": "Francis Lawrence",
+    "omdbRuntime": "137 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "Katniss and a team of rebels from District 13 prepare for the final battle that will decide the fate of Panem."
+  },
+  "the hunger games: mockingjay - part 1 (2014)|2014": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/4FAA18ZIja70d1Tu5hr5cj2q1sB.jpg",
+    "year": "2014",
+    "genres": [
+      "Sci-Fi",
+      "Adventure",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-08-29T14:54:51.526Z",
+    "_omdbTried": true,
+    "omdbDirector": "Francis Lawrence",
+    "omdbRuntime": "123 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "Katniss Everdeen is in District 13 after she shatters the games forever. Under the leadership of President Coin and the advice of her trusted friends, Katniss spreads her wings as she fights to save Peeta and a nation moved by her..."
+  },
+  "one night only|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/9LGEqZvzI7Tsosf8srwEY48rZsD.jpg",
+    "year": "2026",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
+    "_cachedAt": "2026-08-29T14:54:52.578Z",
+    "_omdbTried": true,
+    "omdbDirector": "Will Gluck",
+    "omdbRuntime": "102 min",
+    "omdbRating": "R",
+    "omdbDescription": "Two New Yorkers search for love on the one night of the year when pre-marital sex is legal."
+  },
+  "akira (sub) (1988)|1988": {
+    "_tried": true,
+    "_cachedAt": "2026-08-29T14:54:47.329Z",
+    "_omdbTried": true,
+    "omdbPoster": "https://m.media-amazon.com/images/M/MV5BYWUxMGRhZDQtMTBmMi00N2IxLWE5NmYtMDMyMWExODAwNWYzXkEyXkFqcGc@._V1_SX300.jpg",
+    "omdbDirector": "Katsuhiro Ôtomo",
+    "omdbYear": "1988",
+    "omdbRuntime": "124 min",
+    "omdbRating": "R",
+    "omdbGenres": [
+      "Animation",
+      "Action",
+      "Drama"
+    ],
+    "omdbDescription": "A secret military project endangers Neo-Tokyo when it turns a teenage biker gang member into a rampaging psychic psychopath who can only be stopped by his best friend."
   }
 }
