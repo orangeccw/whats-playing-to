@@ -2298,5 +2298,87 @@
       "Drama"
     ],
     "omdbDescription": "A secret military project endangers Neo-Tokyo when it turns a teenage biker gang member into a rampaging psychic psychopath who can only be stopped by his best friend."
+  },
+  "detour: the wailing|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-01T14:28:19.580Z",
+    "_omdbTried": true
+  },
+  "scream queens: us|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-01T14:28:20.645Z",
+    "_omdbTried": true
+  },
+  "scream queens: the shining|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-01T14:28:21.710Z",
+    "_omdbTried": true
+  },
+  "scream queens: the fog|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-01T14:28:22.778Z",
+    "_omdbTried": true
+  },
+  "scream queens: possession|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-01T14:28:23.843Z",
+    "_omdbTried": true
+  },
+  "teenage sex and death at camp miasma – presented on 35mm!|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Comedy",
+      "Horror",
+      "Romance"
+    ],
+    "_cachedAt": "2026-09-01T14:28:24.974Z",
+    "_omdbTried": true
+  },
+  "drunken cinema: road house (1989)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-01T14:28:26.036Z",
+    "_omdbTried": true
+  },
+  "revue event:  seven samurai (1954) –  presented on 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-01T14:28:27.109Z",
+    "_omdbTried": true
+  },
+  "(not-so) terrible twos: ocean’s twelve (2004)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-01T14:28:28.174Z",
+    "_omdbTried": true
+  },
+  "don’t be so political: ninotchka (1939)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-01T14:28:29.244Z",
+    "_omdbTried": true
+  },
+  "a night at the opera|1935": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/A4YDGfJwaG7aMxDVrVJsOHJ7ufK.jpg",
+    "year": "1935",
+    "genres": [
+      "Comedy",
+      "Music"
+    ],
+    "_cachedAt": "2026-09-01T14:28:30.311Z",
+    "_omdbTried": true,
+    "omdbDirector": "Sam Wood",
+    "omdbRuntime": "96 min",
+    "omdbRating": "Approved",
+    "omdbDescription": "A sly business manager and the wacky friends of two opera singers in Italy help them achieve success in America while humiliating their stuffy and snobbish enemies."
+  },
+  "hunger games: ballad of songbirds & snakes (2023)|2023": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg",
+    "year": "2023",
+    "genres": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "_cachedAt": "2026-09-01T14:28:31.429Z",
+    "_omdbTried": true
   }
 }
