@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01",
+  "lastUpdated": "2026-09-03",
   "cinemas": {
     "fox": {
       "name": "Fox Theatre",
@@ -117,6 +117,27 @@
       ],
       "showtimes": [
         {
+          "c": "paradise",
+          "dt": "2026-09-05",
+          "tm": "13:30",
+          "id": "632820",
+          "url": "https://paradiseonbloor.com/purchase/632820/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-09-05",
+          "tm": "16:00",
+          "id": "632818",
+          "url": "https://paradiseonbloor.com/purchase/632818/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-09-05",
+          "tm": "19:00",
+          "id": "629532",
+          "url": "https://paradiseonbloor.com/purchase/629532/"
+        },
+        {
           "c": "hotdocs",
           "dt": "2026-09-13",
           "tm": "10:30",
@@ -129,57 +150,6 @@
           "tm": "08:00",
           "id": "635497",
           "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635497~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
-      "title": "Michael",
-      "description": "The early life of musician Michael Jackson, from the discovery of his talent as the lead of the Jackson Five to the artist whose creative ambition fueled a pursuit to become the biggest entertainer in the world.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BNzllNmRlN2EtMDQyOC00ODJjLTg4OWQtZDNmNGU3YzlkNjc1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-      "director": "Antoine Fuqua",
-      "year": "2026",
-      "runtime": "127 min",
-      "rating": "PG-13",
-      "genres": [
-        "Biography",
-        "Drama",
-        "History"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-09-01",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-02",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-03",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-04",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-05",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-06",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-07",
-          "tm": "17:00"
         }
       ]
     },
@@ -253,41 +223,28 @@
       "showtimes": [
         {
           "c": "fox",
-          "dt": "2026-09-01",
-          "url": "https://www.foxtheatre.ca/movies/teenage-sex-and-death-at-camp-miasma/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-09-02",
-          "url": "https://www.foxtheatre.ca/movies/teenage-sex-and-death-at-camp-miasma/"
-        },
-        {
-          "c": "fox",
           "dt": "2026-09-03",
           "url": "https://www.foxtheatre.ca/movies/teenage-sex-and-death-at-camp-miasma/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-09-04",
+          "tm": "18:30",
+          "id": "632816",
+          "url": "https://paradiseonbloor.com/purchase/632816/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-09-04",
+          "tm": "21:30",
+          "id": "629546",
+          "url": "https://paradiseonbloor.com/purchase/629546/",
+          "soldOut": true
         },
         {
           "c": "fox",
           "dt": "2026-09-11",
           "url": "https://www.foxtheatre.ca/movies/teenage-sex-and-death-at-camp-miasma/"
-        }
-      ]
-    },
-    {
-      "title": "Drawn In: The Girl Who Leapt Through Time",
-      "description": "Part of our ongoing series &#8220;Drawn In.&#8221; Wildly creative, romantic, hilarious, and refreshingly original, The Girl Who Leapt Through Time is irresistibly charming. &#8220;The Girl Who Leapt Through Time&#8221; is an early gem by Mamoru Hosoda, known for his stunning visuals and heartfelt storytelling. The film follows Makoto, a typical teenage girl who discovers she can ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/gwltt_keyart_print_comingsoon.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-09-27",
-          "url": "https://www.foxtheatre.ca/movies/drawn-in-the-girl-who-leapt-through-time/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-09-29",
-          "url": "https://www.foxtheatre.ca/movies/drawn-in-the-girl-who-leapt-through-time/"
         }
       ]
     },
@@ -328,56 +285,6 @@
       ]
     },
     {
-      "title": "Disclosure",
-      "description": "If you found out we weren't alone, if someone showed you, proved it to you, would that frighten you?",
-      "poster": "https://image.tmdb.org/t/p/w500/AnJ8IQJI23hNpYXVNaythu061Ru.jpg",
-      "director": "Steven Spielberg",
-      "year": "2026",
-      "runtime": "145 min",
-      "rating": "PG-13",
-      "genres": [
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-09-01",
-          "tm": "20:50"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-02",
-          "tm": "20:50"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-03",
-          "tm": "20:50"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-04",
-          "tm": "20:50"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-05",
-          "tm": "20:50"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-06",
-          "tm": "20:50"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-07",
-          "tm": "20:50"
-        }
-      ]
-    },
-    {
       "title": "Obsession",
       "description": "Come see the breakout horror hit of the year on the big screen one last time! After breaking the mysterious “One Wish Willow” to win his crush’s heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price. Written and directed by ...",
       "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/obsession_tmdb-brwnj8wekbcvmfeunoukjpwb43k_thumb.jpg",
@@ -392,16 +299,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-01",
-          "tm": "19:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-02",
-          "tm": "19:15"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-03",
           "tm": "19:15"
         },
@@ -423,6 +320,16 @@
         {
           "c": "kingsway",
           "dt": "2026-09-07",
+          "tm": "19:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-08",
+          "tm": "19:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-09",
           "tm": "19:15"
         }
       ]
@@ -439,36 +346,6 @@
         "Thriller"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "15:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "15:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "21:40"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-03",
@@ -497,16 +374,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-09-01",
-          "url": "https://www.foxtheatre.ca/movies/tony/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-09-02",
-          "url": "https://www.foxtheatre.ca/movies/tony/"
-        },
         {
           "c": "fox",
           "dt": "2026-09-03",
@@ -683,16 +550,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-01",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-02",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-03",
           "tm": "13:15"
         },
@@ -714,6 +571,16 @@
         {
           "c": "kingsway",
           "dt": "2026-09-07",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-08",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-09",
           "tm": "13:15"
         }
       ]
@@ -770,56 +637,6 @@
         "Thriller"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "21:30"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-03",
@@ -996,85 +813,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "16:00"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-09-01",
-          "tm": "18:00",
-          "id": "629526",
-          "url": "https://paradiseonbloor.com/purchase/629526/"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "19:00"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-09-01",
-          "tm": "20:30",
-          "id": "616251",
-          "url": "https://paradiseonbloor.com/purchase/616251/",
-          "soldOut": true
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "21:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "16:00"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-09-02",
-          "tm": "18:00",
-          "id": "629528",
-          "url": "https://paradiseonbloor.com/purchase/629528/"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "19:00"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-09-02",
-          "tm": "20:30",
-          "id": "632812",
-          "url": "https://paradiseonbloor.com/purchase/632812/"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "21:45"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-03",
           "tm": "01:00"
         },
@@ -1087,6 +825,36 @@
           "c": "carlton",
           "dt": "2026-09-03",
           "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-04",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-04",
+          "tm": "12:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-04",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-05",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-05",
+          "tm": "12:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-05",
+          "tm": "18:35"
         },
         {
           "c": "fox",
@@ -1094,9 +862,74 @@
           "url": "https://www.foxtheatre.ca/movies/it-ends/"
         },
         {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "12:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "12:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-08",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-08",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "21:40"
+        },
+        {
           "c": "fox",
           "dt": "2026-09-10",
           "url": "https://www.foxtheatre.ca/movies/it-ends/"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "18:35"
         }
       ]
     },
@@ -1391,18 +1224,6 @@
       "showtimes": [
         {
           "c": "revue",
-          "dt": "2026-09-01",
-          "tm": "18:45",
-          "url": "https://revuecinema.ca/films/coyote-vs-acme/"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-09-02",
-          "tm": "16:00",
-          "url": "https://revuecinema.ca/films/coyote-vs-acme/"
-        },
-        {
-          "c": "revue",
           "dt": "2026-09-03",
           "tm": "15:15",
           "url": "https://revuecinema.ca/films/coyote-vs-acme/"
@@ -1440,31 +1261,6 @@
         "Thriller"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "18:35"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-03",
@@ -1637,164 +1433,6 @@
       ]
     },
     {
-      "title": "Exhibition On Screen: James McNeill Whistler",
-      "description": "In an era of great change and great beauty emerged the character of James McNeill Whistler. Considered by some to be one of the great innovators of 19th century art, he was a contemporary of the Impressionists, much admired by Van Gogh and Manet. Boldly experimental and famously witty, Whistler disrupted the strict conventions of ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/762689833_1477289944427760_5609846765389654963_n_thumb.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-09-27",
-          "url": "https://www.foxtheatre.ca/movies/exhibition-on-screen-james-mcneill-whistler/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-09-29",
-          "url": "https://www.foxtheatre.ca/movies/exhibition-on-screen-james-mcneill-whistler/"
-        }
-      ]
-    },
-    {
-      "title": "Harry Potter and the Prisoner of Azkaban",
-      "description": "Harry Potter, Ron and Hermione return to Hogwarts School of Witchcraft and Wizardry for their third year of study, where they delve into the mystery surrounding an escaped prisoner who poses a dangerous threat to the young wizard.",
-      "poster": "https://image.tmdb.org/t/p/w500/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg",
-      "director": "Alfonso Cuarón",
-      "year": "2004",
-      "runtime": "142 min",
-      "rating": "PG",
-      "genres": [
-        "Adventure",
-        "Fantasy"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "16:15"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "19:20"
-        }
-      ]
-    },
-    {
-      "title": "Harry Potter and the Goblet of Fire",
-      "description": "Harry Potter finds himself competing in a hazardous tournament between rival schools of magic, but he is distracted by recurring nightmares.",
-      "poster": "https://image.tmdb.org/t/p/w500/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg",
-      "director": "Mike Newell",
-      "year": "2005",
-      "runtime": "157 min",
-      "rating": "PG-13",
-      "genres": [
-        "Adventure",
-        "Fantasy"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "12:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "19:10"
-        }
-      ]
-    },
-    {
-      "title": "Harry Potter and the Order of the Phoenix",
-      "description": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
-      "poster": "https://image.tmdb.org/t/p/w500/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg",
-      "director": "David Yates",
-      "year": "2007",
-      "runtime": "138 min",
-      "rating": "PG-13",
-      "genres": [
-        "Adventure",
-        "Fantasy"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "16:15"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "19:15"
-        }
-      ]
-    },
-    {
-      "title": "Harry Potter and the Half-Blood Prince",
-      "description": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \"the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.",
-      "poster": "https://image.tmdb.org/t/p/w500/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg",
-      "director": "David Yates",
-      "year": "2009",
-      "runtime": "153 min",
-      "rating": "PG",
-      "genres": [
-        "Adventure",
-        "Fantasy"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "12:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "19:00"
-        }
-      ]
-    },
-    {
       "title": "Once Upon a Time in a Cinema",
       "description": "A beleaguered cinema owner's worst Friday night becomes his crowning moment of glory when a packed show descends into chaos and unites the community. Told in real-time during the movie playing ('Breathless' starring Richard Gere).",
       "poster": "https://image.tmdb.org/t/p/w500/r7viobm2EsL9WrjxWEkBAFSNW75.jpg",
@@ -1804,16 +1442,6 @@
         "Drama"
       ],
       "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-09-01",
-          "tm": "17:25"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-02",
-          "tm": "17:25"
-        },
         {
           "c": "kingsway",
           "dt": "2026-09-03",
@@ -1838,34 +1466,16 @@
           "c": "kingsway",
           "dt": "2026-09-07",
           "tm": "17:25"
-        }
-      ]
-    },
-    {
-      "title": "Revue Cinema: MYSTERIOUS SKIN (2005)  – New 4K Restoration!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/mysterious_skin_tmdb-wgswdqhl6rt3cuscwt5snppna3x-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
+        },
         {
-          "c": "revue",
-          "dt": "2026-09-01",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/revue-cinema-mysterious-skin-2005-new-4k-restoration/"
-        }
-      ]
-    },
-    {
-      "title": "Heat Wave: LONE STAR – 30th Anniversary Screening – Introduced by Emily Gagne",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/05/lone_star_tmdb-lbxy8znsroqa9dy2nce8i6gpsrm-768x1150.jpg",
-      "genres": [],
-      "showtimes": [
+          "c": "kingsway",
+          "dt": "2026-09-08",
+          "tm": "17:25"
+        },
         {
-          "c": "revue",
-          "dt": "2026-09-02",
-          "tm": "19:00",
-          "url": "https://revuecinema.ca/films/heat-wave-lone-star-30th-anniversary-screening-introduced-by-emily-gagne/"
+          "c": "kingsway",
+          "dt": "2026-09-09",
+          "tm": "17:25"
         }
       ]
     },
@@ -2041,7 +1651,7 @@
         {
           "c": "revue",
           "dt": "2026-09-05",
-          "tm": "16:00",
+          "tm": "15:00",
           "url": "https://revuecinema.ca/films/revue-event-the-samurai-and-the-prisoner/"
         },
         {
@@ -2151,82 +1761,172 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-01",
+          "dt": "2026-09-03",
           "tm": "01:00"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-01",
+          "dt": "2026-09-03",
           "tm": "12:55"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-01",
+          "dt": "2026-09-03",
           "tm": "15:55"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-01",
+          "dt": "2026-09-03",
           "tm": "18:55"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-01",
+          "dt": "2026-09-03",
           "tm": "21:30"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
+          "dt": "2026-09-04",
           "tm": "01:00"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "12:55"
+          "dt": "2026-09-04",
+          "tm": "12:45"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "15:55"
+          "dt": "2026-09-04",
+          "tm": "15:50"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "18:55"
+          "dt": "2026-09-04",
+          "tm": "18:50"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
+          "dt": "2026-09-04",
           "tm": "21:30"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-03",
+          "dt": "2026-09-05",
           "tm": "01:00"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-03",
-          "tm": "12:55"
+          "dt": "2026-09-05",
+          "tm": "12:45"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-03",
-          "tm": "15:55"
+          "dt": "2026-09-05",
+          "tm": "15:50"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-03",
-          "tm": "18:55"
+          "dt": "2026-09-05",
+          "tm": "18:50"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-03",
+          "dt": "2026-09-05",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "12:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "12:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-08",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-08",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-08",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
           "tm": "21:30"
         }
       ]
@@ -2245,33 +1945,98 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-01",
+          "dt": "2026-09-04",
           "tm": "01:00"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "12:50"
+          "dt": "2026-09-04",
+          "tm": "16:10"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "18:40"
+          "dt": "2026-09-04",
+          "tm": "21:45"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
+          "dt": "2026-09-05",
           "tm": "01:00"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "12:50"
+          "dt": "2026-09-05",
+          "tm": "16:10"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
+          "dt": "2026-09-05",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "16:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "16:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-08",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-08",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
           "tm": "18:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "21:50"
         }
       ]
     },
@@ -2289,114 +2054,163 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-01",
+          "dt": "2026-09-03",
           "tm": "01:00"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-01",
+          "dt": "2026-09-03",
+          "tm": "16:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-03",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-04",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-04",
           "tm": "13:05"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-01",
+          "dt": "2026-09-04",
           "tm": "16:05"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "18:50"
+          "dt": "2026-09-04",
+          "tm": "19:05"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-01",
+          "dt": "2026-09-04",
           "tm": "21:40"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
+          "dt": "2026-09-05",
           "tm": "01:00"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
+          "dt": "2026-09-05",
           "tm": "13:05"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
+          "dt": "2026-09-05",
           "tm": "16:05"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "18:50"
+          "dt": "2026-09-05",
+          "tm": "19:05"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
+          "dt": "2026-09-05",
           "tm": "21:40"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-03",
+          "dt": "2026-09-06",
           "tm": "01:00"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-03",
+          "dt": "2026-09-06",
+          "tm": "13:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
           "tm": "16:05"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-03",
-          "tm": "21:35"
-        }
-      ]
-    },
-    {
-      "title": "Nirvanna the Band the Show the Movie",
-      "description": "When their plan to book a show at the Rivoli goes horribly wrong, Matt and Jay accidentally travel back to the year 2008.",
-      "poster": "https://image.tmdb.org/t/p/w500/sm5TGX8WbnCd9Uo26cLyTxVwA1n.jpg",
-      "director": "Matt Johnson",
-      "year": "2026",
-      "runtime": "100 min",
-      "rating": "R",
-      "genres": [
-        "Comedy",
-        "Sci-Fi",
-        "Adventure"
-      ],
-      "showtimes": [
+          "dt": "2026-09-06",
+          "tm": "19:05"
+        },
         {
           "c": "carlton",
-          "dt": "2026-09-01",
+          "dt": "2026-09-06",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
           "tm": "01:00"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "15:40"
+          "dt": "2026-09-07",
+          "tm": "13:05"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-01",
-          "tm": "21:35"
+          "dt": "2026-09-07",
+          "tm": "16:05"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
+          "dt": "2026-09-07",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-08",
           "tm": "01:00"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "15:40"
+          "dt": "2026-09-08",
+          "tm": "19:05"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-02",
-          "tm": "21:35"
+          "dt": "2026-09-08",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "21:40"
         }
       ]
     },
@@ -2722,6 +2536,36 @@
           "c": "carlton",
           "dt": "2026-09-08",
           "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "21:45"
         }
       ]
     },
@@ -2844,6 +2688,36 @@
         {
           "c": "carlton",
           "dt": "2026-09-08",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
           "tm": "21:35"
         }
       ]
@@ -2981,6 +2855,36 @@
           "c": "carlton",
           "dt": "2026-09-08",
           "tm": "21:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "21:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "21:55"
         }
       ]
     },
@@ -3111,26 +3015,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-01",
-          "tm": "14:45"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-01",
-          "tm": "19:05"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-02",
-          "tm": "14:45"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-02",
-          "tm": "19:05"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-03",
           "tm": "14:45"
         },
@@ -3177,6 +3061,26 @@
         {
           "c": "kingsway",
           "dt": "2026-09-07",
+          "tm": "19:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-08",
+          "tm": "14:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-08",
+          "tm": "19:05"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-09",
+          "tm": "14:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-09",
           "tm": "19:05"
         }
       ]
@@ -3418,6 +3322,222 @@
           "c": "carlton",
           "dt": "2026-09-07",
           "tm": "18:50"
+        }
+      ]
+    },
+    {
+      "title": "Revue Event: LEONORA IN THE MORNING LIGHT – Canadian Theatrical Premiere",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/leonora_im_morgenlicht_tmdb-oi0i7alntrt5bwrwvb5po3uvu1v-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-09-14",
+          "tm": "18:30",
+          "url": "https://revuecinema.ca/films/revue-event-leonora-in-the-morning-light-canadian-theatrical-premiere/"
+        }
+      ]
+    },
+    {
+      "title": "Free Members-Only Screening: SECRET SCREENING!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2024/06/https___cdn.evbuc.com_images_549155149_134323104653_1_original_(1)-768x384.png",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-09-15",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/free-members-only-screening-secret-screening/"
+        }
+      ]
+    },
+    {
+      "title": "Onslaught",
+      "description": "When a rogue squad of genetically engineered super soldiers break loose in the desert, a badass Army sniper must unleash hell to protect her young daughter.",
+      "poster": "https://image.tmdb.org/t/p/w500/cOGtvhc6Ij9KvzM6jZsfQyg0B0O.jpg",
+      "director": "Adam Wingard",
+      "year": "2026",
+      "genres": [
+        "Action",
+        "Horror",
+        "Thriller"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-09-04",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-04",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-04",
+          "tm": "16:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-04",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-04",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-05",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-05",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-05",
+          "tm": "16:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-05",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-05",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "16:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-06",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "16:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-07",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-08",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-08",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-08",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-09",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "21:30"
+        }
+      ]
+    },
+    {
+      "title": "Practical Magic 2",
+      "description": "A multi generational family of witches, cursed to be loveless for centuries, attempts to break the spell by confronting dark secrets and sacrificing for each other.",
+      "poster": "https://image.tmdb.org/t/p/w500/7jCV8dkRFK3DGJ4dTqlvrMTFPwZ.jpg",
+      "director": "Susanne Bier",
+      "year": "2026",
+      "genres": [
+        "Romance",
+        "Fantasy",
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-10",
+          "tm": "21:50"
         }
       ]
     }

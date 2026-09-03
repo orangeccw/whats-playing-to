@@ -2380,5 +2380,43 @@
     ],
     "_cachedAt": "2026-09-01T14:28:31.429Z",
     "_omdbTried": true
+  },
+  "revue event: leonora in the morning light – canadian theatrical premiere|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-03T14:04:08.136Z",
+    "_omdbTried": true
+  },
+  "free members-only screening: secret screening!|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-03T14:04:09.193Z",
+    "_omdbTried": true
+  },
+  "onslaught|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/cOGtvhc6Ij9KvzM6jZsfQyg0B0O.jpg",
+    "year": "2026",
+    "genres": [
+      "Action",
+      "Horror",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-09-03T14:04:10.257Z",
+    "_omdbTried": true,
+    "omdbDirector": "Adam Wingard",
+    "omdbDescription": "When a rogue squad of genetically engineered super soldiers break loose in the desert, a badass Army sniper must unleash hell to protect her young daughter."
+  },
+  "practical magic 2|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/7jCV8dkRFK3DGJ4dTqlvrMTFPwZ.jpg",
+    "year": "2026",
+    "genres": [
+      "Romance",
+      "Fantasy",
+      "Comedy"
+    ],
+    "_cachedAt": "2026-09-03T14:04:11.319Z",
+    "_omdbTried": true,
+    "omdbDirector": "Susanne Bier",
+    "omdbDescription": "A multi generational family of witches, cursed to be loveless for centuries, attempts to break the spell by confronting dark secrets and sacrificing for each other."
   }
 }
