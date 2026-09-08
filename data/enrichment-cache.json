@@ -2554,5 +2554,41 @@
     ],
     "_cachedAt": "2026-09-05T13:13:16.922Z",
     "_omdbTried": true
+  },
+  "rental event: hayden live at the revue cinema|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-08T14:04:30.947Z",
+    "_omdbTried": true
+  },
+  "psych-out cinema: summer tour – toronto theatrical premiere!|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-08T14:04:31.998Z",
+    "_omdbTried": true
+  },
+  "designing the movies: the women (1939)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-08T14:04:33.057Z",
+    "_omdbTried": true
+  },
+  "the magic flute|2022": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/AeIKugiQy1e3RZTrwXH1a84D8eo.jpg",
+    "year": "2022",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Music",
+      "Family"
+    ],
+    "_cachedAt": "2026-09-08T14:04:34.115Z",
+    "_omdbTried": true,
+    "omdbDirector": "Florian Sigl",
+    "omdbRuntime": "115 min",
+    "omdbDescription": "Follows 17-year-old Tim Walker as he travels from London to the Austrian Alps to attend the legendary Mozart boarding school. There, he discovers a centuries-old forgotten passageway into the fantastic world of Mozart's \"The Magic..."
+  },
+  "jake cornell live!|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-08T14:04:35.161Z",
+    "_omdbTried": true
   }
 }
