@@ -2687,5 +2687,129 @@
     "_tried": true,
     "_cachedAt": "2026-09-10T14:01:49.306Z",
     "_omdbTried": true
+  },
+  "cinema rex: the stranger and the fog|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-12T13:19:05.049Z",
+    "_omdbTried": true
+  },
+  "closed for technical upgrades|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-12T13:19:06.119Z",
+    "_omdbTried": true
+  },
+  "the black nerds: welcome ii the terrordome (1995) – new restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-12T13:19:07.185Z",
+    "_omdbTried": true
+  },
+  "hold up: juno (2007)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-12T13:19:08.244Z",
+    "_omdbTried": true
+  },
+  "nightmare alley: dead & buried – 45th anniversary screening!|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-12T13:19:09.305Z",
+    "_omdbTried": true
+  },
+  "the devil at your heels|1981": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/lpwiqWTrwGSaFSu1qtijymYJS88.jpg",
+    "year": "1981",
+    "genres": [
+      "Documentary"
+    ],
+    "_cachedAt": "2026-09-12T13:19:10.375Z",
+    "_omdbTried": true,
+    "omdbDirector": "Robert Fortier",
+    "omdbRuntime": "102 min",
+    "omdbDescription": "Devil at Your Heels, traces the trials of stuntman Ken Carter who attempts a death defying aerial jump in a car. Not content with a normal jump, Ken Carter attempts a jump from Canada to the USA."
+  },
+  "super wonder short films|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-12T13:19:11.435Z",
+    "_omdbTried": true
+  },
+  "the wolf man (1941)|1941": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/vG8fu5syTtQLzK1hQXyi3ugOPNF.jpg",
+    "year": "1941",
+    "genres": [
+      "Horror",
+      "Drama"
+    ],
+    "_cachedAt": "2026-09-12T13:19:12.514Z",
+    "_omdbTried": true,
+    "omdbDirector": "George Waggner",
+    "omdbRuntime": "70 min",
+    "omdbRating": "Approved",
+    "omdbDescription": "Upon his return to his father's estate, aristocrat Larry Talbot meets a beautiful woman, attends a mystical carnival and uncovers a horrifying curse."
+  },
+  "ghost in the shell: 30th anniversary (sub) (1995)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-12T13:19:03.438Z"
+  },
+  "the matrix (1999)|1999": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/aOIuZAjPaRIE6CMzbazvcHuHXDc.jpg",
+    "year": "1999",
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "_cachedAt": "2026-09-12T13:19:14.674Z",
+    "_omdbTried": true,
+    "omdbDirector": "Lana Wachowski",
+    "omdbRuntime": "136 min",
+    "omdbRating": "R",
+    "omdbDescription": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence."
+  },
+  "we will be together|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/xnFoRKn8n5Q4XSDW9tW7gL5lYQy.jpg",
+    "year": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "_cachedAt": "2026-09-12T13:19:15.829Z",
+    "_omdbTried": true
+  },
+  "minions 2026|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-12T13:19:16.893Z",
+    "_omdbTried": true
+  },
+  "finding emily|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/bfEQ6C702oPsN4kzIiY7n4JsrxF.jpg",
+    "year": "2026",
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
+    "_cachedAt": "2026-09-12T13:19:17.954Z",
+    "_omdbTried": true,
+    "omdbDirector": "Alicia MacDonald",
+    "omdbRuntime": "111 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "When a lovesick musician is given the wrong number for his dream girl, he teams up with a driven psychology student to find her. Together, they spark a hilarious campus-wide frenzy that tests their own hearts and ambitions along t..."
+  },
+  "ghost in the shell: 30th anniversary (sub) (1995)|2017": {
+    "_tried": true,
+    "_cachedAt": "2026-09-12T13:19:13.598Z",
+    "_omdbTried": true,
+    "omdbPoster": "https://m.media-amazon.com/images/M/MV5BNzBkNjdjZTctNjdhOS00NmIyLTlkNjQtY2EwNGMwYmZjNTIxXkEyXkFqcGc@._V1_SX300.jpg",
+    "omdbDirector": "Rupert Sanders",
+    "omdbYear": "2017",
+    "omdbRuntime": "107 min",
+    "omdbRating": "PG-13",
+    "omdbGenres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "omdbDescription": "In the near future, Major Mira Killian is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier devoted to stopping the world's most dangerous criminals."
   }
 }
