@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12",
+  "lastUpdated": "2026-09-15",
   "cinemas": {
     "fox": {
       "name": "Fox Theatre",
@@ -80,13 +80,6 @@
       "showtimes": [
         {
           "c": "hotdocs",
-          "dt": "2026-09-13",
-          "tm": "10:30",
-          "id": "635497",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=635497~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        },
-        {
-          "c": "hotdocs",
           "dt": "2026-09-19",
           "tm": "08:00",
           "id": "635497",
@@ -104,22 +97,6 @@
           "c": "fox",
           "dt": "2026-10-08",
           "url": "https://www.foxtheatre.ca/movies/book-and-film-club-women-talking/"
-        }
-      ]
-    },
-    {
-      "title": "2026 Cat Video Fest",
-      "description": "“Watching silly cat videos is good for you.” &#8211; The Wall Street Journal Cat Video Fest is back at Fox Theatre! Oscilloscope Laboratories presents CatVideoFest 2026, a compilation of the latest and best cat videos culled from countless hours of unique submissions and sourced animations, music videos, and classic internet powerhouses. Each year, across the ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/screen_shot_2026-05-29_at_3.44.09_pm_thumb.png",
-      "year": "2026",
-      "genres": [
-        "Comedy"
-      ],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-09-13",
-          "url": "https://www.foxtheatre.ca/movies/2026-cat-video-fest/"
         }
       ]
     },
@@ -149,21 +126,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-12",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-13",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-14",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-15",
           "tm": "21:00"
         },
@@ -181,19 +143,21 @@
           "c": "kingsway",
           "dt": "2026-09-18",
           "tm": "21:00"
-        }
-      ]
-    },
-    {
-      "title": "Spectacle: Fallen Angels",
-      "description": "Part of our ongoing series &#8220;Spectacle.&#8221; Feast your eyes on the beauty of the moving image! Featuring an extravaganza of cinema’s most visually captivating experiences that are sure to engage your senses! Lost souls reach out for human connection amid a glimmering Hong Kong in Wong Kar Wai’s hallucinatory, neon-soaked nocturne. Originally conceived as a ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/07/fallen_angels_tmdb-yym9bpdwttk5lkzslvhae7qpko1.jpg",
-      "genres": [],
-      "showtimes": [
+        },
         {
-          "c": "fox",
-          "dt": "2026-09-12",
-          "url": "https://www.foxtheatre.ca/movies/spectacle-fallen-angels/"
+          "c": "kingsway",
+          "dt": "2026-09-19",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-20",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-21",
+          "tm": "21:00"
         }
       ]
     },
@@ -212,17 +176,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-12",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-14",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-16",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-19",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-21",
           "tm": "21:00"
         }
       ]
@@ -239,11 +203,22 @@
       ],
       "showtimes": [
         {
-          "c": "hotdocs",
-          "dt": "2026-09-12",
-          "tm": "11:00",
-          "id": "646107",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=646107~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+          "c": "revue",
+          "dt": "2026-09-15",
+          "tm": "15:30",
+          "url": "https://revuecinema.ca/films/tony/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-09-16",
+          "tm": "15:00",
+          "url": "https://revuecinema.ca/films/tony/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-09-17",
+          "tm": "15:30",
+          "url": "https://revuecinema.ca/films/tony/"
         },
         {
           "c": "hotdocs",
@@ -299,34 +274,11 @@
       ]
     },
     {
-      "title": "Klassic Kidz: Labyrinth",
-      "description": "Join us us for an epic adventure into a fantastical world filled with music, Muppets, and David Bowie! Sarah (Jennifer Connelly) rehearses the role of a fairy-tale queen, performing for her stuffed animals. In real life she has to baby-sit her brother and contend with parents who don&#8217;t understand her at all. Her petulance leads ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/labyrinth_tmdb-hbsda1dmna9ilfvoqjkiwyf2oym_thumb.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-09-12",
-          "url": "https://www.foxtheatre.ca/movies/klassic-kidz-labyrinth/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-09-13",
-          "url": "https://www.foxtheatre.ca/movies/klassic-kidz-labyrinth/"
-        }
-      ]
-    },
-    {
       "title": "Temporarily Closed For Concessions Renovations",
       "description": "We will be temporarily closed for updates and renovations to our concession stand. This has been a long time in the making, and we are excited for you all to see the improvements! Please note that the dates for the renovations are tentative and may change.",
       "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/05/TEMPORARILY-CLOSED-FOR-MAINTENANCE-WORK-FROM-1.png",
       "genres": [],
       "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-09-14",
-          "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
-        },
         {
           "c": "fox",
           "dt": "2026-09-15",
@@ -375,19 +327,6 @@
       ]
     },
     {
-      "title": "Staff Picks: Memories of Murder",
-      "description": "Based on the true story of South Korea’s first serial killer, Bong Joon Ho’s &#8220;Memories of Murder&#8221; offers a unique and haunting take on the police procedural, focusing on themes of failure and existential despair rather than typical crime thriller conventions. Set against the political backdrop of the 1980s, the film follows two detectives—a small-town ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/tmdb-jcgujx1qcupgzjnttvlnq15lhqy_thumb.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-09-13",
-          "url": "https://www.foxtheatre.ca/movies/staff-picks-memories-of-murder/"
-        }
-      ]
-    },
-    {
       "title": "It Ends",
       "description": "A group of recent grads head out on a late night drive for grub, hoping to enjoy one final hangout before their paths diverge. Instead, they accidentally turn onto a never-ending, two-lane hellscape surrounded by untold horrors and cosmic forces beyond their understanding. Cramped together inside a Jeep Cherokee and with the miles stretching infinitely ...",
       "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/it_ends_tmdb-6dfagvzwbjnzwfsz8gxfj63bnah_thumb.jpg",
@@ -407,26 +346,6 @@
       ]
     },
     {
-      "title": "Ghost Elephants",
-      "description": "Follows a mysterious herd of ghost elephants in the jungles of Angola.",
-      "poster": "https://image.tmdb.org/t/p/w500/h2zN5Oo89DjwY9Q4F8zto5MlnNb.jpg",
-      "director": "Werner Herzog",
-      "year": "2026",
-      "runtime": "98 min",
-      "genres": [
-        "Documentary"
-      ],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-09-12",
-          "tm": "08:00",
-          "id": "645942",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=645942~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
       "title": "The Big Cheese",
       "description": "An underdog American team competes for first place at France's Mondial du Fromage: the Olympics of cheese.",
       "poster": "https://image.tmdb.org/t/p/w500/7Mji0YUQglZRqEzIZqfnsE3BN7Y.jpg",
@@ -436,13 +355,6 @@
         "Documentary"
       ],
       "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-09-13",
-          "tm": "07:45",
-          "id": "644503",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=644503~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        },
         {
           "c": "hotdocs",
           "dt": "2026-09-20",
@@ -491,21 +403,6 @@
           "tm": "07:00",
           "id": "645943",
           "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=645943~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
-      "title": "The History of Concrete - Special Advance Screening",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-09-23",
-          "tm": "11:00",
-          "id": "644536",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=644536~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
         }
       ]
     },
@@ -700,30 +597,6 @@
       ]
     },
     {
-      "title": "Reading Lolita in Tehran",
-      "description": "The screen adaptation of Azar Nafisi’s beloved memoir tells the true story of a literature professor in revolutionary Iran who, amidst censorship and religious extremism, gathers seven of her most dedicated female students to immerse themselves in banned literary classics.",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/reading_lolita_in_tehran_tmdb-69wqxk3omh0ikles3pcmlhvo3en_thumb.jpg",
-      "director": "Eran Riklis",
-      "year": "2024",
-      "runtime": "107 min",
-      "rating": "Not Rated",
-      "genres": [
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-09-12",
-          "url": "https://www.foxtheatre.ca/movies/reading-lolita-in-tehran/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-09-13",
-          "url": "https://www.foxtheatre.ca/movies/reading-lolita-in-tehran/"
-        }
-      ]
-    },
-    {
       "title": "Meet Cute: Love &#038; Basketball",
       "description": "Reaching for the same pair of black cashmere gloves? A chance encounter on a train? You never know if love is right around the corner! Introducing our new series &#8220;Meet-Cute&#8221; highlighting the best in cinema romances. Monica Wright (Sanaa Lathan) and Quincy McCall (Omar Epps) grew up in the same neighbourhood and have known each ...",
       "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/love__basketball_tmdb-znzwnx19fz5qyedprvm0ldsxfip_thumb.jpg",
@@ -766,11 +639,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-13",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-15",
           "tm": "15:00"
         },
@@ -778,21 +646,11 @@
           "c": "kingsway",
           "dt": "2026-09-18",
           "tm": "15:00"
-        }
-      ]
-    },
-    {
-      "title": "Toronto Apartment/The Pee Pee Poo Poo Man Double Feature",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
+        },
         {
-          "c": "hotdocs",
-          "dt": "2026-09-14",
-          "tm": "12:00",
-          "id": "650936",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650936~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+          "c": "kingsway",
+          "dt": "2026-09-20",
+          "tm": "15:00"
         }
       ]
     },
@@ -840,71 +698,6 @@
         "Family"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "21:30"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-15",
@@ -964,71 +757,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "21:40"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-15",
@@ -1092,71 +820,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "12:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "12:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-15",
           "tm": "02:00"
         },
@@ -1217,17 +880,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-13",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-15",
           "tm": "21:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-09-18",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-20",
           "tm": "21:00"
         }
       ]
@@ -1323,68 +986,6 @@
       ]
     },
     {
-      "title": "Revue Event:  SEVEN SAMURAI (1954) –  Presented on 35mm!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2024/06/165id_645_w1600-768x431.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-12",
-          "tm": "13:00",
-          "url": "https://revuecinema.ca/films/seven-samurai/"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-09-13",
-          "tm": "13:45",
-          "url": "https://revuecinema.ca/films/seven-samurai/"
-        }
-      ]
-    },
-    {
-      "title": "(Not-So) Terrible Twos: OCEAN’S TWELVE (2004)",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/ocean's_twelve_tmdb-pe5anff7nf6ah7v3vrezq1ksovi-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-12",
-          "tm": "18:30",
-          "url": "https://revuecinema.ca/films/not-so-terrible-twos-oceans-twelve-2004/"
-        }
-      ]
-    },
-    {
-      "title": "Don’t Be So Political: NINOTCHKA (1939)",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/ninotchka_tmdb-v4mkgnqzyodywbdnbz64mf9tvel-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-13",
-          "tm": "18:45",
-          "url": "https://revuecinema.ca/films/dont-be-so-political-ninotchka-1939/"
-        }
-      ]
-    },
-    {
-      "title": "Revue Event: LEONORA IN THE MORNING LIGHT – Canadian Theatrical Premiere",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/leonora_im_morgenlicht_tmdb-oi0i7alntrt5bwrwvb5po3uvu1v-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-14",
-          "tm": "18:30",
-          "url": "https://revuecinema.ca/films/revue-event-leonora-in-the-morning-light-canadian-theatrical-premiere/"
-        }
-      ]
-    },
-    {
       "title": "Free Members-Only Screening: SECRET SCREENING!",
       "description": "",
       "poster": "https://revuecinema.ca/wp-content/uploads/2024/06/https___cdn.evbuc.com_images_549155149_134323104653_1_original_(1)-768x384.png",
@@ -1410,71 +1011,6 @@
         "Thriller"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "16:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "16:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "21:30"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-15",
@@ -1534,106 +1070,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "14:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "17:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "20:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "14:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "17:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "20:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "20:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "21:50"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-15",
@@ -1725,71 +1161,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "13:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "16:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "13:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "16:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-15",
           "tm": "01:00"
         },
@@ -1848,81 +1219,6 @@
         "Romance"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "15:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "17:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "21:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "15:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "17:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "21:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "21:55"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-15",
@@ -1985,71 +1281,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "12:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "15:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-12",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "12:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "15:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-13",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-14",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-15",
           "tm": "01:00"
         },
@@ -2109,51 +1340,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-12",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-12",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-12",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-13",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-13",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-13",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-14",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-14",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-14",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-15",
           "tm": "15:00"
         },
@@ -2210,6 +1396,51 @@
         {
           "c": "kingsway",
           "dt": "2026-09-18",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-19",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-19",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-19",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-20",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-20",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-20",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-21",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-21",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-21",
           "tm": "19:00"
         }
       ]
@@ -2229,17 +1460,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-12",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-14",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-16",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-19",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-21",
           "tm": "15:00"
         }
       ]
@@ -2517,21 +1748,6 @@
       ]
     },
     {
-      "title": "Rheostatics Perform Great Lake Suite",
-      "description": "",
-      "poster": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/350/2026/07/07163742/IMG_1475-scaled.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-09-12",
-          "tm": "20:00",
-          "id": "588811",
-          "url": "https://paradiseonbloor.com/purchase/588811/"
-        }
-      ]
-    },
-    {
       "title": "Cinema Rex: The Stranger and the Fog",
       "description": "Presented by Cinema Rex Podcast. From Kiarostami to Abbasi, from Farrokhzad to Amirpour. From pre-revolutionary cinema to modern times. Join Iranian-Canadian filmmakers Kaveh Mohebbi and Faran Moradi (a screenwriter and a director) as they embark on a crash-course on all that Iranian cinema has to offer episode-to-episode one film at a time. Set around the ...",
       "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/tmdb-i35kvrj5qujpe1vbdsx3glooli3_thumb.jpg",
@@ -2607,58 +1823,6 @@
       ]
     },
     {
-      "title": "The Devil at Your Heels",
-      "description": "Devil at Your Heels, traces the trials of stuntman Ken Carter who attempts a death defying aerial jump in a car. Not content with a normal jump, Ken Carter attempts a jump from Canada to the USA.",
-      "poster": "https://image.tmdb.org/t/p/w500/lpwiqWTrwGSaFSu1qtijymYJS88.jpg",
-      "director": "Robert Fortier",
-      "year": "1981",
-      "runtime": "102 min",
-      "genres": [
-        "Documentary"
-      ],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-09-13",
-          "tm": "13:00",
-          "id": "629543",
-          "url": "https://paradiseonbloor.com/purchase/629543/"
-        }
-      ]
-    },
-    {
-      "title": "Super Wonder Short Films",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-09-14",
-          "tm": "12:30",
-          "id": "621760"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-09-14",
-          "tm": "14:00",
-          "id": "621761"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-09-14",
-          "tm": "16:00",
-          "id": "621762"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-09-14",
-          "tm": "20:00",
-          "id": "621763"
-        }
-      ]
-    },
-    {
       "title": "The Wolf Man (1941)",
       "description": "Upon his return to his father's estate, aristocrat Larry Talbot meets a beautiful woman, attends a mystical carnival and uncovers a horrifying curse.",
       "poster": "https://image.tmdb.org/t/p/w500/vG8fu5syTtQLzK1hQXyi3ugOPNF.jpg",
@@ -2714,6 +1878,66 @@
         {
           "c": "carlton",
           "dt": "2026-09-19",
+          "tm": "21:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "13:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "15:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "17:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "21:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-21",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-21",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-21",
+          "tm": "21:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-22",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-22",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-22",
           "tm": "21:55"
         }
       ]
@@ -2771,6 +1995,61 @@
           "c": "carlton",
           "dt": "2026-09-19",
           "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "12:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "15:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-21",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-21",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-21",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-22",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-22",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-22",
+          "tm": "21:40"
         }
       ]
     },
@@ -2826,6 +2105,61 @@
           "c": "carlton",
           "dt": "2026-09-19",
           "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "12:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "15:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "18:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-20",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-21",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-21",
+          "tm": "18:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-21",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-22",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-22",
+          "tm": "18:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-22",
+          "tm": "21:30"
         }
       ]
     },
@@ -2859,36 +2193,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-12",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-12",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-13",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-13",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-14",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-14",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-15",
           "tm": "13:15"
         },
@@ -2925,6 +2229,36 @@
         {
           "c": "kingsway",
           "dt": "2026-09-18",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-19",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-19",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-20",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-20",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-21",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-21",
           "tm": "17:00"
         }
       ]
@@ -2944,36 +2278,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-12",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-12",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-13",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-13",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-14",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-14",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-15",
           "tm": "15:00"
         },
@@ -3011,17 +2315,857 @@
           "c": "kingsway",
           "dt": "2026-09-18",
           "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-19",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-19",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-20",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-20",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-21",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-21",
+          "tm": "19:00"
+        }
+      ]
+    },
+    {
+      "title": "Unsubculture presents: Samara",
+      "description": "Join Unsubculture for an evening of film, atmosphere, and exploration. We will be screening the enigmatic film Samsara, a visual odyssey that spans 5 years in the making, and 25 countries across the globe. From the same creative team that produced Baraka, with Mark Magidson producing, and Ron Fricke directing, Samsara takes us into a ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/unsubculture_samsara_eventposter_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-11-04",
+          "url": "https://www.foxtheatre.ca/movies/unsubculture-presents-samara/"
+        }
+      ]
+    },
+    {
+      "title": "Neon Dreams: LIGHT SLEEPER (1992) – Presented on 35mm!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/light_sleeper_tmdb-ffsdoykp80rck81kunw3rz7fclx-768x1133.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-09-25",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/neon-dreams-light-sleeper-1992-presented-on-35mm/"
+        }
+      ]
+    },
+    {
+      "title": "Rental Event: SURREAL FILMS: TORONTO-BASED GENRE SHORTS",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/08/image_(1)-768x432.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-09-25",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/rental-event-surreal-films-toronto-based-genre-shorts/"
+        }
+      ]
+    },
+    {
+      "title": "The Perfect Date & Halloween Screening: Nirvanna the Band the Show the Movie",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/03/nirvanna_the_band_the_show_the_movie_tmdb-sm5tgx8wbncd9uo26clytxvwa1n-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-09-26",
+          "tm": "13:00",
+          "url": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-27",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/"
+        }
+      ]
+    },
+    {
+      "title": "Ali Plumb's Untitled Film Quiz Project",
+      "description": "",
+      "poster": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/350/2026/08/19174545/AliFilmQuiz_Pixar_V1_640x360.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-09-15",
+          "tm": "20:00",
+          "id": "628475",
+          "url": "https://paradiseonbloor.com/purchase/628475/"
+        }
+      ]
+    },
+    {
+      "title": "T.O. Indie 2026: Shorts Block 1",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-09-16",
+          "tm": "18:00",
+          "id": "633793",
+          "url": "https://paradiseonbloor.com/purchase/633793/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-09-16",
+          "tm": "20:00",
+          "id": "633794",
+          "url": "https://paradiseonbloor.com/purchase/633794/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-09-16",
+          "tm": "22:00",
+          "id": "633795",
+          "url": "https://paradiseonbloor.com/purchase/633795/"
+        }
+      ]
+    },
+    {
+      "title": "T.O. Indie 2026: Shorts Block 3",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-09-17",
+          "tm": "18:00",
+          "id": "633799",
+          "url": "https://paradiseonbloor.com/purchase/633799/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-09-17",
+          "tm": "20:00",
+          "id": "633800",
+          "url": "https://paradiseonbloor.com/purchase/633800/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-09-17",
+          "tm": "22:00",
+          "id": "633808",
+          "url": "https://paradiseonbloor.com/purchase/633808/"
+        }
+      ]
+    },
+    {
+      "title": "The History of Concrete",
+      "description": "A filmmaker applies lessons from a Hallmark movie writing workshop to pitch a documentary about concrete.",
+      "poster": "https://image.tmdb.org/t/p/w500/geoYKcLBlTHfuFLyQy9GHH8M9Hh.jpg",
+      "director": "John Wilson",
+      "year": "2026",
+      "runtime": "100 min",
+      "genres": [
+        "Documentary",
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-09-23",
+          "tm": "11:00",
+          "id": "644536",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=644536~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-11-07",
+          "tm": "14:00",
+          "id": "644536",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=644536~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "The Green Bench",
+      "description": "",
+      "poster": "https://image.tmdb.org/t/p/w500/tDv2YC41o35i1sOSHtRT2UV9Zmn.jpg",
+      "director": "Sarah Fodey",
+      "year": "2026",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-02",
+          "tm": "11:00",
+          "id": "654901",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=654901~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Exhibition on Screen: James McNeill Whistler",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-03",
+          "tm": "05:30",
+          "id": "650661",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650661~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-17",
+          "tm": "05:30",
+          "id": "650661",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650661~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Sans Soleil",
+      "description": "A woman narrates the contemplative writings of a seasoned world traveler, focusing on contemporary Japan.",
+      "poster": "https://image.tmdb.org/t/p/w500/2ZmVbnecEeGoZCimxMhpY0Nz7eh.jpg",
+      "director": "Chris Marker",
+      "year": "1983",
+      "runtime": "100 min",
+      "rating": "Not Rated",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-03",
+          "tm": "08:00",
+          "id": "651199",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=651199~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "The Sickling",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-03",
+          "tm": "11:00",
+          "id": "651200",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=651200~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "The Sheep Detectives",
+      "description": "Every night a shepherd reads aloud a murder mystery, pretending his sheep can understand. When he is found dead, the sheep realize at once that it was a murder and think they know everything about how to go about solving it.",
+      "poster": "https://image.tmdb.org/t/p/w500/iKy5460GdsoknM8ppmGlJbKxAKa.jpg",
+      "director": "Kyle Balda",
+      "year": "2026",
+      "runtime": "109 min",
+      "rating": "PG",
+      "genres": [
+        "Comedy",
+        "Family",
+        "Mystery"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-04",
+          "tm": "05:00",
+          "id": "651205",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=651205~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Broken English",
+      "description": "Since college, Nora hasn't had much luck with men. Now in her 30s, she works in a NYC hotel going nowhere. That is, until she meets Julien.",
+      "poster": "https://image.tmdb.org/t/p/w500/dhT0Okekfq6Ncqh5ttFBGM6TimF.jpg",
+      "director": "Zoe R. Cassavetes",
+      "year": "2026",
+      "runtime": "93 min",
+      "rating": "PG-13",
+      "genres": [
+        "Documentary",
+        "Music"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-04",
+          "tm": "08:00",
+          "id": "621800",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=621800~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-11",
+          "tm": "05:00",
+          "id": "621800",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=621800~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "There Are No Words",
+      "description": "A local filmmaker traces her journey through grief after losing her mother to suicide in her preteen years.",
+      "poster": "https://image.tmdb.org/t/p/w500/AgVxf05HEhlnrrqYGtfssGkyQUq.jpg",
+      "director": "Min Sook Lee",
+      "year": "2025",
+      "runtime": "99 min",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-04",
+          "tm": "10:30",
+          "id": "650670",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650670~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Doc Soup: Hanging by a Wire",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-07",
+          "tm": "11:00",
+          "id": "641944",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=641944~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-08",
+          "tm": "14:30",
+          "id": "641944",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=641944~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution...",
+      "description": "A documentary about the legendary 1972 Toronto production of the musical about the life of Jesus, which launched many illustrious careers and ignited a comedy revolution.",
+      "poster": "https://image.tmdb.org/t/p/w500/ww7BKE0TdKYLz0h6Ms8vLpptaiE.jpg",
+      "director": "Nick Davis",
+      "year": "2026",
+      "runtime": "98 min",
+      "genres": [
+        "Documentary",
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-09",
+          "tm": "10:45",
+          "id": "650672",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650672~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-18",
+          "tm": "11:00",
+          "id": "650672",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650672~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-24",
+          "tm": "05:30",
+          "id": "650672",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650672~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "House (Hausu)",
+      "description": "When Patrizia Reggiani, an outsider from humble beginnings, marries into the Gucci family, her unbridled ambition begins to unravel their legacy and triggers a reckless spiral of betrayal, decadence, revenge, and ultimately...murder.",
+      "poster": "https://image.tmdb.org/t/p/w500/pmH5VDL3JVgQOCcnfKEWDwEqLE1.jpg",
+      "director": "Ridley Scott",
+      "year": "2021",
+      "runtime": "158 min",
+      "rating": "R",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-09",
+          "tm": "13:15",
+          "id": "651201",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=651201~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Dear Lara",
+      "description": "",
+      "poster": "https://image.tmdb.org/t/p/w500/grpQhtkqXrjMvx0Ay3lN0VniyR.jpg",
+      "director": "Lara St John",
+      "year": "2026",
+      "runtime": "95 min",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-10",
+          "tm": "05:00",
+          "id": "653464",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=653464~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Union Town",
+      "description": "",
+      "poster": "https://image.tmdb.org/t/p/w500/wxaSeSZ2BCHxfeJTCZ88zjbs4EX.jpg",
+      "year": "2026",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-10",
+          "tm": "08:15",
+          "id": "651804",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=651804~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-18",
+          "tm": "05:00",
+          "id": "651804",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=651804~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "National Theatre Live: The Misanthrope - with Sandra Oh",
+      "description": "",
+      "poster": "https://image.tmdb.org/t/p/w500/d9IOrH7HY4Q5fMNAxq3NtVwGfLM.jpg",
+      "year": "2026",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-11",
+          "tm": "07:30",
+          "id": "650663",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650663~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Nostalgia for the Light",
+      "description": "A documentary about two different searches conducted in the Chilean Atacama Desert: one by astronomers looking for answers about the history of the cosmos, and one by women looking for the remains of loved ones killed by Pinochet'...",
+      "poster": "https://image.tmdb.org/t/p/w500/j8NsCokx3dveFDL1YAvJPWHkrDx.jpg",
+      "director": "Patricio Guzmán",
+      "year": "2010",
+      "runtime": "90 min",
+      "rating": "Not Rated",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-11",
+          "tm": "11:00",
+          "id": "651203",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=651203~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Robert Kolker on The Vanishing Family",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-14",
+          "tm": "11:00",
+          "id": "653449",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=653449~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "The Sandbox",
+      "description": "A bored housewife takes refuge in a fantasy world.",
+      "poster": "https://image.tmdb.org/t/p/w500/8Fdb2ewRZoAVb57KifXgyUZDlnE.jpg",
+      "director": "Irvin Kershner",
+      "year": "1972",
+      "runtime": "97 min",
+      "rating": "R",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-16",
+          "tm": "11:00",
+          "id": "651198",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=651198~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "T.S. Eliot's Four Quartets - with Sophie Fiennes",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-17",
+          "tm": "08:00",
+          "id": "650655",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650655~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "The Theft",
+      "description": "The Theft traces a set of ancient, treasured artifacts stolen from Afghanistan that have, in some cases, ended up in the hands of Western museums.",
+      "poster": "https://image.tmdb.org/t/p/w500/xdAfS5dJThwwoOpXZevzgdZMS4p.jpg",
+      "director": "Aisha Jamal",
+      "year": "2026",
+      "runtime": "85 min",
+      "genres": [
+        "Crime",
+        "Mystery",
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-18",
+          "tm": "08:00",
+          "id": "650669",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650669~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Vincent Price: What Keeps Us Alive - with Victoria Price",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-21",
+          "tm": "11:00",
+          "id": "653465",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=653465~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Black Zombie",
+      "description": "A journey through cinema and history reveals how zombies evolved from Haitian spiritual traditions into Hollywood horror, exploring their deeper cultural significance as powerful symbols of resilience.",
+      "poster": "https://image.tmdb.org/t/p/w500/pDYkgAg0yl3TD9Zl2OiSMP0VPvw.jpg",
+      "director": "Maya Annik Bedward",
+      "year": "2026",
+      "runtime": "90 min",
+      "genres": [
+        "Documentary",
+        "Horror",
+        "Thriller"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-23",
+          "tm": "10:30",
+          "id": "650657",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650657~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-31",
+          "tm": "07:30",
+          "id": "650657",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650657~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Strange Journey: The Story of Rocky Horror",
+      "description": "A London theater play evolves into a groundbreaking cult phenomenon, featuring iconic songs and performances that celebrate individuality. The legacy lives on through midnight screenings and a devoted following that spans generati...",
+      "poster": "https://image.tmdb.org/t/p/w500/dsmzcTYLKrHLeZZZXiLPN0uUuYH.jpg",
+      "director": "Linus O&apos;Brien",
+      "year": "2025",
+      "runtime": "89 min",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-23",
+          "tm": "13:30",
+          "id": "521990",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=521990~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Frankenstein (1931)",
+      "description": "Dr. Victor Frankenstein, a brilliant but egotistical scientist, brings a creature to life in a monstrous experiment that ultimately leads to the undoing of both the creator and his tragic creation.",
+      "poster": "https://image.tmdb.org/t/p/w500/g4JtvGlQO7DByTI6frUobqvSL3R.jpg",
+      "director": "Guillermo del Toro",
+      "year": "2025",
+      "runtime": "149 min",
+      "rating": "R",
+      "genres": [
+        "Drama",
+        "Fantasy",
+        "Horror"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-25",
+          "tm": "05:00",
+          "id": "651197",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=651197~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Baby Doe",
+      "description": "As a young woman in a conservative Christian community, Gail gave birth alone and left her newborn in the woods. Decades later, she's arrested for murder, despite her claim that the baby was stillborn.",
+      "poster": "https://image.tmdb.org/t/p/w500/8g6wk91o2YpejIKtq2BbS2MViOE.jpg",
+      "director": "Jessica Earnshaw",
+      "year": "2026",
+      "runtime": "100 min",
+      "genres": [
+        "Crime",
+        "Sci-Fi"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-25",
+          "tm": "07:30",
+          "id": "651337",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=651337~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Begone Dull Care: The Films of Norman McLaren and Evelyn Lambart",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-25",
+          "tm": "10:30",
+          "id": "651204",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=651204~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Bride of Frankenstein",
+      "description": "Mary Shelley reveals the main characters of her novel survived: Baron Henry Frankenstein, goaded by an even madder scientist, builds his monster a mate.",
+      "poster": "https://image.tmdb.org/t/p/w500/5241zUwe7rC17MNc2QpCBKKdp1N.jpg",
+      "director": "James Whale",
+      "year": "1935",
+      "runtime": "75 min",
+      "rating": "Approved",
+      "genres": [
+        "Horror",
+        "Sci-Fi"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-31",
+          "tm": "05:00",
+          "id": "651196",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=651196~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Once Upon a Time in Harlem",
+      "description": "A decade post-death, filmmaker William Greaves reveals his final work: footage of a 1972 gathering he arranged with Harlem Renaissance legends, which he deemed his most significant capture.",
+      "poster": "https://image.tmdb.org/t/p/w500/9eukk5gby8NZCwraiC7mloZmasP.jpg",
+      "year": "2026",
+      "runtime": "100 min",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-11-01",
+          "tm": "06:00",
+          "id": "650666",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650666~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Fallen Angels",
+      "description": "This Hong Kong-set crime drama follows the lives of a hitman, hoping to get out of the business, and his elusive female partner.",
+      "poster": "https://image.tmdb.org/t/p/w500/yyM9BPdwttK5LKZSLvHae7QPKo1.jpg",
+      "director": "Wong Kar-Wai",
+      "year": "1995",
+      "runtime": "99 min",
+      "rating": "Not Rated",
+      "genres": [
+        "Action",
+        "Romance",
+        "Crime"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-11-01",
+          "tm": "08:45",
+          "id": "650678",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650678~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Musk",
+      "description": "A thorough and unvarnished analysis of Elon Musk, a technology billionaire who serves as the CEO of Tesla, SpaceX, and Twitter.",
+      "poster": "https://image.tmdb.org/t/p/w500/fAyZqyN78VYb0usFgsmYjxZIFcN.jpg",
+      "director": "Alex Gibney",
+      "year": "2026",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-11-01",
+          "tm": "11:15",
+          "id": "650665",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650665~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-11-07",
+          "tm": "06:00",
+          "id": "650665",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650665~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-11-14",
+          "tm": "09:00",
+          "id": "650665",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650665~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Run Terry Run",
+      "description": "A behind-the-scenes look at Terry Fox's legendary 1980 Marathon of Hope.",
+      "poster": "https://image.tmdb.org/t/p/w500/sSstsc561xip9s5FKereo1r1I9i.jpg",
+      "director": "Sean Menard",
+      "year": "2026",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-11-07",
+          "tm": "11:00",
+          "id": "650668",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650668~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-11-14",
+          "tm": "06:00",
+          "id": "650668",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650668~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
         }
       ]
     }
   ],
   "tiffFilms": [
     {
-      "title": "African Works in Progress (WIP) powered by CANEX Creations Inc.",
+      "title": "2.6 Seconds: Death in the Outback",
       "note": "TIFF"
     },
     {
-      "title": "After Elena",
+      "title": "A Talent for Murder",
+      "note": "TIFF"
+    },
+    {
+      "title": "Alice: Pioneer of Cinema",
+      "note": "TIFF"
+    },
+    {
+      "title": "All About Corinne",
+      "note": "TIFF"
+    },
+    {
+      "title": "All That She Wants",
+      "note": "TIFF"
+    },
+    {
+      "title": "Alpha Gang",
       "note": "TIFF"
     },
     {
@@ -3029,19 +3173,23 @@
       "note": "TIFF"
     },
     {
-      "title": "American Hostage",
+      "title": "Angh",
       "note": "TIFF"
     },
     {
-      "title": "Ancestors",
+      "title": "Ashes",
       "note": "TIFF"
     },
     {
-      "title": "Arne Goes to Space",
+      "title": "Atonement",
       "note": "TIFF"
     },
     {
-      "title": "At Night",
+      "title": "BURGUNDY",
+      "note": "TIFF"
+    },
+    {
+      "title": "Ba's Book",
       "note": "TIFF"
     },
     {
@@ -3049,15 +3197,27 @@
       "note": "TIFF"
     },
     {
-      "title": "Back in Black",
+      "title": "Bad Lieutenant: Tokyo",
       "note": "TIFF"
     },
     {
-      "title": "Bedford Park",
+      "title": "Ben'Imana",
       "note": "TIFF"
     },
     {
-      "title": "Being Heumann",
+      "title": "Beyond Culture",
+      "note": "TIFF"
+    },
+    {
+      "title": "Big World",
+      "note": "TIFF"
+    },
+    {
+      "title": "Bitter Christmas",
+      "note": "TIFF"
+    },
+    {
+      "title": "Blindspot Berlin",
       "note": "TIFF"
     },
     {
@@ -3065,51 +3225,51 @@
       "note": "TIFF"
     },
     {
+      "title": "Bunker",
+      "note": "TIFF"
+    },
+    {
+      "title": "CASSOWARY",
+      "note": "TIFF"
+    },
+    {
+      "title": "Chernobyl-2: Life After",
+      "note": "TIFF"
+    },
+    {
       "title": "Cheyenne",
       "note": "TIFF"
     },
     {
-      "title": "Clarissa",
+      "title": "Congo Boy",
       "note": "TIFF"
     },
     {
-      "title": "Closing Night",
+      "title": "DIALOGUES Expanding the Blade Runner Universe: A Multiplatform Evolution",
       "note": "TIFF"
     },
     {
-      "title": "DIALOGUES Canada's AI Advantage: Building the Next Screen Economy",
+      "title": "DIALOGUES Indigenous Actors Taking the Lead",
       "note": "TIFF"
     },
     {
-      "title": "DIALOGUES Documentary Producers: How They Did It",
+      "title": "DIALOGUES Local Sets, Global Laughs: Filming Comedies in Ontario with All That She Wants and Back In Black",
       "note": "TIFF"
     },
     {
-      "title": "Daniel",
+      "title": "DIALOGUES Producing in Times of Conflict",
       "note": "TIFF"
     },
     {
-      "title": "Director Spotlight presented by TheWrap",
+      "title": "Darlene Love: I Know Where I've Been",
       "note": "TIFF"
     },
     {
-      "title": "Djinn Wedding",
+      "title": "Dear You",
       "note": "TIFF"
     },
     {
-      "title": "Dorothy",
-      "note": "TIFF"
-    },
-    {
-      "title": "Drifter",
-      "note": "TIFF"
-    },
-    {
-      "title": "Edward Said: Between Worlds",
-      "note": "TIFF"
-    },
-    {
-      "title": "Eleven Days",
+      "title": "Elephants in the Fog",
       "note": "TIFF"
     },
     {
@@ -3117,55 +3277,35 @@
       "note": "TIFF"
     },
     {
-      "title": "Everest: The Other Side",
+      "title": "Everytime",
       "note": "TIFF"
     },
     {
-      "title": "Everybody Wants to F*ck Me",
+      "title": "FAT",
       "note": "TIFF"
     },
     {
-      "title": "Evil Genius",
+      "title": "Four Seasons in Java",
       "note": "TIFF"
     },
     {
-      "title": "Faith",
+      "title": "Freaky Friday",
       "note": "TIFF"
     },
     {
-      "title": "For You Feed to Feature Film",
+      "title": "Gentle Monster",
       "note": "TIFF"
     },
     {
-      "title": "From Pitch to Production: IP Exchange, Drama",
+      "title": "Ha-Chan, Shake Your Booty!",
       "note": "TIFF"
     },
     {
-      "title": "Frontières at TIFF: The Market",
+      "title": "Head to Head",
       "note": "TIFF"
     },
     {
-      "title": "Furies",
-      "note": "TIFF"
-    },
-    {
-      "title": "Gail",
-      "note": "TIFF"
-    },
-    {
-      "title": "Girl Group",
-      "note": "TIFF"
-    },
-    {
-      "title": "Glaxo",
-      "note": "TIFF"
-    },
-    {
-      "title": "Growth of the Soil",
-      "note": "TIFF"
-    },
-    {
-      "title": "Having a Moment: Canadian Documentaries",
+      "title": "Heated Regulations, Local Content Rivalries",
       "note": "TIFF"
     },
     {
@@ -3173,27 +3313,27 @@
       "note": "TIFF"
     },
     {
-      "title": "I Am Mario",
+      "title": "How We Stand",
       "note": "TIFF"
     },
     {
-      "title": "I Play Rocky",
+      "title": "In Conversation With... Rachel Morrison",
       "note": "TIFF"
     },
     {
-      "title": "Idda",
+      "title": "In Waves",
       "note": "TIFF"
     },
     {
-      "title": "In Alaska",
+      "title": "Independent Film is Dead. Long Live Independent Film!",
       "note": "TIFF"
     },
     {
-      "title": "In Conversation With... Andrew Scott",
+      "title": "Inherit",
       "note": "TIFF"
     },
     {
-      "title": "In the Heart of the South",
+      "title": "Ink",
       "note": "TIFF"
     },
     {
@@ -3201,63 +3341,55 @@
       "note": "TIFF"
     },
     {
-      "title": "Iron Boy",
+      "title": "Intermission",
       "note": "TIFF"
     },
     {
-      "title": "Jim Queen",
+      "title": "It's My Time",
       "note": "TIFF"
     },
     {
-      "title": "Krux",
+      "title": "Kick On",
       "note": "TIFF"
     },
     {
-      "title": "L'AUTRE",
+      "title": "Kissed",
       "note": "TIFF"
     },
     {
-      "title": "Lemonade",
+      "title": "La Bola Negra",
       "note": "TIFF"
     },
     {
-      "title": "Long Long Night",
+      "title": "Ladies and Gentlemen, Brian Mulroney",
       "note": "TIFF"
     },
     {
-      "title": "Madagascar",
+      "title": "London",
       "note": "TIFF"
     },
     {
-      "title": "Man in Motion: The Rick Hansen Story",
+      "title": "Love is the monster",
       "note": "TIFF"
     },
     {
-      "title": "Man of Valor",
+      "title": "Low Lies The Land",
       "note": "TIFF"
     },
     {
-      "title": "Masc",
+      "title": "Marie Madeleine",
       "note": "TIFF"
     },
     {
-      "title": "Matter of Time",
+      "title": "Memories of a Forest",
       "note": "TIFF"
     },
     {
-      "title": "Meet the Creators: the Innovation Hub, Session 2",
+      "title": "Minotaur",
       "note": "TIFF"
     },
     {
-      "title": "Mimics",
-      "note": "TIFF"
-    },
-    {
-      "title": "Misty Green",
-      "note": "TIFF"
-    },
-    {
-      "title": "Nosotros",
+      "title": "Mr. Nelson, Did You Kill People?",
       "note": "TIFF"
     },
     {
@@ -3265,39 +3397,47 @@
       "note": "TIFF"
     },
     {
-      "title": "Our Share of Sand",
+      "title": "Once Upon a Time in Harlem",
       "note": "TIFF"
     },
     {
-      "title": "PERSPECTIVES Congrats on the Film! When Can I See It?",
+      "title": "Ontario Creates Happy Hour",
       "note": "TIFF"
     },
     {
-      "title": "PERSPECTIVES Equity and Parity in Independent Film: The Ethos Model with Clint Bentley, Greg Kwedar, and Colman Domingo",
+      "title": "Our Loves",
       "note": "TIFF"
     },
     {
-      "title": "PERSPECTIVES Fright Night to Spotlight: Making It in Cinema",
+      "title": "Oxygen Masks Will (Not) Drop Automatically",
       "note": "TIFF"
     },
     {
-      "title": "PERSPECTIVES Funding Without Borders: Unlocking Regional and Global Funds",
+      "title": "PERSPECTIVES Focus on French-Language Series Co-productions",
       "note": "TIFF"
     },
     {
-      "title": "PERSPECTIVES In Short: What Short Film Programmers Want",
+      "title": "PERSPECTIVES Taking IP Live: Successful Touring Exhibitions",
       "note": "TIFF"
     },
     {
-      "title": "PERSPECTIVES New Partnerships, New Possibilities in Series Financing",
+      "title": "PERSPECTIVES The State of Distribution",
       "note": "TIFF"
     },
     {
-      "title": "PERSPECTIVES The Global Sales Playbook",
+      "title": "Possible Love",
       "note": "TIFF"
     },
     {
-      "title": "Purgatory",
+      "title": "Pretenders",
+      "note": "TIFF"
+    },
+    {
+      "title": "Re/Pair",
+      "note": "TIFF"
+    },
+    {
+      "title": "Rehearsals for a Revolution",
       "note": "TIFF"
     },
     {
@@ -3305,19 +3445,19 @@
       "note": "TIFF"
     },
     {
-      "title": "SUPERTHINGS: THE MOVIE",
+      "title": "SeriesFest Pitch-A-Thon Roadshow",
       "note": "TIFF"
     },
     {
-      "title": "Salvation",
+      "title": "Seventeen",
       "note": "TIFF"
     },
     {
-      "title": "She Dances",
+      "title": "Short Cuts 2026 Programme 01",
       "note": "TIFF"
     },
     {
-      "title": "Short Cuts 2026 Programme 03",
+      "title": "Short Cuts 2026 Programme 06",
       "note": "TIFF"
     },
     {
@@ -3329,23 +3469,19 @@
       "note": "TIFF"
     },
     {
-      "title": "Smudge the Blades",
+      "title": "Someone's Daughter",
       "note": "TIFF"
     },
     {
-      "title": "Still Night, Burning House",
+      "title": "Tehran, Under the Skin",
       "note": "TIFF"
     },
     {
-      "title": "Straight Shot",
+      "title": "Tenzing",
       "note": "TIFF"
     },
     {
-      "title": "Tender Loving Care",
-      "note": "TIFF"
-    },
-    {
-      "title": "The Betrayers",
+      "title": "The Black Box is Orange",
       "note": "TIFF"
     },
     {
@@ -3353,7 +3489,11 @@
       "note": "TIFF"
     },
     {
-      "title": "The Face of Horror",
+      "title": "The Daughters of Abraham",
+      "note": "TIFF"
+    },
+    {
+      "title": "The Elder Hunters",
       "note": "TIFF"
     },
     {
@@ -3361,15 +3501,11 @@
       "note": "TIFF"
     },
     {
-      "title": "The Housewife",
+      "title": "The Fortunate Isles",
       "note": "TIFF"
     },
     {
-      "title": "The Hummingbird Paints Fragrant Songs",
-      "note": "TIFF"
-    },
-    {
-      "title": "The Julia Set",
+      "title": "The Idiot(s)",
       "note": "TIFF"
     },
     {
@@ -3377,15 +3513,15 @@
       "note": "TIFF"
     },
     {
-      "title": "The Secret Lives of Baba Segi's Wives",
+      "title": "The Lychee Road",
       "note": "TIFF"
     },
     {
-      "title": "The Smell of Apples",
+      "title": "The Pervert's Guide to Utopias",
       "note": "TIFF"
     },
     {
-      "title": "The Stunt Driver",
+      "title": "The Spiral",
       "note": "TIFF"
     },
     {
@@ -3393,15 +3529,15 @@
       "note": "TIFF"
     },
     {
-      "title": "The Town with Matt Belloni and Matthew Greenfield",
+      "title": "The Unknown",
       "note": "TIFF"
     },
     {
-      "title": "The Ultra Runner",
+      "title": "Thirteen in Gaza",
       "note": "TIFF"
     },
     {
-      "title": "The bovine with the curved horns",
+      "title": "Toy Gun Bandit",
       "note": "TIFF"
     },
     {
@@ -3409,31 +3545,47 @@
       "note": "TIFF"
     },
     {
-      "title": "Up Against It",
+      "title": "Turtle Island Rap",
       "note": "TIFF"
     },
     {
-      "title": "Vintage Violence",
+      "title": "Tyler Perry Studios presents Maxscene: A New Home for Filmmakers",
       "note": "TIFF"
     },
     {
-      "title": "Viva Carmen",
+      "title": "Union Town",
       "note": "TIFF"
     },
     {
-      "title": "Wavelengths 2: This Suffocating Now",
+      "title": "Voices",
       "note": "TIFF"
     },
     {
-      "title": "Whatcha Want",
+      "title": "Wavelengths 3: Time and Tide",
       "note": "TIFF"
     },
     {
-      "title": "Where the River Begins",
+      "title": "We Are All Strangers",
       "note": "TIFF"
     },
     {
-      "title": "Your Mother Your Mother Your Mother",
+      "title": "We Are Born Good",
+      "note": "TIFF"
+    },
+    {
+      "title": "What's Next?: Trends from an Increasingly Immersive World",
+      "note": "TIFF"
+    },
+    {
+      "title": "Wild Horse Nine",
+      "note": "TIFF"
+    },
+    {
+      "title": "Wild, Wild East",
+      "note": "TIFF"
+    },
+    {
+      "title": "Woman Unknown",
       "note": "TIFF"
     }
   ]
