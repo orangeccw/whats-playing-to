@@ -3182,5 +3182,73 @@
     "omdbYear": "2026",
     "omdbRuntime": "100 min",
     "omdbDescription": "As a young woman in a conservative Christian community, Gail gave birth alone and left her newborn in the woods. Decades later, she's arrested for murder, despite her claim that the baby was stillborn."
+  },
+  "wicker|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Romance",
+      "Fantasy",
+      "Comedy"
+    ],
+    "_cachedAt": "2026-09-17T14:36:25.283Z",
+    "_omdbTried": true,
+    "omdbDirector": "Alex Huston Fischer",
+    "omdbRuntime": "105 min",
+    "omdbRating": "R"
+  },
+  "unsubculture presents: samsara|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-17T14:36:26.421Z",
+    "_omdbTried": true
+  },
+  "fjord|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Drama",
+      "Family"
+    ],
+    "_cachedAt": "2026-09-17T14:36:27.475Z",
+    "_omdbTried": true,
+    "omdbDirector": "Cristian Mungiu",
+    "omdbRuntime": "146 min"
+  },
+  "throwback cinema: matilda – 30th anniversary screening!|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-17T14:36:28.526Z",
+    "_omdbTried": true
+  },
+  "destination love: the way we were (1973)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-17T14:36:29.582Z",
+    "_omdbTried": true
+  },
+  "dumpster raccoon: grease singalong and shadowcast!|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-17T14:36:30.638Z",
+    "_omdbTried": true
+  },
+  "t.o. indie 2026: shorts block 5|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-17T14:36:31.700Z",
+    "_omdbTried": true
+  },
+  "t.o. indie 2026: shorts block 7|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-17T14:36:32.752Z",
+    "_omdbTried": true
+  },
+  "teenage sex & death at camp miasma|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/nLsFnXifieSTqSeWxjXSS8RvaUZ.jpg",
+    "year": "2026",
+    "genres": [
+      "Comedy",
+      "Horror",
+      "Romance"
+    ],
+    "_cachedAt": "2026-09-17T14:36:33.872Z",
+    "_omdbTried": true
   }
 }
