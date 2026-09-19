@@ -908,16 +908,18 @@
   },
   "obsession|2026": {
     "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
     "year": "2026",
     "genres": [
       "Horror",
       "Thriller"
     ],
-    "_cachedAt": "2026-08-04T12:00:34.983Z",
+    "_cachedAt": "2026-09-19T13:39:32.810Z",
     "_omdbTried": true,
     "omdbDirector": "Curry Barker",
     "omdbRuntime": "109 min",
-    "omdbRating": "R"
+    "omdbRating": "R",
+    "omdbDescription": "Baron \"Bear\" Bailey breaks a novelty charm to force his co-worker Nikki Freeman to love him, but the supernatural compulsion warps her mind into violent obsession, trapping him in a nightmare he cannot wish away."
   },
   "revue event: gandahar (1987) – toronto theatrical premiere of new 4k restoration!|": {
     "_tried": true,
@@ -3250,5 +3252,111 @@
     ],
     "_cachedAt": "2026-09-17T14:36:33.872Z",
     "_omdbTried": true
+  },
+  "warren miller&#8217;s days off|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-19T13:39:21.392Z",
+    "_omdbTried": true
+  },
+  "revue event:  nirvanna the band the show the movie|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-19T13:39:22.436Z",
+    "_omdbTried": true
+  },
+  "destination love: saving face (2004)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-19T13:39:23.474Z",
+    "_omdbTried": true
+  },
+  "silent revue: the crowd (1928) – toronto theatrical premiere!|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-19T13:39:24.514Z",
+    "_omdbTried": true
+  },
+  "when animals attack: phenomena (1985)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-19T13:39:25.550Z",
+    "_omdbTried": true
+  },
+  "wallace & gromit: the classic shorts|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-19T13:39:26.588Z",
+    "_omdbTried": true
+  },
+  "member mondays: the thin blue line|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-19T13:39:27.627Z",
+    "_omdbTried": true
+  },
+  "creature from the black lagoon (1954)|1954": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/euCzA2Exc70MpTDCVYih8tdE7z1.jpg",
+    "year": "1954",
+    "genres": [
+      "Adventure",
+      "Horror",
+      "Sci-Fi"
+    ],
+    "_cachedAt": "2026-09-19T13:39:28.674Z",
+    "_omdbTried": true,
+    "omdbDirector": "Jack Arnold",
+    "omdbRuntime": "79 min",
+    "omdbRating": "G",
+    "omdbDescription": "A strange prehistoric beast lurks in the depths of the Amazonian jungle. A group of scientists try to capture the animal and bring it back to civilization for study."
+  },
+  "a clockwork orange (1971)|1971": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/4sHeTAp65WrSSuc05nRBKddhBxO.jpg",
+    "year": "1971",
+    "genres": [
+      "Sci-Fi",
+      "Crime"
+    ],
+    "_cachedAt": "2026-09-19T13:39:29.713Z",
+    "_omdbTried": true,
+    "omdbDirector": "Stanley Kubrick",
+    "omdbRuntime": "136 min",
+    "omdbRating": "R",
+    "omdbDescription": "Alex DeLarge and his droogs barbarize a decaying near-future."
+  },
+  "kiki's delivery service (sub) (1989)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-19T13:39:20.441Z"
+  },
+  "kiki's delivery service (dub) (1989)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-19T13:39:20.736Z"
+  },
+  "kiki's delivery service (sub) (1989)|1989": {
+    "_tried": true,
+    "_cachedAt": "2026-09-19T13:39:30.751Z",
+    "_omdbTried": true,
+    "omdbPoster": "https://m.media-amazon.com/images/M/MV5BOTFhYWI1NGUtZWFhZS00MTdkLWIzZTItMDBhNWNiZDNlMjYyXkEyXkFqcGc@._V1_SX300.jpg",
+    "omdbDirector": "Hayao Miyazaki",
+    "omdbYear": "1989",
+    "omdbRuntime": "103 min",
+    "omdbRating": "G",
+    "omdbGenres": [
+      "Animation",
+      "Family",
+      "Fantasy"
+    ],
+    "omdbDescription": "Along with her black cat Jiji, Kiki settles in a seaside town and starts a high-flying delivery service. Here begins her magical encounter with independence and responsibility, making lifelong friends and finding her place in the ..."
+  },
+  "kiki's delivery service (dub) (1989)|1989": {
+    "_tried": true,
+    "_cachedAt": "2026-09-19T13:39:31.752Z",
+    "_omdbTried": true,
+    "omdbPoster": "https://m.media-amazon.com/images/M/MV5BOTFhYWI1NGUtZWFhZS00MTdkLWIzZTItMDBhNWNiZDNlMjYyXkEyXkFqcGc@._V1_SX300.jpg",
+    "omdbDirector": "Hayao Miyazaki",
+    "omdbYear": "1989",
+    "omdbRuntime": "103 min",
+    "omdbRating": "G",
+    "omdbGenres": [
+      "Animation",
+      "Family",
+      "Fantasy"
+    ],
+    "omdbDescription": "Along with her black cat Jiji, Kiki settles in a seaside town and starts a high-flying delivery service. Here begins her magical encounter with independence and responsibility, making lifelong friends and finding her place in the ..."
   }
 }

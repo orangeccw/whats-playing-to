@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17",
+  "lastUpdated": "2026-09-19",
   "cinemas": {
     "fox": {
       "name": "Fox Theatre",
@@ -126,16 +126,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-17",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-18",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-19",
           "tm": "21:00"
         },
@@ -158,32 +148,16 @@
           "c": "kingsway",
           "dt": "2026-09-23",
           "tm": "21:00"
-        }
-      ]
-    },
-    {
-      "title": "Tony",
-      "description": "“It was here, all the way out at the tip of Cape Cod—Provincetown, Massachusetts—where the pilgrims first landed, and it was where I first landed. It was 1972, and I washed into a town with a headful of orange sunshine and a few friends. Provincetown was a wonderland of tolerance with a longtime tradition of ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/tony_tmdb-3wn0jwwri7ogh7ni2r6povwej05_thumb.jpg",
-      "director": "Matt Johnson",
-      "year": "2026",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-17",
-          "tm": "15:30",
-          "url": "https://revuecinema.ca/films/tony/"
         },
         {
-          "c": "hotdocs",
-          "dt": "2026-09-18",
-          "tm": "11:00",
-          "id": "646107",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=646107~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+          "c": "kingsway",
+          "dt": "2026-09-24",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-25",
+          "tm": "21:00"
         }
       ]
     },
@@ -239,16 +213,6 @@
       "showtimes": [
         {
           "c": "fox",
-          "dt": "2026-09-17",
-          "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-09-18",
-          "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
-        },
-        {
-          "c": "fox",
           "dt": "2026-09-19",
           "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
         },
@@ -271,25 +235,6 @@
           "c": "fox",
           "dt": "2026-09-23",
           "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
-        }
-      ]
-    },
-    {
-      "title": "It Ends",
-      "description": "A group of recent grads head out on a late night drive for grub, hoping to enjoy one final hangout before their paths diverge. Instead, they accidentally turn onto a never-ending, two-lane hellscape surrounded by untold horrors and cosmic forces beyond their understanding. Cramped together inside a Jeep Cherokee and with the miles stretching infinitely ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/08/it_ends_tmdb-6dfagvzwbjnzwfsz8gxfj63bnah_thumb.jpg",
-      "director": "Matthias Wörz",
-      "year": "2026",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-17",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/it-ends/"
         }
       ]
     },
@@ -587,17 +532,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-18",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-20",
           "tm": "15:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-09-22",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-25",
           "tm": "15:00"
         }
       ]
@@ -646,36 +591,6 @@
         "Family"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "21:45"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-19",
@@ -800,36 +715,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "21:50"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-19",
@@ -958,36 +843,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-19",
           "tm": "02:00"
         },
@@ -1113,17 +968,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-18",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-20",
           "tm": "21:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-09-22",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-25",
           "tm": "21:00"
         }
       ]
@@ -1219,35 +1074,6 @@
       ]
     },
     {
-      "title": "Onslaught",
-      "description": "When a rogue squad of genetically engineered super soldiers break loose in the desert, a badass Army sniper must unleash hell to protect her young daughter.",
-      "poster": "https://image.tmdb.org/t/p/w500/cOGtvhc6Ij9KvzM6jZsfQyg0B0O.jpg",
-      "director": "Adam Wingard",
-      "year": "2026",
-      "genres": [
-        "Action",
-        "Horror",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "21:30"
-        }
-      ]
-    },
-    {
       "title": "Practical Magic 2",
       "description": "A multi generational family of witches, cursed to be loveless for centuries, attempts to break the spell by confronting dark secrets and sacrificing for each other.",
       "poster": "https://image.tmdb.org/t/p/w500/7jCV8dkRFK3DGJ4dTqlvrMTFPwZ.jpg",
@@ -1261,41 +1087,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "20:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-19",
           "tm": "02:00"
         },
@@ -1403,66 +1194,6 @@
           "c": "carlton",
           "dt": "2026-09-24",
           "tm": "21:30"
-        }
-      ]
-    },
-    {
-      "title": "The Warriors (1979)",
-      "description": "Members of a street gang known as the Warriors must fight their way from the Bronx to their home turf on Coney Island when they are falsely accused of assassinating a respected gang leader.",
-      "poster": "https://image.tmdb.org/t/p/w500/d6YZpBq4BhQr1K985J3CuL1cA8J.jpg",
-      "director": "Walter Hill",
-      "year": "1979",
-      "runtime": "93 min",
-      "rating": "R",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "21:50"
-        }
-      ]
-    },
-    {
-      "title": "Dracula (1931)",
-      "description": "In modern-day Transylvania, vampire hunts and labor strikes collide with sci-fi twists, romance, and AI-crafted tales, as multiple storylines blend folklore, classic horror, and contemporary elements into a fresh take on Dracula's...",
-      "poster": "https://image.tmdb.org/t/p/w500/ykyRfv7JDofLxXLAwtLXaSuaFfM.jpg",
-      "director": "Radu Jude",
-      "year": "2025",
-      "runtime": "170 min",
-      "genres": [
-        "Horror",
-        "Fantasy",
-        "Romance"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "21:55"
         }
       ]
     },
@@ -1479,36 +1210,6 @@
         "Drama"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-17",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "21:40"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-19",
@@ -1625,36 +1326,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-17",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-17",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-17",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-18",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-18",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-18",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-19",
           "tm": "15:00"
         },
@@ -1726,6 +1397,36 @@
         {
           "c": "kingsway",
           "dt": "2026-09-23",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-24",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-24",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-24",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-25",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-25",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-25",
           "tm": "19:00"
         }
       ]
@@ -1747,20 +1448,6 @@
           "dt": "2026-09-30",
           "tm": "18:00",
           "url": "https://revuecinema.ca/films/rental-event-hayden-live-at-the-revue-cinema/"
-        }
-      ]
-    },
-    {
-      "title": "Designing The Movies: THE WOMEN (1939)",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/the_women_tmdb-wmtbdi60uvt7eclz301xee8maoo.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-17",
-          "tm": "18:30",
-          "url": "https://revuecinema.ca/films/designing-the-movies-the-women-1939/"
         }
       ]
     },
@@ -1876,12 +1563,6 @@
       "showtimes": [
         {
           "c": "revue",
-          "dt": "2026-09-18",
-          "tm": "18:45",
-          "url": "https://revuecinema.ca/films/buddy-2026/"
-        },
-        {
-          "c": "revue",
           "dt": "2026-09-19",
           "tm": "15:30",
           "url": "https://revuecinema.ca/films/buddy-2026/"
@@ -1903,20 +1584,6 @@
           "dt": "2026-09-24",
           "tm": "16:00",
           "url": "https://revuecinema.ca/films/buddy-2026/"
-        }
-      ]
-    },
-    {
-      "title": "Stompbox x Project Nowhere: A BAND CALLED DEATH (2012)",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/08/a_band_called_death_tmdb-xyjntz5jvunkxrfdj3rnajztt21-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-18",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/stompbox-x-project-nowhere-a-band-called-death/"
         }
       ]
     },
@@ -2072,21 +1739,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "21:55"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-19",
           "tm": "01:00"
         },
@@ -2223,21 +1875,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-19",
           "tm": "01:00"
         },
@@ -2361,21 +1998,6 @@
         "Sci-Fi"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "21:30"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-19",
@@ -2518,26 +2140,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-17",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-17",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-18",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-18",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-19",
           "tm": "13:15"
         },
@@ -2584,6 +2186,26 @@
         {
           "c": "kingsway",
           "dt": "2026-09-23",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-24",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-24",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-25",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-25",
           "tm": "17:00"
         }
       ]
@@ -2603,26 +2225,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-17",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-17",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-18",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-18",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-19",
           "tm": "15:00"
         },
@@ -2669,6 +2271,26 @@
         {
           "c": "kingsway",
           "dt": "2026-09-23",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-24",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-24",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-25",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-25",
           "tm": "19:00"
         }
       ]
@@ -2698,55 +2320,6 @@
           "dt": "2026-09-25",
           "tm": "18:45",
           "url": "https://revuecinema.ca/films/rental-event-surreal-films-toronto-based-genre-shorts/"
-        }
-      ]
-    },
-    {
-      "title": "The Perfect Date & Halloween Screening: Nirvanna the Band the Show the Movie",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/03/nirvanna_the_band_the_show_the_movie_tmdb-sm5tgx8wbncd9uo26clytxvwa1n-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-26",
-          "tm": "13:00",
-          "url": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-10-27",
-          "tm": "18:45",
-          "url": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/"
-        }
-      ]
-    },
-    {
-      "title": "T.O. Indie 2026: Shorts Block 3",
-      "description": "",
-      "poster": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/350/2026/08/28110036/TOIFF_log26.png",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-09-17",
-          "tm": "18:00",
-          "id": "633799",
-          "url": "https://paradiseonbloor.com/purchase/633799/"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-09-17",
-          "tm": "20:00",
-          "id": "633800",
-          "url": "https://paradiseonbloor.com/purchase/633800/"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-09-17",
-          "tm": "22:00",
-          "id": "633808",
-          "url": "https://paradiseonbloor.com/purchase/633808/"
         }
       ]
     },
@@ -3566,38 +3139,9 @@
       ]
     },
     {
-      "title": "T.O. Indie 2026: Shorts Block 5",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-09-18",
-          "tm": "18:00",
-          "id": "633812",
-          "url": "https://paradiseonbloor.com/purchase/633812/"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-09-18",
-          "tm": "20:00",
-          "id": "633813",
-          "url": "https://paradiseonbloor.com/purchase/633813/"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-09-18",
-          "tm": "22:00",
-          "id": "633820",
-          "url": "https://paradiseonbloor.com/purchase/633820/"
-        }
-      ]
-    },
-    {
       "title": "T.O. Indie 2026: Shorts Block 7",
       "description": "",
-      "poster": null,
+      "poster": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/350/2026/08/28110036/TOIFF_log26.png",
       "genres": [],
       "showtimes": [
         {
@@ -3650,21 +3194,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-18",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-19",
           "tm": "01:00"
         },
@@ -3774,31 +3303,383 @@
           "tm": "21:50"
         }
       ]
+    },
+    {
+      "title": "Warren Miller&#8217;s DAYS OFF",
+      "description": "This fall, drop in on Warren Miller’s 77th film, Days Off. Follow host Katie Burrell as the world’s best athletes show you what they do on their days off—no agenda, no competition, just pure, unscripted joy. Embark on a global journey from heli-drops in Alaska and high-alpine mountaineering in Chamonix to the legendary powder of ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/screen_shot_2026-09-18_at_11.43.27_am_thumb.png",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-11-17",
+          "url": "https://www.foxtheatre.ca/movies/warren-millers-days-off/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-11-19",
+          "url": "https://www.foxtheatre.ca/movies/warren-millers-days-off/"
+        }
+      ]
+    },
+    {
+      "title": "Revue Event:  Nirvanna the Band the Show the Movie",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/03/nirvanna_the_band_the_show_the_movie_tmdb-sm5tgx8wbncd9uo26clytxvwa1n-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-09-26",
+          "tm": "13:00",
+          "url": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-27",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-11-30",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-12-22",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/"
+        }
+      ]
+    },
+    {
+      "title": "Destination Love: SAVING FACE (2004)",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/saving_face_tmdb-7xbbgkki4nemou9iwianxpjkkhe-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-09-27",
+          "tm": "19:00",
+          "url": "https://revuecinema.ca/films/destination-love-saving-face-2004/"
+        }
+      ]
+    },
+    {
+      "title": "Silent Revue: THE CROWD (1928) – Toronto Theatrical Premiere!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/the_crowd_tmdb-jftzhlczle2dolqwy0menoipjxc-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-09-27",
+          "tm": "16:00",
+          "url": "https://revuecinema.ca/films/silent-revue-the-crowd-1928-toronto-theatrical-premiere/"
+        }
+      ]
+    },
+    {
+      "title": "When Animals Attack: PHENOMENA (1985)",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/phenomena_tmdb-dhk14s8ogqkbf6re3hlkv2ubhjx.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-09-28",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/when-animals-attack-phenomena-1985/"
+        }
+      ]
+    },
+    {
+      "title": "Wallace & Gromit: The Classic Shorts",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-09-20",
+          "tm": "13:00",
+          "id": "640163",
+          "url": "https://paradiseonbloor.com/purchase/640163/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-09-20",
+          "tm": "18:30",
+          "id": "629541",
+          "url": "https://paradiseonbloor.com/purchase/629541/"
+        }
+      ]
+    },
+    {
+      "title": "Member Mondays: The Thin Blue Line",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-09-21",
+          "tm": "18:15",
+          "id": "649238"
+        }
+      ]
+    },
+    {
+      "title": "Creature from the Black Lagoon (1954)",
+      "description": "A strange prehistoric beast lurks in the depths of the Amazonian jungle. A group of scientists try to capture the animal and bring it back to civilization for study.",
+      "poster": "https://image.tmdb.org/t/p/w500/euCzA2Exc70MpTDCVYih8tdE7z1.jpg",
+      "director": "Jack Arnold",
+      "year": "1954",
+      "runtime": "79 min",
+      "rating": "G",
+      "genres": [
+        "Adventure",
+        "Horror",
+        "Sci-Fi"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "21:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "13:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "15:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "17:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "21:55"
+        }
+      ]
+    },
+    {
+      "title": "A Clockwork Orange (1971)",
+      "description": "Alex DeLarge and his droogs barbarize a decaying near-future.",
+      "poster": "https://image.tmdb.org/t/p/w500/4sHeTAp65WrSSuc05nRBKddhBxO.jpg",
+      "director": "Stanley Kubrick",
+      "year": "1971",
+      "runtime": "136 min",
+      "rating": "R",
+      "genres": [
+        "Sci-Fi",
+        "Crime"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "18:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "12:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "15:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "18:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "21:30"
+        }
+      ]
+    },
+    {
+      "title": "Kiki's Delivery Service (SUB) (1989)",
+      "description": "Along with her black cat Jiji, Kiki settles in a seaside town and starts a high-flying delivery service. Here begins her magical encounter with independence and responsibility, making lifelong friends and finding her place in the ...",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTFhYWI1NGUtZWFhZS00MTdkLWIzZTItMDBhNWNiZDNlMjYyXkEyXkFqcGc@._V1_SX300.jpg",
+      "director": "Hayao Miyazaki",
+      "year": "1989",
+      "runtime": "103 min",
+      "rating": "G",
+      "genres": [
+        "Animation",
+        "Family",
+        "Fantasy"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "12:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "18:45"
+        }
+      ]
+    },
+    {
+      "title": "Kiki's Delivery Service (DUB) (1989)",
+      "description": "Along with her black cat Jiji, Kiki settles in a seaside town and starts a high-flying delivery service. Here begins her magical encounter with independence and responsibility, making lifelong friends and finding her place in the ...",
+      "poster": "https://m.media-amazon.com/images/M/MV5BOTFhYWI1NGUtZWFhZS00MTdkLWIzZTItMDBhNWNiZDNlMjYyXkEyXkFqcGc@._V1_SX300.jpg",
+      "director": "Hayao Miyazaki",
+      "year": "1989",
+      "runtime": "103 min",
+      "rating": "G",
+      "genres": [
+        "Animation",
+        "Family",
+        "Fantasy"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "15:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "21:45"
+        }
+      ]
+    },
+    {
+      "title": "Obsession",
+      "description": "Baron \"Bear\" Bailey breaks a novelty charm to force his co-worker Nikki Freeman to love him, but the supernatural compulsion warps her mind into violent obsession, trapping him in a nightmare he cannot wish away.",
+      "poster": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+      "director": "Curry Barker",
+      "year": "2026",
+      "runtime": "109 min",
+      "rating": "R",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-09-19",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-21",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-23",
+          "tm": "21:00"
+        }
+      ]
     }
   ],
   "tiffFilms": [
-    {
-      "title": "A Girl Unknown",
-      "note": "TIFF"
-    },
     {
       "title": "A Good Little Soldier",
       "note": "TIFF"
     },
     {
-      "title": "A Long Winter",
+      "title": "After Elena",
       "note": "TIFF"
     },
     {
-      "title": "Ah Girl",
+      "title": "All That She Wants",
       "note": "TIFF"
     },
     {
-      "title": "Alpha Gang",
+      "title": "All of a Sudden",
       "note": "TIFF"
     },
     {
-      "title": "Anchors Aweigh",
+      "title": "Angh",
       "note": "TIFF"
     },
     {
@@ -3810,27 +3691,27 @@
       "note": "TIFF"
     },
     {
-      "title": "Back in Black",
-      "note": "TIFF"
-    },
-    {
-      "title": "Bedford Park",
-      "note": "TIFF"
-    },
-    {
       "title": "Being Heumann",
       "note": "TIFF"
     },
     {
-      "title": "Bleeding Hearts",
+      "title": "Below",
       "note": "TIFF"
     },
     {
-      "title": "Brace Your Heart",
+      "title": "Ben'Imana",
       "note": "TIFF"
     },
     {
-      "title": "Conversation With The Sea",
+      "title": "Carrie",
+      "note": "TIFF"
+    },
+    {
+      "title": "Children Untold",
+      "note": "TIFF"
+    },
+    {
+      "title": "Club Kid",
       "note": "TIFF"
     },
     {
@@ -3842,23 +3723,55 @@
       "note": "TIFF"
     },
     {
-      "title": "Djinn Wedding",
+      "title": "Eklipse",
       "note": "TIFF"
     },
     {
-      "title": "Drifter",
+      "title": "Elephants in the Fog",
       "note": "TIFF"
     },
     {
-      "title": "Evil Genius",
+      "title": "Elsinore",
       "note": "TIFF"
     },
     {
-      "title": "Gail",
+      "title": "Everest: The Other Side",
+      "note": "TIFF"
+    },
+    {
+      "title": "Everybody Wants to F*ck Me",
+      "note": "TIFF"
+    },
+    {
+      "title": "Faith",
+      "note": "TIFF"
+    },
+    {
+      "title": "Flies",
+      "note": "TIFF"
+    },
+    {
+      "title": "Future Tense",
+      "note": "TIFF"
+    },
+    {
+      "title": "Gentle Monster",
       "note": "TIFF"
     },
     {
       "title": "Girl Group",
+      "note": "TIFF"
+    },
+    {
+      "title": "Glaxo",
+      "note": "TIFF"
+    },
+    {
+      "title": "God Bless You, Mr Kopu",
+      "note": "TIFF"
+    },
+    {
+      "title": "HALF",
       "note": "TIFF"
     },
     {
@@ -3870,15 +3783,7 @@
       "note": "TIFF"
     },
     {
-      "title": "How We Stand",
-      "note": "TIFF"
-    },
-    {
-      "title": "I Play Rocky",
-      "note": "TIFF"
-    },
-    {
-      "title": "In Conversation With... Lee Min-ho",
+      "title": "Inherit",
       "note": "TIFF"
     },
     {
@@ -3886,11 +3791,11 @@
       "note": "TIFF"
     },
     {
-      "title": "It's My Time",
+      "title": "Julián",
       "note": "TIFF"
     },
     {
-      "title": "L'AUTRE",
+      "title": "La Bola Negra",
       "note": "TIFF"
     },
     {
@@ -3898,23 +3803,27 @@
       "note": "TIFF"
     },
     {
-      "title": "Life of Jorge Luis Borges",
+      "title": "Look Back",
       "note": "TIFF"
     },
     {
-      "title": "Light Pillar",
+      "title": "Love is the monster",
       "note": "TIFF"
     },
     {
-      "title": "London",
+      "title": "Love of Your Life",
       "note": "TIFF"
     },
     {
-      "title": "Making Waves With... Hudson Williams",
+      "title": "Man in Motion: The Rick Hansen Story",
       "note": "TIFF"
     },
     {
-      "title": "Memories of a Forest",
+      "title": "Masc",
+      "note": "TIFF"
+    },
+    {
+      "title": "Misty Green",
       "note": "TIFF"
     },
     {
@@ -3930,11 +3839,19 @@
       "note": "TIFF"
     },
     {
-      "title": "Neverman",
+      "title": "Nobody's Violence",
       "note": "TIFF"
     },
     {
-      "title": "Oxygen Masks Will (Not) Drop Automatically",
+      "title": "Nosotros",
+      "note": "TIFF"
+    },
+    {
+      "title": "Our Loves",
+      "note": "TIFF"
+    },
+    {
+      "title": "Paradise Lost",
       "note": "TIFF"
     },
     {
@@ -3942,7 +3859,15 @@
       "note": "TIFF"
     },
     {
-      "title": "Purgatory",
+      "title": "Possible Love",
+      "note": "TIFF"
+    },
+    {
+      "title": "Pretenders",
+      "note": "TIFF"
+    },
+    {
+      "title": "Prima Facie",
       "note": "TIFF"
     },
     {
@@ -3950,11 +3875,11 @@
       "note": "TIFF"
     },
     {
-      "title": "Rescue",
+      "title": "Rogue Trooper",
       "note": "TIFF"
     },
     {
-      "title": "Seventeen",
+      "title": "Run Terry Run",
       "note": "TIFF"
     },
     {
@@ -3962,35 +3887,11 @@
       "note": "TIFF"
     },
     {
-      "title": "Short Cuts 2026 Programme 03",
+      "title": "Short Cuts 2026 Programme 06",
       "note": "TIFF"
     },
     {
-      "title": "Short Cuts 2026 Programme 04",
-      "note": "TIFF"
-    },
-    {
-      "title": "Sisters",
-      "note": "TIFF"
-    },
-    {
-      "title": "Smudge the Blades",
-      "note": "TIFF"
-    },
-    {
-      "title": "Soumsoum, The Night of the Stars",
-      "note": "TIFF"
-    },
-    {
-      "title": "Spy Kids",
-      "note": "TIFF"
-    },
-    {
-      "title": "Still Night, Burning House",
-      "note": "TIFF"
-    },
-    {
-      "title": "Strong Son",
+      "title": "Spirit Guardians: The Last Secret of the First Emperor",
       "note": "TIFF"
     },
     {
@@ -3998,23 +3899,11 @@
       "note": "TIFF"
     },
     {
-      "title": "Tehran, Under the Skin",
+      "title": "Tenzing",
       "note": "TIFF"
     },
     {
-      "title": "Ten Dark Women",
-      "note": "TIFF"
-    },
-    {
-      "title": "The Assassin(s)",
-      "note": "TIFF"
-    },
-    {
-      "title": "The Betrayers",
-      "note": "TIFF"
-    },
-    {
-      "title": "The Debut",
+      "title": "The Age of Goodbyes",
       "note": "TIFF"
     },
     {
@@ -4026,11 +3915,11 @@
       "note": "TIFF"
     },
     {
-      "title": "The Final Act",
+      "title": "The Great Muppet Caper",
       "note": "TIFF"
     },
     {
-      "title": "The Fortunate Isles",
+      "title": "The Hummingbird Paints Fragrant Songs",
       "note": "TIFF"
     },
     {
@@ -4038,11 +3927,11 @@
       "note": "TIFF"
     },
     {
-      "title": "The Liberation",
+      "title": "The Julia Set",
       "note": "TIFF"
     },
     {
-      "title": "The Only Living Pickpocket in New York",
+      "title": "The Man I Love",
       "note": "TIFF"
     },
     {
@@ -4050,11 +3939,11 @@
       "note": "TIFF"
     },
     {
-      "title": "The Spiral",
+      "title": "The Road Not Taken",
       "note": "TIFF"
     },
     {
-      "title": "The Stunt Driver",
+      "title": "The Secret Lives of Baba Segi's Wives",
       "note": "TIFF"
     },
     {
@@ -4062,35 +3951,15 @@
       "note": "TIFF"
     },
     {
-      "title": "The Unknown",
-      "note": "TIFF"
-    },
-    {
-      "title": "The Violinist",
-      "note": "TIFF"
-    },
-    {
       "title": "The World Before",
       "note": "TIFF"
     },
     {
-      "title": "Thirteen in Gaza",
+      "title": "The bovine with the curved horns",
       "note": "TIFF"
     },
     {
-      "title": "Toy Gun Bandit",
-      "note": "TIFF"
-    },
-    {
-      "title": "Trees are Watching",
-      "note": "TIFF"
-    },
-    {
-      "title": "Turtle Island Rap",
-      "note": "TIFF"
-    },
-    {
-      "title": "Union Town",
+      "title": "Trash Mountain",
       "note": "TIFF"
     },
     {
@@ -4098,19 +3967,27 @@
       "note": "TIFF"
     },
     {
-      "title": "Vintage Violence",
+      "title": "Villeneuve: The Rise of a Legend",
       "note": "TIFF"
     },
     {
-      "title": "Where the River Begins",
+      "title": "Viva Carmen",
       "note": "TIFF"
     },
     {
-      "title": "Woman Unknown",
+      "title": "We Are All Strangers",
       "note": "TIFF"
     },
     {
-      "title": "YAGA",
+      "title": "What Lies Between Us",
+      "note": "TIFF"
+    },
+    {
+      "title": "Wild Horse Nine",
+      "note": "TIFF"
+    },
+    {
+      "title": "Wild, Wild East",
       "note": "TIFF"
     }
   ]
