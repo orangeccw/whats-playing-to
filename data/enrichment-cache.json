@@ -3358,5 +3358,71 @@
       "Fantasy"
     ],
     "omdbDescription": "Along with her black cat Jiji, Kiki settles in a seaside town and starts a high-flying delivery service. Here begins her magical encounter with independence and responsibility, making lifelong friends and finding her place in the ..."
+  },
+  "northern frights: videodrome|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-22T14:18:20.448Z",
+    "_omdbTried": true
+  },
+  "extraordinary women: the extraordinary alanis obomsawin|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-22T14:18:21.499Z",
+    "_omdbTried": true
+  },
+  "destination love: coming to america (1988) – new restoration|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-22T14:18:22.539Z",
+    "_omdbTried": true
+  },
+  "destination love: nick and norah’s infinite playlist (2008)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-22T14:18:23.591Z",
+    "_omdbTried": true
+  },
+  "revue event: how we ended us – north american theatrical premiere with cast & crew in attendance!|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-22T14:18:24.900Z",
+    "_omdbTried": true
+  },
+  "national day for truth and reconcilation: slash/back (2022)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-22T14:18:25.938Z",
+    "_omdbTried": true
+  },
+  "judged before the judge|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-22T14:18:26.977Z",
+    "_omdbTried": true
+  },
+  "strangers on a train|1951": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/ihC083U7ef56Ui4x0P0dobojrZ1.jpg",
+    "year": "1951",
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Drama"
+    ],
+    "_cachedAt": "2026-09-22T14:18:28.022Z",
+    "_omdbTried": true,
+    "omdbDirector": "Alfred Hitchcock",
+    "omdbRuntime": "101 min",
+    "omdbRating": "PG",
+    "omdbDescription": "A psychopath tries to forcibly persuade a tennis star to agree to his theory that two strangers can get away with murder by submitting to his plan to kill the other's most-hated person."
+  },
+  "the room|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/qKDDXjFlWbSJIjSmSH6EzNENSy7.jpg",
+    "year": "2026",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Mystery"
+    ],
+    "_cachedAt": "2026-09-22T14:18:29.081Z",
+    "_omdbTried": true,
+    "omdbDirector": "Aaron Stevenson",
+    "omdbRuntime": "75 min",
+    "omdbDescription": "The true story of another disaster artist. Once crowned the maker of the world's worst movie, Krusty sets out to reclaim his title. Along the way, he tries to reunite with his estranged best friend and create a new cinematic disas..."
   }
 }
