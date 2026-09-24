@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22",
+  "lastUpdated": "2026-09-24",
   "cinemas": {
     "fox": {
       "name": "Fox Theatre",
@@ -106,16 +106,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-22",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-23",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-24",
           "tm": "21:00"
         },
@@ -137,6 +127,16 @@
         {
           "c": "kingsway",
           "dt": "2026-09-28",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-29",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-30",
           "tm": "21:00"
         }
       ]
@@ -193,12 +193,37 @@
       "showtimes": [
         {
           "c": "fox",
-          "dt": "2026-09-22",
+          "dt": "2026-09-24",
           "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
         },
         {
           "c": "fox",
-          "dt": "2026-09-23",
+          "dt": "2026-09-25",
+          "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-09-26",
+          "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-09-27",
+          "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-09-28",
+          "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-09-29",
+          "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-09-30",
           "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
         }
       ]
@@ -436,17 +461,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-22",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-25",
           "tm": "15:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-09-27",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-29",
           "tm": "15:00"
         }
       ]
@@ -497,36 +522,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "21:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "21:45"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-24",
           "tm": "01:00"
         },
@@ -539,6 +534,56 @@
           "c": "carlton",
           "dt": "2026-09-24",
           "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "18:35"
         }
       ]
     },
@@ -554,36 +599,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "21:50"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-24",
@@ -617,36 +632,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-24",
           "tm": "02:00"
         },
@@ -677,17 +662,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-22",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-25",
           "tm": "21:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-09-27",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-29",
           "tm": "21:00"
         }
       ]
@@ -796,36 +781,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-24",
           "tm": "02:00"
         },
@@ -854,36 +809,6 @@
         "Drama"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "21:40"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-24",
@@ -915,36 +840,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-22",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-22",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-22",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-23",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-23",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-23",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-24",
           "tm": "15:00"
         },
@@ -1016,6 +911,36 @@
         {
           "c": "kingsway",
           "dt": "2026-09-28",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-29",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-29",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-29",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-30",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-30",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-30",
           "tm": "19:00"
         }
       ]
@@ -1026,12 +951,6 @@
       "poster": "https://revuecinema.ca/wp-content/uploads/2026/08/2112-768x1153.jpg",
       "genres": [],
       "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-23",
-          "tm": "18:00",
-          "url": "https://revuecinema.ca/films/rental-event-hayden-live-at-the-revue-cinema/"
-        },
         {
           "c": "revue",
           "dt": "2026-09-30",
@@ -1113,12 +1032,6 @@
       "showtimes": [
         {
           "c": "revue",
-          "dt": "2026-09-23",
-          "tm": "15:15",
-          "url": "https://revuecinema.ca/films/buddy-2026/"
-        },
-        {
-          "c": "revue",
           "dt": "2026-09-24",
           "tm": "16:00",
           "url": "https://revuecinema.ca/films/buddy-2026/"
@@ -1135,34 +1048,6 @@
           "c": "fox",
           "dt": "2026-10-14",
           "url": "https://www.foxtheatre.ca/movies/cinema-rex-the-stranger-and-the-fog/"
-        }
-      ]
-    },
-    {
-      "title": "CLOSED FOR TECHNICAL UPGRADES",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-22",
-          "tm": "12:00",
-          "url": "https://revuecinema.ca/films/closed-for-technical-upgrades/"
-        }
-      ]
-    },
-    {
-      "title": "The Black Nerds: WELCOME II THE TERRORDOME (1995) – New Restoration!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/08/welcome_ii_the_terrordome_tmdb-ii97ihefru6wbkqygxys0lmz3ah-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-23",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/the-black-nerds-welcome-ii-the-terrordome-1995-new-restoration/"
         }
       ]
     },
@@ -1209,36 +1094,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "21:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "21:55"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-24",
           "tm": "01:00"
         },
@@ -1270,36 +1125,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-24",
           "tm": "01:00"
         },
@@ -1312,6 +1137,111 @@
           "c": "carlton",
           "dt": "2026-09-24",
           "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "13:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "21:50"
         }
       ]
     },
@@ -1330,36 +1260,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-22",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-24",
           "tm": "02:00"
         },
@@ -1372,6 +1272,56 @@
           "c": "carlton",
           "dt": "2026-09-24",
           "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "21:35"
         }
       ]
     },
@@ -1383,26 +1333,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-22",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-22",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-23",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-23",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-24",
           "tm": "13:15"
         },
@@ -1449,6 +1379,26 @@
         {
           "c": "kingsway",
           "dt": "2026-09-28",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-29",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-29",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-30",
+          "tm": "13:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-30",
           "tm": "17:00"
         }
       ]
@@ -1468,26 +1418,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-22",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-22",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-23",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-23",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-24",
           "tm": "15:00"
         },
@@ -1534,6 +1464,26 @@
         {
           "c": "kingsway",
           "dt": "2026-09-28",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-29",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-29",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-30",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-30",
           "tm": "19:00"
         }
       ]
@@ -1578,13 +1528,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-09-23",
-          "tm": "11:00",
-          "id": "644536",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=644536~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        },
         {
           "c": "hotdocs",
           "dt": "2026-11-07",
@@ -2394,47 +2337,142 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-22",
+          "dt": "2026-09-24",
           "tm": "01:00"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-22",
+          "dt": "2026-09-24",
           "tm": "19:00"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-22",
+          "dt": "2026-09-24",
           "tm": "21:50"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-23",
+          "dt": "2026-09-25",
           "tm": "01:00"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-23",
-          "tm": "19:00"
+          "dt": "2026-09-25",
+          "tm": "18:40"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-23",
+          "dt": "2026-09-25",
           "tm": "21:50"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-24",
+          "dt": "2026-09-26",
           "tm": "01:00"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "19:00"
+          "dt": "2026-09-26",
+          "tm": "12:40"
         },
         {
           "c": "carlton",
-          "dt": "2026-09-24",
+          "dt": "2026-09-26",
+          "tm": "15:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "18:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "12:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "15:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "18:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "18:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "18:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "18:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "18:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
           "tm": "21:50"
         }
       ]
@@ -2649,6 +2687,36 @@
           "c": "carlton",
           "dt": "2026-09-29",
           "tm": "21:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "21:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "21:55"
         }
       ]
     },
@@ -2759,6 +2827,36 @@
           "c": "carlton",
           "dt": "2026-09-29",
           "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "18:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "18:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "21:30"
         }
       ]
     },
@@ -2834,6 +2932,26 @@
         {
           "c": "carlton",
           "dt": "2026-09-29",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
           "tm": "18:45"
         }
       ]
@@ -2911,36 +3029,26 @@
           "c": "carlton",
           "dt": "2026-09-29",
           "tm": "21:45"
-        }
-      ]
-    },
-    {
-      "title": "Obsession",
-      "description": "Baron \"Bear\" Bailey breaks a novelty charm to force his co-worker Nikki Freeman to love him, but the supernatural compulsion warps her mind into violent obsession, trapping him in a nightmare he cannot wish away.",
-      "poster": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
-      "director": "Curry Barker",
-      "year": "2026",
-      "runtime": "109 min",
-      "rating": "R",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-09-23",
-          "tm": "21:00"
         },
         {
-          "c": "kingsway",
-          "dt": "2026-09-26",
-          "tm": "21:00"
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "01:00"
         },
         {
-          "c": "kingsway",
-          "dt": "2026-09-28",
-          "tm": "21:00"
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "21:45"
         }
       ]
     },
@@ -3028,43 +3136,6 @@
       ]
     },
     {
-      "title": "Judged Before the Judge",
-      "description": "",
-      "poster": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/350/2026/09/09184233/Movie-Poster-9-x-16-in-Asha-Walker.png",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-09-22",
-          "tm": "18:30",
-          "id": "650912"
-        }
-      ]
-    },
-    {
-      "title": "Strangers on a Train",
-      "description": "A psychopath tries to forcibly persuade a tennis star to agree to his theory that two strangers can get away with murder by submitting to his plan to kill the other's most-hated person.",
-      "poster": "https://image.tmdb.org/t/p/w500/ihC083U7ef56Ui4x0P0dobojrZ1.jpg",
-      "director": "Alfred Hitchcock",
-      "year": "1951",
-      "runtime": "101 min",
-      "rating": "PG",
-      "genres": [
-        "Crime",
-        "Thriller",
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-09-23",
-          "tm": "19:30",
-          "id": "635080",
-          "url": "https://paradiseonbloor.com/purchase/635080/"
-        }
-      ]
-    },
-    {
       "title": "The Room",
       "description": "The true story of another disaster artist. Once crowned the maker of the world's worst movie, Krusty sets out to reclaim his title. Along the way, he tries to reunite with his estranged best friend and create a new cinematic disas...",
       "poster": "https://image.tmdb.org/t/p/w500/qKDDXjFlWbSJIjSmSH6EzNENSy7.jpg",
@@ -3086,6 +3157,653 @@
           "c": "carlton",
           "dt": "2026-09-26",
           "tm": "22:00"
+        }
+      ]
+    },
+    {
+      "title": "Restoration: The Devils",
+      "description": "An enduring masterpiece of cinema starring Academy Award-Winner Vanessa Redgrave and Oliver Reed, &#8220;Ken Russell&#8217;s The Devils&#8221; is a prescient epic of obsession and corruption – and a defining work of art from seminal filmmaker Ken Russell. Assembled from the original camera negative, this new 4K restoration presents Ken Russell’s definitive vision of &#8220;The Devils&#8221; ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/screenshot_2026-09-21_151157_thumb.png",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-31",
+          "url": "https://www.foxtheatre.ca/movies/restoration-the-devils/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-11-03",
+          "url": "https://www.foxtheatre.ca/movies/restoration-the-devils/"
+        }
+      ]
+    },
+    {
+      "title": "Clearcut",
+      "description": "&#8220;Clearcut&#8221; is an unforgettable exploration of Indigenous folklore, newly restored in 4K from the original 35mm answer print. A white lawyer arrives in Northern Ontario to defend Indigenous activists who are blocking a logging company&#8217;s clearcut of old growth on their land. A pacifist by nature, and perceiving himself as sympathetic to Indigenous concerns, the ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/clearcut_tmdb-6r1pkba2edognagxnjizkbk2gqi_thumb.jpg",
+      "director": "Ryszard Bugajski",
+      "year": "1991",
+      "runtime": "100 min",
+      "rating": "R",
+      "genres": [
+        "Thriller",
+        "Horror",
+        "Western",
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-19",
+          "url": "https://www.foxtheatre.ca/movies/clearcut/"
+        }
+      ]
+    },
+    {
+      "title": "Restoration: AKIRA",
+      "description": "Iconic and game-changing, AKIRA is the definitive anime masterpiece! See it now in a new 4k restoration on the big screen! July, 1988— World War III breaks loose. Then, in 2019, in megalopolis Tokyo&#8230; As the leader of a group of young robust delinquents, Kaneda spent his nights tearing through the urban wastes, racing his ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/akira_tmdb-nez0ykespqxamsx6o5qnufilqrz_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-10",
+          "url": "https://www.foxtheatre.ca/movies/restoration-akira/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-10-13",
+          "url": "https://www.foxtheatre.ca/movies/restoration-akira/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-10-15",
+          "url": "https://www.foxtheatre.ca/movies/restoration-akira/"
+        }
+      ]
+    },
+    {
+      "title": "Halloween Prom: Carrie",
+      "description": "The Fox invites you to an anti-prom screening to honour the 50th anniversary of the ultimate scream and prom queen! Carrie White, played flawlessly by Sissy Spacek, is a teenage outcast, bullied by her classmates at school, abused by her fanatical mother, with telekinetic powers emerging more by the day. Based on Stephen King’s haunting ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/carrie_tmdb-bjj3xk4pmnfao0wfzysfc47dp8g_thumb.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-30",
+          "url": "https://www.foxtheatre.ca/movies/halloween-prom-carrie/"
+        }
+      ]
+    },
+    {
+      "title": "Ever Deadly",
+      "description": "Ever Deadly invites its viewers to take a peek behind the curtain of the life and work of award-winning singer, artist, author, and activist Tanya Tagaq. Weaving together concert footage and inspiring sequences filmed on location in Nunavut, seamlessly bridging landscapes, stories and songs with pain, anger and triumph—all through the expressions of Tanya Tagaq, ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/ever_deadly_tmdb-ijjb6tstrpjtpaxi3hdcfstetnk_thumb.jpg",
+      "director": "Chelsea McMullan",
+      "year": "2022",
+      "runtime": "90 min",
+      "genres": [
+        "Documentary",
+        "Music"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-19",
+          "url": "https://www.foxtheatre.ca/movies/ever-deadly/"
+        }
+      ]
+    },
+    {
+      "title": "Blood Lines",
+      "description": "Beatrice, a Two-Spirit person, spends her days working at the local corner store in her tight-knit Métis community, trading stories and laughs with her best friend Jaz. When Chani, a newcomer searching for her biological family, arrives in town, Beatrice is instantly drawn to her and becomes determined to help in any way she can. ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/blood_lines_tmdb-sr7pwve3vfupeoc4jajzta9zrrl_thumb.jpg",
+      "director": "Pascal Atuma",
+      "year": "2026",
+      "runtime": "85 min",
+      "rating": "Not Rated",
+      "genres": [
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-19",
+          "url": "https://www.foxtheatre.ca/movies/blood-lines/"
+        }
+      ]
+    },
+    {
+      "title": "Something&#8217;s Wrong : A Special Halloween Screening",
+      "description": "Something’s Wrong and we’re putting it on the big screen. Join us this Halloween for a special night of short horror animations from around the world, presented by Toronto International Short Animation Festival (TISAF) &amp; Toronto Animated Image Society (TAIS) This event is a curated short animation program featuring Canadian and international artists. bringing together ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/somethings-wrong-poster-2.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-10-20",
+          "url": "https://www.foxtheatre.ca/movies/somethings-wrong/"
+        }
+      ]
+    },
+    {
+      "title": "Rental Event: The Great Canadian Horror Film Festival",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/08/tgchff_logo-02-1920w.png",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-10-01",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/rental-event-the-great-canadian-horror-film-festival/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-02",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/rental-event-the-great-canadian-horror-film-festival/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-03",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/rental-event-the-great-canadian-horror-film-festival/"
+        }
+      ]
+    },
+    {
+      "title": "Revue Event: PORTAL TO HELL – Select Cast & Crew In Attendance!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/08/portal_to_hell_tmdb-o4prixdkgs2lerpakumqirrwbep-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-10-01",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/revue-event-portal-to-hell-select-cast-crew-in-attendance/"
+        }
+      ]
+    },
+    {
+      "title": "Leave Her to Heaven",
+      "description": "A writer falls in love with a young socialite and they're soon married, but her obsessive love for him threatens to be the undoing of them both as well as everyone around them.",
+      "poster": "https://image.tmdb.org/t/p/w500/aUzQZt2UlaurZ3wlhzVXQb6PQk8.jpg",
+      "director": "John M. Stahl",
+      "year": "1945",
+      "runtime": "110 min",
+      "rating": "Approved",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Romance"
+      ],
+      "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-09-27",
+          "tm": "15:45",
+          "id": "655735",
+          "url": "https://paradiseonbloor.com/purchase/655735/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-09-27",
+          "tm": "20:00",
+          "id": "633247"
+        }
+      ]
+    },
+    {
+      "title": "Ha-Chan, Shake Your Booty!",
+      "description": "Haru and Luis love competing in Tokyo's ballroom dance scene, but after tragedy strikes, Haru withdraws into isolation. When friends coax her back to the studio, she develops an infatuation with the new instructor.",
+      "poster": "https://image.tmdb.org/t/p/w500/w98RWv9o05OhXYfTvauDrotRZ13.jpg",
+      "director": "Josef Kubota Wladyka",
+      "year": "2026",
+      "runtime": "122 min",
+      "genres": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "12:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "15:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "12:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "15:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "21:40"
+        }
+      ]
+    },
+    {
+      "title": "Forgotten Island",
+      "description": "Two best friends become stranded on the mystical world of Nakali, where their only escape might cost them their shared lifetime of memories.",
+      "poster": "https://image.tmdb.org/t/p/w500/myd1K3gefdNAWFsGNRDdMeiK9Qg.jpg",
+      "director": "Joel Crawford",
+      "year": "2026",
+      "runtime": "98 min",
+      "genres": [
+        "Animation",
+        "Adventure",
+        "Fantasy",
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "12:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "12:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "18:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "21:30"
+        }
+      ]
+    },
+    {
+      "title": "The Stunt Driver",
+      "description": "The film chronicles the daredevil stuntman Ken Carter's quest to execute a bold stunt of launching a rocket car across the St. Lawrence River from Canada to the United States in the 1970s, facing absurd challenges along the way.",
+      "poster": "https://image.tmdb.org/t/p/w500/jFiMdTG8Hw41A3VxrzLEWtMFIYX.jpg",
+      "director": "Michael Dowse",
+      "year": "2026",
+      "runtime": "99 min",
+      "rating": "R",
+      "genres": [
+        "Action",
+        "Comedy",
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-25",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "16:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-26",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "16:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-27",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-28",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-29",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-09-30",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "21:40"
+        }
+      ]
+    },
+    {
+      "title": "Digger",
+      "description": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything.",
+      "poster": "https://image.tmdb.org/t/p/w500/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg",
+      "director": "Alejandro G. Iñárritu",
+      "year": "2026",
+      "runtime": "106 min",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-01",
+          "tm": "21:40"
         }
       ]
     }
