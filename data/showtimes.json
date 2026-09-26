@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24",
+  "lastUpdated": "2026-09-26",
   "cinemas": {
     "fox": {
       "name": "Fox Theatre",
@@ -88,7 +88,7 @@
       "showtimes": [
         {
           "c": "fox",
-          "dt": "2026-10-01",
+          "dt": "2026-12-03",
           "url": "https://www.foxtheatre.ca/movies/battle-of-the-sexes-birth/"
         }
       ]
@@ -106,38 +106,38 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-24",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-25",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-26",
-          "tm": "21:00"
+          "tm": "21:15"
         },
         {
           "c": "kingsway",
           "dt": "2026-09-27",
-          "tm": "21:00"
+          "tm": "21:15"
         },
         {
           "c": "kingsway",
           "dt": "2026-09-28",
-          "tm": "21:00"
+          "tm": "21:15"
         },
         {
           "c": "kingsway",
           "dt": "2026-09-29",
-          "tm": "21:00"
+          "tm": "21:15"
         },
         {
           "c": "kingsway",
           "dt": "2026-09-30",
-          "tm": "21:00"
+          "tm": "21:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-01",
+          "tm": "21:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-02",
+          "tm": "21:15"
         }
       ]
     },
@@ -193,16 +193,6 @@
       "showtimes": [
         {
           "c": "fox",
-          "dt": "2026-09-24",
-          "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-09-25",
-          "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
-        },
-        {
-          "c": "fox",
           "dt": "2026-09-26",
           "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
         },
@@ -224,6 +214,11 @@
         {
           "c": "fox",
           "dt": "2026-09-30",
+          "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-10-01",
           "url": "https://www.foxtheatre.ca/movies/temporarily-closed/"
         }
       ]
@@ -461,11 +456,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-25",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-27",
           "tm": "15:00"
         },
@@ -473,21 +463,11 @@
           "c": "kingsway",
           "dt": "2026-09-29",
           "tm": "15:00"
-        }
-      ]
-    },
-    {
-      "title": "UNHCR presents: Lost Land",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
+        },
         {
-          "c": "hotdocs",
-          "dt": "2026-09-25",
-          "tm": "10:30",
-          "id": "650934",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650934~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+          "c": "kingsway",
+          "dt": "2026-10-02",
+          "tm": "15:00"
         }
       ]
     },
@@ -522,21 +502,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "21:45"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-26",
           "tm": "01:00"
         },
@@ -584,66 +549,6 @@
           "c": "carlton",
           "dt": "2026-09-30",
           "tm": "18:35"
-        }
-      ]
-    },
-    {
-      "title": "Buddy",
-      "description": "A brave girl and her friends must escape a kids television show.",
-      "poster": "https://image.tmdb.org/t/p/w500/6Lh4ZlsAISFQFVfLZ90sE9ycVnN.jpg",
-      "director": "Casper Kelly",
-      "year": "2026",
-      "runtime": "95 min",
-      "genres": [
-        "Horror",
-        "Comedy"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "21:50"
-        }
-      ]
-    },
-    {
-      "title": "Akira (SUB) (1988)",
-      "description": "A secret military project endangers Neo-Tokyo when it turns a teenage biker gang member into a rampaging psychic psychopath who can only be stopped by his best friend.",
-      "poster": "https://m.media-amazon.com/images/M/MV5BYWUxMGRhZDQtMTBmMi00N2IxLWE5NmYtMDMyMWExODAwNWYzXkEyXkFqcGc@._V1_SX300.jpg",
-      "director": "Katsuhiro Ôtomo",
-      "year": "1988",
-      "runtime": "124 min",
-      "rating": "R",
-      "genres": [
-        "Animation",
-        "Action",
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "21:35"
         }
       ]
     },
@@ -662,18 +567,13 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-25",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-27",
-          "tm": "21:00"
+          "tm": "20:45"
         },
         {
           "c": "kingsway",
-          "dt": "2026-09-29",
-          "tm": "21:00"
+          "dt": "2026-10-01",
+          "tm": "20:45"
         }
       ]
     },
@@ -768,65 +668,6 @@
       ]
     },
     {
-      "title": "Practical Magic 2",
-      "description": "A multi generational family of witches, cursed to be loveless for centuries, attempts to break the spell by confronting dark secrets and sacrificing for each other.",
-      "poster": "https://image.tmdb.org/t/p/w500/7jCV8dkRFK3DGJ4dTqlvrMTFPwZ.jpg",
-      "director": "Susanne Bier",
-      "year": "2026",
-      "genres": [
-        "Romance",
-        "Fantasy",
-        "Comedy"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "21:30"
-        }
-      ]
-    },
-    {
-      "title": "Taxi Driver (1976)",
-      "description": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action.",
-      "poster": "https://image.tmdb.org/t/p/w500/ekstpH614fwDX8DUln1a2Opz0N8.jpg",
-      "director": "Martin Scorsese",
-      "year": "1976",
-      "runtime": "114 min",
-      "rating": "R",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "21:40"
-        }
-      ]
-    },
-    {
       "title": "Filipinana",
       "description": "Teen Isabel's attraction to Dr. Palanca at her country club job turns dark as she uncovers violence beneath the club's facade and discovers their disturbing connection from the past.",
       "poster": "https://image.tmdb.org/t/p/w500/paJZyL5uwTJZLlWbEcN6MbFLGYA.jpg",
@@ -840,43 +681,8 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-24",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-24",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-24",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-25",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-25",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-25",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-26",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-26",
-          "tm": "17:00"
+          "tm": "13:00"
         },
         {
           "c": "kingsway",
@@ -886,12 +692,7 @@
         {
           "c": "kingsway",
           "dt": "2026-09-27",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-27",
-          "tm": "17:00"
+          "tm": "13:00"
         },
         {
           "c": "kingsway",
@@ -901,12 +702,7 @@
         {
           "c": "kingsway",
           "dt": "2026-09-28",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-28",
-          "tm": "17:00"
+          "tm": "13:00"
         },
         {
           "c": "kingsway",
@@ -916,12 +712,7 @@
         {
           "c": "kingsway",
           "dt": "2026-09-29",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-29",
-          "tm": "17:00"
+          "tm": "13:00"
         },
         {
           "c": "kingsway",
@@ -931,16 +722,31 @@
         {
           "c": "kingsway",
           "dt": "2026-09-30",
-          "tm": "15:00"
+          "tm": "13:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-09-30",
-          "tm": "17:00"
+          "tm": "19:00"
         },
         {
           "c": "kingsway",
-          "dt": "2026-09-30",
+          "dt": "2026-10-01",
+          "tm": "13:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-01",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-02",
+          "tm": "13:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-02",
           "tm": "19:00"
         }
       ]
@@ -1017,28 +823,6 @@
       ]
     },
     {
-      "title": "BUDDY (2026)",
-      "description": "A brave girl and her friends must escape a kids television show.",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/buddy_tmdb-pcw0mnheym8vig7my6vwqnjhkmw-768x1138.jpg",
-      "director": "Casper Kelly",
-      "year": "2026",
-      "runtime": "96 min",
-      "rating": "R",
-      "genres": [
-        "Horror",
-        "Comedy",
-        "Fantasy"
-      ],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-24",
-          "tm": "16:00",
-          "url": "https://revuecinema.ca/films/buddy-2026/"
-        }
-      ]
-    },
-    {
       "title": "Cinema Rex: The Stranger and the Fog",
       "description": "Presented by Cinema Rex Podcast. From Kiarostami to Abbasi, from Farrokhzad to Amirpour. From pre-revolutionary cinema to modern times. Join Iranian-Canadian filmmakers Kaveh Mohebbi and Faran Moradi (a screenwriter and a director) as they embark on a crash-course on all that Iranian cinema has to offer episode-to-episode one film at a time. Set around the ...",
       "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/tmdb-i35kvrj5qujpe1vbdsx3glooli3_thumb.jpg",
@@ -1048,64 +832,6 @@
           "c": "fox",
           "dt": "2026-10-14",
           "url": "https://www.foxtheatre.ca/movies/cinema-rex-the-stranger-and-the-fog/"
-        }
-      ]
-    },
-    {
-      "title": "Hold Up: JUNO (2007)",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/06/juno_tmdb-jnin2tvhpvfd6p9iojldi3mnycn-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-24",
-          "tm": "18:45",
-          "url": "https://revuecinema.ca/films/hold-up-juno-2007/"
-        }
-      ]
-    },
-    {
-      "title": "Nightmare Alley: DEAD & BURIED – 45th Anniversary Screening!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/dead_&_buried_tmdb-amzd57u1m9tqakf12oyuucv9hjn-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-24",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/nightmare-alley-dead-buried-45th-anniversary-screening/"
-        }
-      ]
-    },
-    {
-      "title": "The Wolf Man (1941)",
-      "description": "Upon his return to his father's estate, aristocrat Larry Talbot meets a beautiful woman, attends a mystical carnival and uncovers a horrifying curse.",
-      "poster": "https://image.tmdb.org/t/p/w500/vG8fu5syTtQLzK1hQXyi3ugOPNF.jpg",
-      "director": "George Waggner",
-      "year": "1941",
-      "runtime": "70 min",
-      "rating": "Approved",
-      "genres": [
-        "Horror",
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "21:55"
         }
       ]
     },
@@ -1123,36 +849,6 @@
         "Drama"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "21:50"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-26",
@@ -1260,31 +956,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-27",
           "tm": "02:00"
         },
@@ -1333,73 +1004,13 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-24",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-24",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-25",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-25",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-26",
           "tm": "13:15"
         },
         {
           "c": "kingsway",
-          "dt": "2026-09-26",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-09-27",
           "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-27",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-28",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-28",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-29",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-29",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-30",
-          "tm": "13:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-30",
-          "tm": "17:00"
         }
       ]
     },
@@ -1418,101 +1029,33 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-09-24",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-24",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-25",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-25",
-          "tm": "19:00"
+          "dt": "2026-09-26",
+          "tm": "13:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-09-26",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-26",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-27",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-27",
-          "tm": "19:00"
+          "tm": "20:45"
         },
         {
           "c": "kingsway",
           "dt": "2026-09-28",
-          "tm": "15:00"
+          "tm": "13:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-09-28",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-29",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-09-29",
-          "tm": "19:00"
+          "tm": "20:45"
         },
         {
           "c": "kingsway",
           "dt": "2026-09-30",
-          "tm": "15:00"
+          "tm": "13:00"
         },
         {
           "c": "kingsway",
           "dt": "2026-09-30",
-          "tm": "19:00"
-        }
-      ]
-    },
-    {
-      "title": "Neon Dreams: LIGHT SLEEPER (1992) – Presented on 35mm!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/light_sleeper_tmdb-ffsdoykp80rck81kunw3rz7fclx-768x1133.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-25",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/neon-dreams-light-sleeper-1992-presented-on-35mm/"
-        }
-      ]
-    },
-    {
-      "title": "Rental Event: SURREAL FILMS: TORONTO-BASED GENRE SHORTS",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/08/image_(1)-768x432.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-09-25",
-          "tm": "18:45",
-          "url": "https://revuecinema.ca/films/rental-event-surreal-films-toronto-based-genre-shorts/"
+          "tm": "20:45"
         }
       ]
     },
@@ -2337,36 +1880,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-24",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-26",
           "tm": "01:00"
         },
@@ -2585,21 +2098,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "21:55"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-26",
           "tm": "01:00"
         },
@@ -2735,21 +2233,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-26",
           "tm": "02:00"
         },
@@ -2876,16 +2359,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-26",
           "tm": "01:00"
         },
@@ -2970,16 +2443,6 @@
         "Fantasy"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "21:45"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-26",
@@ -3371,21 +2834,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-26",
           "tm": "02:00"
         },
@@ -3512,21 +2960,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-09-26",
           "tm": "01:00"
         },
@@ -3651,21 +3084,6 @@
         "Drama"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-09-25",
-          "tm": "21:40"
-        },
         {
           "c": "carlton",
           "dt": "2026-09-26",
@@ -3804,6 +3222,586 @@
           "c": "carlton",
           "dt": "2026-10-01",
           "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-02",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-02",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-02",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "12:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "21:40"
+        }
+      ]
+    },
+    {
+      "title": "MagicLand",
+      "description": "MagicLand, The first feature film from Toronto&#8217;s own Jaymz Bee (co-directed with Jason J. Brown and co-written with poet Robert Priest), is a joyful, all-ages musical fantasy bursting with colour, comedy, and songs spanning every style imaginable. When Athena, goddess of wisdom, falls for a handsome mortal poet, she trades her immortality for a shot ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/magiclandf-poster_thumb.jpg",
+      "director": "Wolfgang Urchs",
+      "year": "1990",
+      "runtime": "80 min",
+      "genres": [
+        "Animation",
+        "Family"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-11-09",
+          "url": "https://www.foxtheatre.ca/movies/magicland/"
+        }
+      ]
+    },
+    {
+      "title": "BEWARE BOIUNA",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/08/beware_boiuna_tmdb-tenvmxkvokslv8kagvndieq13rt-768x1152.jpg",
+      "year": "2026",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-10-02",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/beware-boiuna/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-03",
+          "tm": "12:00",
+          "url": "https://revuecinema.ca/films/beware-boiuna/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-04",
+          "tm": "16:00",
+          "url": "https://revuecinema.ca/films/beware-boiuna/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-05",
+          "tm": "15:30",
+          "url": "https://revuecinema.ca/films/beware-boiuna/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-06",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/beware-boiuna/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-07",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/beware-boiuna/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-08",
+          "tm": "15:30",
+          "url": "https://revuecinema.ca/films/beware-boiuna/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-09",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/beware-boiuna/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-10",
+          "tm": "12:00",
+          "url": "https://revuecinema.ca/films/beware-boiuna/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-11",
+          "tm": "18:00",
+          "url": "https://revuecinema.ca/films/beware-boiuna/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-12",
+          "tm": "13:00",
+          "url": "https://revuecinema.ca/films/beware-boiuna/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-13",
+          "tm": "16:00",
+          "url": "https://revuecinema.ca/films/beware-boiuna/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-14",
+          "tm": "15:30",
+          "url": "https://revuecinema.ca/films/beware-boiuna/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-15",
+          "tm": "15:30",
+          "url": "https://revuecinema.ca/films/beware-boiuna/"
+        }
+      ]
+    },
+    {
+      "title": "Revue Event: TRICK OR TREAT (1986) – Presented on 35mm!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/trick_or_treat_tmdb-yccrgbfuoeckscwxqeka1veps7o-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-10-03",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/revue-event-trick-or-treat-1986-presented-on-35mm/"
+        }
+      ]
+    },
+    {
+      "title": "THE MIDNIGHT REVUE: TRICK ‘R TREAT – featuring SEASON’S GREETINGS short – (Toronto Theatrical Premiere of New restoration!)",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/screenshot_2026-07-13_at_8.45.38_am-768x1159.png",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-10-03",
+          "tm": "23:59",
+          "url": "https://revuecinema.ca/films/the-midnight-revue-trick-r-treat-featuring-seasons-greetings-short-toronto-theatrical-premiere-of-new-restoration/"
+        }
+      ]
+    },
+    {
+      "title": "Revue Event: A BREED APART (2025) – With Cast & Crew In Attendance!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/09/a_breed_apart_tmdb-qnyg4owrxokqphkrztfwzpsgxmd-768x1133.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-10-03",
+          "tm": "15:00",
+          "url": "https://revuecinema.ca/films/revue-event-a-breed-apart-2025-with-cast-crew-in-attendance/"
+        }
+      ]
+    },
+    {
+      "title": "Revue Event: TWILIGHT (2008)",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2024/08/twilight_tmdb-3gkb6jm6962adupacbqzz9ctbn9.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-10-04",
+          "tm": "13:00",
+          "url": "https://revuecinema.ca/films/revue-event-twilight-2008/"
+        }
+      ]
+    },
+    {
+      "title": "Don't Look Back in Anger",
+      "description": "Experience the meteoric rise of Oasis through rare footage and untold stories as the band reunites for Oasis Live '25, chronicling their journey from Manchester streets to global rock stardom.",
+      "poster": "https://image.tmdb.org/t/p/w500/5XoHhKZ1IROW6f5UlRpADHnTL2l.jpg",
+      "director": "Will Lovelace",
+      "year": "2026",
+      "runtime": "122 min",
+      "rating": "R",
+      "genres": [
+        "Documentary",
+        "Music"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-10-10",
+          "tm": "11:00",
+          "id": "644514",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=644514~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Corpse Bride (2005)",
+      "description": "When a shy groom practices his wedding vows in the inadvertent presence of a deceased young woman, she rises from the grave assuming he has married her.",
+      "poster": "https://image.tmdb.org/t/p/w500/3RAoVTxUk1OzZClscAsynuu670p.jpg",
+      "director": "Tim Burton",
+      "year": "2005",
+      "runtime": "77 min",
+      "rating": "PG",
+      "genres": [
+        "Romance",
+        "Fantasy",
+        "Animation"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-10-02",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-02",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-02",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "13:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "15:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "17:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "21:30"
+        }
+      ]
+    },
+    {
+      "title": "Death Becomes Her (1992)",
+      "description": "When a fading actress learns of an immortality treatment, she sees it as a way to outdo her long-time rival.",
+      "poster": "https://image.tmdb.org/t/p/w500/kkWxyyyWFK5KNk9WVwQuGEC9H9H.jpg",
+      "director": "Robert Zemeckis",
+      "year": "1992",
+      "runtime": "104 min",
+      "rating": "PG-13",
+      "genres": [
+        "Comedy",
+        "Fantasy",
+        "Horror"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-10-02",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-02",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-02",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "12:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "15:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "21:45"
+        }
+      ]
+    },
+    {
+      "title": "The Exorcist (1973)",
+      "description": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.",
+      "poster": "https://image.tmdb.org/t/p/w500/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
+      "director": "William Friedkin",
+      "year": "1973",
+      "runtime": "122 min",
+      "rating": "R",
+      "genres": [
+        "Horror"
+      ],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-10-02",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-02",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-02",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "12:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "15:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-03",
+          "tm": "21:40"
+        }
+      ]
+    },
+    {
+      "title": "The Uprising",
+      "description": "Based on the true story of the uprising that inspired the legend of Robin Hood, Andrew Garfield stars as the leader of a rebellion against the tyranny of King Richard II in a fight for justice.",
+      "poster": "https://image.tmdb.org/t/p/w500/jme7VvETwHdPQt90HPs0aL6KMln.jpg",
+      "director": "Paul Greengrass",
+      "year": "2026",
+      "runtime": "127 min",
+      "rating": "R",
+      "genres": [
+        "Action",
+        "History",
+        "Drama"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-09-26",
+          "tm": "14:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-26",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-26",
+          "tm": "19:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-27",
+          "tm": "14:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-27",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-27",
+          "tm": "19:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-28",
+          "tm": "14:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-28",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-28",
+          "tm": "19:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-29",
+          "tm": "14:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-29",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-29",
+          "tm": "19:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-30",
+          "tm": "14:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-30",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-30",
+          "tm": "19:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-01",
+          "tm": "14:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-01",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-01",
+          "tm": "19:10"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-02",
+          "tm": "14:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-02",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-02",
+          "tm": "19:10"
+        }
+      ]
+    },
+    {
+      "title": "A Sad and Beautiful World",
+      "description": "In this cosmic romance set in Beirut, two star-crossed lovers, one an eternal optimist and the other an impulsive pragmatist, must decide if they want to build a family and chart a track to happiness, despite the tragic fates rava...",
+      "poster": "https://image.tmdb.org/t/p/w500/gW3j8B4VPCnVTELgiZee9Xct49J.jpg",
+      "director": "Cyril Aris",
+      "year": "2026",
+      "runtime": "110 min",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-09-26",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-28",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-09-30",
+          "tm": "15:00"
+        }
+      ]
+    },
+    {
+      "title": "Obsession",
+      "description": "Baron \"Bear\" Bailey breaks a novelty charm to force his co-worker Nikki Freeman to love him, but the supernatural compulsion warps her mind into violent obsession, trapping him in a nightmare he cannot wish away.",
+      "poster": "https://image.tmdb.org/t/p/w500/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg",
+      "director": "Curry Barker",
+      "year": "2026",
+      "runtime": "109 min",
+      "rating": "R",
+      "genres": [
+        "Horror",
+        "Thriller"
+      ],
+      "showtimes": [
+        {
+          "c": "kingsway",
+          "dt": "2026-09-29",
+          "tm": "20:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-02",
+          "tm": "20:45"
         }
       ]
     }

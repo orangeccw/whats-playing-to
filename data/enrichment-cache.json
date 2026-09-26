@@ -914,7 +914,7 @@
       "Horror",
       "Thriller"
     ],
-    "_cachedAt": "2026-09-19T13:39:32.810Z",
+    "_cachedAt": "2026-09-26T14:01:21.022Z",
     "_omdbTried": true,
     "omdbDirector": "Curry Barker",
     "omdbRuntime": "109 min",
@@ -2539,7 +2539,7 @@
       "Drama",
       "Comedy"
     ],
-    "_cachedAt": "2026-09-05T13:13:15.885Z",
+    "_cachedAt": "2026-09-26T14:01:19.955Z",
     "_omdbTried": true,
     "omdbDirector": "Cyril Aris",
     "omdbRuntime": "110 min",
@@ -3570,5 +3570,124 @@
     "omdbDirector": "Alejandro G. Iñárritu",
     "omdbRuntime": "106 min",
     "omdbDescription": "The most powerful man in the world embarks on a frantic mission to prove he is humanity's savior before the disaster he's unleashed destroys everything."
+  },
+  "magicland|1990": {
+    "_tried": true,
+    "year": "1990",
+    "genres": [
+      "Animation",
+      "Family"
+    ],
+    "_cachedAt": "2026-09-26T14:01:08.058Z",
+    "_omdbTried": true,
+    "omdbDirector": "Wolfgang Urchs",
+    "omdbRuntime": "80 min"
+  },
+  "beware boiuna|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-09-26T14:01:09.199Z",
+    "_omdbTried": true
+  },
+  "revue event: trick or treat (1986) – presented on 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-26T14:01:10.259Z",
+    "_omdbTried": true
+  },
+  "the midnight revue: trick ‘r treat – featuring season’s greetings short – (toronto theatrical premiere of new restoration!)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-26T14:01:11.337Z",
+    "_omdbTried": true
+  },
+  "revue event: a breed apart (2025) – with cast & crew in attendance!|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-26T14:01:12.417Z",
+    "_omdbTried": true
+  },
+  "revue event: twilight (2008)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-26T14:01:13.494Z",
+    "_omdbTried": true
+  },
+  "don't look back in anger|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/5XoHhKZ1IROW6f5UlRpADHnTL2l.jpg",
+    "year": "2026",
+    "genres": [
+      "Documentary",
+      "Music"
+    ],
+    "_cachedAt": "2026-09-26T14:01:14.554Z",
+    "_omdbTried": true,
+    "omdbDirector": "Will Lovelace",
+    "omdbRuntime": "122 min",
+    "omdbRating": "R",
+    "omdbDescription": "Experience the meteoric rise of Oasis through rare footage and untold stories as the band reunites for Oasis Live '25, chronicling their journey from Manchester streets to global rock stardom."
+  },
+  "corpse bride (2005)|2005": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/3RAoVTxUk1OzZClscAsynuu670p.jpg",
+    "year": "2005",
+    "genres": [
+      "Romance",
+      "Fantasy",
+      "Animation"
+    ],
+    "_cachedAt": "2026-09-26T14:01:15.623Z",
+    "_omdbTried": true,
+    "omdbDirector": "Tim Burton",
+    "omdbRuntime": "77 min",
+    "omdbRating": "PG",
+    "omdbDescription": "When a shy groom practices his wedding vows in the inadvertent presence of a deceased young woman, she rises from the grave assuming he has married her."
+  },
+  "death becomes her (1992)|1992": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/kkWxyyyWFK5KNk9WVwQuGEC9H9H.jpg",
+    "year": "1992",
+    "genres": [
+      "Comedy",
+      "Fantasy",
+      "Horror"
+    ],
+    "_cachedAt": "2026-09-26T14:01:16.691Z",
+    "_omdbTried": true,
+    "omdbDirector": "Robert Zemeckis",
+    "omdbRuntime": "104 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "When a fading actress learns of an immortality treatment, she sees it as a way to outdo her long-time rival."
+  },
+  "the exorcist (1973)|1973": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/5x0CeVHJI8tcDx8tUUwYHQSNILq.jpg",
+    "year": "1973",
+    "genres": [
+      "Horror"
+    ],
+    "_cachedAt": "2026-09-26T14:01:17.753Z",
+    "_omdbTried": true,
+    "omdbDirector": "William Friedkin",
+    "omdbRuntime": "122 min",
+    "omdbRating": "R",
+    "omdbDescription": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life."
+  },
+  "the uprising|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/jme7VvETwHdPQt90HPs0aL6KMln.jpg",
+    "year": "2026",
+    "genres": [
+      "Action",
+      "History",
+      "Drama"
+    ],
+    "_cachedAt": "2026-09-26T14:01:18.828Z",
+    "_omdbTried": true,
+    "omdbDirector": "Paul Greengrass",
+    "omdbRuntime": "127 min",
+    "omdbRating": "R",
+    "omdbDescription": "Based on the true story of the uprising that inspired the legend of Robin Hood, Andrew Garfield stars as the leader of a rebellion against the tyranny of King Richard II in a fight for justice."
   }
 }
