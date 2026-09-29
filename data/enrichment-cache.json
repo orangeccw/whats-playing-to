@@ -3689,5 +3689,96 @@
     "omdbRuntime": "127 min",
     "omdbRating": "R",
     "omdbDescription": "Based on the true story of the uprising that inspired the legend of Robin Hood, Andrew Garfield stars as the leader of a rebellion against the tyranny of King Richard II in a fight for justice."
+  },
+  "don’t be so political: the dead zone (1983)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-29T16:18:24.572Z",
+    "_omdbTried": true
+  },
+  "hollywood suite’s movie madness: suspiria (1977) – new restoration|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-29T16:18:25.622Z",
+    "_omdbTried": true
+  },
+  "revue event: dead lover – with cast & crew in attendance & stink-o-vision!!|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-29T16:18:26.672Z",
+    "_omdbTried": true
+  },
+  "revue film society: be kind rewind (2008)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-29T16:18:27.722Z",
+    "_omdbTried": true
+  },
+  "we really like her: copycat (1995)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-29T16:18:28.771Z",
+    "_omdbTried": true
+  },
+  "free members-only screening: trailer trash: undead|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-29T16:18:29.827Z",
+    "_omdbTried": true
+  },
+  "35 on 35: silence of the lambs (1991) – presented on 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-29T16:18:30.898Z",
+    "_omdbTried": true
+  },
+  "thanksgiving horror: blood rage (1987)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-29T16:18:31.945Z",
+    "_omdbTried": true
+  },
+  "thanksgiving weekend: prisoners (2013)|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-29T16:18:33.004Z",
+    "_omdbTried": true
+  },
+  "taipei story|1985": {
+    "_tried": true,
+    "year": "1985",
+    "genres": [
+      "Drama"
+    ],
+    "_cachedAt": "2026-09-29T16:18:34.053Z",
+    "_omdbTried": true,
+    "omdbDirector": "Edward Yang",
+    "omdbRuntime": "119 min",
+    "omdbRating": "Not Rated",
+    "omdbDescription": "Lung is a former member of the national Little League team who lives with his old childhood sweetheart Ah-chin, a traditional family woman. Although they live together, Ah-chin is weary of Lung's past liaison with another girl."
+  },
+  "just for laughs: ron taylor|": {
+    "_tried": true,
+    "_cachedAt": "2026-09-29T16:18:35.106Z",
+    "_omdbTried": true
+  },
+  "rolling loud|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/yJsGgMrE2wE1rdtu70LI6rrF3mo.jpg",
+    "year": "2026",
+    "genres": [
+      "Comedy",
+      "Music"
+    ],
+    "_cachedAt": "2026-09-29T16:18:36.158Z",
+    "_omdbTried": true,
+    "omdbDirector": "Jeremy Garelick",
+    "omdbDescription": "A father makes a bad parenting choice by taking his young son to a wild hip-hop festival, leading to chaos as they navigate crowds, security, and family dynamics with eccentric companions."
+  },
+  "sacrifice|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/321rzg1B6RRhcuRgsFHjQ7Xl3XX.jpg",
+    "year": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-09-29T16:18:37.213Z",
+    "_omdbTried": true,
+    "omdbDirector": "Romain Gavras",
+    "omdbRuntime": "103 min",
+    "omdbRating": "R",
+    "omdbDescription": "At an elite fundraising gala, celebrities and socialites find themselves in danger when armed activists storm the venue in pursuit of a legendary relic that could unlock supernatural powers."
   }
 }
