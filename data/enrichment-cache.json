@@ -1304,7 +1304,7 @@
     "genres": [
       "Drama"
     ],
-    "_cachedAt": "2026-08-15T10:17:37.203Z",
+    "_cachedAt": "2026-10-01T16:50:52.083Z",
     "_omdbTried": true,
     "omdbDirector": "Josie Besbrode"
   },
@@ -2127,17 +2127,17 @@
   },
   "buddy|2026": {
     "_tried": true,
-    "poster": "https://image.tmdb.org/t/p/w500/6Lh4ZlsAISFQFVfLZ90sE9ycVnN.jpg",
     "year": "2026",
     "genres": [
       "Horror",
-      "Comedy"
+      "Comedy",
+      "Fantasy"
     ],
-    "_cachedAt": "2026-08-27T20:06:45.015Z",
+    "_cachedAt": "2026-10-01T16:50:53.146Z",
     "_omdbTried": true,
     "omdbDirector": "Casper Kelly",
-    "omdbRuntime": "95 min",
-    "omdbDescription": "A brave girl and her friends must escape a kids television show."
+    "omdbRuntime": "96 min",
+    "omdbRating": "R"
   },
   "nirvanna the band the show the movie|2026": {
     "_tried": true,
@@ -3780,5 +3780,41 @@
     "omdbRuntime": "103 min",
     "omdbRating": "R",
     "omdbDescription": "At an elite fundraising gala, celebrities and socialites find themselves in danger when armed activists storm the venue in pursuit of a legendary relic that could unlock supernatural powers."
+  },
+  "thanksgiving weekend: alice’s restaurant (1969)|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-01T16:50:54.211Z",
+    "_omdbTried": true
+  },
+  "thanksgiving weekend: planes, trains and automobiles|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-01T16:50:55.272Z",
+    "_omdbTried": true
+  },
+  "thanksgiving weekend: the big chill (4k restoration!)|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-01T16:50:56.339Z",
+    "_omdbTried": true
+  },
+  "revue event: reel fear:  the evolution of found footage horror  – lecture by alex west|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-01T16:50:57.401Z",
+    "_omdbTried": true
+  },
+  "naza|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/b4Gyj8VRoJAeU13jfKPuOTMr5GL.jpg",
+    "year": "2026",
+    "genres": [
+      "Documentary"
+    ],
+    "_cachedAt": "2026-10-01T16:50:58.516Z",
+    "_omdbTried": true,
+    "omdbDirector": "Iyabo Kwayana"
+  },
+  "other mommy fan event screening|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-01T16:50:59.573Z",
+    "_omdbTried": true
   }
 }
