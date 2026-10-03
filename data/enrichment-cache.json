@@ -914,7 +914,7 @@
       "Horror",
       "Thriller"
     ],
-    "_cachedAt": "2026-09-26T14:01:21.022Z",
+    "_cachedAt": "2026-10-03T14:31:07.974Z",
     "_omdbTried": true,
     "omdbDirector": "Curry Barker",
     "omdbRuntime": "109 min",
@@ -3816,5 +3816,124 @@
     "_tried": true,
     "_cachedAt": "2026-10-01T16:50:59.573Z",
     "_omdbTried": true
+  },
+  "the incomer|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "_cachedAt": "2026-10-03T14:30:59.563Z",
+    "_omdbTried": true,
+    "omdbDirector": "Louis Paxton"
+  },
+  "rental event: alianaqtut – inuit horror night|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-03T14:31:00.609Z",
+    "_omdbTried": true
+  },
+  "once upon a time in harlem: advanced screening!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-03T14:31:01.655Z",
+    "_omdbTried": true
+  },
+  "reel rock hosted by true north climbing|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-03T14:31:02.702Z",
+    "_omdbTried": true
+  },
+  "other mommy|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/fGRNCssTRrhYZxNzykGGCoMsAVq.jpg",
+    "year": "2026",
+    "genres": [
+      "Horror"
+    ],
+    "_cachedAt": "2026-10-03T14:31:03.752Z",
+    "_omdbTried": true,
+    "omdbDirector": "Rob Savage",
+    "omdbRuntime": "93 min",
+    "omdbRating": "R",
+    "omdbDescription": "Bela, an 8-year-old girl living in a home with marital problems, confronts a sinister entity which comes out of her closet. The presence, whom she calls \"Other Mommy,\" becomes increasingly threatening to her and her family."
+  },
+  "scream (1996)|2022": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/nD4M4Bx457ryLuKYpxFwQ2IBJ5w.jpg",
+    "year": "2022",
+    "genres": [
+      "Horror",
+      "Mystery"
+    ],
+    "_cachedAt": "2026-10-03T14:31:04.800Z",
+    "_omdbTried": true,
+    "omdbDirector": "Matt Bettinelli-Olpin",
+    "omdbRuntime": "114 min",
+    "omdbRating": "R",
+    "omdbDescription": "25 years after the original Woodsboro killings, a new Ghostface begins targeting teens connected to the town's dark past, drawing the final 3 survivors of the first attack back once more."
+  },
+  "a breed apart|2025": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/6IiNUUV6H2W1wUc8e1w4GfuQCOE.jpg",
+    "year": "2025",
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Action"
+    ],
+    "_cachedAt": "2026-10-03T14:31:05.866Z",
+    "_omdbTried": true,
+    "omdbDirector": "Griff Furst",
+    "omdbRuntime": "99 min",
+    "omdbRating": "R",
+    "omdbDescription": "A rebel seeking abandoned dogs on a remote island finds herself in a harrowing situation filled with terror and adrenaline-fueled chaos."
+  },
+  "the nightmare before christmas (1993)|1993": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/oQffRNjK8e19rF7xVYEN8ew0j7b.jpg",
+    "year": "1993",
+    "genres": [
+      "Fantasy",
+      "Animation",
+      "Family"
+    ],
+    "_cachedAt": "2026-10-03T14:31:06.923Z",
+    "_omdbTried": true,
+    "omdbDirector": "Henry Selick",
+    "omdbRuntime": "76 min",
+    "omdbRating": "PG",
+    "omdbDescription": "Jack Skellington, king of Halloween Town, discovers Christmas Town, but his attempts to bring Christmas to his home causes confusion."
+  },
+  "godzilla minus one|2023": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/2E2WTX0TJEflAged6kzErwqX1kt.jpg",
+    "year": "2023",
+    "genres": [
+      "Sci-Fi",
+      "Horror",
+      "Action"
+    ],
+    "_cachedAt": "2026-10-03T14:31:09.024Z",
+    "_omdbTried": true,
+    "omdbDirector": "Takashi Yamazaki",
+    "omdbRuntime": "124 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "A kamikaze pilot plagued by survivor's guilt seeks redemption when a giant monster he failed to kill is transformed by radiation from atomic bomb tests and lays siege to post-war Japan."
+  },
+  "mars express|2023": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/g8rUn0khoYB3G4gPPGTF1Xv9Olu.jpg",
+    "year": "2023",
+    "genres": [
+      "Animation",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-10-03T14:31:10.072Z",
+    "_omdbTried": true,
+    "omdbDirector": "Jérémie Périn",
+    "omdbRuntime": "88 min",
+    "omdbRating": "Not Rated",
+    "omdbDescription": "Set in the 23rd century on Mars, the plot follows the investigation on a murder case carried out by the couple formed by private investigator Aline Ruby and her android companion Carlos Rivera."
   }
 }
