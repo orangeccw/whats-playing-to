@@ -3935,5 +3935,85 @@
     "omdbRuntime": "88 min",
     "omdbRating": "Not Rated",
     "omdbDescription": "Set in the 23rd century on Mars, the plot follows the investigation on a murder case carried out by the couple formed by private investigator Aline Ruby and her android companion Carlos Rivera."
+  },
+  "run terry run director q&#038;a|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-06T16:27:29.250Z",
+    "_omdbTried": true
+  },
+  "revue event: paranormal activity (2007) – presented on 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-06T16:27:30.315Z",
+    "_omdbTried": true
+  },
+  "the black nerds: night of the living dead (4k restoration!)|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-06T16:27:31.379Z",
+    "_omdbTried": true
+  },
+  "psych-out cinema: blue sunshine (1977) – new 4k restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-06T16:27:32.445Z",
+    "_omdbTried": true
+  },
+  "designing the movies: burnt offerings – 50th anniversary screening!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-06T16:27:33.507Z",
+    "_omdbTried": true
+  },
+  "revue event: michael mann’s manhunter: the final cut – new 4k restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-06T16:27:34.573Z",
+    "_omdbTried": true
+  },
+  "do you like pain? retrospective: rawhead rex (1986) – new 4k  restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-06T16:27:35.634Z",
+    "_omdbTried": true
+  },
+  "neon nightmares: retribution (1987)|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-06T16:27:36.696Z",
+    "_omdbTried": true
+  },
+  "the original evil dead trilogy: army of darkness – presented on 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-06T16:27:37.761Z",
+    "_omdbTried": true
+  },
+  "the reflecting skin|1990": {
+    "_tried": true,
+    "year": "1990",
+    "genres": [
+      "Drama",
+      "Thriller",
+      "Horror"
+    ],
+    "_cachedAt": "2026-10-06T16:27:38.825Z",
+    "_omdbTried": true,
+    "omdbDirector": "Philip Ridley",
+    "omdbRuntime": "96 min",
+    "omdbRating": "R",
+    "omdbDescription": "In the 1950s, a young boy living with his troublesome family in rural USA fantasizes that a neighboring widow is actually a vampire, responsible for a number of disappearances in the area."
+  },
+  "cat people|1982": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/nYcQnkbTD4LDmp11HCReQuUoMKD.jpg",
+    "year": "1982",
+    "genres": [
+      "Fantasy",
+      "Horror"
+    ],
+    "_cachedAt": "2026-10-06T16:27:39.889Z",
+    "_omdbTried": true,
+    "omdbDirector": "Paul Schrader",
+    "omdbRuntime": "118 min",
+    "omdbRating": "R",
+    "omdbDescription": "A woman who was orphaned from a young age finally reunites with her older brother. Matters start to go awry when she slowly discovers the true nature of her family."
+  },
+  "inside out run it back double feature: signature move & opponent|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-06T16:27:40.956Z",
+    "_omdbTried": true
   }
 }
