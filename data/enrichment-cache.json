@@ -4015,5 +4015,61 @@
     "_tried": true,
     "_cachedAt": "2026-10-06T16:27:40.956Z",
     "_omdbTried": true
+  },
+  "you can see everything|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Documentary"
+    ],
+    "_cachedAt": "2026-10-08T17:08:08.669Z",
+    "_omdbTried": true
+  },
+  "the original evil dead trilogy: evil dead ii (1987) – presented on 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-08T17:08:09.902Z",
+    "_omdbTried": true
+  },
+  "the original evil dead trilogy: the evil dead (1981) – presented on 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-08T17:08:11.137Z",
+    "_omdbTried": true
+  },
+  "cramps! a period piece|2025": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/SWKWLtVDRmeWUWllELMaKPQ8SM.jpg",
+    "year": "2025",
+    "genres": [
+      "Horror",
+      "Comedy",
+      "Fantasy"
+    ],
+    "_cachedAt": "2026-10-08T17:08:12.601Z",
+    "_omdbTried": true
+  },
+  "2026 hump! film festival - fall season|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-08T17:08:13.831Z",
+    "_omdbTried": true
+  },
+  "doc soup 2: nuisance bear|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-08T17:08:15.061Z",
+    "_omdbTried": true
+  },
+  "il paese: the village|2018": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/ruy2M3IkNybVfHiLUoQs4jBx7kl.jpg",
+    "year": "2018",
+    "genres": [
+      "Documentary"
+    ],
+    "_cachedAt": "2026-10-08T17:08:16.528Z",
+    "_omdbTried": true
+  },
+  "matloob aaeleyan - arabic (sub)|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-08T17:08:17.762Z",
+    "_omdbTried": true
   }
 }
