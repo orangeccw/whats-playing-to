@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17",
+  "lastUpdated": "2026-10-20",
   "cinemas": {
     "fox": {
       "name": "Fox Theatre",
@@ -187,36 +187,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-10-17",
-          "tm": "15:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-17",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-18",
-          "tm": "15:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-18",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-19",
-          "tm": "15:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-19",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-10-20",
           "tm": "15:15"
         },
@@ -253,6 +223,36 @@
         {
           "c": "kingsway",
           "dt": "2026-10-23",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-24",
+          "tm": "15:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-24",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-25",
+          "tm": "15:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-25",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-26",
+          "tm": "15:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-26",
           "tm": "19:00"
         }
       ]
@@ -267,24 +267,6 @@
           "c": "fox",
           "dt": "2026-10-23",
           "url": "https://www.foxtheatre.ca/movies/sold-out-the-rocky-horror-picture-show-w-shadowcast/"
-        }
-      ]
-    },
-    {
-      "title": "Restoration: Kwaidan",
-      "description": "After more than a decade of sober political dramas and socially minded period pieces, the great Japanese director Masaki Kobayashi shifted gears dramatically for this rapturously stylized quartet of ghost stories. Featuring colorfully surreal sets and luminous cinematography, these haunting tales of demonic comeuppance and spiritual trials, adapted from writer Lafcadio Hearn’s collections of Japanese ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/kwaidan_poster_janus_27x40_tp_thumb_thumb.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-10-17",
-          "url": "https://www.foxtheatre.ca/movies/restoration-kwaidan/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-10-18",
-          "url": "https://www.foxtheatre.ca/movies/restoration-kwaidan/"
         }
       ]
     },
@@ -315,22 +297,17 @@
       "showtimes": [
         {
           "c": "fox",
-          "dt": "2026-10-17",
-          "url": "https://www.foxtheatre.ca/movies/the-history-of-concrete/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-10-18",
-          "url": "https://www.foxtheatre.ca/movies/the-history-of-concrete/"
-        },
-        {
-          "c": "fox",
           "dt": "2026-10-20",
           "url": "https://www.foxtheatre.ca/movies/the-history-of-concrete/"
         },
         {
           "c": "fox",
           "dt": "2026-10-22",
+          "url": "https://www.foxtheatre.ca/movies/the-history-of-concrete/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-11-02",
           "url": "https://www.foxtheatre.ca/movies/the-history-of-concrete/"
         },
         {
@@ -356,13 +333,6 @@
       "genres": [],
       "showtimes": [
         {
-          "c": "hotdocs",
-          "dt": "2026-10-17",
-          "tm": "05:30",
-          "id": "650661",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650661~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        },
-        {
           "c": "fox",
           "dt": "2026-11-07",
           "url": "https://www.foxtheatre.ca/movies/exhibition-on-screen-james-mcneill-whistler/"
@@ -383,72 +353,10 @@
       "showtimes": [
         {
           "c": "hotdocs",
-          "dt": "2026-10-18",
-          "tm": "11:00",
-          "id": "650672",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650672~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        },
-        {
-          "c": "hotdocs",
           "dt": "2026-10-24",
           "tm": "05:30",
           "id": "650672",
           "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650672~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
-      "title": "Union Town",
-      "description": "",
-      "poster": "https://image.tmdb.org/t/p/w500/wxaSeSZ2BCHxfeJTCZ88zjbs4EX.jpg",
-      "year": "2026",
-      "genres": [
-        "Documentary"
-      ],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-10-18",
-          "tm": "05:00",
-          "id": "651804",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=651804~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
-      "title": "T.S. Eliot's Four Quartets - with Sophie Fiennes",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-10-17",
-          "tm": "08:00",
-          "id": "650655",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650655~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
-      "title": "The Theft",
-      "description": "The Theft traces a set of ancient, treasured artifacts stolen from Afghanistan that have, in some cases, ended up in the hands of Western museums.",
-      "poster": "https://image.tmdb.org/t/p/w500/xdAfS5dJThwwoOpXZevzgdZMS4p.jpg",
-      "director": "Aisha Jamal",
-      "year": "2026",
-      "runtime": "85 min",
-      "genres": [
-        "Crime",
-        "Mystery",
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-10-18",
-          "tm": "08:00",
-          "id": "650669",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650669~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
         }
       ]
     },
@@ -711,11 +619,6 @@
       "showtimes": [
         {
           "c": "fox",
-          "dt": "2026-10-18",
-          "url": "https://www.foxtheatre.ca/movies/run-terry-run/"
-        },
-        {
-          "c": "fox",
           "dt": "2026-10-20",
           "url": "https://www.foxtheatre.ca/movies/run-terry-run/"
         },
@@ -912,19 +815,6 @@
       ]
     },
     {
-      "title": "Northern Frights: Videodrome",
-      "description": "Behind the gore and wild special effects, Videodrome is a reverent cautionary tale examining the mounting dangers of, as critic Tim Lucas put it, “the fascination and horror of sex and violence; and the boundaries of reality and consciousness.&#8221; In his rich Canadian horror filmography , David Cronenberg’s Videodrome is his most provocative and timeless ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/videodrome_tmdb-qqqkizsu9ebgz1kidmfn07s7qvv_thumb.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-10-17",
-          "url": "https://www.foxtheatre.ca/movies/northern-frights-videodrome/"
-        }
-      ]
-    },
-    {
       "title": "Restoration: The Devils",
       "description": "An enduring masterpiece of cinema starring Academy Award-Winner Vanessa Redgrave and Oliver Reed, &#8220;Ken Russell&#8217;s The Devils&#8221; is a prescient epic of obsession and corruption – and a defining work of art from seminal filmmaker Ken Russell. Assembled from the original camera negative, this new 4K restoration presents Ken Russell’s definitive vision of &#8220;The Devils&#8221; ...",
       "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/screenshot_2026-09-21_151157_thumb.png",
@@ -961,44 +851,6 @@
       ]
     },
     {
-      "title": "Ever Deadly",
-      "description": "Ever Deadly invites its viewers to take a peek behind the curtain of the life and work of award-winning singer, artist, author, and activist Tanya Tagaq. Weaving together concert footage and inspiring sequences filmed on location in Nunavut, seamlessly bridging landscapes, stories and songs with pain, anger and triumph—all through the expressions of Tanya Tagaq, ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/ever_deadly_tmdb-ijjb6tstrpjtpaxi3hdcfstetnk_thumb.jpg",
-      "director": "Chelsea McMullan",
-      "year": "2022",
-      "runtime": "90 min",
-      "genres": [
-        "Documentary",
-        "Music"
-      ],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-10-19",
-          "url": "https://www.foxtheatre.ca/movies/ever-deadly/"
-        }
-      ]
-    },
-    {
-      "title": "Blood Lines",
-      "description": "Beatrice, a Two-Spirit person, spends her days working at the local corner store in her tight-knit Métis community, trading stories and laughs with her best friend Jaz. When Chani, a newcomer searching for her biological family, arrives in town, Beatrice is instantly drawn to her and becomes determined to help in any way she can. ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/blood_lines_tmdb-sr7pwve3vfupeoc4jajzta9zrrl_thumb.jpg",
-      "director": "Pascal Atuma",
-      "year": "2026",
-      "runtime": "85 min",
-      "rating": "Not Rated",
-      "genres": [
-        "Drama"
-      ],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-10-19",
-          "url": "https://www.foxtheatre.ca/movies/blood-lines/"
-        }
-      ]
-    },
-    {
       "title": "Something&#8217;s Wrong : A Special Halloween Screening",
       "description": "Something’s Wrong and we’re putting it on the big screen. Join us this Halloween for a special night of short horror animations from around the world, presented by Toronto International Short Animation Festival (TISAF) &amp; Toronto Animated Image Society (TAIS) This event is a curated short animation program featuring Canadian and international artists. bringing together ...",
       "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/somethings-wrong-poster-2.jpg",
@@ -1023,71 +875,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "12:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "15:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "12:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "15:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "21:30"
-        },
         {
           "c": "carlton",
           "dt": "2026-10-20",
@@ -1164,34 +951,6 @@
         "Documentary"
       ],
       "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-10-17",
-          "tm": "16:00",
-          "id": "684920",
-          "url": "https://paradiseonbloor.com/purchase/684920/"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-10-17",
-          "tm": "18:30",
-          "id": "690468",
-          "url": "https://paradiseonbloor.com/purchase/690468/"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-10-19",
-          "tm": "18:00",
-          "id": "684918",
-          "url": "https://paradiseonbloor.com/purchase/684918/"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-10-19",
-          "tm": "20:30",
-          "id": "690470",
-          "url": "https://paradiseonbloor.com/purchase/690470/"
-        },
         {
           "c": "hotdocs",
           "dt": "2026-10-28",
@@ -1293,67 +1052,17 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-10-17",
+          "dt": "2026-10-20",
           "tm": "01:00"
         },
         {
           "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "16:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
+          "dt": "2026-10-20",
           "tm": "19:10"
         },
         {
           "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "13:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "16:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "19:10"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
+          "dt": "2026-10-20",
           "tm": "21:30"
         },
         {
@@ -1385,6 +1094,46 @@
           "c": "carlton",
           "dt": "2026-10-22",
           "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-24",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-24",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "19:05"
         }
       ]
     },
@@ -1401,56 +1150,6 @@
         "Mystery"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "21:50"
-        },
         {
           "c": "carlton",
           "dt": "2026-10-20",
@@ -1504,71 +1203,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "14:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "16:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "14:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "16:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-10-20",
           "tm": "01:00"
         },
@@ -1576,11 +1210,6 @@
           "c": "carlton",
           "dt": "2026-10-20",
           "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-20",
-          "tm": "21:35"
         },
         {
           "c": "carlton",
@@ -1606,20 +1235,6 @@
           "c": "carlton",
           "dt": "2026-10-22",
           "tm": "18:35"
-        }
-      ]
-    },
-    {
-      "title": "The Original EVIL DEAD Trilogy: ARMY OF DARKNESS – Presented on 35mm!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2025/08/army_of_darkness_tmdb-xerw1pfmywyqcxilxippy3o9urh-768x432.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-10-17",
-          "tm": "18:45",
-          "url": "https://revuecinema.ca/films/army-of-darkness/"
         }
       ]
     },
@@ -1665,49 +1280,6 @@
       ]
     },
     {
-      "title": "The Original Evil Dead Trilogy: EVIL DEAD II (1987) – Presented on 35mm!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/evil_dead_ii_tmdb-4zqckjvhuolgs6c5azwazqlwixw-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-10-17",
-          "tm": "15:30",
-          "url": "https://revuecinema.ca/films/the-original-evil-dead-trilogy-evil-dead-ii-1987-presented-on-35mm/"
-        }
-      ]
-    },
-    {
-      "title": "The Original Evil Dead Trilogy: THE EVIL DEAD (1981) – Presented on 35mm!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/the_evil_dead_tmdb-54c1qdaisijiu5nenb4wspjdnkg-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-10-17",
-          "tm": "13:00",
-          "url": "https://revuecinema.ca/films/the-original-evil-dead-trilogy-the-evil-dead-1981-presented-on-35mm/"
-        }
-      ]
-    },
-    {
-      "title": "2026 HUMP! Film Festival - Fall Season",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-10-17",
-          "tm": "12:00",
-          "id": "662165",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=662165~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
       "title": "Doc Soup 2: Nuisance Bear",
       "description": "",
       "poster": null,
@@ -1748,70 +1320,6 @@
       ]
     },
     {
-      "title": "Clearcut (Restoration)",
-      "description": "&#8220;Clearcut&#8221; is an unforgettable exploration of Indigenous folklore, newly restored in 4K from the original 35mm answer print. A white lawyer arrives in Northern Ontario to defend Indigenous activists who are blocking a logging company&#8217;s clearcut of old growth on their land. A pacifist by nature, and perceiving himself as sympathetic to Indigenous concerns, the ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/10/clearcut_tmdb-6r1pkba2edognagxnjizkbk2gqi_thumb.jpg",
-      "director": "Ryszard Bugajski",
-      "year": "1991",
-      "runtime": "100 min",
-      "rating": "R",
-      "genres": [
-        "Drama",
-        "Horror",
-        "Thriller"
-      ],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-10-19",
-          "url": "https://www.foxtheatre.ca/movies/clearcut-restoration/"
-        }
-      ]
-    },
-    {
-      "title": "Black Belt Cinema: I LOVE MARIA (1988) – New 4K Restoration!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/08/e75d3f3749b6ff8faea2906daa64cadb77638027ad92a74c42072cafe53bdd7e-768x1024.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-10-17",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/black-belt-cinema-i-love-maria-1988-new-4k-restoration/"
-        }
-      ]
-    },
-    {
-      "title": "Do You Like Pain? Retrospective: NIGHTBREED: The Director’s Cut",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/nightbreed_tmdb-1chluyh0bevjo3gtyofhnmzi660-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-10-18",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/do-you-like-pain-retrospective-nightbreed-the-directors-cut/"
-        }
-      ]
-    },
-    {
-      "title": "The Librarians with Toronto's Library Workers",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-10-19",
-          "tm": "10:30",
-          "id": "662450",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=662450~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
       "title": "Street Fighter",
       "description": "Street Fighters Ryu and Ken reunite when Chun-Li recruits them for the World Warrior Tournament. As they face a hidden conspiracy, they must confront each other and their past-or face destruction.",
       "poster": "https://image.tmdb.org/t/p/w500/dJPT2Uf12X6aFg8i5N67NTpIZ9t.jpg",
@@ -1824,71 +1332,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-10-20",
           "tm": "01:00"
         },
@@ -1896,6 +1339,11 @@
           "c": "carlton",
           "dt": "2026-10-20",
           "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-20",
+          "tm": "19:15"
         },
         {
           "c": "carlton",
@@ -1946,71 +1394,6 @@
         "Horror"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "13:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "16:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "21:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "13:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "16:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "21:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "19:05"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "21:55"
-        },
         {
           "c": "carlton",
           "dt": "2026-10-20",
@@ -2070,71 +1453,6 @@
         "Family"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "12:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "12:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "18:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "21:40"
-        },
         {
           "c": "carlton",
           "dt": "2026-10-20",
@@ -2198,71 +1516,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "12:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "15:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "21:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "12:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "15:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "21:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "21:45"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-10-20",
           "tm": "01:00"
         },
@@ -2323,36 +1576,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-10-17",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-17",
-          "tm": "20:45"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-18",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-18",
-          "tm": "20:45"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-19",
-          "tm": "17:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-19",
-          "tm": "20:45"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-10-20",
           "tm": "17:00"
         },
@@ -2389,6 +1612,36 @@
         {
           "c": "kingsway",
           "dt": "2026-10-23",
+          "tm": "20:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-24",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-24",
+          "tm": "20:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-25",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-25",
+          "tm": "20:45"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-26",
+          "tm": "17:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-26",
           "tm": "20:45"
         }
       ]
@@ -2408,17 +1661,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-10-18",
-          "tm": "13:30"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-10-20",
           "tm": "13:30"
         },
         {
           "c": "kingsway",
           "dt": "2026-10-23",
+          "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-25",
           "tm": "13:30"
         }
       ]
@@ -2439,21 +1692,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-10-17",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-18",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-19",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-10-20",
           "tm": "19:00"
         },
@@ -2470,6 +1708,21 @@
         {
           "c": "kingsway",
           "dt": "2026-10-23",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-24",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-25",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-26",
           "tm": "19:00"
         }
       ]
@@ -2487,21 +1740,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-10-17",
-          "tm": "15:30"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-18",
-          "tm": "15:30"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-19",
-          "tm": "15:30"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-10-20",
           "tm": "15:30"
         },
@@ -2519,48 +1757,21 @@
           "c": "kingsway",
           "dt": "2026-10-23",
           "tm": "15:30"
-        }
-      ]
-    },
-    {
-      "title": "Apparatus Theory: GHOSTWATCH (1992) – Free/PWYC Screening!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/08/ghostwatch_tmdb-h5noizbo3j7stiozumw00bxu6dc-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
+        },
         {
-          "c": "revue",
-          "dt": "2026-10-18",
-          "tm": "16:00",
-          "url": "https://revuecinema.ca/films/apparatus-theory-ghostwatch-1992-free-pwyc-screening/"
-        }
-      ]
-    },
-    {
-      "title": "The Staff Of The Month: ROPE (1948)",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/09/rope_tmdb-9ar6rxldb8kaganxzkn6h9smscr-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
+          "c": "kingsway",
+          "dt": "2026-10-24",
+          "tm": "15:30"
+        },
         {
-          "c": "revue",
-          "dt": "2026-10-18",
-          "tm": "19:00",
-          "url": "https://revuecinema.ca/films/the-staff-of-the-month-rope-1948/"
-        }
-      ]
-    },
-    {
-      "title": "Do You Like Pain? Retrospective: THE MIDNIGHT MEAT TRAIN (2008)",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/08/the_midnight_meat_train_tmdb-x5ybfyua8huk0shr008xwznvj5y-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
+          "c": "kingsway",
+          "dt": "2026-10-25",
+          "tm": "15:30"
+        },
         {
-          "c": "revue",
-          "dt": "2026-10-19",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/do-you-like-pain-retrospective-the-midnight-meat-train-2008/"
+          "c": "kingsway",
+          "dt": "2026-10-26",
+          "tm": "15:30"
         }
       ]
     },
@@ -3051,78 +2262,8 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-17",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-18",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-19",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-10-20",
           "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-10-20",
-          "tm": "19:00"
         },
         {
           "c": "carlton",
@@ -3226,6 +2367,61 @@
         {
           "c": "carlton",
           "dt": "2026-10-24",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "12:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
           "tm": "21:35"
         }
       ]
@@ -3356,35 +2552,6 @@
       ]
     },
     {
-      "title": "Les Films Du 3 Mars Presents: Simply Johanne",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-10-18",
-          "tm": "13:30",
-          "id": "684897",
-          "url": "https://paradiseonbloor.com/purchase/684897/"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-10-18",
-          "tm": "18:30",
-          "id": "666927",
-          "url": "https://paradiseonbloor.com/purchase/666927/"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-10-18",
-          "tm": "21:15",
-          "id": "650886",
-          "url": "https://paradiseonbloor.com/purchase/650886/"
-        }
-      ]
-    },
-    {
       "title": "Klara and the Sun",
       "description": "A robot girl designed to prevent loneliness tries to save a heartbroken family of humans.",
       "poster": "https://image.tmdb.org/t/p/w500/xqovj2p6HRsgHxN81qYAYF4StgM.jpg",
@@ -3434,6 +2601,61 @@
         {
           "c": "carlton",
           "dt": "2026-10-24",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "13:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "16:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "19:10"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
           "tm": "21:50"
         }
       ]
@@ -3485,6 +2707,61 @@
           "c": "carlton",
           "dt": "2026-10-24",
           "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "12:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "15:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "21:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "18:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "21:50"
         }
       ]
     },
@@ -3535,11 +2812,56 @@
         {
           "c": "carlton",
           "dt": "2026-10-24",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "12:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "15:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
           "tm": "18:45"
         },
         {
           "c": "carlton",
-          "dt": "2026-10-24",
+          "dt": "2026-10-26",
+          "tm": "21:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
           "tm": "21:45"
         }
       ]
@@ -3596,6 +2918,61 @@
         {
           "c": "carlton",
           "dt": "2026-10-24",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "13:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "16:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "21:30"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "19:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
           "tm": "21:30"
         }
       ]
@@ -3664,6 +3041,46 @@
           "c": "carlton",
           "dt": "2026-10-24",
           "tm": "21:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "16:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "19:05"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-25",
+          "tm": "21:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-26",
+          "tm": "21:55"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "21:55"
         }
       ]
     },
@@ -3679,21 +3096,6 @@
         "Music"
       ],
       "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-10-17",
-          "tm": "13:30"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-18",
-          "tm": "13:30"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-19",
-          "tm": "13:30"
-        },
         {
           "c": "kingsway",
           "dt": "2026-10-20",
@@ -3713,6 +3115,21 @@
           "c": "kingsway",
           "dt": "2026-10-23",
           "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-24",
+          "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-25",
+          "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-26",
+          "tm": "13:30"
         }
       ]
     },
@@ -3728,17 +3145,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-10-17",
-          "tm": "13:30"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-19",
-          "tm": "13:30"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-10-21",
+          "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-24",
+          "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-26",
           "tm": "13:30"
         }
       ]
@@ -3759,16 +3176,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-10-18",
-          "tm": "17:15"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-18",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-10-20",
           "tm": "17:15"
         },
@@ -3785,6 +3192,16 @@
         {
           "c": "kingsway",
           "dt": "2026-10-23",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-25",
+          "tm": "17:15"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-25",
           "tm": "21:00"
         }
       ]
@@ -3805,18 +3222,206 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-10-17",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-10-19",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-10-21",
           "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-24",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-10-26",
+          "tm": "21:00"
+        }
+      ]
+    },
+    {
+      "title": "Silent Revue: FAUST – 100th Anniversary Screening!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/faust_–_eine_deutsche_volkssage_tmdb-rn703hmfxmkzfyezsxvftufhkxe.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-10-25",
+          "tm": "16:00",
+          "url": "https://revuecinema.ca/films/silent-revue-faust-100th-anniversary-screening/"
+        }
+      ]
+    },
+    {
+      "title": "When Animals Attack: AN AMERICAN WEREWOLF IN LONDON (1981) – Presented on 35mm!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/an_american_werewolf_in_london_tmdb-hvequasjmcqaolkkfeyschz8ukg-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-10-25",
+          "tm": "19:00",
+          "url": "https://revuecinema.ca/films/when-animals-attack-an-american-werewolf-in-london-1981-presented-on-35mm/"
+        }
+      ]
+    },
+    {
+      "title": "CLOSED FOR STAFF PARTY",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2025/08/close-sign-picture_(1).png",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-10-26",
+          "tm": "19:00",
+          "url": "https://revuecinema.ca/films/closed-for-staff-party/"
+        }
+      ]
+    },
+    {
+      "title": "Anime At The Revue: PERFECT BLUE (1997) – New 4K Restoration!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2024/07/perfect_blue_tmdb-kg4azlcwilpyiixowm8pne3dqfi.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-10-27",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/anime-at-the-revue-perfect-blue-1997/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-10-28",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/anime-at-the-revue-perfect-blue-1997/"
+        }
+      ]
+    },
+    {
+      "title": "Revue Event:  Nirvanna the Band the Show the Movie",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/03/nirvanna_the_band_the_show_the_movie_tmdb-sm5tgx8wbncd9uo26clytxvwa1n-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-10-27",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-11-30",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-12-22",
+          "tm": "18:45",
+          "url": "https://revuecinema.ca/films/national-canadian-film-day-revue-events-nirvanna-the-band-the-show-the-movie-presented-on-35mm/"
+        }
+      ]
+    },
+    {
+      "title": "Revue Event: SORCERESS (1982) – With A Live Performance by THUNDER GLOVE!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/sorceress_tmdb-fxbcl3j08wviepapdr9hwd7mi4u-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-10-28",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/revue-event-sorceress-1982-with-a-live-performance-by-thunder-glove/"
+        }
+      ]
+    },
+    {
+      "title": "Hold Up: HOUSE OF WAX (2005)",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/07/house_of_wax_tmdb-aclsgw1daqkrvosyc3yuttbttpt-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-10-29",
+          "tm": "18:30",
+          "url": "https://revuecinema.ca/films/hold-up-house-of-wax-2005/"
+        }
+      ]
+    },
+    {
+      "title": "Planet in Focus: Nuisance Bear",
+      "description": "",
+      "poster": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/350/2026/10/14152019/hqDiQteXWMoyezEmbPy0nRYdUST-scaled.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-10-20",
+          "tm": "18:30",
+          "id": "691921"
+        }
+      ]
+    },
+    {
+      "title": "Planet in Focus: Nirilaurta: Let Us Eat",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-10-21",
+          "tm": "18:30",
+          "id": "691937"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-10-21",
+          "tm": "21:00",
+          "id": "691943"
+        }
+      ]
+    },
+    {
+      "title": "Planet in Focus: Heat",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-10-22",
+          "tm": "18:30",
+          "id": "691951"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-10-22",
+          "tm": "21:00",
+          "id": "691954"
+        }
+      ]
+    },
+    {
+      "title": "Pray For Me: Redux",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "01:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-10-27",
+          "tm": "18:30"
         }
       ]
     }
