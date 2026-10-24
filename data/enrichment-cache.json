@@ -4830,5 +4830,178 @@
     "omdbDirector": "Ben Proudfoot",
     "omdbRuntime": "90 min",
     "omdbDescription": "A look through the life and work of Ghanaian filmmaker Chris Hesse."
+  },
+  "wildwood|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Fantasy"
+    ],
+    "_cachedAt": "2026-10-24T13:48:21.004Z",
+    "_omdbTried": true,
+    "omdbDirector": "Travis Knight"
+  },
+  "restoration: wild at heart|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-24T13:48:22.061Z",
+    "_omdbTried": true
+  },
+  "slumber party: the devil wears prada|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-24T13:48:23.118Z",
+    "_omdbTried": true
+  },
+  "primetime|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-10-24T13:48:24.188Z",
+    "_omdbTried": true,
+    "omdbDirector": "Lance Oppenheim",
+    "omdbRuntime": "110 min"
+  },
+  "de gaulle: résistance|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "History",
+      "Drama"
+    ],
+    "_cachedAt": "2026-10-24T13:48:25.244Z",
+    "_omdbTried": true,
+    "omdbDirector": "Antonin Baudry",
+    "omdbRuntime": "160 min"
+  },
+  "a talent for murder|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "_cachedAt": "2026-10-24T13:48:26.300Z",
+    "_omdbTried": true,
+    "omdbDirector": "Anton Corbijn",
+    "omdbRuntime": "106 min",
+    "omdbRating": "R"
+  },
+  "staff pick: a hard day&#8217;s night|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-24T13:48:27.357Z",
+    "_omdbTried": true
+  },
+  "halloween screening:  practical magic (1998) – new 4k restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-24T13:48:28.413Z",
+    "_omdbTried": true
+  },
+  "drunken cinema: halloween h20: twenty years later (1998)|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-24T13:48:29.469Z",
+    "_omdbTried": true
+  },
+  "revue event: lunar sway – select cast & crew in attendance!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-24T13:48:30.525Z",
+    "_omdbTried": true
+  },
+  "planet in focus: we are stardust|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-24T13:48:31.580Z",
+    "_omdbTried": true
+  },
+  "jim queen|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/qM0lAd9HAqfC6DjxPe9g5DCEevb.jpg",
+    "year": "2026",
+    "genres": [
+      "Animation",
+      "Comedy"
+    ],
+    "_cachedAt": "2026-10-24T13:48:32.638Z",
+    "_omdbTried": true,
+    "omdbDirector": "Nicolas Athané",
+    "omdbRuntime": "85 min",
+    "omdbDescription": "A gay influencer's life crumbles when a virus turns gay men in Paris straight. He teams up with a twink to find a rumored cure in the Marais. A satire on identity, fame and queer culture."
+  },
+  "lunar sway|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/shJB0w3AgNBIvZw6uffu2EdnqLN.jpg",
+    "year": "2026",
+    "genres": [
+      "Comedy"
+    ],
+    "_cachedAt": "2026-10-24T13:48:33.693Z",
+    "_omdbTried": true,
+    "omdbDirector": "Nick Butler",
+    "omdbDescription": "Cliff , a young man living in a desert town receives a surprise visit from his con-artist birth mother. Chaos ensues as he's led on a mysterious and wild trail of secrets."
+  },
+  "twilight (2008)|2008": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg",
+    "year": "2008",
+    "genres": [
+      "Fantasy",
+      "Drama",
+      "Romance"
+    ],
+    "_cachedAt": "2026-10-24T13:48:34.752Z",
+    "_omdbTried": true,
+    "omdbDirector": "Catherine Hardwicke",
+    "omdbRuntime": "122 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire."
+  },
+  "the lobster|2015": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/7Y9ILV1unpW9mLpGcqyGQU72LUy.jpg",
+    "year": "2015",
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance"
+    ],
+    "_cachedAt": "2026-10-24T13:48:35.808Z",
+    "_omdbTried": true,
+    "omdbDirector": "Yorgos Lanthimos",
+    "omdbRuntime": "119 min",
+    "omdbRating": "R",
+    "omdbDescription": "In a dystopian near future, according to the laws of The City, single people are taken to The Hotel, where they are obliged to find a romantic partner in 45 days or they're transformed into beasts and sent off into The Woods."
+  },
+  "pearl|2022": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/z5uIG81pXyHKg7cUFIu84Wjn4NS.jpg",
+    "year": "2022",
+    "genres": [
+      "Horror",
+      "Drama"
+    ],
+    "_cachedAt": "2026-10-24T13:48:36.882Z",
+    "_omdbTried": true,
+    "omdbDirector": "Ti West",
+    "omdbRuntime": "103 min",
+    "omdbRating": "R",
+    "omdbDescription": "In 1918, a young woman on the brink of madness pursues stardom in a desperate attempt to escape the drudgery, isolation, and lovelessness of life on her parents' farm."
+  },
+  "mandy|2018": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/m0yf7J7HsKeK6E81SMRcX8vx6mH.jpg",
+    "year": "2018",
+    "genres": [
+      "Fantasy",
+      "Action",
+      "Horror"
+    ],
+    "_cachedAt": "2026-10-24T13:48:37.936Z",
+    "_omdbTried": true,
+    "omdbDirector": "Panos Cosmatos",
+    "omdbRuntime": "121 min",
+    "omdbRating": "Not Rated",
+    "omdbDescription": "The enchanted lives of a couple in a secluded forest are brutally shattered by a nightmarish hippie cult and their demon-biker henchmen, propelling a man into a spiraling, surreal rampage of vengeance."
   }
 }
