@@ -5003,5 +5003,75 @@
     "omdbRuntime": "121 min",
     "omdbRating": "Not Rated",
     "omdbDescription": "The enchanted lives of a couple in a secluded forest are brutally shattered by a nightmarish hippie cult and their demon-biker henchmen, propelling a man into a spiraling, surreal rampage of vengeance."
+  },
+  "die hard|1988": {
+    "_tried": true,
+    "year": "1988",
+    "genres": [
+      "Action",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-10-27T15:40:54.377Z",
+    "_omdbTried": true,
+    "omdbDirector": "John McTiernan",
+    "omdbRuntime": "132 min",
+    "omdbRating": "R"
+  },
+  "free members-only noirvember screening: sunset boulevard (1950)|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-27T15:40:55.437Z",
+    "_omdbTried": true
+  },
+  "revue event: henry: portrait of a serial killer (1986) – canadian premiere of new 35mm print!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-27T15:40:56.523Z",
+    "_omdbTried": true
+  },
+  "revue film society: hero (2002)|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-27T15:40:57.583Z",
+    "_omdbTried": true
+  },
+  "we really like her! : grease 2 (1982)|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-27T15:40:58.644Z",
+    "_omdbTried": true
+  },
+  "48 hour film project – toronto|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-27T15:40:59.704Z",
+    "_omdbTried": true
+  },
+  "the perfect date: v for vendetta – 20th anniversary screening!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-27T15:41:00.767Z",
+    "_omdbTried": true
+  },
+  "screamplay: 4k restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-27T15:41:01.834Z",
+    "_omdbTried": true
+  },
+  "lennon stella presents sleeping lion: up close & personal|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-27T15:41:02.909Z",
+    "_omdbTried": true
+  },
+  "doc soup 3: yo (love is a rebellious bird)|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-27T15:41:03.968Z",
+    "_omdbTried": true
+  },
+  "the room|2023": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/ciEZWh4fkq394ToQBr91UDUK45O.jpg",
+    "year": "2023",
+    "genres": [
+      "Comedy",
+      "Crime"
+    ],
+    "_cachedAt": "2026-10-27T15:41:05.061Z",
+    "_omdbTried": true,
+    "omdbDescription": "Johnny is a successful banker with great respect for and dedication to the people in his life, especially his future wife Lisa. The happy-go-lucky guy sees his world being torn apart when his friends begin to betray him one-by-one."
   }
 }
