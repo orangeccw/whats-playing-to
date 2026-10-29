@@ -5073,5 +5073,107 @@
     "_cachedAt": "2026-10-27T15:41:05.061Z",
     "_omdbTried": true,
     "omdbDescription": "Johnny is a successful banker with great respect for and dedication to the people in his life, especially his future wife Lisa. The happy-go-lucky guy sees his world being torn apart when his friends begin to betray him one-by-one."
+  },
+  "club kid|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "_cachedAt": "2026-10-29T16:33:23.218Z",
+    "_omdbTried": true,
+    "omdbDirector": "Jordan Firstman",
+    "omdbRuntime": "122 min",
+    "omdbRating": "R"
+  },
+  "revue event: lunar sway -director in attendance!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-29T16:33:24.256Z",
+    "_omdbTried": true
+  },
+  "revue event: eraser (1996) – presented on 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-29T16:33:25.312Z",
+    "_omdbTried": true
+  },
+  "gentle monster|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/v7sbP2qv8ezCfo9FOI6DVUXDSaw.jpg",
+    "year": "2026",
+    "genres": [
+      "Drama"
+    ],
+    "_cachedAt": "2026-10-29T16:33:26.347Z",
+    "_omdbTried": true,
+    "omdbDirector": "Marie Kreutzer",
+    "omdbRuntime": "114 min",
+    "omdbDescription": "Renowned pianist relocates with her family to the countryside, where she uncovers a life-shattering truth that forces her to confront the complexities of love, trust, and deception."
+  },
+  "casino royale: 20th anniversary (2006)|": {
+    "_tried": true,
+    "_cachedAt": "2026-10-29T16:33:21.887Z"
+  },
+  "christmas at the kringles|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/oVxkhheRVWSacimUZBuMemQX85E.jpg",
+    "year": "2026",
+    "genres": [
+      "Action",
+      "Horror",
+      "Comedy"
+    ],
+    "_cachedAt": "2026-10-29T16:33:28.417Z",
+    "_omdbTried": true,
+    "omdbDirector": "Kevin Lewis",
+    "omdbDescription": "The Severson family move to a suburban neighborhood where their neighbors, the Kringles, celebrate Christmas year-round and harbor sinister intentions to hypnotize and indoctrinate them."
+  },
+  "crawlers|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/lNXeEpg4yLSRwXwOeR5lbPgwbqL.jpg",
+    "year": "2026",
+    "genres": [
+      "Horror",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-10-29T16:33:29.446Z",
+    "_omdbTried": true,
+    "omdbDirector": "Ángel Gómez Hernández",
+    "omdbRuntime": "86 min",
+    "omdbRating": "R",
+    "omdbDescription": "Tenants at Paradiso Palms apartments fight a deadly spider invasion while the cunning building manager might be their only hope for survival."
+  },
+  "the cat in the hat|2003": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/uYYLz67e5xEQMsY858VSSCDsLU6.jpg",
+    "year": "2003",
+    "genres": [
+      "Fantasy",
+      "Adventure",
+      "Family",
+      "Comedy"
+    ],
+    "_cachedAt": "2026-10-29T16:33:30.479Z",
+    "_omdbTried": true,
+    "omdbDirector": "Bo Welch",
+    "omdbRuntime": "82 min",
+    "omdbRating": "PG",
+    "omdbDescription": "Two bored children have their lives turned upside down when a talking cat comes to visit them."
+  },
+  "casino royale: 20th anniversary (2006)|2006": {
+    "_tried": true,
+    "_cachedAt": "2026-10-29T16:33:27.383Z",
+    "_omdbTried": true,
+    "omdbPoster": "https://m.media-amazon.com/images/M/MV5BMWQ1ZDM4NDktMWY0NC00MjcxLWJlMDMtNmE2MGVhYzRjMWQ0XkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+    "omdbDirector": "Martin Campbell",
+    "omdbYear": "2006",
+    "omdbRuntime": "144 min",
+    "omdbRating": "PG-13",
+    "omdbGenres": [
+      "Action",
+      "Adventure",
+      "Thriller"
+    ],
+    "omdbDescription": "After earning a licence to kill, secret agent James Bond sets out on his first mission as 007. Bond must defeat a private banker funding terrorists in a high-stakes game of poker at Casino Royale, in Montenegro."
   }
 }
