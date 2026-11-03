@@ -5467,5 +5467,79 @@
     "omdbDirector": "Hubert Boorder",
     "omdbYear": "2024",
     "omdbRuntime": "50 min"
+  },
+  "pulp fiction|1994": {
+    "_tried": true,
+    "year": "1994",
+    "genres": [
+      "Thriller",
+      "Crime",
+      "Comedy"
+    ],
+    "_cachedAt": "2026-11-03T17:28:53.609Z",
+    "_omdbTried": true,
+    "omdbDirector": "Quentin Tarantino",
+    "omdbRuntime": "154 min",
+    "omdbRating": "R"
+  },
+  "don’t be so political: umberto d. (1952)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-03T17:28:54.684Z",
+    "_omdbTried": true
+  },
+  "revue event: casino royale (2006) – new 4k restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-03T17:28:55.752Z",
+    "_omdbTried": true
+  },
+  "the black nerds: black zombie (2026)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-03T17:28:56.822Z",
+    "_omdbTried": true
+  },
+  "psych-out cinema:  trainspotting (1996) – new 4k restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-03T17:28:57.892Z",
+    "_omdbTried": true
+  },
+  "stompbox: scream of my blood: a gogol bordello story|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-03T17:28:58.962Z",
+    "_omdbTried": true
+  },
+  "drunken cinema: friday the 13th (2009) – presented on 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-03T17:29:00.036Z",
+    "_omdbTried": true
+  },
+  "zapruder films: nirvanna the band the show – season 2 (episodes 1 – 4) – with special guests in attendance!|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-03T17:29:01.117Z",
+    "_omdbTried": true
+  },
+  "dr. cliff worldwide vet + far and wild book launch!|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-03T17:29:02.189Z",
+    "_omdbTried": true
+  },
+  "mubi x serviette present: making marie antoinette|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-03T17:29:03.263Z",
+    "_omdbTried": true
+  },
+  "doc soup: nuisance bear|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-03T17:29:04.335Z",
+    "_omdbTried": true
+  },
+  "doc soup: yo (love is a rebellious bird)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-03T17:29:05.418Z",
+    "_omdbTried": true
+  },
+  "crank iaff official selections|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-03T17:29:06.488Z",
+    "_omdbTried": true
   }
 }
