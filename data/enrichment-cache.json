@@ -5541,5 +5541,130 @@
     "_tried": true,
     "_cachedAt": "2026-11-03T17:29:06.488Z",
     "_omdbTried": true
+  },
+  "your mother your mother your mother|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Crime",
+      "Thriller",
+      "Action"
+    ],
+    "_cachedAt": "2026-11-05T17:49:38.680Z",
+    "_omdbTried": true,
+    "omdbDirector": "Bassam Tariq"
+  },
+  "the piano|1993": {
+    "_tried": true,
+    "year": "1993",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "_cachedAt": "2026-11-05T17:49:39.778Z",
+    "_omdbTried": true,
+    "omdbDirector": "Peter Rosen"
+  },
+  "the devils|1971": {
+    "_tried": true,
+    "year": "1971",
+    "genres": [
+      "Drama",
+      "History",
+      "Horror"
+    ],
+    "_cachedAt": "2026-11-05T17:49:40.834Z",
+    "_omdbTried": true,
+    "omdbDirector": "Ken Russell",
+    "omdbRuntime": "111 min",
+    "omdbRating": "NC-17"
+  },
+  "rex: a dinosaur&#8217;s story|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-05T17:49:41.865Z",
+    "_omdbTried": true
+  },
+  "for the sake of water|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-05T17:49:42.897Z",
+    "_omdbTried": true
+  },
+  "destination love: days of being wild (1990) – new 4k restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-05T17:49:43.931Z",
+    "_omdbTried": true
+  },
+  "zapruder films: nirvanna the band the show – season 2 (episodes 5-8) – with special guests in attendance!|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-05T17:49:44.961Z",
+    "_omdbTried": true
+  },
+  "black belt cinema: ninja terminator – 40th anniversary screening!|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-05T17:49:45.992Z",
+    "_omdbTried": true
+  },
+  "the staff pick of the month: walk hard: the dewey cox story (2007)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-05T17:49:47.031Z",
+    "_omdbTried": true
+  },
+  "percocet jesus: the cult screening|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-05T17:49:48.060Z",
+    "_omdbTried": true
+  },
+  "toronto international music video festival|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-05T17:49:49.090Z",
+    "_omdbTried": true
+  },
+  "rocky: 50th anniversary (1976)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-05T17:49:37.060Z"
+  },
+  "heated rivalry - episodes 1 & 2|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-05T17:49:51.164Z",
+    "_omdbTried": true
+  },
+  "heated rivalry - episodes 3 & 4|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-05T17:49:52.192Z",
+    "_omdbTried": true
+  },
+  "heated rivalry - episodes 5 & 6|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-05T17:49:53.222Z",
+    "_omdbTried": true
+  },
+  "the mosquito bowl|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/zbT4sxoCEeFWlQG4SC5X9Q8v6PC.jpg",
+    "year": "2026",
+    "genres": [
+      "History",
+      "Drama",
+      "War"
+    ],
+    "_cachedAt": "2026-11-05T17:49:54.253Z",
+    "_omdbTried": true,
+    "omdbDirector": "Peter Berg",
+    "omdbDescription": "After Pearl Harbor, four star college footballers join the Marines. Before facing Okinawa's invasion, they participate in a historic game with legendary players - for many, their final match."
+  },
+  "rocky: 50th anniversary (1976)|1976": {
+    "_tried": true,
+    "_cachedAt": "2026-11-05T17:49:50.125Z",
+    "_omdbTried": true,
+    "omdbPoster": "https://m.media-amazon.com/images/M/MV5BZDEyY2M2MGMtYjg5OC00ZWFjLWFkZDQtNmQzZTdiYmYzZTBkXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
+    "omdbDirector": "John G. Avildsen",
+    "omdbYear": "1976",
+    "omdbRuntime": "120 min",
+    "omdbRating": "PG",
+    "omdbGenres": [
+      "Drama",
+      "Sport"
+    ],
+    "omdbDescription": "A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect."
   }
 }
