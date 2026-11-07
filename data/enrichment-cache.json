@@ -4155,7 +4155,7 @@
       "Drama",
       "Romance"
     ],
-    "_cachedAt": "2026-10-31T15:35:21.584Z",
+    "_cachedAt": "2026-11-07T16:02:49.744Z",
     "_omdbTried": true,
     "omdbDirector": "Joe Wright",
     "omdbRuntime": "123 min",
@@ -4164,12 +4164,12 @@
   },
   "traces of home|2026": {
     "_tried": true,
-    "poster": "https://image.tmdb.org/t/p/w500/dwCjMptJ44vPVMAv0C1HWfYt5vH.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/ozj9oXPU8QGt0k1XGsLrffTCvtZ.jpg",
     "year": "2026",
     "genres": [
       "Documentary"
     ],
-    "_cachedAt": "2026-10-17T13:25:47.594Z",
+    "_cachedAt": "2026-11-07T16:02:41.399Z",
     "_omdbTried": true,
     "omdbDirector": "Colette Ghunim",
     "omdbDescription": "Filmmaker Colette Ghunim takes her parents to find the ancestral homes in Mexico and Palestine that they had fled from decades earlier."
@@ -5355,7 +5355,7 @@
       "Drama",
       "Thriller"
     ],
-    "_cachedAt": "2026-10-31T15:35:25.817Z",
+    "_cachedAt": "2026-11-07T16:02:44.555Z",
     "_omdbTried": true,
     "omdbDirector": "Robert Wise",
     "omdbRuntime": "92 min",
@@ -5449,7 +5449,7 @@
       "Sci-Fi",
       "Action"
     ],
-    "_cachedAt": "2026-10-31T15:35:32.159Z",
+    "_cachedAt": "2026-11-07T16:02:50.777Z",
     "_omdbTried": true,
     "omdbDirector": "Tobe Hooper",
     "omdbRuntime": "101 min",
@@ -5666,5 +5666,160 @@
       "Sport"
     ],
     "omdbDescription": "A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect."
+  },
+  "ten short films festival|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-07T16:02:35.173Z",
+    "_omdbTried": true
+  },
+  "an extraordinary filmmaker: elvira notari|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-07T16:02:36.203Z",
+    "_omdbTried": true
+  },
+  "destination love: in the mood for love (2000) – new restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-07T16:02:37.237Z",
+    "_omdbTried": true
+  },
+  "destination love: 2046|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-07T16:02:38.270Z",
+    "_omdbTried": true
+  },
+  "kate nash: live in concert|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-07T16:02:39.303Z",
+    "_omdbTried": true
+  },
+  "twilight: eclipse (2010)|2010": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/dK4Gi1UdMiHzHc7r7CZQG4IQ9Sr.jpg",
+    "year": "2010",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Drama",
+      "Romance"
+    ],
+    "_cachedAt": "2026-11-07T16:02:40.334Z",
+    "_omdbTried": true,
+    "omdbDirector": "Michael Friedman",
+    "omdbRuntime": "1 min"
+  },
+  "filipinana|2020": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/d9bovHgEC90yTgqLsoarQWnh6JW.jpg",
+    "year": "2020",
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
+    "_cachedAt": "2026-11-07T16:02:42.460Z",
+    "_omdbTried": true,
+    "omdbDirector": "Rafael Manuel",
+    "omdbRuntime": "100 min",
+    "omdbDescription": "Teen Isabel's attraction to Dr. Palanca at her country club job turns dark as she uncovers violence beneath the club's facade and discovers their disturbing connection from the past."
+  },
+  "palestine 36|2025": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/hHWSjo6DYDAEUDfA7JXCS4nhjmT.jpg",
+    "year": "2025",
+    "genres": [
+      "Drama",
+      "History",
+      "War"
+    ],
+    "_cachedAt": "2026-11-07T16:02:43.524Z",
+    "_omdbTried": true,
+    "omdbDirector": "Annemarie Jacir",
+    "omdbRuntime": "119 min",
+    "omdbDescription": "In 1936, as Palestinian villages revolt against British colonial rule, Yusuf navigates between Jerusalem and his rural home, amidst escalating unrest and a pivotal moment for the British Empire."
+  },
+  "cat people 1942|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-07T16:02:32.552Z"
+  },
+  "diabolique|1955": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/jE8ygUYBUGyUcM4sR6iinPqYeDK.jpg",
+    "year": "1955",
+    "genres": [
+      "Thriller",
+      "Mystery"
+    ],
+    "_cachedAt": "2026-11-07T16:02:46.620Z",
+    "_omdbTried": true,
+    "omdbDirector": "Henri-Georges Clouzot",
+    "omdbRuntime": "117 min",
+    "omdbRating": "Not Rated",
+    "omdbDescription": "The wife and mistress of a loathed school principal plan to murder him with what they believe is the perfect alibi."
+  },
+  "alphaville|1965": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/fFJP3D5fJDFxN7ChqSye1DZ0fTL.jpg",
+    "year": "1965",
+    "genres": [
+      "Drama",
+      "Sci-Fi",
+      "Mystery"
+    ],
+    "_cachedAt": "2026-11-07T16:02:47.652Z",
+    "_omdbTried": true,
+    "omdbDirector": "Jean-Luc Godard",
+    "omdbRuntime": "99 min",
+    "omdbRating": "Not Rated",
+    "omdbDescription": "An agent wrecks the main computer on another planet."
+  },
+  "blow out|1981": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/uFzMscVLDrTaYd6KXOXlr6dly7w.jpg",
+    "year": "1981",
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-11-07T16:02:48.683Z",
+    "_omdbTried": true,
+    "omdbDirector": "Brian De Palma",
+    "omdbRuntime": "108 min",
+    "omdbRating": "R",
+    "omdbDescription": "A movie sound recordist accidentally records the evidence that proves that a car accident was actually murder and consequently finds himself in danger."
+  },
+  "masque of the red death|1964": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/sSYceyGZrWskWDsn3MHtipJ1wFM.jpg",
+    "year": "1964",
+    "genres": [
+      "Drama",
+      "Horror"
+    ],
+    "_cachedAt": "2026-11-07T16:02:51.817Z",
+    "_omdbTried": true,
+    "omdbDirector": "Roger Corman",
+    "omdbRuntime": "89 min",
+    "omdbRating": "Not Rated",
+    "omdbDescription": "A European prince terrorizes the local peasantry while using his castle as a refuge against the \"Red Death\" plague that stalks the land."
+  },
+  "nineteen eighty four|1984": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/hrdQlicxuyTg3zyVqq78EsA4Z6J.jpg",
+    "year": "1984",
+    "genres": [
+      "Drama",
+      "Sci-Fi",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-11-07T16:02:52.851Z",
+    "_omdbTried": true,
+    "omdbDirector": "Chris Ashbrook",
+    "omdbRuntime": "4 min"
+  },
+  "cat people 1942|1942": {
+    "_tried": true,
+    "_cachedAt": "2026-11-07T16:02:45.588Z",
+    "_omdbTried": true,
+    "omdbYear": "1942"
   }
 }
