@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07",
+  "lastUpdated": "2026-11-10",
   "cinemas": {
     "fox": {
       "name": "Fox Theatre",
@@ -94,49 +94,10 @@
       "showtimes": [
         {
           "c": "hotdocs",
-          "dt": "2026-11-07",
-          "tm": "14:00",
-          "id": "644536",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=644536~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        },
-        {
-          "c": "hotdocs",
           "dt": "2026-11-20",
           "tm": "11:45",
           "id": "644536",
           "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=644536~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
-      "title": "Exhibition on Screen: James McNeill Whistler",
-      "description": "In an era of great change and great beauty emerged the character of James McNeill Whistler. Considered by some to be one of the great innovators of 19th century art, he was a contemporary of the Impressionists, much admired by Van Gogh and Manet. Boldly experimental and famously witty, Whistler disrupted the strict conventions of ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/10/762689833_1477289944427760_5609846765389654963_n_thumb.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-11-07",
-          "url": "https://www.foxtheatre.ca/movies/exhibition-on-screen-james-mcneill-whistler/"
-        }
-      ]
-    },
-    {
-      "title": "Once Upon a Time in Harlem",
-      "description": "A decade post-death, filmmaker William Greaves reveals his final work: footage of a 1972 gathering he arranged with Harlem Renaissance legends, which he deemed his most significant capture.",
-      "poster": "https://image.tmdb.org/t/p/w500/9eukk5gby8NZCwraiC7mloZmasP.jpg",
-      "year": "2026",
-      "runtime": "100 min",
-      "genres": [
-        "Documentary"
-      ],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-11-08",
-          "tm": "08:30",
-          "id": "650666",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650666~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
         }
       ]
     },
@@ -150,13 +111,6 @@
         "Documentary"
       ],
       "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-11-07",
-          "tm": "06:00",
-          "id": "650665",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650665~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        },
         {
           "c": "hotdocs",
           "dt": "2026-11-14",
@@ -176,13 +130,6 @@
         "Documentary"
       ],
       "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-11-07",
-          "tm": "11:00",
-          "id": "650668",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650668~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        },
         {
           "c": "hotdocs",
           "dt": "2026-11-14",
@@ -211,25 +158,6 @@
       ]
     },
     {
-      "title": "MagicLand",
-      "description": "MagicLand, The first feature film from Toronto&#8217;s own Jaymz Bee (co-directed with Jason J. Brown and co-written with poet Robert Priest), is a joyful, all-ages musical fantasy bursting with colour, comedy, and songs spanning every style imaginable. When Athena, goddess of wisdom, falls for a handsome mortal poet, she trades her immortality for a shot ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/09/magiclandf-poster_thumb.jpg",
-      "director": "Wolfgang Urchs",
-      "year": "1990",
-      "runtime": "80 min",
-      "genres": [
-        "Animation",
-        "Family"
-      ],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-11-09",
-          "url": "https://www.foxtheatre.ca/movies/magicland/"
-        }
-      ]
-    },
-    {
       "title": "NAZA",
       "description": "&#8220;Naza,&#8221; the latest film from the documentary filmmakers behind the Oscar-winning &#8220;No Other Land,&#8221; has won the Special Jury Prize and is notable for being the only documentary selected for the main competition at the Venice International Film Festival, added just a few days before the screening due to safety concerns. This powerful and important ...",
       "poster": "https://image.tmdb.org/t/p/w500/b4Gyj8VRoJAeU13jfKPuOTMr5GL.jpg",
@@ -239,28 +167,6 @@
         "Documentary"
       ],
       "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-11-07",
-          "url": "https://www.foxtheatre.ca/movies/naza/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-11-08",
-          "url": "https://www.foxtheatre.ca/movies/naza/"
-        },
-        {
-          "c": "hotdocs",
-          "dt": "2026-11-08",
-          "tm": "06:00",
-          "id": "658890",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=658890~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-11-09",
-          "url": "https://www.foxtheatre.ca/movies/naza/"
-        },
         {
           "c": "fox",
           "dt": "2026-11-10",
@@ -301,16 +207,6 @@
         "Documentary"
       ],
       "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-11-07",
-          "url": "https://www.foxtheatre.ca/movies/you-can-see-everything/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-11-08",
-          "url": "https://www.foxtheatre.ca/movies/you-can-see-everything/"
-        },
         {
           "c": "fox",
           "dt": "2026-11-10",
@@ -410,17 +306,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-11-08",
-          "tm": "13:30"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-11-10",
           "tm": "13:30"
         },
         {
           "c": "kingsway",
           "dt": "2026-11-13",
+          "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-11-15",
           "tm": "13:30"
         }
       ]
@@ -441,16 +337,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-11-08",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-11-08",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-11-10",
           "tm": "15:00"
         },
@@ -467,6 +353,16 @@
         {
           "c": "kingsway",
           "dt": "2026-11-13",
+          "tm": "19:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-11-15",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-11-15",
           "tm": "19:00"
         }
       ]
@@ -482,21 +378,6 @@
         "Documentary"
       ],
       "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-11-07",
-          "tm": "15:30"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-11-08",
-          "tm": "15:30"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-11-09",
-          "tm": "15:30"
-        },
         {
           "c": "kingsway",
           "dt": "2026-11-10",
@@ -516,6 +397,21 @@
           "c": "kingsway",
           "dt": "2026-11-13",
           "tm": "15:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-11-14",
+          "tm": "15:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-11-15",
+          "tm": "15:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-11-16",
+          "tm": "15:30"
         }
       ]
     },
@@ -529,41 +425,6 @@
           "c": "fox",
           "dt": "2026-11-18",
           "url": "https://www.foxtheatre.ca/movies/two-seasons-two-strangers-director-qa/"
-        }
-      ]
-    },
-    {
-      "title": "grlish: Your Name",
-      "description": "Join grlish at the Fox to celebrate the 10th anniversary of Your Name – remastered in 4K – by one of Japan’s leading filmmakers, Makoto Shinkai! Strangers Mitsuha &#038; Taki live opposite lives: one in a small village in Gifu, the other in the heart of Tokyo, &#038; both yearning for something more. When they ...",
-      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/10/yname-4k_poster1_web_nowplaying_thumb.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "fox",
-          "dt": "2026-11-08",
-          "url": "https://www.foxtheatre.ca/movies/grlish-your-name/"
-        }
-      ]
-    },
-    {
-      "title": "Goodfellas",
-      "description": "The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito.",
-      "poster": "https://image.tmdb.org/t/p/w500/9OkCLM73MIU2CrKZbqiT8Ln1wY2.jpg",
-      "director": "Martin Scorsese",
-      "year": "1990",
-      "runtime": "145 min",
-      "rating": "R",
-      "genres": [
-        "Drama",
-        "Crime"
-      ],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-11-08",
-          "tm": "11:30",
-          "id": "661663",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=661663~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
         }
       ]
     },
@@ -712,6 +573,13 @@
           "tm": "09:30",
           "id": "661665",
           "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=661665~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-12-27",
+          "tm": "06:00",
+          "id": "661665",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=661665~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
         }
       ]
     },
@@ -852,61 +720,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "21:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "13:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "16:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "21:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "19:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "21:45"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-11-10",
           "tm": "01:00"
         },
@@ -968,16 +781,6 @@
       "showtimes": [
         {
           "c": "fox",
-          "dt": "2026-11-07",
-          "url": "https://www.foxtheatre.ca/movies/sons/"
-        },
-        {
-          "c": "fox",
-          "dt": "2026-11-08",
-          "url": "https://www.foxtheatre.ca/movies/sons/"
-        },
-        {
-          "c": "fox",
           "dt": "2026-11-10",
           "url": "https://www.foxtheatre.ca/movies/sons/"
         }
@@ -1010,21 +813,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-11-07",
-          "tm": "13:30"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-11-08",
-          "tm": "13:30"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-11-09",
-          "tm": "13:30"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-11-10",
           "tm": "13:30"
         },
@@ -1041,6 +829,21 @@
         {
           "c": "kingsway",
           "dt": "2026-11-13",
+          "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-11-14",
+          "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-11-15",
+          "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-11-16",
           "tm": "13:30"
         }
       ]
@@ -1155,6 +958,20 @@
         "Thriller"
       ],
       "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-11-11",
+          "tm": "17:00",
+          "id": "709057",
+          "url": "https://paradiseonbloor.com/purchase/709057/"
+        },
+        {
+          "c": "paradise",
+          "dt": "2026-11-11",
+          "tm": "19:30",
+          "id": "635136",
+          "url": "https://paradiseonbloor.com/purchase/635136/"
+        },
         {
           "c": "fox",
           "dt": "2026-11-14",
@@ -1293,68 +1110,6 @@
       ]
     },
     {
-      "title": "48 Hour Film Project – Toronto",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2025/03/48-hora-logo-768x768.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-11-07",
-          "tm": "16:00",
-          "url": "https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-11-08",
-          "tm": "16:00",
-          "url": "https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-11-09",
-          "tm": "18:30",
-          "url": "https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-11-10",
-          "tm": "18:30",
-          "url": "https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-11-11",
-          "tm": "18:30",
-          "url": "https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-11-12",
-          "tm": "18:30",
-          "url": "https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-11-14",
-          "tm": "16:00",
-          "url": "https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-11-15",
-          "tm": "16:00",
-          "url": "https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/"
-        },
-        {
-          "c": "revue",
-          "dt": "2026-12-06",
-          "tm": "15:00",
-          "url": "https://revuecinema.ca/films/the-48-hour-science-fiction-film-project-toronto/"
-        }
-      ]
-    },
-    {
       "title": "Club Kid",
       "description": "In his debut feature, writer-director Jordan Firstman (I LOVE LA) stars as a carousing New York City club promoter whose lifestyle is upended by the unexpected responsibility of raising a 10-year-old son he never knew he had.",
       "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/10/club_kid_tmdb-o1qmu0zb5xdx8ixjffu3akhoqjh_thumb.jpg",
@@ -1419,71 +1174,6 @@
         "Comedy"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "12:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "15:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "21:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "18:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "21:30"
-        },
         {
           "c": "carlton",
           "dt": "2026-11-10",
@@ -1659,76 +1349,6 @@
       ]
     },
     {
-      "title": "The Midnight Revue:  SE7EN – (1995) – New 4K Restoration!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2024/11/se7en_tmdb-191nkfp0ehp3uivwqgpbfmi4lv9-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-11-07",
-          "tm": "23:30",
-          "url": "https://revuecinema.ca/films/revue-event-se7en-1995-new-4k-restoration/"
-        }
-      ]
-    },
-    {
-      "title": "Zapruder Films: NIRVANNA THE BAND THE SHOW – Season 1 (episodes 1 – 4) With Special Guests In Attendance!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/09/screenshot_2026-09-20_at_7.50.23_am-768x385.png",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-11-07",
-          "tm": "12:00",
-          "url": "https://revuecinema.ca/films/zapruder-films-nirvanna-the-band-the-show-season-1-episodes-1-4-with-special-guests-in-attendance/"
-        }
-      ]
-    },
-    {
-      "title": "Rental Event: Minnow Magazine: Understanding Myself as an Amphibian – Toronto Theatrical Premiere!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/10/understanding_myself_as_an_amphibian_tmdb-qfnltwu5d20vsjcmnimotk89fql-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-11-07",
-          "tm": "20:00",
-          "url": "https://revuecinema.ca/films/rental-event-minnow-magazine-understanding-myself-as-an-amphibian-toronto-theatrical-premiere/"
-        }
-      ]
-    },
-    {
-      "title": "REVUE FILM SOCIETY ANNUAL PUBLIC MEETING (Virtual)",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2024/10/agm-2017-768x384.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-11-08",
-          "tm": "12:00",
-          "url": "https://revuecinema.ca/films/revue-film-society-annual-general-meeting/"
-        }
-      ]
-    },
-    {
-      "title": "Zapruder Films: NIRVANNA THE BAND THE SHOW – Season 1 (Episodes 5 – 8) With Special Guests In Attendance!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/09/screenshot_2026-09-21_at_8.31.38_am-768x423.png",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-11-08",
-          "tm": "12:00",
-          "url": "https://revuecinema.ca/films/zapruder-films-nirvanna-the-band-the-show-season-1-episodes-5-8-with-special-guests-in-attendance/"
-        }
-      ]
-    },
-    {
       "title": "Toronto Animal Services Presents: DogVideoFest",
       "description": "",
       "poster": null,
@@ -1740,26 +1360,6 @@
           "tm": "12:30",
           "id": "666115",
           "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=666115~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
-      "title": "My Undesirable Friends: Part II - Exile",
-      "description": "Follows Russian journalists from TV Rain who fled their country after being labeled \"foreign agents\" by Putin's regime. Now scattered across Europe and beyond, they continue reporting on Ukraine despite espionage charges.",
-      "poster": "https://image.tmdb.org/t/p/w500/zt2bViOzNGvq4C8al6ub7x87433.jpg",
-      "director": "Julia Loktev",
-      "year": "2026",
-      "runtime": "355 min",
-      "genres": [
-        "Documentary"
-      ],
-      "showtimes": [
-        {
-          "c": "hotdocs",
-          "dt": "2026-12-06",
-          "tm": "17:00",
-          "id": "665564",
-          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=665564~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
         }
       ]
     },
@@ -1791,76 +1391,6 @@
         "War"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "12:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "15:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "12:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "13:20"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "15:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "16:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "18:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "20:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "18:30"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "19:10"
-        },
         {
           "c": "carlton",
           "dt": "2026-11-10",
@@ -1914,71 +1444,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "12:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "15:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "18:45"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "21:40"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-11-10",
           "tm": "02:00"
         },
@@ -2021,29 +1486,6 @@
           "c": "carlton",
           "dt": "2026-11-12",
           "tm": "21:40"
-        }
-      ]
-    },
-    {
-      "title": "J Double O",
-      "description": "",
-      "poster": "https://image.tmdb.org/t/p/w500/335KCydpokQJ8nMn6zUJydOqCUn.jpg",
-      "director": "Hubert Boorder",
-      "year": "2024",
-      "runtime": "50 min",
-      "genres": [
-        "Action"
-      ],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "00:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "18:30"
         }
       ]
     },
@@ -2065,34 +1507,6 @@
           "c": "fox",
           "dt": "2026-11-28",
           "url": "https://www.foxtheatre.ca/movies/pulp-fiction/"
-        }
-      ]
-    },
-    {
-      "title": "Don’t Be So Political: UMBERTO D. (1952)",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/09/umberto_d._tmdb-5i7sysnqmzrzpq2maariqyu9vax-768x1152.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-11-08",
-          "tm": "19:00",
-          "url": "https://revuecinema.ca/films/dont-be-so-political-umberto-d-1952/"
-        }
-      ]
-    },
-    {
-      "title": "Revue Event: CASINO ROYALE (2006) – New 4K Restoration!",
-      "description": "",
-      "poster": "https://revuecinema.ca/wp-content/uploads/2026/10/casino_royale_tmdb-lmrxykkhd4lqrzwuhay5gcx9pso.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "revue",
-          "dt": "2026-11-09",
-          "tm": "21:30",
-          "url": "https://revuecinema.ca/films/revue-event-casino-royale-2006-new-4k-restoration/"
         }
       ]
     },
@@ -2185,24 +1599,6 @@
           "tm": "15:30",
           "id": "641946",
           "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=641946~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
-        }
-      ]
-    },
-    {
-      "title": "Crank IAFF Official Selections",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "18:30"
         }
       ]
     },
@@ -2357,68 +1753,6 @@
       ]
     },
     {
-      "title": "Toronto International Music Video Festival",
-      "description": "",
-      "poster": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/350/2025/10/16184526/557262538_1130840909255967_1640271012402128419_n.jpg",
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-11-07",
-          "tm": "11:00",
-          "id": "705518"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-11-07",
-          "tm": "12:00",
-          "id": "705520"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-11-07",
-          "tm": "16:00",
-          "id": "705524"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-11-07",
-          "tm": "17:35",
-          "id": "705525"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-11-07",
-          "tm": "19:15",
-          "id": "705527"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-11-08",
-          "tm": "12:00",
-          "id": "705534"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-11-08",
-          "tm": "14:00",
-          "id": "705536"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-11-08",
-          "tm": "16:00",
-          "id": "705547"
-        },
-        {
-          "c": "paradise",
-          "dt": "2026-11-08",
-          "tm": "18:00",
-          "id": "705549"
-        }
-      ]
-    },
-    {
       "title": "Rocky: 50th Anniversary (1976)",
       "description": "A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect.",
       "poster": "https://m.media-amazon.com/images/M/MV5BZDEyY2M2MGMtYjg5OC00ZWFjLWFkZDQtNmQzZTdiYmYzZTBkXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
@@ -2431,61 +1765,6 @@
         "Sport"
       ],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "12:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "15:40"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "21:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "02:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "18:55"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "21:50"
-        },
         {
           "c": "carlton",
           "dt": "2026-11-10",
@@ -2541,46 +1820,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "12:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "18:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "12:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "18:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "18:00"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-11-10",
           "tm": "01:00"
         },
@@ -2619,46 +1858,6 @@
       "showtimes": [
         {
           "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "13:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "19:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "13:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "19:50"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "19:50"
-        },
-        {
-          "c": "carlton",
           "dt": "2026-11-10",
           "tm": "01:00"
         },
@@ -2695,46 +1894,6 @@
       "poster": null,
       "genres": [],
       "showtimes": [
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "15:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-07",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "15:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-08",
-          "tm": "21:35"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "01:00"
-        },
-        {
-          "c": "carlton",
-          "dt": "2026-11-09",
-          "tm": "21:35"
-        },
         {
           "c": "carlton",
           "dt": "2026-11-10",
@@ -2848,6 +2007,61 @@
           "c": "carlton",
           "dt": "2026-11-14",
           "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-15",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-15",
+          "tm": "12:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-15",
+          "tm": "15:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-15",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-15",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-16",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-16",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-16",
+          "tm": "21:40"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-17",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-17",
+          "tm": "18:45"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-17",
+          "tm": "21:40"
         }
       ]
     },
@@ -2913,20 +2127,6 @@
       ]
     },
     {
-      "title": "Kate Nash: Live in Concert",
-      "description": "",
-      "poster": null,
-      "genres": [],
-      "showtimes": [
-        {
-          "c": "paradise",
-          "dt": "2026-11-09",
-          "tm": "20:00",
-          "id": "678195"
-        }
-      ]
-    },
-    {
       "title": "Twilight: Eclipse (2010)",
       "description": "",
       "poster": "https://image.tmdb.org/t/p/w500/dK4Gi1UdMiHzHc7r7CZQG4IQ9Sr.jpg",
@@ -2979,6 +2179,61 @@
           "c": "carlton",
           "dt": "2026-11-14",
           "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-15",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-15",
+          "tm": "12:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-15",
+          "tm": "15:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-15",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-15",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-16",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-16",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-16",
+          "tm": "21:35"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-17",
+          "tm": "02:00"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-17",
+          "tm": "18:50"
+        },
+        {
+          "c": "carlton",
+          "dt": "2026-11-17",
+          "tm": "21:35"
         }
       ]
     },
@@ -2994,17 +2249,17 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-11-07",
-          "tm": "13:30"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-11-09",
-          "tm": "13:30"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-11-11",
+          "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-11-14",
+          "tm": "13:30"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-11-16",
           "tm": "13:30"
         }
       ]
@@ -3023,26 +2278,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-11-07",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-11-07",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-11-09",
-          "tm": "15:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-11-09",
-          "tm": "19:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-11-11",
           "tm": "15:00"
         },
@@ -3050,66 +2285,26 @@
           "c": "kingsway",
           "dt": "2026-11-11",
           "tm": "19:00"
-        }
-      ]
-    },
-    {
-      "title": "Palestine 36",
-      "description": "In 1936, as Palestinian villages revolt against British colonial rule, Yusuf navigates between Jerusalem and his rural home, amidst escalating unrest and a pivotal moment for the British Empire.",
-      "poster": "https://image.tmdb.org/t/p/w500/hHWSjo6DYDAEUDfA7JXCS4nhjmT.jpg",
-      "director": "Annemarie Jacir",
-      "year": "2025",
-      "runtime": "119 min",
-      "genres": [
-        "Drama",
-        "History",
-        "War"
-      ],
-      "showtimes": [
-        {
-          "c": "kingsway",
-          "dt": "2026-11-07",
-          "tm": "17:00"
         },
         {
           "c": "kingsway",
-          "dt": "2026-11-08",
-          "tm": "17:00"
-        }
-      ]
-    },
-    {
-      "title": "Born to Kill",
-      "description": "A calculating divorcée risks her chances at wealth and security with a man she doesn't love by getting involved with the hotheaded murderer romancing her foster sister.",
-      "poster": "https://image.tmdb.org/t/p/w500/fFq23ToiVg8sWiMnD4f3Fj37UHD.jpg",
-      "director": "Robert Wise",
-      "year": "1947",
-      "runtime": "92 min",
-      "rating": "Approved",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "showtimes": [
+          "dt": "2026-11-14",
+          "tm": "15:00"
+        },
         {
           "c": "kingsway",
-          "dt": "2026-11-09",
-          "tm": "19:15"
-        }
-      ]
-    },
-    {
-      "title": "Cat People 1942",
-      "description": "",
-      "poster": null,
-      "year": "1942",
-      "genres": [],
-      "showtimes": [
+          "dt": "2026-11-14",
+          "tm": "19:00"
+        },
         {
           "c": "kingsway",
-          "dt": "2026-11-08",
-          "tm": "17:15"
+          "dt": "2026-11-16",
+          "tm": "15:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-11-16",
+          "tm": "19:00"
         }
       ]
     },
@@ -3154,12 +2349,12 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-11-07",
+          "dt": "2026-11-10",
           "tm": "19:00"
         },
         {
           "c": "kingsway",
-          "dt": "2026-11-10",
+          "dt": "2026-11-14",
           "tm": "19:00"
         }
       ]
@@ -3180,12 +2375,12 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-11-08",
+          "dt": "2026-11-12",
           "tm": "21:00"
         },
         {
           "c": "kingsway",
-          "dt": "2026-11-12",
+          "dt": "2026-11-15",
           "tm": "21:00"
         }
       ]
@@ -3205,21 +2400,6 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-11-07",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-11-08",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
-          "dt": "2026-11-09",
-          "tm": "21:00"
-        },
-        {
-          "c": "kingsway",
           "dt": "2026-11-10",
           "tm": "21:00"
         },
@@ -3236,6 +2416,21 @@
         {
           "c": "kingsway",
           "dt": "2026-11-13",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-11-14",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-11-15",
+          "tm": "21:00"
+        },
+        {
+          "c": "kingsway",
+          "dt": "2026-11-16",
           "tm": "21:00"
         }
       ]
@@ -3256,12 +2451,12 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-11-07",
+          "dt": "2026-11-11",
           "tm": "21:00"
         },
         {
           "c": "kingsway",
-          "dt": "2026-11-11",
+          "dt": "2026-11-14",
           "tm": "21:00"
         }
       ]
@@ -3281,12 +2476,12 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-11-08",
+          "dt": "2026-11-12",
           "tm": "21:00"
         },
         {
           "c": "kingsway",
-          "dt": "2026-11-12",
+          "dt": "2026-11-15",
           "tm": "21:00"
         }
       ]
@@ -3306,13 +2501,353 @@
       "showtimes": [
         {
           "c": "kingsway",
-          "dt": "2026-11-09",
+          "dt": "2026-11-12",
           "tm": "21:00"
         },
         {
           "c": "kingsway",
-          "dt": "2026-11-12",
+          "dt": "2026-11-16",
           "tm": "21:00"
+        }
+      ]
+    },
+    {
+      "title": "Tokyo Godfathers",
+      "description": "“A beautiful, hilarious movie and one that cemented Kon Satoshi as a visionary and narrative master.” &#8211; Nerdist Next up in our &#8220;Drawn In&#8221; series is Kon Satoshi&#8217;s exuberant fable about three homeless misfits who discover an abandoned newborn on Christmas Eve. From there, a makeshift family is formed to care for the mystery foundling ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/11/tmdb-spc66btzqlzurdpkisdyz5hvxgc_thumb.jpg",
+      "director": "Shogo Furuya",
+      "year": "2003",
+      "runtime": "92 min",
+      "rating": "PG-13",
+      "genres": [
+        "Animation",
+        "Drama",
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-12-20",
+          "url": "https://www.foxtheatre.ca/movies/tokyo-godfathers/"
+        },
+        {
+          "c": "fox",
+          "dt": "2026-12-21",
+          "url": "https://www.foxtheatre.ca/movies/tokyo-godfathers/"
+        }
+      ]
+    },
+    {
+      "title": "Ratatouille",
+      "description": "Anyone can cook, and everyone loves Ratatouille! The Fox invites you and the whole family for a themed evening of food, wine, and a screening of the beloved animated classic. The late chef and food writer, Anthony Bourdain once said Ratatouille “captured a passionate love of food in a way that very few other films ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/11/ratatouille_tmdb-t3vawrpsf6wjdsamikkds1iqwna_thumb.jpg",
+      "director": "Brad Bird",
+      "year": "2007",
+      "runtime": "111 min",
+      "rating": "G",
+      "genres": [
+        "Animation",
+        "Comedy",
+        "Family",
+        "Fantasy"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-12-09",
+          "url": "https://www.foxtheatre.ca/movies/ratatouille/"
+        }
+      ]
+    },
+    {
+      "title": "Blast of Silence",
+      "description": "Swift, brutal, and blackhearted, Allen Baron’s New York City noir Blast of Silence is a sensational surprise. This low-budget, carefully crafted portrait of a hit man on assignment in Manhattan during Christmastime follows its stripped-down narrative with mechanical precision, yet also with an eye and ear for the oddball details of urban ­living and the ...",
+      "poster": "https://www.foxtheatre.ca/wp-content/uploads/2026/11/blast_of_silence_tmdb-53vcxt6ptz5ur9t64iwiudzqcuk_thumb.jpg",
+      "director": "Allen Baron",
+      "year": "1961",
+      "runtime": "77 min",
+      "rating": "Approved",
+      "genres": [
+        "Crime",
+        "Drama",
+        "Thriller"
+      ],
+      "showtimes": [
+        {
+          "c": "fox",
+          "dt": "2026-12-10",
+          "url": "https://www.foxtheatre.ca/movies/blast-of-silence/"
+        }
+      ]
+    },
+    {
+      "title": "(Not-So) Terrible Twos: FINAL DESTINATION 2 (2003)",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/09/final_destination_2_tmdb-vnfgxrllta9fdncgxlihmgwmieo-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-11-17",
+          "tm": "19:00",
+          "url": "https://revuecinema.ca/films/not-so-terrible-twos-final-destination-2-2003/"
+        }
+      ]
+    },
+    {
+      "title": "Destination Love: CHUNGKING EXPRESS (1994) – 4K Restoration!",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2024/06/chungkingexpress_web4.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-11-18",
+          "tm": "21:30",
+          "url": "https://revuecinema.ca/films/chungking-express-1994-4k-restoration/"
+        }
+      ]
+    },
+    {
+      "title": "EKRAN Toronto Polish Film Festival: LALKA",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/10/lalka_tmdb-6vn4ppexgyqxuceyxkrefnvtqit-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-11-18",
+          "tm": "18:00",
+          "url": "https://revuecinema.ca/films/ekran-toronto-polish-film-festival-lalka/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-11-20",
+          "tm": "18:30",
+          "url": "https://revuecinema.ca/films/ekran-toronto-polish-film-festival-lalka/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-11-22",
+          "tm": "12:00",
+          "url": "https://revuecinema.ca/films/ekran-toronto-polish-film-festival-lalka/"
+        }
+      ]
+    },
+    {
+      "title": "EKRAN Toronto Polish Film Festival",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/09/images_(19).jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-11-19",
+          "tm": "12:00",
+          "url": "https://revuecinema.ca/films/ekran-toronto-polish-film-festival/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-11-19",
+          "tm": "15:30",
+          "url": "https://revuecinema.ca/films/ekran-toronto-polish-film-festival/"
+        },
+        {
+          "c": "revue",
+          "dt": "2026-11-20",
+          "tm": "12:00",
+          "url": "https://revuecinema.ca/films/ekran-toronto-polish-film-festival/"
+        }
+      ]
+    },
+    {
+      "title": "EKRAN Toronto Polish Film Festival: ERUPCIA",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/10/erupcja_tmdb-1omiyrpkzvu5ymwbpbtwdqhzsu1-768x1152.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-11-19",
+          "tm": "21:00",
+          "url": "https://revuecinema.ca/films/ekran-toronto-polish-film-festival-erupcia/"
+        }
+      ]
+    },
+    {
+      "title": "EKRAN Toronto Polish Film Festival: OUR REVOLUTION (Nasza rewolucja)",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/10/nasza_rewolucja_tmdb-xky9qtcumqxjqcv0kzx3jim5c90-768x1093.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-11-19",
+          "tm": "18:30",
+          "url": "https://revuecinema.ca/films/ekran-toronto-polish-film-festival-our-revolution-nasza-rewolucja/"
+        }
+      ]
+    },
+    {
+      "title": "EKRAN Toronto Polish Film Festival: Dzień Dziecka księdza Jana Kaczkowskiego",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/10/event66415.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-11-19",
+          "tm": "15:30",
+          "url": "https://revuecinema.ca/films/ekran-toronto-polish-film-festival-dzien-dziecka-ksiedza-jana-kaczkowskiego/"
+        }
+      ]
+    },
+    {
+      "title": "EKRAN Toronto Polish Film Festival: The Passenger Andrzej Munk (Pasażer Andrzej Munk)",
+      "description": "",
+      "poster": "https://revuecinema.ca/wp-content/uploads/2026/10/event66155-768x432.jpg",
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "revue",
+          "dt": "2026-11-19",
+          "tm": "12:00",
+          "url": "https://revuecinema.ca/films/ekran-toronto-polish-film-festival-the-passenger-andrzej-munk-pasazer-andrzej-munk/"
+        }
+      ]
+    },
+    {
+      "title": "West End Phoenix: Programme 4",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "paradise",
+          "dt": "2026-11-12",
+          "tm": "19:00",
+          "id": "709145"
+        }
+      ]
+    },
+    {
+      "title": "EPiC: Elvis Presley in Concert",
+      "description": "Follows Elvis Presley, featuring never-before-seen footage and recordings.",
+      "poster": "https://image.tmdb.org/t/p/w500/2K2NH5dforjT9kLcUC0eeBpdZkC.jpg",
+      "director": "Baz Luhrmann",
+      "year": "2026",
+      "runtime": "96 min",
+      "rating": "PG-13",
+      "genres": [
+        "Music",
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-11-21",
+          "tm": "12:00",
+          "id": "594569",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=594569~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Everest: The Other Side",
+      "description": "An intimate portrait of two people bound by love, ambition, and the pursuit of the impossible. Elite ski mountaineers Jim Morrison and Hilaree Nelson fell deeply in love while reaching the pinnacle of their sport: Everest's north ...",
+      "poster": "https://image.tmdb.org/t/p/w500/2m9ts8LfjG8d4xcUtx66aApngJL.jpg",
+      "director": "Jimmy Chin",
+      "year": "2026",
+      "runtime": "110 min",
+      "rating": "PG-13",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-11-27",
+          "tm": "11:45",
+          "id": "650659",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650659~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        },
+        {
+          "c": "hotdocs",
+          "dt": "2026-12-05",
+          "tm": "06:00",
+          "id": "650659",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650659~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "Lindsay Owens on Gouged",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-12-01",
+          "tm": "12:00",
+          "id": "666206",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=666206~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "My Undesirable Friends Part II – Exile with recorded intro by Meryl Streep",
+      "description": "",
+      "poster": null,
+      "genres": [],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-12-06",
+          "tm": "17:00",
+          "id": "665564",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=665564~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "You Had to Be There: How the Toronto Godspell Ignited the Comedy Revolution...",
+      "description": "A documentary about the legendary 1972 Toronto production of the musical about the life of Jesus, which launched many illustrious careers and ignited a comedy revolution.",
+      "poster": "https://image.tmdb.org/t/p/w500/ww7BKE0TdKYLz0h6Ms8vLpptaiE.jpg",
+      "director": "Nick Davis",
+      "year": "2026",
+      "runtime": "98 min",
+      "genres": [
+        "Documentary",
+        "Comedy"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-12-11",
+          "tm": "11:45",
+          "id": "650672",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=650672~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
+        }
+      ]
+    },
+    {
+      "title": "The Tower That Built a City",
+      "description": "Follows Toronto's skyline-defining CN Tower and its surroundings.",
+      "poster": "https://image.tmdb.org/t/p/w500/xlDwpA6813DntenxB5zSX3DDs6t.jpg",
+      "director": "Mark Myers",
+      "year": "2026",
+      "runtime": "92 min",
+      "genres": [
+        "Documentary"
+      ],
+      "showtimes": [
+        {
+          "c": "hotdocs",
+          "dt": "2026-12-13",
+          "tm": "06:00",
+          "id": "644520",
+          "url": "https://boxoffice.hotdocs.ca/websales/pages/info.aspx?evtinfo=644520~cf285ddd-dacb-4f18-89b8-1252c6dcffa6&epguid=a2104450-7e47-4369-a17d-c247570c3939&"
         }
       ]
     }

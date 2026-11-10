@@ -1551,7 +1551,7 @@
     "genres": [
       "Documentary"
     ],
-    "_cachedAt": "2026-08-18T10:22:48.852Z",
+    "_cachedAt": "2026-11-10T17:26:43.293Z",
     "_omdbTried": true,
     "omdbDirector": "Mark Myers",
     "omdbRuntime": "92 min",
@@ -2950,7 +2950,7 @@
       "Documentary",
       "Comedy"
     ],
-    "_cachedAt": "2026-09-15T14:36:36.792Z",
+    "_cachedAt": "2026-11-10T17:26:42.217Z",
     "_omdbTried": true,
     "omdbDirector": "Nick Davis",
     "omdbRuntime": "98 min",
@@ -5821,5 +5821,132 @@
     "_cachedAt": "2026-11-07T16:02:45.588Z",
     "_omdbTried": true,
     "omdbYear": "1942"
+  },
+  "tokyo godfathers|2003": {
+    "_tried": true,
+    "year": "2003",
+    "genres": [
+      "Animation",
+      "Drama",
+      "Comedy"
+    ],
+    "_cachedAt": "2026-11-10T17:26:25.093Z",
+    "_omdbTried": true,
+    "omdbDirector": "Shogo Furuya",
+    "omdbRuntime": "92 min",
+    "omdbRating": "PG-13"
+  },
+  "ratatouille|2007": {
+    "_tried": true,
+    "year": "2007",
+    "genres": [
+      "Animation",
+      "Comedy",
+      "Family",
+      "Fantasy"
+    ],
+    "_cachedAt": "2026-11-10T17:26:26.194Z",
+    "_omdbTried": true,
+    "omdbDirector": "Brad Bird",
+    "omdbRuntime": "111 min",
+    "omdbRating": "G"
+  },
+  "blast of silence|1961": {
+    "_tried": true,
+    "year": "1961",
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-11-10T17:26:27.330Z",
+    "_omdbTried": true,
+    "omdbDirector": "Allen Baron",
+    "omdbRuntime": "77 min",
+    "omdbRating": "Approved"
+  },
+  "(not-so) terrible twos: final destination 2 (2003)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-10T17:26:28.395Z",
+    "_omdbTried": true
+  },
+  "destination love: chungking express (1994) – 4k restoration!|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-10T17:26:29.465Z",
+    "_omdbTried": true
+  },
+  "ekran toronto polish film festival: lalka|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-10T17:26:30.526Z",
+    "_omdbTried": true
+  },
+  "ekran toronto polish film festival|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-10T17:26:31.582Z",
+    "_omdbTried": true
+  },
+  "ekran toronto polish film festival: erupcia|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-10T17:26:32.644Z",
+    "_omdbTried": true
+  },
+  "ekran toronto polish film festival: our revolution (nasza rewolucja)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-10T17:26:33.705Z",
+    "_omdbTried": true
+  },
+  "ekran toronto polish film festival: dzień dziecka księdza jana kaczkowskiego|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-10T17:26:34.764Z",
+    "_omdbTried": true
+  },
+  "ekran toronto polish film festival: the passenger andrzej munk (pasażer andrzej munk)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-10T17:26:35.828Z",
+    "_omdbTried": true
+  },
+  "west end phoenix: programme 4|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-10T17:26:36.888Z",
+    "_omdbTried": true
+  },
+  "epic: elvis presley in concert|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/2K2NH5dforjT9kLcUC0eeBpdZkC.jpg",
+    "year": "2026",
+    "genres": [
+      "Music",
+      "Documentary"
+    ],
+    "_cachedAt": "2026-11-10T17:26:37.954Z",
+    "_omdbTried": true,
+    "omdbDirector": "Baz Luhrmann",
+    "omdbRuntime": "96 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "Follows Elvis Presley, featuring never-before-seen footage and recordings."
+  },
+  "everest: the other side|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/2m9ts8LfjG8d4xcUtx66aApngJL.jpg",
+    "year": "2026",
+    "genres": [
+      "Documentary"
+    ],
+    "_cachedAt": "2026-11-10T17:26:39.022Z",
+    "_omdbTried": true,
+    "omdbDirector": "Jimmy Chin",
+    "omdbRuntime": "110 min",
+    "omdbRating": "PG-13",
+    "omdbDescription": "An intimate portrait of two people bound by love, ambition, and the pursuit of the impossible. Elite ski mountaineers Jim Morrison and Hilaree Nelson fell deeply in love while reaching the pinnacle of their sport: Everest's north ..."
+  },
+  "lindsay owens on gouged|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-10T17:26:40.084Z",
+    "_omdbTried": true
+  },
+  "my undesirable friends part ii – exile with recorded intro by meryl streep|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-10T17:26:41.151Z",
+    "_omdbTried": true
   }
 }
