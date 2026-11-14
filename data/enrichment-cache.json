@@ -4213,7 +4213,7 @@
       "Family",
       "Fantasy"
     ],
-    "_cachedAt": "2026-10-10T15:40:31.898Z",
+    "_cachedAt": "2026-11-14T16:19:57.217Z",
     "_omdbTried": true
   },
   "clearcut (restoration)|1991": {
@@ -5449,7 +5449,7 @@
       "Sci-Fi",
       "Action"
     ],
-    "_cachedAt": "2026-11-07T16:02:50.777Z",
+    "_cachedAt": "2026-11-14T16:20:07.882Z",
     "_omdbTried": true,
     "omdbDirector": "Tobe Hooper",
     "omdbRuntime": "101 min",
@@ -6364,5 +6364,167 @@
     "omdbPoster": "https://m.media-amazon.com/images/M/MV5BNGMwMzVlYzQtM2FjMS00N2MzLTlhZGItM2NmNDE4YjI0ZDhlXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
     "omdbDirector": "Damian Lee",
     "omdbYear": "2024"
+  },
+  "ekran toronto polish film festival: hot spot|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-14T16:19:50.806Z",
+    "_omdbTried": true
+  },
+  "ekran toronto polish film festival: double trouble  (kumotry)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-14T16:19:51.864Z",
+    "_omdbTried": true
+  },
+  "gary topp double feature: nosferatu + the cabinet of dr. caligari feat. original scores by nash the slash!|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-14T16:19:52.925Z",
+    "_omdbTried": true
+  },
+  "news from home - 50th anniversary|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-14T16:19:53.982Z",
+    "_omdbTried": true
+  },
+  "don't come upstairs|2025": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/u8gziRzsFSTrs5ng2sQRX6hT4zk.jpg",
+    "year": "2025",
+    "genres": [
+      "Documentary"
+    ],
+    "_cachedAt": "2026-11-14T16:19:55.042Z",
+    "_omdbTried": true,
+    "omdbDescription": "A filmmaker explores his family's 30-year hidden secret through home videos, despite risks to everyone's safety. Based on Mike Lobel's investigation into what his parents kept from him and his siblings."
+  },
+  "twilight: breaking dawn - part 1 (2011)|2011": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/qs8LsHKYlVRmJbFUiSUhhRAygwj.jpg",
+    "year": "2011",
+    "genres": [
+      "Adventure",
+      "Fantasy",
+      "Romance"
+    ],
+    "_cachedAt": "2026-11-14T16:19:56.154Z",
+    "_omdbTried": true,
+    "omdbDirector": "Ricky Sans"
+  },
+  "the last uniciorn|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-14T16:19:58.276Z",
+    "_omdbTried": true
+  },
+  "fatherland|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/oNejN1l69nBF8LdQwy5FkAQZT44.jpg",
+    "year": "2026",
+    "genres": [
+      "Drama",
+      "History"
+    ],
+    "_cachedAt": "2026-11-14T16:19:59.331Z",
+    "_omdbTried": true,
+    "omdbDirector": "Pawel Pawlikowski",
+    "omdbRuntime": "82 min",
+    "omdbDescription": "At the height of the Cold War, Fatherland centers on the relationship between the writer Thomas Mann and his daughter Erika—actress, writer and rally driver—as they embark on a road trip in a black Buick cruiser across a Germany i..."
+  },
+  "the bicycle thieves|1948": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/iPdVqIpmR3bRvOQJPrn4pr2KR3q.jpg",
+    "year": "1948",
+    "genres": [
+      "Drama"
+    ],
+    "_cachedAt": "2026-11-14T16:20:00.462Z",
+    "_omdbTried": true
+  },
+  "watership down|1978": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/q9ZcNxfquJbMTd6UfhAlJbmLBts.jpg",
+    "year": "1978",
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Drama"
+    ],
+    "_cachedAt": "2026-11-14T16:20:01.519Z",
+    "_omdbTried": true,
+    "omdbDirector": "Martin Rosen",
+    "omdbRuntime": "92 min",
+    "omdbRating": "PG",
+    "omdbDescription": "Hoping to escape destruction by human developers and save their community, a colony of rabbits, led by Hazel and Fiver, seek out a safe place to set up a new warren."
+  },
+  "all dogs go to heaven|1989": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/nmWh1NglDinfkHD9zCNqGWyhl7Q.jpg",
+    "year": "1989",
+    "genres": [
+      "Drama",
+      "Animation",
+      "Family",
+      "Comedy"
+    ],
+    "_cachedAt": "2026-11-14T16:20:02.588Z",
+    "_omdbTried": true,
+    "omdbDirector": "Don Bluth",
+    "omdbRuntime": "84 min",
+    "omdbRating": "G",
+    "omdbDescription": "A canine angel, Charlie, sneaks back to earth from heaven but ends up befriending an orphan girl who can speak to animals. In the process, Charlie learns that friendship is the most heavenly gift of all."
+  },
+  "nights of cabiria|1957": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/xF4oCG3PLNbcrtPZbqB3BtkIbKg.jpg",
+    "year": "1957",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
+    "_cachedAt": "2026-11-14T16:20:03.645Z",
+    "_omdbTried": true,
+    "omdbDirector": "Federico Fellini",
+    "omdbRuntime": "110 min",
+    "omdbRating": "Not Rated",
+    "omdbDescription": "A waifish prostitute wanders the streets of Rome looking for true love but finds only heartbreak."
+  },
+  "sleepaway camp|1983": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/icRAuGsmXl62Ns0qrTuo9uiP6U1.jpg",
+    "year": "1983",
+    "genres": [
+      "Horror"
+    ],
+    "_cachedAt": "2026-11-14T16:20:04.702Z",
+    "_omdbTried": true,
+    "omdbDirector": "Robert Hiltzik",
+    "omdbRuntime": "84 min",
+    "omdbRating": "R",
+    "omdbDescription": "Bunks and showers are a mad stabber's beat at a summer camp strictly for teens."
+  },
+  "wake in|1971": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/5XwMDn2acQZ3CHuJ3EDXLg348G3.jpg",
+    "year": "1971",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-11-14T16:20:05.765Z",
+    "_omdbTried": true,
+    "omdbDirector": "Ted Kotcheff",
+    "omdbRuntime": "109 min",
+    "omdbRating": "R",
+    "omdbDescription": "After a bad gambling bet, a schoolteacher is marooned in a town full of crazy, drunk, violent men who threaten to make him just as crazy, drunk, and violent."
+  },
+  "playtime|1967": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/kQOrS0DLUXYsqPMedM2G6NJcJBq.jpg",
+    "year": "1967",
+    "genres": [
+      "Comedy"
+    ],
+    "_cachedAt": "2026-11-14T16:20:06.821Z",
+    "_omdbTried": true,
+    "omdbDirector": "Heinz Liesendahl",
+    "omdbRuntime": "45 min"
   }
 }
