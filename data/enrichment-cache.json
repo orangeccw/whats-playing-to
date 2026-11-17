@@ -6526,5 +6526,74 @@
     "_omdbTried": true,
     "omdbDirector": "Heinz Liesendahl",
     "omdbRuntime": "45 min"
+  },
+  "klassic kidz: home alone|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-17T18:54:55.000Z",
+    "_omdbTried": true
+  },
+  "ekran toronto polish film festival: fatherland (ojczyzna)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-17T18:54:56.045Z",
+    "_omdbTried": true
+  },
+  "ekran toronto polish film festival: tell me what you feel (powiedz mi, co czujesz)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-17T18:54:57.096Z",
+    "_omdbTried": true
+  },
+  "ekran toronto polish film festival: picasso’s mermaid (syrenka picassa)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-17T18:54:58.145Z",
+    "_omdbTried": true
+  },
+  "ekran toronto polish film festival: wild wild east (dziki, dziki wschód)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-17T18:54:59.202Z",
+    "_omdbTried": true
+  },
+  "ekran toronto polish film festival: the cauliflower of destiny (kalafior przeznaczenia)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-17T18:55:00.253Z",
+    "_omdbTried": true
+  },
+  "ekran toronto film festival: through the wall (przez ścianę)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-17T18:55:01.301Z",
+    "_omdbTried": true
+  },
+  "ekran toronto polish film festival: psoty|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-17T18:55:02.351Z",
+    "_omdbTried": true
+  },
+  "bunny lake is missing|1965": {
+    "_tried": true,
+    "year": "1965",
+    "genres": [
+      "Mystery",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-11-17T18:55:03.406Z",
+    "_omdbTried": true,
+    "omdbDirector": "Otto Preminger",
+    "omdbRuntime": "107 min",
+    "omdbRating": "Not Rated",
+    "omdbDescription": "A woman reports that her young daughter is missing, but there seems to be no evidence that she ever existed."
+  },
+  "good for nothing|2011": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/igexAoB6ATGcFm2IyluA5uhsc3A.jpg",
+    "year": "2011",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "_cachedAt": "2026-11-17T18:55:04.454Z",
+    "_omdbTried": true,
+    "omdbDirector": "Mike Wallis",
+    "omdbRuntime": "92 min",
+    "omdbRating": "R",
+    "omdbDescription": "A young English woman is immigrating to her uncle's ranch - but is kidnapped on the way by a rugged outlaw who discovers a problem he never knew he had - leading them on a wild ride across the West."
   }
 }
