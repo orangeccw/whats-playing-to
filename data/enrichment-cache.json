@@ -3206,15 +3206,16 @@
   },
   "fjord|2026": {
     "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/3PPPIeSdeivjUn3O9RahGiaJ9b8.jpg",
     "year": "2026",
     "genres": [
-      "Drama",
-      "Family"
+      "Drama"
     ],
-    "_cachedAt": "2026-09-17T14:36:27.475Z",
+    "_cachedAt": "2026-11-19T18:47:41.131Z",
     "_omdbTried": true,
     "omdbDirector": "Cristian Mungiu",
-    "omdbRuntime": "146 min"
+    "omdbRuntime": "146 min",
+    "omdbDescription": "An immigrant Romanian family living in Norway is subject to an investigation and faces the scrutiny of the local judicial system."
   },
   "throwback cinema: matilda – 30th anniversary screening!|": {
     "_tried": true,
@@ -6595,5 +6596,137 @@
     "omdbRuntime": "92 min",
     "omdbRating": "R",
     "omdbDescription": "A young English woman is immigrating to her uncle's ranch - but is kidnapped on the way by a rugged outlaw who discovers a problem he never knew he had - leading them on a wild ride across the West."
+  },
+  "josephine|2026": {
+    "_tried": true,
+    "year": "2026",
+    "genres": [
+      "Drama",
+      "Crime"
+    ],
+    "_cachedAt": "2026-11-19T18:47:30.694Z",
+    "_omdbTried": true,
+    "omdbDirector": "Beth de Araújo",
+    "omdbRuntime": "114 min"
+  },
+  "hard ticket to hawaii|1987": {
+    "_tried": true,
+    "year": "1987",
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "_cachedAt": "2026-11-19T18:47:31.748Z",
+    "_omdbTried": true,
+    "omdbDirector": "Andy Sidaris",
+    "omdbRuntime": "96 min",
+    "omdbRating": "R"
+  },
+  "analogue market: rushmore|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-19T18:47:32.781Z",
+    "_omdbTried": true
+  },
+  "the nightmare before christmas|1993": {
+    "_tried": true,
+    "year": "1993",
+    "genres": [
+      "Fantasy",
+      "Animation",
+      "Family"
+    ],
+    "_cachedAt": "2026-11-19T18:47:33.842Z",
+    "_omdbTried": true,
+    "omdbDirector": "Henry Selick",
+    "omdbRuntime": "76 min",
+    "omdbRating": "PG"
+  },
+  "the house of the devil|2009": {
+    "_tried": true,
+    "year": "2009",
+    "genres": [
+      "Horror",
+      "Mystery"
+    ],
+    "_cachedAt": "2026-11-19T18:47:34.901Z",
+    "_omdbTried": true,
+    "omdbDirector": "Ti West",
+    "omdbRuntime": "95 min",
+    "omdbRating": "R"
+  },
+  "sing-along! white christmas|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-19T18:47:35.938Z",
+    "_omdbTried": true
+  },
+  "rocky|1976": {
+    "_tried": true,
+    "year": "1976",
+    "genres": [
+      "Drama"
+    ],
+    "_cachedAt": "2026-11-19T18:47:36.974Z",
+    "_omdbTried": true,
+    "omdbDirector": "John G. Avildsen",
+    "omdbRuntime": "120 min",
+    "omdbRating": "PG"
+  },
+  "revue event: the twilight saga: new moon (2009)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-19T18:47:38.013Z",
+    "_omdbTried": true
+  },
+  "when animals attack: the edge (1997) – presented on 35mm!|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-19T18:47:39.056Z",
+    "_omdbTried": true
+  },
+  "hold up: reality bites (1994)|": {
+    "_tried": true,
+    "_cachedAt": "2026-11-19T18:47:40.092Z",
+    "_omdbTried": true
+  },
+  "chinatown (1974)|1974": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/kZRSP3FmOcq0xnBulqpUQngJUXY.jpg",
+    "year": "1974",
+    "genres": [
+      "Crime",
+      "Mystery",
+      "Thriller"
+    ],
+    "_cachedAt": "2026-11-19T18:47:42.170Z",
+    "_omdbTried": true,
+    "omdbDirector": "Roman Polanski",
+    "omdbRuntime": "130 min",
+    "omdbRating": "R",
+    "omdbDescription": "A private detective hired to expose an adulterer in 1930s Los Angeles finds himself caught up in a web of deceit, corruption, and murder."
+  },
+  "doctor who: the satan pit|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/zaR2tGiaDjbenNAWMYKo6E7zmRB.jpg",
+    "year": "2026",
+    "genres": [
+      "Sci-Fi",
+      "Fantasy",
+      "Drama"
+    ],
+    "_cachedAt": "2026-11-19T18:47:43.256Z",
+    "_omdbTried": true
+  },
+  "hexed|2026": {
+    "_tried": true,
+    "poster": "https://image.tmdb.org/t/p/w500/yykeYKbDBM9eUMJUucaaDo2mi1p.jpg",
+    "year": "2026",
+    "genres": [
+      "Adventure",
+      "Animation",
+      "Family",
+      "Fantasy"
+    ],
+    "_cachedAt": "2026-11-19T18:47:44.290Z",
+    "_omdbTried": true,
+    "omdbDirector": "Jason Hand",
+    "omdbDescription": "An awkward teen and her Type-A mother learn her peculiarities might be magical powers, transforming their lives and revealing a hidden magical realm."
   }
 }
